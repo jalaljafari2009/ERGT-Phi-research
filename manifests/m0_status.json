@@ -1,0 +1,25 @@
+{
+  "M0_A": "passed_on_registered_cpu_fixtures",
+  "M0_B": "pending_cuda_training_and_trained_checkpoint_audit",
+  "M0_complete": false,
+  "tests": {
+    "reference": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "research": {
+      "tests": 30,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "original_reference_unchanged": true,
+  "reference_manifest_entries": 77,
+  "registered_data_cohorts_verified": 80,
+  "phase_extension_active": false,
+  "untrained_fixture_is_scientific_evidence": false,
+  "gpu_training_executed": false
+}
