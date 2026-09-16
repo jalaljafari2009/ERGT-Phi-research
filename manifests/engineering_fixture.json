@@ -9,5 +9,5 @@
   "test_cpu_threads": 1,
   "deterministic_algorithms": true,
   "initial_full_state_path": "runs/m0/untrained_initial_full_state.pt",
-  "initial_full_state_sha256": "86e33a2f4422cb00dcf6213fda25c868efabb0fdfcbca62e8dc418bd0c333322"
+  "initial_full_state_sha256": "eaf88f52cd731a0efa3848206d96c8c915bec72ea2606e607db7262f8080b64a"
 }

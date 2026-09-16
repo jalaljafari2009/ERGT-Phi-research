@@ -44,5 +44,19 @@ status = {
     "untrained_fixture_is_scientific_evidence": False,
     "gpu_training_executed": False,
 }
+trained_path = ROOT / "manifests/trained_m0_audit.json"
+if trained_path.exists():
+    trained = json.loads(trained_path.read_text())
+    imported = json.loads((ROOT / "manifests/imported_m0_evidence.json").read_text())
+    run = ROOT / "runs/imported_m0/m0_single_seed_reference"
+    for relative, expected in imported["files"].items():
+        assert digest(run / relative) == expected, relative
+    assert trained["status"] == "passed"
+    assert trained["checkpoint_sha256"] == imported["files"]["opt_12011_data_16301/native_ergt_training.pt"]
+    status.update(M0_B="passed_single_seed_development_reference_cpu_parity",
+                  M0_complete=True, completion_scope="development_reference_only",
+                  gpu_training_executed=True, gpu_training_location="user_Colab_T4",
+                  scientific_claim_status="open", four_seed_reproduction=False,
+                  trained_parity_evidence="manifests/trained_m0_audit.json")
 (ROOT / "manifests/m0_status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
 print(json.dumps(status, indent=2))

@@ -5,16 +5,19 @@
     "ergt_phi/fixtures.py": "20e6aee9d19e4ef8d4ef3c8d62be88aca679d48438b2024d07e085300117c7bf",
     "ergt_phi/model.py": "5952184db688f145ec77bb56255fa29fad0e6cd0949424a85f88e758bae3f9e7",
     "ergt_phi/native_steps.py": "1cea0e9bf4578d8ab6879df1dc9ba82f01ba2ae035ac07b186803d60bf0e715d",
+    "ergt_phi/phase_core.py": "60b4f53b51fba6b2c35b9edd916df6299c227136b3f96e40340b4e4b77e1a081",
     "ergt_phi/provenance.py": "b47458891123382cca065cbcb8cb2fa40c55b2ab42864d408162c335f762a1dd",
     "ergt_phi/runtime.py": "60c1f04b39c7e7374cbae862b4045deb44d17b9405b5174bed6dd98504428914",
     "ergt_phi/training.py": "0c28f4c46501e6b005fcd92c7cc956db5b7aac8a48f5d45afa7902d881156841",
     "scripts/audit_reference.py": "ae913dcb4ee50af1aac3c429a90e41b4815a6eb34e59c13a20dc96411f03f44f",
+    "scripts/audit_trained_m0.py": "77dada83e1f4feb106d9c12ca9a194036bc03f1fb67c7c6a6f8f92c35f668b23",
     "scripts/bootstrap_m0.py": "eafb38412f4be5492a387320af5b85d5945922055a49a123ab03e99c356a57c7",
     "scripts/build_colab_notebook.py": "77803f4c1f0f600c8cf322180ea63f1db9c21589f1eabb7da87b227f8849d9b8",
-    "scripts/finalize_m0.py": "57b974f2bf20bd4d4876c0d517815dbb08ee2d4ea3d6724f36691aa880ce9f6a",
+    "scripts/finalize_m0.py": "b717f171f404f32a6b724e9908417ee13c7963ee76f44f6c499d75cdf9823253",
     "scripts/package_m0.py": "a4c247780a39fdfc80bec58742a8b7775d933363a5b8ca9d6f8f2db94fef67c0",
     "scripts/resume_worker.py": "5939cfa7a20750701e6e056cf79492d2cc28d527cbe80edf98a2a65ed5e37370",
     "scripts/run_m0.py": "23b62698c6766f487833c00dea8ce3def6d3a5ae039d7c4589ccc82a5a52d2e0",
+    "scripts/run_m1.py": "c5c84aab6fde76d5baa0f04e200c81f6204a355ea86a3130bb586045d11c8bc1",
     "scripts/run_reference_training.py": "69d7381f0d6c9cef29a097a773180164715cc621ed059da752fec2f792a658b4",
     "scripts/save_engineering_fixture.py": "3b773e0d2c1b33ee99f8b9cfb62197d63f1e31017cb7d517407949344fa4fd49",
     "scripts/version_m0.py": "e106535cdcfde7b1d92a647bb35c1a637e39c374d05cfead2fe2865bdf428ee4",
@@ -22,6 +25,7 @@
     "tests/test_m0_checkpoint.py": "77bc389389247554dd6b4ed767d2237b9d0a75a380a0fe08cc6f7ae4662f7bf3",
     "tests/test_m0_contracts.py": "70854828587aac9b3a9e862f76ac9c824ee5cf898265e1c867c04b741a73800b",
     "tests/test_m0_parity.py": "804c633c3b4689a2cf2f1990e7d180bef238ab25137927030e9cc7eb190a0069",
+    "tests/test_phase_core.py": "ad527eabcd625ac1f52e0befaa9379618ada720361dcaa94f0c388f9a1210161",
     "configs/m0.json": "e1edac47c0b98ded2169e59ba625ef2a41adb6b8e622d8ba341020677d2c6283"
   }
 }

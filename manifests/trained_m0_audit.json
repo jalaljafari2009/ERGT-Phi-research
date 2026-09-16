@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "scope": "single_seed_development_reference",
+  "device": "cpu",
+  "torch": "2.14.0+cpu",
+  "selected_step": 700,
+  "checkpoint_sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+  "selected_equals_saved_model_and_field": true,
+  "canonical_source_hashes_match": true,
+  "cases": [
+    {
+      "hops": 2,
+      "scenario": "geodesic_action",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 2,
+      "scenario": "finite_speed_cone",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 2,
+      "scenario": "payload_transport",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 2,
+      "scenario": "terminal_mass",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 2,
+      "scenario": "boundary_deficit",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 2,
+      "scenario": "memory_source_condition",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 2,
+      "scenario": "combined_long_horizon",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 1,
+      "scenario": "geodesic_action",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 8,
+      "scenario": "geodesic_action",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 32,
+      "scenario": "geodesic_action",
+      "unsupported": false,
+      "examples": 2,
+      "pass_exact": true
+    },
+    {
+      "hops": 2,
+      "scenario": "geodesic_action",
+      "unsupported": true,
+      "examples": 2,
+      "pass_exact": true
+    }
+  ],
+  "intervention_cases": 10,
+  "bypass_configurations": 3,
+  "gradient_optimizer_rng_exact": true,
+  "original_weights_unchanged": true,
+  "rtol": 0,
+  "atol": 0,
+  "cross_device_bitwise_claim": false,
+  "four_seed_reproduction": false,
+  "scientific_claim_status": "open"
+}

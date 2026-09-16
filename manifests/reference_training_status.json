@@ -1,6 +1,10 @@
 {
-  "status": "pending_cuda",
+  "status": "imported_colab_execution_completed_and_cpu_parity_passed",
   "mode": "single",
-  "trained_checkpoint_created": false,
-  "reason": "CUDA unavailable in the current execution environment"
+  "trained_checkpoint_created": true,
+  "location": "runs/imported_m0/m0_single_seed_reference",
+  "selected_step": 700,
+  "native_claim_status": "open",
+  "completion_scope": "single_seed_development_reference",
+  "reason": "User ran unchanged reference on Colab T4; selected checkpoint audited locally on CPU"
 }

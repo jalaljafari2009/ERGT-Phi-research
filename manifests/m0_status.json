@@ -1,7 +1,7 @@
 {
   "M0_A": "passed_on_registered_cpu_fixtures",
-  "M0_B": "pending_cuda_training_and_trained_checkpoint_audit",
-  "M0_complete": false,
+  "M0_B": "passed_single_seed_development_reference_cpu_parity",
+  "M0_complete": true,
   "tests": {
     "reference": {
       "tests": 12,
@@ -21,5 +21,10 @@
   "registered_data_cohorts_verified": 80,
   "phase_extension_active": false,
   "untrained_fixture_is_scientific_evidence": false,
-  "gpu_training_executed": false
+  "gpu_training_executed": true,
+  "completion_scope": "development_reference_only",
+  "gpu_training_location": "user_Colab_T4",
+  "scientific_claim_status": "open",
+  "four_seed_reproduction": false,
+  "trained_parity_evidence": "manifests/trained_m0_audit.json"
 }
