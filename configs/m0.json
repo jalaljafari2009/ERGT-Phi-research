@@ -1,0 +1,24 @@
+{
+  "stage": "M0",
+  "phase_mode": "disabled",
+  "coupling": 0.0,
+  "mask_mode": "frozen",
+  "feedback_mode": "lagged",
+  "nu": 0.0,
+  "inner_steps": 24,
+  "phase_parameters_present": false,
+  "engineering_tests": {
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 1,
+    "deterministic_algorithms": true,
+    "refactor_parity_atol": 0.0,
+    "refactor_parity_rtol": 0.0
+  },
+  "reference_training": {
+    "entrypoint": "scripts/run_reference_training.py",
+    "default_mode": "single",
+    "requires_cuda": true,
+    "full_paper_reproduction_mode": "four"
+  }
+}

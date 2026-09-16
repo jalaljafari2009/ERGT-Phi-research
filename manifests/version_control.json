@@ -1,0 +1,6 @@
+{
+  "reference_commit": "804d6457c78b6d281001549222cdb42d1d57b815",
+  "backend": "dulwich",
+  "remote": null,
+  "note": "Local repository only. No publication or external push."
+}

@@ -1,0 +1,108 @@
+{
+  "original_integrity": {
+    "pass": true,
+    "package_root": "C:\\Users\\novo\\Desktop\\ERGT-paper-main",
+    "verified_file_count": 76,
+    "manifest_sha256": "b500100205ef30dc41e3d1ce7c37c4d2a50d37dda9092085e17918e9a0f4666f"
+  },
+  "reference_integrity": {
+    "pass": true,
+    "package_root": "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\reference",
+    "verified_file_count": 76,
+    "manifest_sha256": "b500100205ef30dc41e3d1ce7c37c4d2a50d37dda9092085e17918e9a0f4666f"
+  },
+  "data_parity": {
+    "pass": true,
+    "data_seeds": [
+      21101,
+      22307,
+      23509,
+      24733
+    ],
+    "cohort_count": 80,
+    "canonical_registered_inputs_sha256": "2d769017ba92761871366b0b6286134dea6067fd070bc7219283fb1b6fab3868"
+  },
+  "environment": {
+    "pass": true,
+    "checks": {
+      "python_api_floor": true,
+      "pytorch_api_floor": true,
+      "required_core_packages_importable": true
+    },
+    "reference_match": false,
+    "reference_checks": {
+      "python": false,
+      "numpy": false,
+      "torch": false,
+      "pandas": false
+    },
+    "reference_match_required": false,
+    "notebook_packages_installed_if_missing": {
+      "numpy": "numpy",
+      "pandas": "pandas",
+      "torch": "torch>=2.0"
+    },
+    "observed": {
+      "python": "3.13.0",
+      "numpy": "2.5.3",
+      "torch": "2.14.0+cpu",
+      "torch_release": "2.14.0",
+      "pandas": "3.0.5",
+      "cuda_runtime": null,
+      "cuda_available": false,
+      "gpu": null
+    },
+    "lock": {
+      "backend_inventory_commit": "77d5dbef56d73b96db5efef2280679cb548c9bd9",
+      "bitwise_cross_gpu_reproduction_claimed": false,
+      "cuda_policy": "runtime-provided-and-recorded-at-execution",
+      "exact_version_match_required": false,
+      "gpu_policy": "runtime-assigned-and-recorded-at-execution",
+      "matplotlib": "3.10.0",
+      "minimum_python": "3.10",
+      "minimum_pytorch": "2.0",
+      "missing_required_packages_installed_by_notebook": true,
+      "numpy": "2.0.2",
+      "official_runtime_reference": "https://research.google.com/colaboratory/runtime-version-faq.html",
+      "pandas": "2.2.2",
+      "policy": "reference_versions_recorded_compatible_versions_accepted",
+      "pytest": "8.4.2",
+      "python": "3.12.13",
+      "pytorch": "2.10.0",
+      "required_notebook_packages": [
+        "numpy",
+        "pandas",
+        "torch"
+      ],
+      "runtime_provider": "Google Colaboratory",
+      "runtime_version": "2026.04",
+      "schema_version": "ergt-four-seed-environment-lock-v2",
+      "ubuntu": "22.04.5 LTS"
+    }
+  },
+  "runtime_settings": {
+    "deterministic_algorithms": false,
+    "cpu_threads": 1,
+    "dtype": "torch.float32",
+    "cuda_available": false,
+    "torch_cuda_build": null,
+    "cudnn_version": null,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "tf32_matmul": false,
+    "tf32_cudnn": true
+  },
+  "python_executable": "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-2022Server-10.0.20348-SP0",
+  "packages": {
+    "torch": "2.14.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pytest": "9.1.1",
+    "dulwich": "1.2.15"
+  },
+  "nvidia_smi": {
+    "available": false,
+    "error": "[WinError 2] The system cannot find the file specified"
+  }
+}
