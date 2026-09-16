@@ -1,0 +1,19 @@
+{
+  "schema_version": "ergt43-v21-immutable-reference-v1",
+  "reference_name": "ERGT-43 V21 clean raw-input index",
+  "repository_path": "experiments/ergt43_native_geometric_boundary_suite.py",
+  "introducing_commit": "14bfaff",
+  "git_blob_sha1": "299d6bafb0f3ab7076182da32328c5ff04620b9e",
+  "source_sha256": "1dd954213b5221dd66e2d7f36808572d88895c03017e4ce6bee3ed789aa42719",
+  "immutable": true,
+  "modified_by_reviewer_v3": false,
+  "role": "Historical successful index only; fresh reviewer checkpoints determine confirmatory claims.",
+  "preserved_contracts": [
+    "semantic_identity_factorization",
+    "raw_token_only_public_boundary",
+    "compiler_free_native_target_path",
+    "generic_executor_free_native_target_path",
+    "hard_min_plus_geodesic_solver",
+    "typed_transport_and_terminal_boundary_measurement"
+  ]
+}

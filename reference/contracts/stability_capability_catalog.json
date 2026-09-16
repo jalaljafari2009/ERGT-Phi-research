@@ -1,0 +1,97 @@
+{
+  "schema_version": "ergt-stability-capability-catalog-v1",
+  "purpose": "Cumulative non-regression and notebook-output contract for paper-facing ERGT runs.",
+  "locked_reference": {
+    "name": "ERGT-43 V21 clean-input long-horizon confirmation",
+    "notebook": "notebooks/ERGT_43_V21_Clean_Long_Horizon_Confirmation.ipynb",
+    "summary": "../../docs/experiment_evidence/results/ergt43_v21_clean_input_confirmation_chat_20260716_summary.json",
+    "readout": "../../docs/experiment_evidence/readouts/173_ergt43_v21_clean_input_colab_confirmation.md",
+    "gate_result": "29_of_29_passed"
+  },
+  "claim_policy": {
+    "ergt_intrinsic_convergence_is_independent_of_baseline": true,
+    "baseline_nonconvergence_is_reported_as_a_baseline_result": true,
+    "observed_comparison_can_be_reported_without_matched_convergence": true,
+    "post_matched_convergence_wording_requires_both_models": true,
+    "baseline_failure_must_not_be_generalized_to_all_transformers": true
+  },
+  "required_stability_invariants": [
+    "registered_measurement_and_continuous_action",
+    "independent_multihop_field_readiness",
+    "two_readiness_and_two_zero_teacher_windows",
+    "zero_optimizer_updates_after_freeze",
+    "event_program_chain_and_hard_overflow",
+    "product_manifold_fixed_point_closure",
+    "valid_domain_multiscale_backbone",
+    "proper_time_batch_and_padding_invariance",
+    "semantic_identity_factorization_and_identity_conditioned_psi",
+    "registered_local_action_cells",
+    "functional_multiworld_dependence",
+    "internal_raw_input_identity_parity",
+    "same_checkpoint_interventions_without_final_panel_selection",
+    "detached_fail_open_curvature_and_spectrum_observers"
+  ],
+  "required_training_audit_fields": [
+    "pair_group_count",
+    "freeze_step",
+    "mean_group_exposure_before_freeze",
+    "unseen_group_count_before_freeze",
+    "scenario_hop_exposure",
+    "one_hop_id_status",
+    "multihop_readiness_status",
+    "field_candidate_history",
+    "zero_teacher_optimizer_steps",
+    "final_panels_used_for_selection"
+  ],
+  "v21_multihop_readiness_contract": {
+    "minimum_hops": 2,
+    "maximum_hops": 8,
+    "measurement_accuracy_floor": 0.99,
+    "effective_action_mae_ceiling": 0.12,
+    "program_event_recall_floor": 0.99,
+    "program_event_precision_floor": 0.98,
+    "event_world_path_coverage_floor": 0.99,
+    "event_chain_exact_floor": 0.99,
+    "geodesic_closure_non_degradation_required": true,
+    "event_selection_overflow_rate_required": 0.0,
+    "consecutive_readiness_windows": 2,
+    "unchanged_zero_teacher_windows": 2
+  },
+  "required_notebook_tables": [
+    "claim_and_gate_matrix",
+    "checkpoint_and_exposure_audit",
+    "independent_convergence_table",
+    "horizon_matrix",
+    "context_matrix",
+    "unsupported_rejection",
+    "registered_mechanism_matrix",
+    "geometry_and_world_controls",
+    "chain_and_closure_diagnostics",
+    "identity_and_invariance_audit",
+    "curvature_and_spectrum_observers",
+    "resource_disclosure",
+    "paired_statistics",
+    "complete_untruncated_exports"
+  ],
+  "bounded_supported_properties": {
+    "attention_free_native_answer_path": true,
+    "compiler_free_ergt43_answer_path": true,
+    "generic_executor_free_ergt43_answer_path": true,
+    "raw_input_internal_identity": true,
+    "native_geometry_12_to_32_hop_single_training_seed": true,
+    "registered_geometric_mechanism_dependence": true,
+    "functional_multiworld_dependence": true,
+    "controlled_unsupported_rejection": true,
+    "direct_transformer_observed_32_hop_advantage": true
+  },
+  "not_claimed": [
+    "all_eight_worlds_have_independent_semantic_roles",
+    "universal_transformer_superiority",
+    "language_modeling_or_perplexity_dominance",
+    "general_long_context_superiority",
+    "compute_efficiency_superiority",
+    "causal_curvature_or_spectrum_value",
+    "open_domain_hallucination_reduction"
+  ],
+  "canonical_reference": "docs/ERGT_STABILITY_CAPABILITY_CATALOG.md"
+}

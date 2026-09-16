@@ -1,0 +1,6 @@
+# Compatibility requirements for the publication notebook.
+# Existing compatible Colab packages are retained; only missing/old requirements are installed.
+numpy
+pandas
+torch>=2.0
+pytest

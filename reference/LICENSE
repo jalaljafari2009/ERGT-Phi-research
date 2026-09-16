@@ -1,0 +1,116 @@
+ERGT Attribution and Reserved Commercial Rights License
+Version 1.0 - 2026-06-30
+
+Copyright (c) 2026 Jalal Jafari.
+All rights reserved except as expressly granted below.
+
+This license governs the ERGT project, including its source code,
+documentation, notebooks, experimental designs, mathematical descriptions,
+model architectures, datasets created by the project, run artifacts, reports,
+figures, and derivative project materials, unless a file states a different
+license.
+
+1. Definitions
+
+"Project" means ERGT: Emergent Relational Geometry Transformer and all covered
+materials in this repository.
+
+"Copyright Holder" means Jalal Jafari, the project owner.
+
+"Use" means to read, run, copy, modify, evaluate, publish results from,
+benchmark, distribute, deploy, train from, adapt, or otherwise make use of the
+Project or any substantial portion of it.
+
+"Commercial Use" means any use intended for or connected to commercial
+advantage, revenue, paid services, paid consulting, product development,
+internal business advantage, hosted services, sale, sublicensing, or use by or
+for a commercial organization.
+
+2. Limited Permission for Research and Review
+
+You may view, run, copy, and modify the Project for personal, educational,
+academic, or internal non-commercial research purposes, provided that all of
+the following conditions are met:
+
+a. Attribution is preserved and clearly displayed.
+b. This license and the project notices are retained in copies or substantial
+   excerpts.
+c. You do not represent the Project as your own work.
+d. You do not remove or obscure copyright, authorship, or provenance notices.
+e. You do not use the Project for Commercial Use without prior written
+   permission from the Copyright Holder.
+
+3. Mandatory Attribution
+
+Any Use of the Project, including use in papers, reports, benchmarks,
+presentations, repositories, derived code, derived models, public demos,
+products, services, or online publications, must include clear attribution to:
+
+    ERGT: Emergent Relational Geometry Transformer
+    Copyright (c) 2026 Jalal Jafari
+    Repository: https://github.com/jalaljafari2009/ERGT
+
+If the use is academic or research-facing, cite the Project by name and identify
+Jalal Jafari as the project owner and originator.
+
+4. Commercial Rights Reserved
+
+All commercial rights, commercial benefits, monetization rights, licensing
+rights, sublicensing rights, paid deployment rights, and business exploitation
+rights in the Project are reserved exclusively to the Copyright Holder.
+
+Commercial Use is not permitted unless the Copyright Holder grants separate
+prior written permission or a separate commercial license.
+
+No permission under this license transfers ownership, commercial rights,
+patent rights, trademark rights, trade-secret rights, moral rights, attribution
+rights, or project-origin claims to any user.
+
+5. Derivative Works
+
+You may create derivative works only for permitted non-commercial research or
+review purposes. Any derivative work must:
+
+a. Preserve attribution to ERGT and Jalal Jafari.
+b. State that it is derived from ERGT.
+c. Preserve this license notice.
+d. Not be distributed, sold, sublicensed, commercialized, or used commercially
+   without prior written permission from the Copyright Holder.
+
+6. Publications, Benchmarks, and Results
+
+You may publish non-commercial research results based on the Project only if
+the Project is clearly credited. Any published benchmark, comparison, diagram,
+architecture description, mathematical formalization, or experimental result
+that uses the Project must identify ERGT and Jalal Jafari.
+
+7. No Implied License
+
+No rights are granted except those expressly stated in this license. In
+particular, this license does not grant permission for:
+
+a. Commercial Use.
+b. Use without attribution.
+c. Removal of copyright or provenance notices.
+d. Claiming authorship or ownership of the Project or its core ideas.
+e. Registering trademarks, patents, products, or services that imply ownership
+   of ERGT without permission from the Copyright Holder.
+
+8. No Warranty
+
+The Project is provided "AS IS", without warranty of any kind, express or
+implied, including but not limited to warranties of merchantability, fitness for
+a particular purpose, non-infringement, accuracy, safety, or availability. The
+Copyright Holder is not liable for any claim, damage, loss, or other liability
+arising from use of the Project.
+
+9. Termination
+
+If you violate this license, your permissions terminate automatically. Upon
+termination, you must stop using and distributing the Project and any
+unauthorized derivative works.
+
+10. Separate Agreements
+
+The Copyright Holder may grant additional permissions, including commercial
+permissions, only through a separate written agreement.

@@ -1,0 +1,59 @@
+{
+  "checkpoint_contract": {
+    "consecutive_readiness_windows": 2,
+    "deterministic_complete_pair_epochs": true,
+    "fallback_to_unselected_final_state_for_verdict": false,
+    "final_12_32_hop_panels_used_for_selection": false,
+    "immediate_freeze_after_readiness": true,
+    "independent_2_8_hop_readiness": true,
+    "mechanism_shards": 2,
+    "minimum_pair_group_exposure": 8,
+    "one_hop_id_is_reporting_only": true,
+    "zero_teacher_optimizer_steps": 0
+  },
+  "claim_policy": {
+    "all_four_seed_results_retained": true,
+    "baseline_convergence_reported_per_seed": true,
+    "baseline_failure_is_nonblocking_for_ergt": true,
+    "compute_efficiency_claimed": false,
+    "language_modeling_claimed": false,
+    "matched_convergence_is_numeric_readout_not_run_gate": true,
+    "matched_convergence_minimum_seed_count": 3,
+    "matched_convergence_seed_selection_uses_id_only": true,
+    "matched_convergence_wording_is_conditional": true,
+    "observed_paired_comparison_is_separate": true,
+    "universal_transformer_superiority_claimed": false
+  },
+  "files": {
+    "configs/paper_final_v9.json": "7893d10c9909ad14a877122310e5cd9844dc362cac2571601c95061496d8b204",
+    "configs/repair_pilot_v9.json": "a96640ccf4c12377bc7c48b82f3b4608a26382a0e053bc52bb7b82aa2dcbd0bf",
+    "ergt_reviewer/__init__.py": "a9a12ee1bdc0e0b5962e75529f3336422df9e1283bd812248ff2a97af71ef30c",
+    "ergt_reviewer/artifacts.py": "27e20476a363281f9ee5efefb6128b7e59a9f563e683a8554ba6f4937642d91c",
+    "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+    "ergt_reviewer/data_schema.py": "e42f16e7284c5b1910c700e3be0a32c5b9f3f43faa9fcb0850508651ace46c2a",
+    "ergt_reviewer/evaluation_v9.py": "7c5b44f36c00cc3e525c82f9d336a76d099b19e211db451efb46879f9055f972",
+    "ergt_reviewer/fair_data_v9.py": "adf81a367b5b5e7e161ad4a85ee2b0a8345a86329d81ee89d8102ed7c034c48d",
+    "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+    "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+    "ergt_reviewer/physics_core.py": "15fcc716287ea1c051ee800f38cd6b4d827eefdcacaaccb01e0f8b84ddc4249c",
+    "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+    "ergt_reviewer/reporting_v9.py": "d3c9a06bb8ee16313eda60cbf0812eca659927941be373731f97ecf47d01d6fb",
+    "ergt_reviewer/spectral_runtime.py": "b6f1b44644406f1df74663bb912ba6e3667454a04ddeeb046f29383a4f6a0dbc",
+    "ergt_reviewer/statistics.py": "02151b5ac27dab490e249f0e943f71a0e1a84eecc6e63e87499d7b3827240940",
+    "ergt_reviewer/suite_v9.py": "e2f425aa095512f45f15bd36630ca40f6c8b9603ea97e0dd25ec8869c9910a65",
+    "ergt_reviewer/training_v9.py": "e1b2ac8a1cec7e7bde0947f9651ae2116fdc669ef772e183687b8ee7171700ca",
+    "ergt_reviewer/v9_confirmation.py": "5847cae483a07ef615cafc652f0d3d9b497f05287f1ee07e654711f07a4f7325",
+    "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e",
+    "manifests/ergt_stability_capability_catalog.json": "8ac034a5e77ed6cad99a080e5591ab2524fd2d99697a41e405d53e20f04e5005",
+    "manifests/v8_1_selected_baseline_manifest.json": "0a33cf262885d1ac3d97c934152a08fd9ff8a80819ef935ea36883a28ab49732"
+  },
+  "hash_policy": "sha256-canonical-lf-v1",
+  "immutable": true,
+  "lock_sha256": "4b308bf50675b5e84c12cc8f07ea05fc220634c3cd7cbf48549568c88f2e9670",
+  "profiles": [
+    "repair_pilot_v9",
+    "paper_final_v9"
+  ],
+  "qualification_manifest_sha256": "2835426c8d317cf4f30d842276870b5cf64c10ace4d1268e27caa4c08244168b",
+  "schema_version": "ergt-reviewer-v9-execution-lock-v1"
+}

@@ -1,0 +1,1384 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.92in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!55!black,
+  citecolor=blue!55!black,
+  urlcolor=blue!65!black,
+  pdftitle={ERGT: Attention-Free Native Geodesic Transport for Controlled Long-Horizon Relational Reasoning},
+  pdfauthor={Jalal Jafari and Nasibeh Aramideh}
+}
+
+\setlist{nosep,leftmargin=*}
+\setlength{\emergencystretch}{2em}
+\newcommand{\ERGT}{\textsc{ergt}}
+\newcommand{\TF}{\textsc{Transformer}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\firstpagecodeavailability}[1]{%
+  \begingroup
+  \renewcommand{\thefootnote}{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\title{\textbf{ERGT: Attention-Free Native Geodesic Transport for\\
+Controlled Long-Horizon Relational Reasoning}}
+
+\author{
+Jalal Jafari\\
+\small Ph.D. in Photonics; Board Member, NovoXpert AI Group\\
+\small Artificial Intelligence Research and Development\\
+\small \href{mailto:j.jafari2009@gmail.com}{\texttt{j.jafari2009@gmail.com}}
+\and
+Nasibeh Aramideh, Ph.D.\\
+\small Ph.D. in Mathematics; Research Member, NovoXpert AI Group\\
+\small Artificial Intelligence Research and Development\\
+\small \href{mailto:aramidehnasibeh@gmail.com}{\texttt{aramidehnasibeh@gmail.com}}
+}
+\date{July 18, 2026}
+
+\begin{document}
+\maketitle
+\firstpagecodeavailability{\textbf{Code availability.} The complete source
+code and executable reproduction package accompanying this article, including
+the Colab notebook, are publicly available at
+\href{https://github.com/jalaljafari2009/ERGT-paper}{\texttt{github.com/jalaljafari2009/ERGT-paper}}.}
+
+\begin{abstract}
+We introduce Executable Relational Geometry and Transport (\ERGT), an
+attention-free architecture in which relational computation is organized by
+input-conditioned geometry rather than self-attention. \ERGT learns a mapping
+from raw tokens to a persistent information field $\Psi$, whose pairwise
+observables induce multiple directed world geometries. These geometries then
+become the computational substrate for reasoning: GeoTransport carries typed
+state along admissible paths, and a geodesic boundary solver accepts the
+least-cost candidate consistent with propagation, memory, payload, and terminal
+constraints. This native answer path uses neither a Transformer nor a supplied
+graph, target compiler, or generic executor.
+
+Across four independent runs, \ERGT converged and satisfied every registered
+native stability contract. Beyond its training range, mean accuracy at 32 hops
+was $0.955$, compared with $0.500$ for a strengthened direct Transformer given
+the same raw input and a closely matched parameter count. Frozen
+same-checkpoint interventions caused sharp losses when geodesic action,
+propagation admissibility, typed transport, geometric memory, or terminal
+measurement was removed. Randomizing or shuffling the geometry, or restricting
+inference to one world, also failed to recover the intact result. The evidence
+supports a bounded architectural claim: a $\Psi$ field formed from raw tokens
+can become an executable geometry
+and provide a measurable advantage in controlled long-horizon relational
+reasoning.
+\end{abstract}
+
+\noindent\textbf{Keywords:} relational reasoning; representation learning;
+information geometry; geodesic transport; causal intervention; multiworld
+geometry; attention-free neural architecture; long-horizon generalization
+
+\section{Introduction}
+
+Modern sequence models have shown how effective content-dependent token
+interaction can be for representation learning. In the Transformer, that
+interaction is implemented by self-attention \cite{vaswani2017attention}.
+However, long-horizon relational reasoning imposes additional structural
+requirements. Entities must remain distinguishable, directed and typed
+relations must compose in the correct order, intermediate state must survive
+repeated propagation steps, and the model should decline to answer when no
+valid support path exists. These requirements can be learned implicitly, but a
+generic sequence backbone does not make admissibility, conservation, or
+rejection part of the computation itself.
+
+Executable Relational Geometry and Transport (\ERGT) is built around that
+distinction. Its central premise is that the arrangement of information in an
+input can generate the geometry on which reasoning takes place. Rather than
+starting from attention scores or a graph supplied with the task, the model
+forms a persistent information field $\Psi$ from the raw tokens. This field
+keeps identity and relational evidence tied to the same source state, providing
+the substrate from which all later geometry is derived.
+
+Pairwise measurements of $\Psi$ produce several directed geometries, or
+\emph{worlds}, each acting as a lens on a different relational tendency. The
+term is operational: a world contributes support, direction, and traversal
+cost; it does not denote a literal physical universe. GeoTransport propagates
+typed state along the resulting admissible paths while preserving entity,
+operator, payload, and memory information. A native geodesic solver then finds
+the least-cost valid route, and boundary measurement accepts a candidate only
+when the transported state satisfies the terminal constraints. The complete
+path is
+\[
+\begin{aligned}
+  \text{raw tokens}
+  &\longrightarrow \Psi
+  \longrightarrow \text{multiworld geometry} \\
+  &\longrightarrow \text{GeoTransport}
+  \longrightarrow \text{geodesic solution}
+  \longrightarrow \text{boundary decision}.
+\end{aligned}
+\]
+No graph or geometry is supplied at the input boundary, and the tested native
+path does not delegate its decision to a generic compiler or graph executor.
+The relation support, path costs, transported state, and acceptance conditions
+must all arise from the field constructed from the same raw sequence.
+
+The design is motivated by a specific long-horizon failure mode. When a
+solution depends on many typed relations, repeated global remixing may blur
+which state belongs to which entity and which path. \ERGT instead treats
+composition as repeated local transport under shared admissibility and
+conservation rules. Its inductive bias is not simply a wider context window;
+it is the preservation of executable relational paths as reasoning depth
+increases.
+
+The experimental evaluation follows the same logic. It first tests whether the
+full route from raw-token field formation to terminal measurement can converge
+and satisfy the registered native stability contracts. Frozen checkpoints are
+then evaluated on freshly generated, raw-disjoint relational chains well
+beyond the training horizon. Finally, frozen targeted interventions, geometry
+corruption, and single-world restrictions test whether the solved answers
+actually depend on the proposed mechanism.
+
+The primary baseline is a strengthened direct Transformer trained on the same
+raw sequences and matched target families. Staged training and auxiliary
+supervision improve its opportunity to learn the task, while its inference
+path remains purely Transformer-based: it receives no \ERGT graph, geometry,
+transport state, compiler, executor, or identity side channel. This preserves a
+clear comparison between two complete inference strategies rather than lending
+the proposed solver to the baseline.
+
+The contributions of this work are:
+\begin{enumerate}
+  \item a persistent $\Psi$ field, built from raw tokens, that supplies the
+  internal identity and pairwise evidence from which relation geometry is
+  induced rather than given;
+  \item an end-to-end, attention-free answer path combining directed
+  multiworld lenses, finite-speed admissibility, typed GeoTransport, geometric
+  memory, min-plus geodesic closure, terminal boundary measurement, and
+  fail-closed output;
+  \item a controlled multi-seed protocol that separates learnability from
+  long-horizon extrapolation while comparing \ERGT with a strengthened direct
+  Transformer at the same raw-input boundary; and
+  \item frozen causal interventions and a self-contained reproduction package
+  that make the roles of geometry, transport, memory, boundary conditions, and
+  multiworld composition independently auditable and reproducible.
+\end{enumerate}
+
+The claim remains deliberately bounded. \ERGT is not offered as a universal
+replacement for Transformers, a general language model, or a cheaper sequence
+architecture. The study tests whether geometry induced from raw tokens can act
+as an executable and mechanistically testable bias for controlled long-horizon
+relational reasoning. Section~\ref{sec:results} reports the corresponding
+outcomes, uncertainty estimates, and effect sizes.
+
+\section{Positioning and Related Work}
+\label{sec:positioning}
+
+\subsection{Attention and attention-free sequence backbones}
+
+Removing attention is not, by itself, a new research direction. Self-attention
+computes content-conditioned interactions across sequence positions
+\cite{vaswani2017attention}, whereas S4 realizes long-range propagation through
+a structured state-space system \cite{gu2022s4}. Mamba makes that state-space
+dynamics input-selective \cite{gu2023mamba}, and Hyena uses implicit long
+convolutions with data-controlled gates \cite{poli2023hyena}. These models show
+that a sequence can be processed effectively without QKV attention.
+
+Their main object is still the sequence operator: recurrence, state-space
+dynamics, or convolution determines how information is mixed over position.
+\ERGT addresses a different object. It first constructs a token-indexed field
+and asks that field to support a directed, executable relation geometry. Only
+then can typed state propagate toward a boundary decision. The contribution is
+therefore not attention removal alone, nor a claim about language-modeling
+quality or linear-time efficiency, but a raw-input geometry whose constraints
+participate directly in inference.
+
+\subsection{Graph reasoning, path methods, and latent structure}
+
+Graph networks expose relational bias through message passing
+\cite{battaglia2018relational,gilmer2017neural}, and geometric deep learning
+provides the broader language for computation on non-Euclidean structure
+\cite{bronstein2021geometric}. Usually, however, the relevant nodes and edges
+arrive with the input. NBFNet is especially close in spirit because it
+represents a node pair through paths and learns a generalized Bellman--Ford
+computation \cite{zhu2021nbfnet}; its paths still belong to a graph that is
+already given.
+
+Other work learns structure itself. Neural Relational Inference, for example,
+infers an interaction graph while predicting dynamics from observations
+\cite{kipf2018nri}. The claim for \ERGT is therefore more specific than
+``learning a graph.'' Structure must arise from raw tokens and immediately
+become executable through directed metrics, path action, typed transport,
+admissibility, memory, and terminal measurement. The same distinction defines
+the role of $\Psi$: it is not an extra embedding layer but the audited source
+from which identity, pairwise evidence, and every world geometry must descend.
+A supplied edge, external entity identifier, or target graph would break that
+contract.
+
+\subsection{Neural algorithmic reasoning and size generalization}
+
+The CLRS benchmark made size generalization a central test of learned algorithm
+execution \cite{velickovic2022clrs}. Hint-ReLIC likewise shows why intermediate
+computation matters, regularizing states to remain invariant under
+interventions that should preserve the next algorithmic step
+\cite{bevilacqua2023causal}. Both lines of work caution against treating final
+accuracy as sufficient evidence of a reusable computation.
+
+\ERGT adopts that evaluation principle without imitating a supplied trace or
+set of hints. It learns its geometric dynamics from the sequence and tests
+whether the same local transport and admissibility rules continue to compose at
+greater depth. After checkpoint selection, named geometric quantities are
+removed, shuffled, or restricted while the parameters remain frozen. The
+resulting change asks whether a quantity was needed by the learned answer path,
+not merely whether supervising it helped during training.
+
+\subsection{Physics-informed inductive bias and information geometry}
+
+Physics-informed models illustrate the value of turning a desired law into an
+architectural restriction rather than hoping it appears as a correlation.
+Hamiltonian Neural Networks encode conservation in learned dynamics
+\cite{greydanus2019hamiltonian}, while explicit Hamiltonian and Lagrangian
+constraints extend the same idea \cite{finzi2020constraints}. Geometric deep
+learning uses symmetry and geometry to restrict the hypothesis space
+\cite{bronstein2021geometric}; information geometry supplies the language of
+metrics and dual structure on statistical manifolds \cite{amari2016information}.
+\ERGT adopts this as a geometric design analogy rather than a direct
+statistical-manifold construction.
+
+\ERGT borrows this design logic, not a literal physical interpretation. Its
+terms have concrete computational meanings: $\Psi$ is persistent token
+information, worlds are directed relation lenses, action is traversal cost,
+the cone is a propagation constraint, and GeoTransport moves typed state. A
+geodesic is the least-cost admissible route, conservation protects payload
+identity, and boundary measurement determines acceptance. Classical
+shortest-path recursion and dynamic programming motivate the closure
+\cite{dijkstra1959note,bellman1957dynamic}.
+
+Spectral graph quantities \cite{chung1997spectral} and a Forman-style curvature
+proxy \cite{forman2003bochner} are kept outside that answer path. They describe
+how the induced geometry changes with horizon and motivate future work on
+curvature-guided routing and regularization \cite{topping2022understanding}, as
+well as adaptive worlds; they are not used to attribute the current
+performance.
+
+\subsection{Position of the claimed contribution}
+
+Table~\ref{tab:positioning} brings these boundaries together. The decisive
+difference is not any single familiar component, but the object the model must
+construct and execute.
+
+\begin{table}[t]
+\centering
+\caption{Position of \ERGT relative to neighboring research families.}
+\label{tab:positioning}
+\small
+\begin{tabularx}{\linewidth}{@{}P{0.18\linewidth}P{0.34\linewidth}Y@{}}
+\toprule
+Family & Primary computational object & Boundary with \ERGT \\
+\midrule
+Transformer
+  & Content-conditioned token mixing
+  & Does not explicitly require admissible paths, typed state conservation, or
+    fail-closed boundary evidence. \\
+S4, Mamba, Hyena
+  & State-space recurrence or long convolution over a sequence
+  & Replace the sequence operator; they do not by themselves construct and
+    execute a relation geometry from raw tokens. \\
+GNNs and NBFNet
+  & Message passing or path aggregation on a graph
+  & Usually receive the graph; \ERGT must induce support and metric before
+    transporting typed state. \\
+Latent graph inference
+  & Inferred interaction structure and predictive dynamics
+  & \ERGT additionally turns induced structure into multiworld action,
+    admissibility, transport, memory, and a boundary decision. \\
+CLRS and Hint-ReLIC
+  & Learned algorithm execution and invariant intermediate computation
+  & \ERGT learns and intervenes on a native geometric dynamics rather than a
+    supplied algorithm trace. \\
+Physics-informed learning
+  & Dynamics constrained by physical laws or symmetry
+  & \ERGT translates physics-inspired principles into operational constraints
+    for relational computation, without asserting a literal physical system. \\
+\ERGT
+  & A raw-token $\Psi$ field and executable induced geometry
+  & Unifies structure induction, typed transport, geodesic composition, and
+    fail-closed measurement in one raw-input-to-answer path. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+No isolated ingredient carries the novelty claim: shortest paths, graph
+learning, conservation, attention-free propagation, and boundary conditions
+all have established precedents. What is tested here is their integration under
+one auditable contract. Raw tokens form a persistent $\Psi$ field; the field
+induces several directed geometries; hard constraints govern typed transport;
+an admissible geodesic is composed; and only terminal measurement can accept an
+answer. This geometry-first contract, rather than general superiority on
+sequence tasks, defines the proposed advantage and the empirical burden of the
+paper.
+
+\section{Method: From Raw Tokens to Executable Geometry}
+
+\subsection{Conceptual design}
+
+The geometry-first idea becomes useful only if it defines the entire route to
+an answer. That route has three responsibilities. It must infer relational
+structure from raw symbols without an external graph or identity map; compose
+local relations without losing the entity, operator, or payload in transit;
+and distinguish a supported terminal state from a candidate that is merely
+reachable.
+
+These responsibilities lead to three connected operations. \emph{Geometry
+formation} builds the persistent $\Psi$ field, measures pairwise evidence, and
+induces several directed world metrics. \emph{Geometric execution} converts
+those metrics into admissible actions and moves typed state through their
+product space. \emph{Boundary adjudication} accepts the resulting path only if
+the correct register, conserved payload, and terminal conditions arrive
+together. Geometry is therefore part of the decision process, not an auxiliary
+visualization: the output of each operation is the state or constraint required
+by the next.
+
+Table~\ref{tab:designlogic} relates the needs of a long relational chain to the
+corresponding architectural objects. The physics-derived vocabulary is used in
+an operational sense. $\Psi$ denotes persistent token information, a world is
+a directed relation lens, action is path cost, the cone masks invalid
+propagation, GeoTransport transfers typed state, a geodesic is the least-cost
+valid path, and boundary measurement is the final acceptance test.
+
+\begin{table}[t]
+\centering
+\caption{Conceptual derivation of the architecture.}
+\label{tab:designlogic}
+\small
+\begin{tabularx}{\linewidth}{@{}YYY@{}}
+\toprule
+Problem need & Design principle & Architecture component \\
+\midrule
+Preserve token identity and content & Persistent state from raw input &
+$\Psi$ information field \\
+Represent several relation views & Complementary directed metrics &
+Eight world lenses \\
+Block impossible propagation & Explicit admissibility &
+Finite-speed cone \\
+Keep operators bound to state & Type-preserving transfer &
+GeoTransport and payload registers \\
+Compose long paths & Dynamic programming over action &
+Min-plus geodesic closure \\
+Reject unsupported candidates & Hard terminal constraints &
+Boundary measurement and abstention \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+These objects are constitutive design choices inspired by physics, not claims
+of literal physical law. Their role is testable: equations define them,
+invariants monitor their numerical behavior, and frozen interventions reveal
+whether the trained model needs them. Continuous neural states construct the
+field and local evidence; admissibility, typed-register, and terminal contracts
+then decide whether those local pieces form a valid answer. A high answer score
+cannot override an invalid intermediate program.
+
+The target inference path is
+\[
+\begin{aligned}
+\text{raw symbols}&\rightarrow\Psi\rightarrow\text{world metrics}
+\rightarrow\text{typed event support}\\
+&\rightarrow\text{geodesic closure}\rightarrow\text{typed transport}
+\rightarrow\text{terminal measurement}.
+\end{aligned}
+\]
+No standard QKV self-attention, Transformer encoder, discrete target compiler,
+generic graph executor, or learned answer MLP appears in this path.
+
+\subsection{Raw input and the persistent \texorpdfstring{$\Psi$}{Psi} field}
+
+The construction begins with a state rich enough to support relations without
+smuggling in the relation graph. Semantic content alone is not sufficient:
+repeated or similar symbols must remain distinguishable, yet identity cannot be
+an external pointer to the answer. The initial field therefore joins semantic
+content and position with an identity fibre computed from the same raw token.
+Every later geometric quantity descends from this shared initial condition.
+
+For token $i$, raw symbol fingerprints are mapped to a train-only semantic
+state $x_i$ and a collision-audited identity fibre $u_i$. Both are derived
+inside \ERGT from the public raw-token tensors. The initial condition is
+\begin{equation}
+\Psi_i^{(0)} = f_\psi\!\left(x_i+p_i+\gamma f_{\mathrm{id}}(u_i)\right),
+\label{eq:psi}
+\end{equation}
+where $p_i$ is the position state. The identity term changes both the initial
+field and the metrics derived from it, but supplies no pointer, graph edge,
+condition label, or answer channel. At the public boundary, the model sees only
+raw token identifiers and a padding mask. Equation~\ref{eq:psi} captures the
+field-construction claim: relational structure must emerge from pairwise
+observables of the same persistent state built from the serialization seen by
+the baseline.
+
+\subsection{Field observables and adhesion}
+
+The token field still has to determine which pairs can support a relation.
+Rather than compressing that decision into one unconstrained edge logit,
+\ERGT exposes several bounded factors: coherence, reconstructibility, local
+compatibility, order, and agreement with the bulk--boundary view. Together they
+turn the node-like state $\Psi$ into candidate edge support while leaving the
+source of weak support visible.
+
+The hidden field induces the bounded observables
+\begin{align}
+\rho_i &= d^{-1}\|\Psi_i\|_2^2, \\
+C_{ij} &= \tfrac12\!\left[1+\langle f_C(\Psi_i),g_C(\Psi_j)\rangle\right], \\
+R_{ij} &= \sigma\!\left(2\langle f_R(\Psi_i),g_R(\Psi_j)\rangle\right), \\
+G_{ij} &= \exp(-|\rho_i-\rho_j|), \\
+B_{ij} &= \exp[-(\delta_i^{\mathrm{bulk}}+
+                         \delta_j^{\mathrm{bulk}})/2].
+\end{align}
+$C$ measures coherence, $R$ reconstructibility, $G$ density-gradient
+compatibility, and $B$ bulk--boundary agreement. Local relational entropy
+$S_i$ gives the order term $O_i=1-S_i$, while stability is measured across
+field updates. The factors meet in an adhesion field formed by a geometric mean
+in log space:
+\begin{equation}
+\Phi_{ij}=\exp\!\left(\frac{1}{6}\sum_{k=1}^{6}
+                         \log(z_{ij}^{(k)}+\epsilon)\right),
+\quad
+z^{(k)}\in\{C,R,\mathrm{stability},G,O,B\}.
+\label{eq:adhesion}
+\end{equation}
+Because the factors combine multiplicatively, one weak term cannot be hidden
+by several strong ones. $\Phi$ is an edge-formation gate chosen for this model,
+not a universal law of information.
+
+\subsection{Constitutive world geometries}
+
+Adhesion establishes joint support, but not a single universal notion of
+proximity. Locality, reconstruction, long bridges, density flow, and boundary
+compatibility may favor different directed edges. Collapsing them immediately
+would erase those alternatives, so \ERGT applies eight constitutive lenses to
+the shared field and keeps their potentials separate until a typed role needs
+them. Table~\ref{tab:worlds} summarizes the resulting worlds.
+
+\begin{table}[t]
+\centering
+\caption{Operational world lenses. These are constitutive functions, not
+independently supplied graphs.}
+\label{tab:worlds}
+\small
+\begin{tabularx}{\linewidth}{@{}lY@{}}
+\toprule
+World & Dominant factors \\
+\midrule
+$W_0$ & locality, density-gradient fit, stability \\
+$W_1$ & coherence, identity overlap, local order \\
+$W_2$ & reconstruction and boundary reconstructibility \\
+$W_3$ & stability, identity overlap, locality \\
+$W_4$ & long bridge, coherence/identity support, reconstruction \\
+$W_5$ & density contrast and stability \\
+$W_6$ & novelty and long-bridge support \\
+$W_7$ & density source--sink flow and coherence \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+For world $w$, edge state evolves as
+\begin{equation}
+E_{wij}^{(t+1)}=\beta E_{wij}^{(t)}+
+ (1-\beta)\Phi_{ij}^{(t)}\Omega_{wij}^{(t)},
+\qquad
+\ell_{wij}=-\log(E_{wij}+\epsilon).
+\label{eq:edge}
+\end{equation}
+Typed computational roles condition a router over these separate metrics. Let
+$\bar\Psi$ be the masked mean field, $r$ a typed role, $\pi_{rw}$ a learned
+role--world prior, and $\mathcal{W}_r$ the worlds authorized for that role:
+\begin{align}
+\alpha_{rw} &= \operatorname{softmax}_{w\in\mathcal{W}_r}
+   \left([W_{\mathrm{route}}\bar\Psi]_{rw}+\pi_{rw}\right), \\
+H_r &= \sum_{w\in\mathcal{W}_r}\alpha_{rw}A_w(H_w),
+\label{eq:router}
+\end{align}
+where $A_w$ adapts world $w$. A world is therefore not a separate predictor,
+but one directed metric through which the shared typed state can be viewed and
+transported. The worlds need not carry equal mass or have unique
+human-readable meanings. The testable claim is functional dependence on their
+composition: under frozen intervention, no single world completes the program.
+
+\subsection{Finite-speed admissibility and action}
+
+An edge potential says where a relation appears plausible; it does not yet make
+that edge executable. Keeping every nonzero affinity would leave weak, dense
+shortcuts through which the model could bypass a long relation chain. We
+therefore turn each learned world geometry into a sparse feasible domain and
+assign a non-negative cost to every legal local move. Admissibility determines
+\emph{whether} state may propagate, while action distinguishes among the routes
+that remain.
+
+Sparse support and a finite propagation condition define admissible edges:
+\begin{equation}
+\mathcal{A}_{wij}=
+\mathbf{1}[j\in\operatorname{topk}(E_{wi\cdot})]
+\mathbf{1}[\ell_{wij}\le v_i\Delta\tau_{ij}].
+\end{equation}
+The path action is
+\begin{equation}
+S_{wij}=\ell_{wij}+\lambda_b(1-B_{ij})+
+\lambda_s(1-\mathrm{stability}_{ij})+
+\lambda_c\,\mathrm{coneViolation}_{ij}.
+\label{eq:action}
+\end{equation}
+This action is a learned non-negative path cost. The term \emph{finite-speed
+cone} means that the implemented update rejects edges whose effective travel
+cost exceeds the available discrete propagation interval; it is not a claim
+of relativistic spacetime.
+
+\subsection{GeoTransport and memory}
+
+A path cost is useful only if information can travel along the path and remain
+available to later steps. GeoTransport provides that state evolution. Its mask
+is inherited from admissibility and its weights from action, so an edge rejected
+by the geometric stage cannot reappear during transfer. Persistent momentum,
+edge state, and payload retain the history on which later geometry and terminal
+measurement depend.
+
+Transport is induced by action over admissible neighbors:
+\begin{align}
+T_{wij} &= \operatorname{softmax}_{j:\mathcal{A}_{wij}=1}
+                  (-S_{wij}/\tau), \\
+M_{wi} &= \sum_j T_{wij}V_w(\Psi_j), \\
+\Pi_i^{(t+1)} &= \mu\Pi_i^{(t)}+(1-\mu)
+                  F(\Psi_i^{(t)},M_i^{(t)}), \\
+\Psi_i^{(t+1)} &= \operatorname{Norm}
+                  (\Psi_i^{(t)}+\Pi_i^{(t+1)}).
+\end{align}
+Memory is path-dependent state retained in $E$, $\Pi$, and transported payload.
+It can affect later geometry and terminal measurement but has no direct bypass
+to answer logits. In computational language, GeoTransport is therefore a
+masked, action-weighted transfer operator that keeps a typed state attached to
+the path on which it arrived; it is not attention-weighted value mixing.
+
+\subsection{Typed event support}
+
+Geometry determines where state may travel and what the journey costs, but it
+does not by itself identify the relation operator carried by an event. That
+semantic content must remain sufficiently discrete to prevent a short route
+from substituting one operator for another. Typed event support therefore binds
+source, relation, and target proposals to the path, while the geometry retains
+control over admissibility and route selection. This provides the interface
+between learned interpretation of the raw symbols and native geometric
+execution, without introducing a compiled target graph.
+
+Predicted event source, relation, and target distributions form typed charge
+\begin{equation}
+Q_{ijr}=\sum_e p(i\mid e)\,p(r\mid\Psi_e^{(0)})\,p(j\mid e).
+\end{equation}
+The charge supplies typed local proposals to the geometric program. Geometry
+determines whether and at what cost a proposal can participate in a complete
+path; it cannot transmute the discrete operator type carried by $Q$. This
+separation prevents a low scalar path cost from silently changing the relation
+being transported.
+
+\subsection{Product-manifold geodesic closure}
+
+The preceding stages define legal one-step transitions. To reason over a long
+horizon, the model must compose them without handing the result to a fixed-depth
+answer classifier. \ERGT does so by running dynamic programming over the
+discrete product of token location and world lens. One coordinate records where
+the state is; the other records the directed metric under which its current
+transition is evaluated. Min-plus closure can then extend the same local action
+contract to paths that exceed a single field update.
+
+The solver state is the discrete product $(i,w)$ of token and world. For
+candidate $c$, the min-plus field is initialized at its registered source:
+\begin{align}
+D_c^{(0)}(i,w) &=
+\begin{cases}0,&(i,w)\text{ is an allowed source},\\
++\infty,&\text{otherwise},\end{cases}\\
+D_c^{(t+1)}(j,w') &= \min\left\{D_c^{(t)}(j,w'),
+D_c^{(t)}(i,w)+A[(i,w)\rightarrow(j,w')]\right\}.
+\label{eq:minplus}
+\end{align}
+Support is propagated by a max--min widest-path channel so repeated
+probability multiplication alone cannot erase a valid long path. Closure depth
+is at least the registered answer horizon and is capped at 36 steps in the
+paper profile. A label-free dyadic valid-domain mesh allows action to
+propagate over long raw sequences without supplying the answer topology.
+Here \emph{geodesic} has a precise discrete meaning: the path of minimum total
+implemented action among paths that satisfy the admissibility mask.
+
+\subsection{Typed payload and terminal decision}
+
+A least-action route establishes reachability, but reachability alone is not an
+answer. The arriving state must also encode the operator sequence required by
+the candidate, preserve enough transported support, and satisfy the registered
+terminal boundary. The final stage couples path optimization to typed register
+execution and asks, through hard measurements, whether the assembled evidence
+is complete. This is where fail-closed behavior becomes part of the computation
+rather than an output convention.
+
+Along an admissible event, the register and payload evolve as
+\begin{align}
+r' &= \operatorname{applyOperator}(r,r_e),\\
+q^{(t+1)}(j,r') &= \max_e q^{(t)}(i_e,r)\,\tau_e m_e,\\
+\Delta^{(t+1)}(j,r') &= \min_e
+             \left[\Delta^{(t)}(i_e,r)+\delta_e\right].
+\end{align}
+Two normalization contracts are checked before checkpoint eligibility:
+\begin{align}
+\varepsilon_{\mathrm{typed}}
+  &=\max_e\left|\sum_r p_e(r)-p_e(\mathrm{present})\right|,\\
+\varepsilon_{\mathrm{transport}}
+  &=\max_{w,i\ \mathrm{valid}}\left|\sum_j T_{wij}-1\right|.
+\label{eq:conservation}
+\end{align}
+The first keeps relation-type mass tied to event-presence mass; the second
+keeps each valid transport row normalized. For candidate $c$, let $A_c$ be its
+closed geodesic action, $m_c$ its terminal payload mass, and $\delta_c$ its
+boundary deficit. Its hard validity indicator is
+\begin{equation}
+V_c=\mathbf{1}[A_c<\infty]
+    \mathbf{1}[m_c\ge m_{\min}]
+    \mathbf{1}[\delta_c\le\delta_{\max}],
+\label{eq:validity}
+\end{equation}
+where $A_c$ is read from the register state required by that candidate, so a
+wrong typed register is unsupported. Cone validity is already enforced in the
+edges from which finite $A_c$ can be assembled.
+The decision is
+\begin{equation}
+\widehat c=\arg\min_{c:V_c=1}A_c
+\quad\text{only if}\quad
+A_{(2)}-A_{(1)}\ge\eta;
+\quad\text{otherwise abstain}.
+\label{eq:decision}
+\end{equation}
+Thus boundary measurement means checking the final register, mass,
+conservation, and deficit before accepting a candidate. Two unresolved
+candidates, no valid candidate, or insufficient action margin produces
+abstention. This is a native geometric boundary solver, not a call to a generic
+graph-traversal routine.
+
+\subsection{Training objective and zero-teacher verification}
+
+Training must reconcile differentiable field construction with hard execution
+contracts. The upstream field needs enough supervision to populate the native
+path, yet the reported inference cannot depend on a teacher or a soft answer
+bypass. We therefore group intermediate losses by architectural role and keep
+checkpoint selection separate from the subsequent frozen execution test.
+
+The grouped training objective is
+\begin{equation}
+\mathcal{L}=\mathcal{L}_{\mathrm{answer}}
++2a(t)\mathcal{L}_{\mathrm{structured}}
++2a(t)\mathcal{L}_{\mathrm{physical}}
++2a(t)\mathcal{L}_{\mathrm{causal}}
++2a(t)\mathcal{L}_{\mathrm{margin}}
++0.5\mathcal{L}_{\mathrm{geometry}}.
+\label{eq:loss}
+\end{equation}
+$a(t)$ is a teacher schedule. Structured terms supervise entity, query role,
+event type, endpoints, operator, boundary, and edge assembly. Physical terms
+supervise action, cone, transport, boundary deficit, and terminal mass.
+Geometry terms include bulk--boundary reconstruction, conservation, world
+usage, and diversity. A checkpoint becomes eligible only after independent
+field-readiness windows. Teacher weight is then set to zero, parameters are
+frozen, and two further windows must pass with zero optimizer steps. Thus the
+reported answer is teacher-free at inference, although training is supervised.
+
+\section{Experimental Design}
+\label{sec:experimental}
+
+The experiment mirrors the computational chain defined in Section~3. It first
+asks whether raw symbols can produce a stable native geometry, then whether the
+frozen computation survives longer relation chains, and finally whether its
+answers depend on the geometric operations claimed by the method. Unsupported
+inputs add a separate test of whether the terminal rule can withhold an answer.
+These questions cannot be answered by a single accuracy score, so each is
+assigned its own evidence panel.
+
+The panels are also kept separate during model selection. Development data are
+used only to lock the strengthened direct-Transformer recipe; native readiness
+data select the first stable \ERGT checkpoint; and the final horizon cohorts
+remain unopened until both procedures are complete. Interventions are applied
+only to that frozen native checkpoint. Table~\ref{tab:studylogic} states the
+resulting inferential boundary.
+
+\begin{table}[t]
+\centering
+\caption{Inferential structure of the registered study.}
+\label{tab:studylogic}
+\small
+\begin{tabularx}{\linewidth}{@{}P{0.25\linewidth}P{0.34\linewidth}Y@{}}
+\toprule
+Question & Evidence panel & Permitted conclusion \\
+\midrule
+Was the inference path learned?
+  & Train ID, raw-disjoint validation, and native stability contracts
+  & Model-specific convergence and, for \ERGT, executable-path readiness \\
+Does computation extend in horizon?
+  & Frozen matched cohorts beyond the training range
+  & Bounded long-horizon accuracy and paired model difference \\
+Does the model fail closed?
+  & Controlled inputs with no valid candidate
+  & Rejection within the registered unsupported protocol \\
+Is geometry functionally necessary?
+  & Same-checkpoint removals, corruption, and single-world controls
+  & Causal attribution to the intervened mechanism on eligible solved pairs \\
+How does geometry change with horizon?
+  & Detached curvature, spectrum, and world-diversity observers
+  & Descriptive structure only, not causal performance attribution \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Benchmark and counterfactual cohorts}
+
+The benchmark isolates relational composition from open-domain language
+knowledge. Each example serializes nodes, relation events, a query, two
+candidates, and distractors as raw symbols; this serialization is the complete
+input to both models. A latent graph exists only inside the generator so that
+examples can be constructed and matched. Adjacency, edge indices, entity
+pointers, and candidate paths are never exposed.
+
+The basic unit is an answer-reversing counterfactual pair. Its members share
+topology, edge count, hop count, operator types, and lexical statistics, but one
+registered condition changes the valid candidate. Scenarios separately vary
+geodesic action, finite-speed admissibility, boundary deficit, payload
+transport, terminal mass, source memory, and their combined long-horizon use.
+The pair design therefore rewards tracking the condition that governs a path,
+not memorizing its surface form or candidate position.
+
+Training contains 28 pair groups at each hop from 1 through 8: 224 supported
+groups in total, plus 28 controlled unsupported groups. Independent native
+readiness data cover hops 2--8. Frozen evaluation uses 4, 8, 12, 16, 24, and
+32 hops; context panels use 128, 256, 512, and 768 tokens; and unsupported
+cases are tested at 4, 16, and 32 hops. The horizon panels vary relational
+depth, whereas the context panels add serialized material around a fixed
+decision. This controlled synthetic setting is intended to isolate the
+mechanism and does not measure open-domain language ability.
+
+\subsection{Compared inference paths}
+
+Fairness is defined at the external task boundary rather than by forcing the
+architectures to share an internal solver. Both receive the same serialization
+and padding mask, train on the registered 1--8-hop family under locked
+schedules, and predict candidate A, candidate B, or abstention. The baseline is
+strengthened during training, but no ERGT-derived structure enters its inference
+path. The comparison is therefore between two complete ways of deriving an
+answer from raw symbols, not between \ERGT and a Transformer equipped with the
+\ERGT solver.
+
+The direct arm is a standard PyTorch Transformer encoder with token embeddings,
+sinusoidal positions, QKV multi-head attention, GELU feed-forward blocks,
+layer normalization, and a three-class answer head. Its locked configuration
+uses width 64, four heads, four layers, feed-forward width 192, context 768,
+and zero dropout. It has 205,634 inference-active parameters, compared with
+196,816 for \ERGT, a 4.48\% difference. Matched auxiliary targets strengthen
+training but are not inference inputs, and the model receives no graph,
+geometric state, condition side input, compiler, program, executor, or identity
+side channel.
+
+Native \ERGT uses width 56, $\Psi$ rank 20, eight world lenses, three field
+updates, sparse top-$20$ support, and at most 36 geodesic-closure steps. From
+the same serialization and mask, it must construct identity, relation support,
+world geometry, typed transport, and the terminal decision through the path in
+Section~3; no learned answer MLP bypasses that route. Parameter proximity limits
+a simple capacity-scale explanation, but it does not imply equal computation.
+Optimizer steps, time, and peak CUDA allocation are therefore measured rather
+than matched.
+
+\subsection{Locked training and checkpoint selection}
+
+The Transformer recipe was qualified once on development seeds before any
+12--32-hop final cohort was opened. It begins with one-hop warm-up at batch
+size 8 and learning rate $7\times10^{-4}$; after two eligible raw-disjoint ID
+windows, it may enter fixed stages with exact 1--2, 1--4, and 1--8-hop
+coverage. Architecture, optimizer, transition rule, and step budget are then
+locked. A missed transition is recorded rather than repaired using final data.
+
+The confirmatory \texttt{four\_seed\_confirmation} profile trains both models
+from scratch. Optimization seeds 17117, 18313, 19501, and 20707 are paired
+with independent data seeds 21101, 22307, 23509, and 24733. All raw sets are
+collision-audited and disjoint across training, tuning, validation, and final
+evaluation. Horizon, context, unsupported, intervention, and observer panels
+remain outside checkpoint selection.
+
+During confirmation, the Transformer follows its locked warm-up and curriculum
+within 1400 steps. \ERGT uses the registered 1--8-hop pool, batch size 8,
+AdamW at $2.5\times10^{-3}$, and at most 1800 steps. Its teacher is used only
+during training. The first checkpoint to complete two 2--8-hop field-readiness
+windows is frozen immediately, then evaluated in two unchanged zero-teacher
+windows without another optimizer update. Selection therefore depends on a
+stable short-to-intermediate native program, never on the final horizon score.
+
+\subsection{Registered outcomes and interventions}
+
+Row accuracy records individual answers; counterfactual-pair exactness requires
+both members of an answer-reversing pair to be correct. Model-specific
+convergence requires at least 0.90 supported accuracy on both train ID and
+untouched raw-disjoint validation. A secondary matched-convergence analysis is
+restricted to seed pairs for which both models satisfy that rule. Failure in one
+arm limits only joint-convergence claims and does not erase the other model's
+independent result.
+
+The preregistered primary comparison is the 32-hop panel. Its bounded claim
+requires native accuracy of at least 0.90, a margin of at least 0.35 over the
+direct Transformer, a hierarchical bootstrap interval excluding zero, and
+exact paired McNemar $p<0.05$. Counterfactual pairs are the paired clusters and
+are nested within data seed. Bootstrap intervals follow Efron and Tibshirani
+\cite{efron1993bootstrap}; discordant outcomes use McNemar's exact test
+\cite{mcnemar1947note}. Intermediate horizons, context lengths, pair exactness,
+and unsupported rejection remain supporting panels and cannot select a
+checkpoint.
+
+Native checkpoint eligibility is stricter than answer accuracy. Measurement
+accuracy must reach 0.99; action MAE must be at most 0.12; event recall,
+precision, path coverage, and chain exactness must reach 0.99, 0.98, 0.99,
+and 0.99; closure must not degrade; hard overflow must be zero; conservation
+residual must be at most $10^{-4}$; every group must have exposure 8; and two
+consecutive readiness windows must pass. Batch, padding, identity, and raw-input
+invariance are recorded with these contracts. All registered outcomes remain
+in the readout even when a claim-specific rule is not met.
+
+Mechanism attribution then reuses the selected checkpoint without retraining.
+It changes one inference operation at a time and evaluates only
+counterfactual pairs solved by the intact model. Targeted removals disable
+action, cone, typed transport, boundary deficit, terminal mass, or
+source-conditioned memory; global controls randomize or shuffle geometry,
+bypass the conditioned world gate, or retain one world. The minimum targeted
+drop is 0.20. Formal evaluation requires intact accuracy of at least 0.80 and
+at least two eligible pairs; conditional effects are still reported below that
+panel-wide floor, but the corresponding claim is narrowed.
+
+Curvature, graph gradient, Laplacian spectrum, spectral entropy, effective
+rank, spectral gap, and world diversity are handled differently. They observe
+the frozen geometry outside the answer path and cannot change a prediction.
+Their role is descriptive and prospective, not causal attribution for current
+performance.
+
+\section{Results}
+\label{sec:results}
+
+The evidence follows the life of a single learned computation. We first verify
+that the native path converges and can be frozen without losing its contracts.
+That fixed path is then carried to greater relational depth and longer contexts
+before the same checkpoints face unsupported inputs, mechanism interventions,
+and detached geometric observation. Fitting, extrapolation, and causal
+attribution thus remain separate empirical questions, but their answers refer
+to the same computation.
+
+\subsection{Convergence and checkpoint integrity}
+
+The long-horizon study begins with the computation that will be extrapolated.
+As Table~\ref{tab:convergence} shows, native \ERGT reached 1.000 accuracy on
+both training and raw-disjoint validation in all four optimization/data-seed
+pairs. The complete route---from $\Psi$ formation through world geometry and
+GeoTransport to terminal measurement---therefore converged across fresh data
+and initializations. The strengthened direct Transformer also reached 1.000 on
+every training split, but its held-out accuracy ranged from 0.449 to 0.837.
+This gap describes the registered baseline; it does not alter the independent
+convergence result for \ERGT.
+
+\begin{table}[t]
+\centering
+\caption{Accuracy by independent optimization/data-seed pair. Values are
+from fresh confirmatory runs.}
+\label{tab:convergence}
+\small
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Seed pair & \ERGT train & \ERGT val. & \TF train & \TF val. & Freeze step \\
+\midrule
+17117/21101 & 1.000 & 1.000 & 1.000 & 0.510 & 700 \\
+18313/22307 & 1.000 & 1.000 & 1.000 & 0.459 & 700 \\
+19501/23509 & 1.000 & 1.000 & 1.000 & 0.837 & 1000 \\
+20707/24733 & 1.000 & 1.000 & 1.000 & 0.449 & 1000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Accuracy was not sufficient to select a checkpoint. The first state to pass two
+complete readiness windows was frozen only after every registered 2--8-hop
+group had sufficient exposure. The four freeze steps were 700, 700, 1000, and
+1000; minimum group exposures were 11, 11, 15, and 15 against the required
+floor of 8. No group was unseen, and no optimizer update followed freeze.
+
+The internal audits reach the same conclusion at finer resolution. All 56
+instances of the 14 native stability invariants passed. Event-chain exactness,
+geodesic path coverage, closure non-degradation, event precision, and event
+recall were each 1.000; overflow was zero; and the largest typed-payload
+conservation residual was $2.38\times10^{-7}$. Batch-size and padding
+invariance, identity construction from raw input, and raw-input parity also
+passed. The selected states were therefore stable executions of the intended
+native path rather than products of checkpoint drift, an external identity
+channel, or serialization artifacts.
+
+\subsection{Frozen generalization across horizon and context}
+
+Those states were then held fixed throughout the horizon study. Because
+training groups covered 1--8 hops and no final panel could influence selection,
+Table~\ref{tab:horizon} measures extrapolation rather than adaptation. Mean
+\ERGT accuracy remained above 0.90 at every registered horizon and reached
+0.9554 at 32 hops, whereas the direct-Transformer means remained near 0.50.
+
+\begin{table}[t]
+\centering
+\caption{Mean accuracy across four independent optimization/data-seed pairs.
+Training groups cover 1--8 hops.}
+\label{tab:horizon}
+\begin{tabular}{@{}rccr@{}}
+\toprule
+Hops & Native ERGT & Direct Transformer & Difference \\
+\midrule
+4  & 1.0000 & 0.4821 & 0.5179 \\
+8  & 1.0000 & 0.5045 & 0.4955 \\
+12 & 0.9821 & 0.5000 & 0.4821 \\
+16 & 0.9866 & 0.5000 & 0.4866 \\
+24 & 0.9196 & 0.5000 & 0.4196 \\
+32 & 0.9554 & 0.5000 & 0.4554 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The aggregate result includes visible seed variation. At 32 hops, \ERGT
+accuracy was 0.982, 1.000, 1.000, and 0.839 across the four runs; exactness on
+the corresponding answer-reversing counterfactual pairs was 0.964, 1.000,
+1.000, and 0.750. The pooled accuracies are
+\[
+\operatorname{Acc}_{\ERGT}=0.955357,
+\qquad
+\operatorname{Acc}_{\TF}=0.500000.
+\]
+Their paired difference, 0.455357, exceeds the registered 0.35 margin, while
+the native mean exceeds its 0.90 floor. A hierarchical bootstrap over data
+seed and counterfactual pair gives the 95\% interval $[0.375,0.500]$, and the
+exact paired test gives
+\[
+p_{\mathrm{McNemar}}=9.86\times10^{-32}.
+\]
+Of the 224 examples in 112 pairs, 104 were correct only for \ERGT and none
+only for the Transformer, matching the direction of the bootstrap interval and
+exact test. Within this benchmark, the frozen geometric computation therefore
+retains substantially more accuracy as relational depth extends to 32 hops.
+
+The context panels distinguish that effect from tolerance of extra tokens. At
+hop 4, mean \ERGT accuracy was 1.000, 1.000, 1.000, and 0.963 at 128, 256,
+512, and 768 tokens, compared with 0.500, 0.506, 0.519, and 0.500 for the
+Transformer. At hop 24 and contexts of 512 and 768 tokens, the corresponding
+values were 0.931 and 0.988 for \ERGT versus 0.519 and 0.531. The horizon
+effect thus persists inside the registered longer serializations, without being
+presented as a general long-context language-modeling result.
+
+\subsection{Fail-closed behavior and geometric attribution}
+
+The next question is not how often the model answers, but whether it answers
+only when its own terminal conditions are satisfied. On controlled cases in
+which neither candidate has admissible transported support, \ERGT rejected
+every example at 4, 16, and 32 hops in every seed
+(Table~\ref{tab:unsupported}); the direct Transformer rejected none.
+
+\begin{table}[t]
+\centering
+\caption{Mean correct rejection rate on controlled unsupported candidates.}
+\label{tab:unsupported}
+\begin{tabular}{@{}rcc@{}}
+\toprule
+Hops & Native ERGT & Direct Transformer \\
+\midrule
+4  & 1.0000 & 0.0000 \\
+16 & 1.0000 & 0.0000 \\
+32 & 1.0000 & 0.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+This is the benchmark's fail-closed result: absence of valid geometric support
+produces abstention rather than a forced choice. It is not an open-domain
+hallucination measure.
+
+The same frozen checkpoints were then used to test whether successful answers
+actually depend on the proposed geometry. Table~\ref{tab:mechanisms} reports
+scenario-matched interventions on pairs solved by the intact model, so each
+drop is the loss of an established capability. Action ranks admissible paths,
+the cone excludes invalid propagation, transport carries typed state, terminal
+mass verifies its arrival, memory preserves source information, and boundary
+deficit checks terminal compatibility. Removing action, cone, transport, or
+terminal mass reduced eligible accuracy from 1.000 to 0.000 in all four seeds;
+removing memory left 0.031.
+
+\begin{table}[t]
+\centering
+\caption{Frozen mechanism interventions. Full and intervention accuracies are
+computed on eligible solved pairs; ``formal seeds'' also satisfy the panel-wide
+0.80 intact-model floor.}
+\label{tab:mechanisms}
+\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Removed mechanism & Full & Intervention & Formal seeds \\
+\midrule
+Geodesic action & 1.000 & 0.000 & 4/4 \\
+Finite-speed cone & 1.000 & 0.000 & 4/4 \\
+Typed payload transport & 1.000 & 0.000 & 4/4 \\
+Terminal mass & 1.000 & 0.000 & 4/4 \\
+Source-conditioned memory & 1.000 & 0.031 & 4/4 \\
+Boundary deficit & 1.000 & 0.000 & 2/4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Boundary removal likewise changed eligible solved-pair accuracy from 1.000 to
+0.000 in every seed. Formal panel-wide qualification was 2/4 because two intact
+boundary panels scored 0.750, below the conservative 0.80 evaluability floor.
+The conditional effect is therefore present in all four runs, while the formal
+panel claim remains limited to the two preregistered eligible seeds.
+
+The global controls lead to the same interpretation. Random geometry reduced
+eligible accuracy by 0.646, cross-example shuffling by 0.597, and bypassing the
+conditioned world gate by 0.382. Restricting inference to any one of worlds
+0--7 produced zero accuracy. The result thus depends on the learned arrangement
+of costs and constraints and on composition across worlds, without requiring
+equal world use or a unique human-readable meaning for each world.
+
+\subsection{Detached geometric observers}
+
+Curvature and spectrum were observed alongside the answer path, never used as
+answer features. The detached CPU/float64 pipeline processed 26,176 induced
+graphs without unavailable values, sanitization, numerical failure, or a CUDA
+eigensolver call. In Table~\ref{tab:observers}, curvature describes local graph
+expansion and contraction; spectral rank, entropy, and gap summarize global
+mode use and connectivity; and world diversity records how broadly the
+geometric lenses participate.
+
+\begin{table}[t]
+\centering
+\caption{Detached geometric observers, averaged over four seeds.}
+\label{tab:observers}
+\small
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Observer & 4 hops & 32 hops \\
+\midrule
+Mean curvature proxy & $-0.1011$ & $-0.0154$ \\
+Negative-curvature fraction & 0.8959 & 0.9479 \\
+Mean absolute curvature gradient & 0.002424 & 0.000354 \\
+Spectral effective rank & 4.859 & 43.867 \\
+Spectral entropy & 0.711 & 0.868 \\
+Spectral gap & 0.1512 & 0.0115 \\
+World diversity & 0.1447 & 0.8052 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Between 4 and 32 hops, effective spectral rank rose from 4.859 to 43.867,
+entropy from 0.711 to 0.868, and world diversity from 0.1447 to 0.8052.
+Spectral gap fell from 0.1512 to 0.0115 and mean absolute curvature gradient
+from 0.002424 to 0.000354, while the Forman-style curvature proxy remained
+predominantly negative. The geometry therefore becomes more distributed across
+modes and worlds as chains lengthen. Because the observers were detached, this
+is a structural description, not evidence that curvature or spectrum caused
+the accuracy gain.
+
+\subsection{Computational cost}
+
+The reported behavior carries a higher computational cost. Mean training time
+on the Colab runtime was 1437.5 seconds for \ERGT and 56.25 seconds for the
+direct Transformer, a per-seed ratio of 21.3--29.8. Mean peak CUDA allocation
+was approximately 3.432 GiB versus 1.455 GiB, a ratio of 2.36. These values are
+reported for transparency and do not support an efficiency claim.
+
+Read as one sequence, the four-seed evidence connects convergence of the native
+raw-token-to-$\Psi$ path to frozen 32-hop generalization, fail-closed behavior,
+and mechanism-specific intervention effects. The numerical advantage is thus
+paired with evidence that the learned geometry, transport, memory, and terminal
+constraints participate in the answer, at the greater resource cost reported
+above.
+
+\section{Discussion}
+\label{sec:discussion}
+
+The results support a direct conclusion: \ERGT learned the complete route from
+raw tokens to a constrained decision. The $\Psi$ field was not an intermediate
+representation handed to a conventional readout. It supplied the identity and
+relation evidence from which the model formed directed world geometries,
+transported typed state, and licensed a terminal answer. This route converged
+in every fresh run and remained intact after the checkpoint was frozen. The
+experiment therefore establishes more than the feasibility of writing down a
+geometric model; it shows that the proposed geometry can be learned end to end
+and used as the model's native inference path.
+
+The horizon panels then ask whether that learned computation is reusable. They
+were never used to choose a checkpoint, so the performance reported at long
+relation depths reflects a frozen rule learned from shorter compositions rather
+than adaptation to the test horizon. The context controls help locate the
+effect: increasing the number of surrounding tokens is not equivalent to
+increasing the number of relations that must be composed. Across the registered
+panels, the geometric path remained strongest when the task required deeper
+composition, while the unsupported cases showed that it could also withhold an
+answer when the terminal conditions were not met.
+
+The direct-Transformer comparison gives this result a clear, limited meaning.
+Both models start from the same raw serialization, receive matched training
+labels, and have closely matched active parameter counts. The Transformer was
+trained with the strengthened, locked recipe selected during development, but
+it received no ERGT geometry or solver at inference. It fitted the fresh
+training sets yet did not carry the same rule across raw-disjoint validation and
+longer horizons. Under this protocol, explicit construction and execution of a
+relation geometry generalized better than direct content mixing. This is an
+architectural result for the registered benchmark, not a claim that every
+Transformer must fail or that the comparison represents universal
+post-convergence superiority.
+
+The interventions explain why the accuracy difference is attributable to the
+proposed computation. Removing path action, propagation admissibility, typed
+transport, terminal mass, or source-conditioned memory broke distinctions that
+the intact model solved. Random and shuffled geometries also caused substantial
+losses, and no single world reproduced the complete computation. These results
+rule out a simple account in which the geometric quantities are merely labels
+attached to an unrelated predictor. They support the mechanism as a composed
+system: the evidence does not require every component to be sufficient on its
+own, but it does show that the registered path depends on its geometry,
+transport, memory, and terminal constraints.
+
+This dependence also offers a natural explanation for the long-horizon
+behavior. $\Psi$ preserves identity and local relation evidence; the worlds
+retain distinct directional views; the cone removes inadmissible propagation;
+action ranks the remaining paths; GeoTransport carries the typed payload and
+memory; and terminal measurement decides whether the transported state is a
+valid answer. Extending a chain repeats these local contracts without changing
+their meaning. The observed horizon generalization is therefore consistent
+with reuse of a stable geometric law rather than reconstruction of a new global
+correlation at each length. The frozen interventions turn that interpretation
+into a testable account rather than a metaphor applied after prediction.
+
+The broader contribution is consequently not the absence of attention by
+itself. It is the construction of task-relevant structure from raw input and
+the immediate use of that structure as an executable, fail-closed geometry.
+The model is not given a graph, and the induced graph is not retained only as
+an explanation: its support, direction, cost, transported state, and boundary
+conditions determine the answer. This places \ERGT between sequence modeling,
+latent structure learning, path reasoning, and physics-informed design, while
+the combination tested here remains distinct from simply replacing the
+sequence mixer or running a learned algorithm on a supplied graph.
+
+Finally, the curvature and spectral measurements describe how the induced
+geometry changes with depth, but they do not participate in the present
+decision path. Their trends suggest concrete future tests: curvature may help
+regularize action or detect transport bottlenecks, while spectral rank, gap,
+and entropy may help monitor world allocation, collapse, memory organization,
+or structural shift. Those possibilities remain prospective. The result
+established here is narrower and firmer: within the registered relational
+family, a raw-token information field can support a convergent native geometry,
+and that geometry can sustain auditable long-horizon reasoning.
+
+\section{Scope and Limitations}
+
+This study addresses a bounded architectural hypothesis: geometry induced from
+raw tokens can execute long-horizon relational reasoning. Internal validity
+within the registered synthetic family is supported by four independent seed
+pairs, fresh data, frozen checkpoints, paired counterfactuals, invariant audits,
+and same-checkpoint interventions. Whether the result extends to natural
+language, broader tasks, or other model scales remains open.
+
+The parameter-matched direct Transformer was strengthened and locked before the
+confirmatory runs, but did not reproduce its development held-out criterion on
+the fresh data. The comparison therefore establishes an architectural advantage
+for this benchmark, not universal or post-matched-convergence superiority.
+Training uses structured supervision, whereas native inference is teacher-,
+compiler-, and executor-free. Boundary dependence is exact on eligible solved
+pairs and meets the formal panel-wide criterion in two of four seeds. Curvature
+and spectrum remain descriptive observers, computational efficiency is not
+claimed, and unsupported rejection refers only to the registered protocol.
+
+\section{Code and Data Availability}
+
+The complete reproduction release is available in the public
+\href{https://github.com/jalaljafari2009/ERGT-paper}{\texttt{ERGT-paper}}
+repository. To run it, first choose \texttt{Code > Download ZIP} on that page
+and extract the downloaded \texttt{ERGT-paper-main.zip}. Then open the
+\href{https://colab.research.google.com/github/jalaljafari2009/ERGT-paper/blob/main/notebook/ERGT_Attention_Free_Geometric_Reasoning_Study.ipynb}{executable Colab notebook},
+select a GPU runtime, and choose \texttt{Run all}. When the notebook opens the
+upload dialog, select the inner archive
+\path{ERGT-paper-main/ERGT_FourSeed_Reproduction.zip} from the extracted
+folder. The outer \texttt{ERGT-paper-main.zip} is not the runtime package and
+must not be uploaded to the notebook.
+
+\section{Conclusion}
+
+\ERGT demonstrates a distinct route from sequence input to relational
+reasoning. Instead of using self-attention or a Transformer backbone to mix the
+sequence and read out an answer, it organizes raw-token information into a
+persistent $\Psi$ field. Identity and relation evidence in that field induce
+multiple directed geometries; GeoTransport carries typed state through their
+admissible geodesics; and boundary measurement accepts an answer only when the
+transported state satisfies the terminal constraints. The induced geometry is
+therefore neither a supplied graph nor a post-hoc explanation. It is the
+model's native inference machinery.
+
+This complete field-to-answer path converged in four independent runs, passed
+all 56 stability invariants, and retained mean accuracy 0.955 at 32 hops,
+exceeding the strengthened direct Transformer by 0.455 with strong paired
+evidence. Frozen interventions further tied the solved answers to geometric
+action, admissibility, transport, memory, terminal mass, and multiworld
+composition. Within the registered relational family, these results establish
+that a trainable, attention-free information geometry can form from raw input,
+converge end to end, and reuse its local transport laws for substantially
+longer chains. This is the central contribution and the basis for studying
+executable information fields as an alternative architectural direction for
+long-horizon reasoning.
+
+\begin{thebibliography}{99}
+
+\bibitem{vaswani2017attention}
+A. Vaswani et al., ``Attention Is All You Need,'' in \emph{Advances in Neural
+Information Processing Systems}, 2017.
+
+\bibitem{gu2022s4}
+A. Gu, K. Goel, and C. R\'e, ``Efficiently Modeling Long Sequences with
+Structured State Spaces,'' in \emph{Proceedings of ICLR}, 2022.
+
+\bibitem{gu2023mamba}
+A. Gu and T. Dao, ``Mamba: Linear-Time Sequence Modeling with Selective State
+Spaces,'' in \emph{Proceedings of COLM}, 2024.
+
+\bibitem{poli2023hyena}
+M. Poli et al., ``Hyena Hierarchy: Towards Larger Convolutional Language
+Models,'' in \emph{Proceedings of ICML}, pp. 28043--28078, 2023.
+
+\bibitem{battaglia2018relational}
+P. W. Battaglia et al., ``Relational inductive biases, deep learning, and graph
+networks,'' \emph{arXiv:1806.01261}, 2018.
+
+\bibitem{gilmer2017neural}
+J. Gilmer et al., ``Neural Message Passing for Quantum Chemistry,'' in
+\emph{Proceedings of ICML}, 2017.
+
+\bibitem{bronstein2021geometric}
+M. M. Bronstein et al., ``Geometric Deep Learning: Grids, Groups, Graphs,
+Geodesics, and Gauges,'' \emph{arXiv:2104.13478}, 2021.
+
+\bibitem{velickovic2022clrs}
+P. Velickovic et al., ``The CLRS Algorithmic Reasoning Benchmark,'' in
+\emph{Proceedings of ICML}, 2022.
+
+\bibitem{bevilacqua2023causal}
+B. Bevilacqua et al., ``Neural Algorithmic Reasoning with Causal
+Regularisation,'' in \emph{Proceedings of ICML}, pp. 2272--2288, 2023.
+
+\bibitem{zhu2021nbfnet}
+Z. Zhu, Z. Zhang, L.-P. Xhonneux, and J. Tang, ``Neural Bellman--Ford Networks:
+A General Graph Neural Network Framework for Link Prediction,'' in
+\emph{Advances in Neural Information Processing Systems}, 2021.
+
+\bibitem{kipf2018nri}
+T. N. Kipf, E. Fetaya, K.-C. Wang, M. Welling, and R. S. Zemel, ``Neural
+Relational Inference for Interacting Systems,'' in \emph{Proceedings of ICML},
+pp. 2688--2697, 2018.
+
+\bibitem{topping2022understanding}
+J. Topping et al., ``Understanding Over-Squashing and Bottlenecks on Graphs via
+Curvature,'' in \emph{Proceedings of ICLR}, 2022.
+
+\bibitem{amari2016information}
+S. Amari, \emph{Information Geometry and Its Applications}. Springer, 2016.
+
+\bibitem{greydanus2019hamiltonian}
+S. Greydanus, M. Dzamba, and J. Yosinski, ``Hamiltonian Neural Networks,'' in
+\emph{Advances in Neural Information Processing Systems}, 2019.
+
+\bibitem{finzi2020constraints}
+M. Finzi, K. A. Wang, and A. G. Wilson, ``Simplifying Hamiltonian and
+Lagrangian Neural Networks via Explicit Constraints,'' in \emph{Advances in
+Neural Information Processing Systems}, 2020.
+
+\bibitem{dijkstra1959note}
+E. W. Dijkstra, ``A note on two problems in connexion with graphs,''
+\emph{Numerische Mathematik}, vol. 1, pp. 269--271, 1959.
+
+\bibitem{bellman1957dynamic}
+R. Bellman, \emph{Dynamic Programming}. Princeton University Press, 1957.
+
+\bibitem{chung1997spectral}
+F. R. K. Chung, \emph{Spectral Graph Theory}. American Mathematical Society,
+1997.
+
+\bibitem{forman2003bochner}
+R. Forman, ``Bochner's method for cell complexes and combinatorial Ricci
+curvature,'' \emph{Discrete \& Computational Geometry}, vol. 29,
+pp. 323--374, 2003.
+
+\bibitem{efron1993bootstrap}
+B. Efron and R. J. Tibshirani, \emph{An Introduction to the Bootstrap}.
+Chapman \& Hall/CRC, 1993.
+
+\bibitem{mcnemar1947note}
+Q. McNemar, ``Note on the sampling error of the difference between correlated
+proportions or percentages,'' \emph{Psychometrika}, vol. 12, pp. 153--157,
+1947.
+
+\end{thebibliography}
+
+\appendix
+\section{Operational Physics Glossary}
+
+\begin{longtable}{@{}P{0.19\linewidth}P{0.36\linewidth}P{0.36\linewidth}@{}}
+\caption{Reader-facing interpretation of physics-derived terms.}
+\label{tab:glossary}\\
+\toprule
+Term & Implemented meaning & Scope \\
+\midrule
+\endfirsthead
+\toprule
+Term & Implemented meaning & Scope \\
+\midrule
+\endhead
+$\Psi$ field & Token-indexed persistent neural state initialized from raw
+semantics, position, and internal identity fibre. & Not a physical wavefunction
+or literal field. \\
+Density $\rho$ & Mean squared field amplitude per token. & Neural diagnostic,
+not mass or energy density. \\
+Adhesion $\Phi$ & Multiplicative gate over coherence, reconstruction,
+stability, gradient, order, and boundary factors. & Constitutive modeling
+choice, not a universal information law. \\
+World lens & One of eight functions mapping the shared field to a directed edge
+potential. & Functional multiworld dependence is tested; unique human semantic
+roles are not claimed. \\
+Metric/action & Non-negative learned path cost derived from world edge strength
+and penalties. & Discrete path cost, not a proved smooth Riemannian metric. \\
+Finite-speed cone & Hard admissibility condition based on path cost and a
+discrete propagation interval. & Causal computational constraint, not physical
+relativity. \\
+GeoTransport & Geometry-conditioned movement of field and typed payload. & Not
+standard QKV value mixing. \\
+Product manifold & Discrete Cartesian state $(\text{token},\text{world})$. & A
+product graph state space, not a proved differentiable manifold. \\
+Geodesic & Minimum-action path computed by min-plus closure. & Shortest path in
+the induced discrete action, not a continuum geodesic theorem. \\
+Boundary deficit & Candidate-specific mismatch with registered terminal
+conditions. & Hard decision observable, not a physical boundary measurement. \\
+Boundary measurement & Final conjunction of typed register, terminal mass,
+deficit, reachability, and action-margin tests. & Computational answer
+acceptance or abstention rule. \\
+Terminal mass & Transported support arriving at a valid terminal state. &
+Payload support, not physical mass. \\
+Memory geometry & Persistent path-dependent edge and payload state. & Bounded
+task memory, not general episodic or language memory. \\
+Curvature proxy & Detached Forman-style edge diagnostic. & Observer only; no
+causal benefit claimed. \\
+Spectrum & Eigenvalue diagnostics of a geometry-derived graph Laplacian. &
+Observer only; no performance role claimed. \\
+\bottomrule
+\end{longtable}
+
+\end{document}

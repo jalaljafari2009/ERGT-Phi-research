@@ -1,0 +1,27 @@
+{
+  "backend_inventory_commit": "77d5dbef56d73b96db5efef2280679cb548c9bd9",
+  "bitwise_cross_gpu_reproduction_claimed": false,
+  "cuda_policy": "runtime-provided-and-recorded-at-execution",
+  "exact_version_match_required": false,
+  "gpu_policy": "runtime-assigned-and-recorded-at-execution",
+  "matplotlib": "3.10.0",
+  "minimum_python": "3.10",
+  "minimum_pytorch": "2.0",
+  "missing_required_packages_installed_by_notebook": true,
+  "numpy": "2.0.2",
+  "official_runtime_reference": "https://research.google.com/colaboratory/runtime-version-faq.html",
+  "pandas": "2.2.2",
+  "policy": "reference_versions_recorded_compatible_versions_accepted",
+  "pytest": "8.4.2",
+  "python": "3.12.13",
+  "pytorch": "2.10.0",
+  "required_notebook_packages": [
+    "numpy",
+    "pandas",
+    "torch"
+  ],
+  "runtime_provider": "Google Colaboratory",
+  "runtime_version": "2026.04",
+  "schema_version": "ergt-four-seed-environment-lock-v2",
+  "ubuntu": "22.04.5 LTS"
+}

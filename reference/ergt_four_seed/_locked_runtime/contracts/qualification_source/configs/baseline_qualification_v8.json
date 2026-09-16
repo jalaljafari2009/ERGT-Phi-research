@@ -1,0 +1,128 @@
+{
+  "profile": "baseline_qualification_v8_1",
+  "qualification_protocol_revision": "v8.1_v7_warmup_restoration",
+  "optimization_seed": 2027,
+  "data_seed": 5209,
+  "train_pairs": 448,
+  "train_unsupported_pairs": 70,
+  "training_hop_pair_counts": {
+    "1": 112,
+    "2": 49,
+    "3": 49,
+    "4": 49,
+    "5": 49,
+    "6": 49,
+    "7": 49,
+    "8": 42
+  },
+  "id_hops": 1,
+  "tuning_pairs": 49,
+  "tuning_unsupported_pairs": 14,
+  "mechanism_tuning_hops": [6, 8],
+  "mechanism_tuning_shard_count": 2,
+  "mechanism_tuning_required": true,
+  "mechanism_tuning_pairs_per_scenario": 2,
+  "mechanism_tuning_full_accuracy_floor": 0.80,
+  "mechanism_tuning_minimum_eligible_pairs": 2,
+  "mechanism_tuning_drop_floor": 0.20,
+  "validation_pairs": 49,
+  "pairs_per_hop": 28,
+  "context_pairs": 12,
+  "train_min_hops": 1,
+  "train_max_hops": 8,
+  "test_hops": [4, 8, 12, 16, 24, 32],
+  "context_lengths": [128, 256, 512, 768],
+  "interaction_context_lengths": [512, 768],
+  "unsupported_hops": [4, 16, 32],
+  "final_intervention_hops": [12, 16],
+  "max_tokens": 768,
+  "node_label_pool_size": 97,
+  "training_distractor_tokens": 16,
+  "batch_size": 16,
+  "eval_batch_size": 8,
+  "eval_interval": 100,
+  "checkpoint_stable_windows": 2,
+  "transformer_tuning_accuracy_floor": 0.90,
+  "transformer_tuning_pair_floor": 0.90,
+  "transformer_tuning_unsupported_error_ceiling": 0.10,
+  "baseline_development_accuracy_floor": 0.70,
+  "baseline_development_pair_floor": 0.70,
+  "convergence_accuracy_floor": 0.90,
+  "native_hidden_dim": 56,
+  "native_psi_rank": 20,
+  "native_field_steps": 3,
+  "native_sparse_top_k": 20,
+  "native_max_hops": 36,
+  "native_geodesic_closure_steps": 36,
+  "native_geodesic_backbone_levels": 10,
+  "transformer_auxiliary_weight": 0.25,
+  "transformer_pair_equivariance_weight": 0.10,
+  "baseline_optimization_budget_policy": "baseline_favoring_extra_steps_disclosed_no_efficiency_claim",
+  "max_pairwise_cells": 2500000,
+  "baseline_candidates": [
+    {
+      "candidate_id": "t4_aux_staged_a",
+      "n_layers": 4,
+      "loss_mode": "matched_auxiliary",
+      "learning_rate": 0.0007,
+      "warmup_steps": 1400,
+      "warmup_batch_size": 8,
+      "warmup_sampling_seed_offset": 701,
+      "batch_size": 16,
+      "eval_interval": 100,
+      "seed_offset": 0,
+      "curriculum_stages": [
+        {
+          "name": "curriculum_1_2",
+          "max_hop": 2,
+          "steps": 400,
+          "learning_rate_scale": 0.35
+        },
+        {
+          "name": "curriculum_1_4",
+          "max_hop": 4,
+          "steps": 500,
+          "learning_rate_scale": 0.25
+        },
+        {
+          "name": "curriculum_1_8",
+          "max_hop": 8,
+          "steps": 1400,
+          "learning_rate_scale": 0.15
+        }
+      ]
+    },
+    {
+      "candidate_id": "t4_aux_staged_b",
+      "n_layers": 4,
+      "loss_mode": "matched_auxiliary",
+      "learning_rate": 0.0005,
+      "warmup_steps": 1400,
+      "warmup_batch_size": 8,
+      "warmup_sampling_seed_offset": 701,
+      "batch_size": 16,
+      "eval_interval": 100,
+      "seed_offset": 0,
+      "curriculum_stages": [
+        {
+          "name": "curriculum_1_2",
+          "max_hop": 2,
+          "steps": 400,
+          "learning_rate_scale": 0.50
+        },
+        {
+          "name": "curriculum_1_4",
+          "max_hop": 4,
+          "steps": 500,
+          "learning_rate_scale": 0.35
+        },
+        {
+          "name": "curriculum_1_8",
+          "max_hop": 8,
+          "steps": 1400,
+          "learning_rate_scale": 0.20
+        }
+      ]
+    }
+  ]
+}

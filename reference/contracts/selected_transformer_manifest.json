@@ -1,0 +1,91 @@
+{
+  "data_seed": 5209,
+  "final_12_32_hop_panels_evaluated": 0,
+  "forbidden_components": [
+    "compiler",
+    "generic_executor",
+    "ERGT_graph",
+    "geometry_side_input",
+    "final_horizon_selection"
+  ],
+  "fresh_final_profile": "paper_final_v8",
+  "manifest_sha256": "2835426c8d317cf4f30d842276870b5cf64c10ace4d1268e27caa4c08244168b",
+  "optimization_seed": 2027,
+  "protocol_revision": "v8.1_v7_warmup_restoration",
+  "protocol_sha256": "ba86380a5dd23a88ddd19b87ac0c897dc40ce1f2897757db371b48b54cef3695",
+  "qualification_pass": true,
+  "qualification_source_sha256": {
+    "configs/baseline_qualification_v8.json": "4b769d9db5ef513f81b1479f3ca240ca26600eebf3d2d7ce9101f61218be78fc",
+    "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+    "ergt_reviewer/baseline_qualification_v8.py": "21ece85f77ed8f00159a2ae78995b8d2e6a77cc811110930552ecdb8bce4a74d",
+    "ergt_reviewer/fair_data.py": "7342002c14edb35be0c504a2228f3e83d65c02dafeb5967f62380207e8975b6b",
+    "ergt_reviewer/training.py": "0abac04a3ff043d851f306bb7d9683f1e347e0aff0505c46716674701181a8d3"
+  },
+  "schema_version": "ergt-reviewer-baseline-qualification-v8.1",
+  "selected_candidate": {
+    "candidate_id": "t4_aux_staged_a",
+    "parameter_audit": {
+      "inference_active_relative_parameter_difference": 0.044803268026989675,
+      "native_inference_active_parameters": 196816,
+      "transformer_config": {
+        "answer_count": 3,
+        "candidate_a_token_id": 8,
+        "candidate_b_token_id": 9,
+        "dropout": 0.0,
+        "feedforward_dim": 192,
+        "hidden_dim": 64,
+        "max_tokens": 768,
+        "n_heads": 4,
+        "n_layers": 4,
+        "query_token_id": 130,
+        "vocab_size": 141
+      },
+      "transformer_inference_active_parameters": 205634,
+      "within_ten_percent": true
+    },
+    "qualification_metrics": {
+      "development_observer_pass": false,
+      "development_pair_exact": 0.3125,
+      "development_supported_accuracy": 0.59375,
+      "train_id_supported_accuracy": 1.0,
+      "tuning_pair_exact": 1.0,
+      "tuning_supported_accuracy": 1.0,
+      "validation_pair_exact": 1.0,
+      "validation_supported_accuracy": 1.0,
+      "validation_unsupported_error_rate": 0.0
+    },
+    "recipe": {
+      "batch_size": 16,
+      "candidate_id": "t4_aux_staged_a",
+      "curriculum_stages": [
+        {
+          "learning_rate_scale": 0.35,
+          "max_hop": 2,
+          "name": "curriculum_1_2",
+          "steps": 400
+        },
+        {
+          "learning_rate_scale": 0.25,
+          "max_hop": 4,
+          "name": "curriculum_1_4",
+          "steps": 500
+        },
+        {
+          "learning_rate_scale": 0.15,
+          "max_hop": 8,
+          "name": "curriculum_1_8",
+          "steps": 1400
+        }
+      ],
+      "eval_interval": 100,
+      "learning_rate": 0.0007,
+      "loss_mode": "matched_auxiliary",
+      "n_layers": 4,
+      "seed_offset": 0,
+      "warmup_batch_size": 8,
+      "warmup_sampling_seed_offset": 701,
+      "warmup_steps": 1400
+    }
+  },
+  "selection_is_development_only": true
+}

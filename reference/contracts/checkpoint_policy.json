@@ -1,0 +1,26 @@
+{
+  "checkpoint_contract": {
+    "consecutive_readiness_windows": 2,
+    "deterministic_complete_pair_epochs": true,
+    "fallback_to_unselected_final_state_for_verdict": false,
+    "final_12_32_hop_panels_used_for_selection": false,
+    "immediate_freeze_after_readiness": true,
+    "independent_2_8_hop_readiness": true,
+    "mechanism_shards": 2,
+    "minimum_pair_group_exposure": 8,
+    "one_hop_id_is_reporting_only": true,
+    "zero_teacher_optimizer_steps": 0
+  },
+  "non_regression_requirements": [
+    "balanced registered 1-to-8-hop training exposure",
+    "independent 2-to-8-hop field readiness",
+    "minimum complete-pair group exposure before freeze",
+    "two consecutive readiness windows",
+    "immediate freeze and zero optimizer updates after freeze",
+    "mechanism evaluation on the same frozen checkpoint",
+    "no final-state fallback for a scientific verdict",
+    "no 12-to-32-hop panel used for checkpoint selection"
+  ],
+  "schema_version": "ergt-four-seed-checkpoint-policy-v1",
+  "source": "contracts/execution_lock.json"
+}

@@ -1,0 +1,12 @@
+{
+  "baseline_failure_blocks_native_result": false,
+  "bitwise_equality_across_cuda_stacks_claimed": false,
+  "curvature_and_spectrum_are_detached_observers": true,
+  "native_32_hop_accuracy_mean_minimum": 0.9,
+  "native_minus_direct_transformer_32_hop_minimum": 0.35,
+  "native_stability_invariants_must_all_pass": true,
+  "native_stability_invariants_required": 56,
+  "registered_intervention_drop_minimum": 0.2,
+  "schema_version": "ergt-four-seed-result-acceptance-v1",
+  "unsupported_error_rate_maximum": 0.1
+}
