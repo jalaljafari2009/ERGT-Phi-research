@@ -127,3 +127,9 @@ checkpoint قدیمی برای وزن‌های مرجع مفید است؛ RNG ا
 زمان‌بندی `Q^0=empty` و آداپتر واقعی proposal در [M2 lagged Q](docs/M2_LAGGED_Q_FA.md)
 ثبت شده‌اند. اجرای shadow با Q واقعی و zero-effect نیز در [M2 Q shadow](docs/M2_Q_SHADOW_FA.md)
 ثبت شده و M3 هنوز قفل است.
+
+یک پروتکل نسخه‌دارِ Q-conditioned برای M2 نیز اجرا شد: context detached از Q
+واقعی به `Psi0` اضافه شد و دقت متوازن پایش به ۸۱٫۲۲٪ رسید؛ کنترل برچسب تصادفی
+۳۲٫۱۹٪ بود. این نتیجه در [گزارش M2 Q calibration](docs/M2_Q_CALIBRATION_FA.md)
+ثبت شده است. این پذیرش مربوط به پروتکل revised است؛ geometry هنوز فعال نشده و
+آزمون مستقل M3 باید جداگانه عبور کند.
