@@ -116,3 +116,7 @@ checkpoint قدیمی برای وزن‌های مرجع مفید است؛ RNG ا
 مهندسی، اثبات پایداری کل مدل، دقت ERGT-Phi یا برتری علمی آن نیست.
 
 مجوز کد مرجع در `reference/LICENSE` حفظ شده است.
+
+آزمون اطلاعاتی context در [گزارش M2 information probe](docs/M2_INFORMATION_PROBE_FA.md)
+ثبت شده است: context نهایی ۴۱٫۴۲٪ و تاریخچهٔ میدان ۴۲٫۳۱٪ دقت متوازن پایش داشتند؛
+این برای readiness کافی نیست.

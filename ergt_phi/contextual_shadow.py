@@ -43,3 +43,18 @@ def cache_context_fields(shadow,examples,tokenizer):
         records.append({'psi':features,'events':events,'labels':labels,'example_id':example.example_id,'pair_id':example.pair_id})
         if (index+1)%50==0: print(f'Cached native context: {index+1}/{len(examples)}',flush=True)
     return records
+
+
+@torch.no_grad()
+def cache_context_histories(shadow,examples,tokenizer):
+    """Cache all completed native field states for an information-only probe."""
+    records=[]
+    for index,example in enumerate(examples):
+        batch=collate_matched_topology_examples((example,),tokenizer)
+        states=native_field_history(shadow.baseline,**batch.model_inputs())
+        history=torch.stack([state[0] for state in states],dim=0).cpu()
+        events=torch.tensor([[e.source_position,e.target_position] for e in example.base.edges],dtype=torch.long)
+        labels=torch.tensor([e.relation_id-1 for e in example.base.edges],dtype=torch.long)
+        records.append({'history':history,'events':events,'labels':labels,'example_id':example.example_id,'pair_id':example.pair_id})
+        if (index+1)%50==0: print(f'Cached native history: {index+1}/{len(examples)}',flush=True)
+    return records
