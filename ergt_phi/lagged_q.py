@@ -136,3 +136,32 @@ def native_proposal_q(proposal, edge_index, *, attention_mask=None, batch_index=
         source, target, relation, edge_index,
         node_mask=node_mask, valid_slot=node_mask,
     )
+
+
+def select_native_patch(edge_evidence, attention_mask, *, top_k=32):
+    """Select a preview-only sparse candidate list without gold topology.
+
+    The native edge evidence determines the candidate order.  Q mass is checked
+    later by ``prepare_patch``; this function only applies padding and self-edge
+    exclusions and returns the corresponding native base values.
+    """
+    if edge_evidence.ndim != 2 or attention_mask.ndim != 1:
+        raise ValueError('edge evidence/mask must be [N,N] and [N]')
+    if edge_evidence.shape != (attention_mask.numel(), attention_mask.numel()):
+        raise ValueError('edge evidence and mask domain mismatch')
+    if attention_mask.dtype != torch.bool or attention_mask.device != edge_evidence.device:
+        raise ValueError('attention mask must be boolean on the proposal device')
+    if type(top_k) is not int or top_k <= 0:
+        raise ValueError('top_k must be a positive integer')
+    valid = attention_mask[:, None] & attention_mask[None, :]
+    valid = valid & ~torch.eye(attention_mask.numel(), dtype=torch.bool, device=edge_evidence.device)
+    scores = edge_evidence.detach().masked_fill(~valid, float('-inf'))
+    flat = scores.flatten()
+    count = min(top_k, int(valid.sum()))
+    if count == 0:
+        return edge_evidence.new_empty((2, 0), dtype=torch.long), edge_evidence.new_empty((0,))
+    values, positions = torch.topk(flat, count)
+    keep = torch.isfinite(values)
+    positions = positions[keep]
+    edges = torch.stack((positions // attention_mask.numel(), positions % attention_mask.numel()))
+    return edges.to(dtype=torch.long), edge_evidence.detach()[edges[0], edges[1]]

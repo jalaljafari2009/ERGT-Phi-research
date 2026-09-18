@@ -1,6 +1,6 @@
 import torch
 import pytest
-from ergt_phi.lagged_q import build_sparse_q_with_presence,LaggedQ,native_proposal_q
+from ergt_phi.lagged_q import build_sparse_q_with_presence,LaggedQ,native_proposal_q,select_native_patch
 
 
 def test_null_class_presence_is_consumed_once_and_pi_normalizes():
@@ -49,3 +49,17 @@ def test_native_proposal_adapter_uses_event_slot_contract_and_mask():
     assert q.shape==(2,3) and bool((mass>0).all())
     torch.testing.assert_close(pi.sum(-1),torch.ones(2),atol=1e-6,rtol=0)
     assert int(pi[0].argmax())==0 and int(pi[1].argmax())==1
+
+
+def test_native_patch_selection_uses_preview_only_and_excludes_padding_self_edges():
+    evidence=torch.tensor([
+        [0., .2, .9, .8],
+        [.1, 0., .7, .6],
+        [.3, .4, 0., .5],
+        [.3, .4, .5, 0.],
+    ])
+    edges,base=select_native_patch(evidence,torch.tensor([True,True,True,False]),top_k=4)
+    assert edges.shape==(2,4)
+    assert not bool((edges[0]==edges[1]).any())
+    assert bool((edges<3).all())
+    torch.testing.assert_close(base,evidence[edges[0],edges[1]])

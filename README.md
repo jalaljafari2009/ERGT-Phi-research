@@ -125,4 +125,5 @@ checkpoint قدیمی برای وزن‌های مرجع مفید است؛ RNG ا
 کنترل برچسب تصادفی ۳۳٫۳۳٪ است. این یعنی مسیر درست، مصرف Q/mixture detached در patch تنک
 است؛ گزارش آن در [M2 proposal probe](docs/M2_PROPOSAL_PROBE_FA.md) آمده است. قرارداد
 زمان‌بندی `Q^0=empty` و آداپتر واقعی proposal در [M2 lagged Q](docs/M2_LAGGED_Q_FA.md)
-ثبت شده‌اند و M3 هنوز قفل است.
+ثبت شده‌اند. اجرای shadow با Q واقعی و zero-effect نیز در [M2 Q shadow](docs/M2_Q_SHADOW_FA.md)
+ثبت شده و M3 هنوز قفل است.

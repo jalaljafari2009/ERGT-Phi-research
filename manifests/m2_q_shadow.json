@@ -1,0 +1,1606 @@
+{
+  "status": "completed_q_shadow_zero_effect",
+  "M2_complete": false,
+  "M3_authorized_by_results": false,
+  "native_geometry_activated": false,
+  "answer_head_called_by_shadow_branch": false,
+  "zero_effect_native_output_parity": true,
+  "zero_effect_native_weights_parity": true,
+  "audit_examples": 24,
+  "rows": [
+    {
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430021_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 12,
+      "q_mass_max": 0.9970606565475464,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720011_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 10,
+      "q_mass_max": 0.9965890049934387,
+      "pi_normalization_error": 0.0,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_5_boundary_deficit:ergt43_pair_683540004_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 10,
+      "q_mass_max": 0.9965890049934387,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840014_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 16,
+      "q_mass_max": 0.9965912103652954,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_3_payload_transport:ergt43_pair_493490014_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 6,
+      "q_mass_max": 0.9973114132881165,
+      "pi_normalization_error": 1.1920928955078125e-07,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_5_geodesic_action:ergt43_pair_663360004_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 10,
+      "q_mass_max": 0.9965890049934387,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_5_memory_source_condition:ergt43_pair_713810006_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 10,
+      "q_mass_max": 0.9965419769287109,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 10,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510020_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 4,
+      "q_mass_max": 0.9971643686294556,
+      "pi_normalization_error": 0.0,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770002_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 14,
+      "q_mass_max": 0.9970261454582214,
+      "pi_normalization_error": 1.1920928955078125e-07,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840019_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 16,
+      "q_mass_max": 0.9967597723007202,
+      "pi_normalization_error": 1.1920928955078125e-07,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310019_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 6,
+      "q_mass_max": 0.9962716102600098,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_2_payload_transport:ergt43_pair_393420014_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 4,
+      "q_mass_max": 0.9971643686294556,
+      "pi_normalization_error": 0.0,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_7_boundary_deficit:ergt43_pair_883680013_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 14,
+      "q_mass_max": 0.9972138404846191,
+      "pi_normalization_error": 1.1920928955078125e-07,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_7_terminal_mass:ergt43_pair_903860019_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 14,
+      "q_mass_max": 0.9972138404846191,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110021_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 16,
+      "q_mass_max": 0.9966811537742615,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 16,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170000_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 2,
+      "q_mass_max": 1.0035431385040283,
+      "pi_normalization_error": 0.0,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_2_geodesic_action:ergt43_pair_363150000_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 4,
+      "q_mass_max": 0.9971463084220886,
+      "pi_normalization_error": 0.0,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220020_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 6,
+      "q_mass_max": 0.9973114132881165,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220009_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 6,
+      "q_mass_max": 0.9973114132881165,
+      "pi_normalization_error": 1.1920928955078125e-07,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520001_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 12,
+      "q_mass_max": 0.9970250725746155,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 2.9802322387695312e-08
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 12,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_7_memory_source_condition:ergt43_pair_913950005_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 14,
+      "q_mass_max": 0.9972138404846191,
+      "pi_normalization_error": 1.1920928955078125e-07,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 14,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_2_memory_source_condition:ergt43_pair_413600008_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 4,
+      "q_mass_max": 0.9971463084220886,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 4,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760013_cf0",
+      "candidate_edges": 32,
+      "supported_edges": 6,
+      "q_mass_max": 0.9966407418251038,
+      "pi_normalization_error": 1.1920928955078125e-07,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 6,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    },
+    {
+      "example_id": "train_hop_1_memory_source_condition:ergt43_pair_313530019_cf1",
+      "candidate_edges": 32,
+      "supported_edges": 2,
+      "q_mass_max": 1.0035431385040283,
+      "pi_normalization_error": 5.960464477539063e-08,
+      "q_detached": true,
+      "worlds": [
+        {
+          "world": 0,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 1,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 2,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 3,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 4,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 5,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 6,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        },
+        {
+          "world": 7,
+          "candidate_edges": 32,
+          "kept_edges": 2,
+          "phase_iterations": 24,
+          "residual": 0.0
+        }
+      ]
+    }
+  ],
+  "all_q_detached": true,
+  "max_pi_normalization_error": 1.1920928955078125e-07,
+  "train_sha256": "e3978bd5688fa0145cc4da581e332d1ee9b67d61aff43fcd8fb0ccec224b6c53",
+  "checkpoint_sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+  "source_sha256": {
+    "ergt_phi/lagged_q.py": "a9f1824519c7b6f06ff7bd7a09120f81b2d12d8eb7a51a1b38588b7dd0371f90",
+    "ergt_phi/phase_core.py": "60b4f53b51fba6b2c35b9edd916df6299c227136b3f96e40340b4e4b77e1a081",
+    "scripts/run_m2_q_shadow.py": "efaccb23f46532ab5f15ed500a29715bc2f961cf317509ba7afabb55dc9664df"
+  },
+  "interpretation": "Q is consumed in a detached shadow phase solve; native geometry and answer execution remain unchanged."
+}
