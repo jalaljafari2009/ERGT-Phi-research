@@ -21,6 +21,10 @@ class LinearRelationProbe(nn.Module):
 def history_pair_features(records,indices,mode='final'):
     rows=[]; labels=[]
     for record_index in indices:
+        direct=records[record_index].get('pair_features')
+        if direct is not None:
+            rows.extend(list(direct)); labels.extend(list(records[record_index]['labels']))
+            continue
         history=records[record_index].get('history')
         if history is None:
             history=records[record_index]['psi'].unsqueeze(0)

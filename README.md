@@ -120,3 +120,9 @@ checkpoint قدیمی برای وزن‌های مرجع مفید است؛ RNG ا
 آزمون اطلاعاتی context در [گزارش M2 information probe](docs/M2_INFORMATION_PROBE_FA.md)
 ثبت شده است: context نهایی ۴۱٫۴۲٪ و تاریخچهٔ میدان ۴۲٫۳۱٪ دقت متوازن پایش داشتند؛
 این برای readiness کافی نیست.
+
+تشخیص بعدی نشان داد که خروجی label-free `ProbeNative` روی پایش ۱۰۰٪ دقت متوازن دارد و
+کنترل برچسب تصادفی ۳۳٫۳۳٪ است. این یعنی مسیر درست، مصرف Q/mixture detached در patch تنک
+است؛ گزارش آن در [M2 proposal probe](docs/M2_PROPOSAL_PROBE_FA.md) آمده است. قرارداد
+زمان‌بندی `Q^0=empty` و آداپتر واقعی proposal در [M2 lagged Q](docs/M2_LAGGED_Q_FA.md)
+ثبت شده‌اند و M3 هنوز قفل است.
