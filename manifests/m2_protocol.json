@@ -1,5 +1,5 @@
 {
-  "stage": "M2_shadow_only",
+  "stage": "M2_shadow_contextual_anchor_revision",
   "config": {
     "hidden_dim": 64,
     "temperature": 0.2,
@@ -24,9 +24,10 @@
     "ergt_phi/shadow_phase.py": "1e8e2831dd18848455e941562769e6e0ae922dbb17938285e9a7084f97388e22",
     "ergt_phi/shadow_data.py": "b53c529738df8cfd45cb0df2a5089c290439b5ed1d58ba670b4731beace8a0ac",
     "ergt_phi/shadow_metrics.py": "afb7ac530d71f3ae161953893be95bed4d58f309ab760aaa9bd77e831d43685d",
+    "ergt_phi/contextual_shadow.py": "3832722eac016195c95768f38ae7a10fbb7f3b9a89eccc0347169dcf0437a53a",
     "ergt_phi/checkpoint.py": "417ff310c370b04dc93c960230a4313104e0d4a39e1bd2ddeb602a4a7a713ed0",
     "ergt_phi/native_steps.py": "1cea0e9bf4578d8ab6879df1dc9ba82f01ba2ae035ac07b186803d60bf0e715d",
-    "scripts/run_m2.py": "7ba88d0884e1368f6bc9317137967efb89cd75af4ec3dfccab0e88de2250496b"
+    "scripts/run_m2.py": "519d034a2c2e811264b8fdf243792dfc0458c2b48326a6bf9635e4fa96292fb4"
   },
   "train_sha256": "e3978bd5688fa0145cc4da581e332d1ee9b67d61aff43fcd8fb0ccec224b6c53",
   "fit_example_ids": [
@@ -542,6 +543,7 @@
   "torch": "2.14.0+cpu",
   "threads": 1,
   "phase_mode": "shadow",
+  "anchor_revision": "concat(Psi0,stop_gradient(native_final_field_context))",
   "coupling": 0.0,
   "nu": 0.0,
   "inner_iterations": 0,

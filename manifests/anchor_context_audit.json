@@ -1,0 +1,224 @@
+{
+  "initial_unchanged": true,
+  "final_sensitive_fraction": 1.0,
+  "candidate_pass": true,
+  "selected_native_step": 3,
+  "rows": [
+    {
+      "hops": 1,
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170000_cf1",
+      "old_relation": 3,
+      "new_relation": 1,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.4340561032295227,
+        0.32865238189697266,
+        0.19863831996917725
+      ]
+    },
+    {
+      "hops": 1,
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170000_cf1",
+      "old_relation": 3,
+      "new_relation": 2,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.36492642760276794,
+        0.3084262013435364,
+        0.21781349182128906
+      ]
+    },
+    {
+      "hops": 2,
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510020_cf0",
+      "old_relation": 1,
+      "new_relation": 2,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.016348183155059814,
+        0.019910871982574463,
+        0.07288124412298203
+      ]
+    },
+    {
+      "hops": 2,
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510020_cf0",
+      "old_relation": 1,
+      "new_relation": 3,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.023111507296562195,
+        0.02792060375213623,
+        0.05949448049068451
+      ]
+    },
+    {
+      "hops": 3,
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310019_cf1",
+      "old_relation": 1,
+      "new_relation": 2,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.03022325038909912,
+        0.03615772724151611,
+        0.03748738765716553
+      ]
+    },
+    {
+      "hops": 3,
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310019_cf1",
+      "old_relation": 1,
+      "new_relation": 3,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.015349745750427246,
+        0.01791203022003174,
+        0.015441656112670898
+      ]
+    },
+    {
+      "hops": 4,
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380015_cf0",
+      "old_relation": 2,
+      "new_relation": 1,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.026092231273651123,
+        0.032410264015197754,
+        0.04235529899597168
+      ]
+    },
+    {
+      "hops": 4,
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380015_cf0",
+      "old_relation": 2,
+      "new_relation": 3,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.017707228660583496,
+        0.03793179988861084,
+        0.03148515522480011
+      ]
+    },
+    {
+      "hops": 5,
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720011_cf0",
+      "old_relation": 3,
+      "new_relation": 1,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.012452244758605957,
+        0.019952893257141113,
+        0.01737391948699951
+      ]
+    },
+    {
+      "hops": 5,
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720011_cf0",
+      "old_relation": 3,
+      "new_relation": 2,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.017062902450561523,
+        0.015226364135742188,
+        0.022118568420410156
+      ]
+    },
+    {
+      "hops": 6,
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430021_cf1",
+      "old_relation": 3,
+      "new_relation": 1,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.022991418838500977,
+        0.02748267352581024,
+        0.01768016815185547
+      ]
+    },
+    {
+      "hops": 6,
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430021_cf1",
+      "old_relation": 3,
+      "new_relation": 2,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.0037967264652252197,
+        0.008031189441680908,
+        0.011270999908447266
+      ]
+    },
+    {
+      "hops": 7,
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770002_cf0",
+      "old_relation": 1,
+      "new_relation": 2,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.003821238875389099,
+        0.012978076934814453,
+        0.019261837005615234
+      ]
+    },
+    {
+      "hops": 7,
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770002_cf0",
+      "old_relation": 1,
+      "new_relation": 3,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.01474452018737793,
+        0.015622913837432861,
+        0.01583695411682129
+      ]
+    },
+    {
+      "hops": 8,
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840014_cf0",
+      "old_relation": 2,
+      "new_relation": 1,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.006802007555961609,
+        0.013531327247619629,
+        0.02672755718231201
+      ]
+    },
+    {
+      "hops": 8,
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840014_cf0",
+      "old_relation": 2,
+      "new_relation": 3,
+      "endpoint_max_abs_by_step": [
+        0.0,
+        0.01943853497505188,
+        0.024055853486061096,
+        0.03605830669403076
+      ]
+    }
+  ],
+  "base_checkpoint_sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+  "source_sha256": {
+    "ergt_phi/contextual_shadow.py": "3832722eac016195c95768f38ae7a10fbb7f3b9a89eccc0347169dcf0437a53a",
+    "scripts/audit_anchor_context.py": "7363110c9defce15c46881df4331be7d2ca582383fef213d4da354650af145a2"
+  },
+  "protocol": {
+    "scope": "fit_partition_only",
+    "examples_by_hop": {
+      "6": 0,
+      "5": 1,
+      "8": 3,
+      "2": 7,
+      "7": 8,
+      "3": 10,
+      "1": 15,
+      "4": 38
+    },
+    "edits": "first event, each of the two other non-null relation words",
+    "observable": "maximum absolute difference at canonical source/target Psi",
+    "threshold": 1e-06,
+    "pass_fraction": 0.9,
+    "candidate": "final_completed_native_field",
+    "claims": "Sensitivity only; not proof of decodable or sufficient relation information."
+  }
+}
