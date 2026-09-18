@@ -1,0 +1,265 @@
+{
+  "status": "calibration_not_qualified",
+  "implementation_complete": true,
+  "experiment_completed": true,
+  "M2_complete": false,
+  "M3_authorized_by_results": false,
+  "initial_fit": {
+    "ce": 2.549370838033742,
+    "accuracy": 0.3218390804597701,
+    "balanced_accuracy": 0.3333333333333333,
+    "per_class_recall": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "class_counts": [
+      1120,
+      1228,
+      1132
+    ],
+    "confusion_matrix": [
+      [
+        1120,
+        0,
+        0
+      ],
+      [
+        1228,
+        0,
+        0
+      ],
+      [
+        1132,
+        0,
+        0
+      ]
+    ],
+    "events": 3480,
+    "minimum_offset_separation": 2.0943949222564697,
+    "maximum_offset_displacement": 0.0,
+    "phase_resultant": 0.9906284977494648,
+    "phase_resultant_per_world": [
+      0.9922579679630231,
+      0.9886005515287722,
+      0.9913510157168166,
+      0.9888569296211002,
+      0.9921759591228598,
+      0.9853483018246502,
+      0.9955457010248577,
+      0.9908915551936384
+    ]
+  },
+  "initial_monitor": {
+    "ce": 2.498420084329476,
+    "accuracy": 0.33458646616541354,
+    "balanced_accuracy": 0.3333333333333333,
+    "per_class_recall": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "class_counts": [
+      356,
+      368,
+      340
+    ],
+    "confusion_matrix": [
+      [
+        356,
+        0,
+        0
+      ],
+      [
+        368,
+        0,
+        0
+      ],
+      [
+        340,
+        0,
+        0
+      ]
+    ],
+    "events": 1064,
+    "minimum_offset_separation": 2.0943949222564697,
+    "maximum_offset_displacement": 0.0,
+    "phase_resultant": 0.990837673289291,
+    "phase_resultant_per_world": [
+      0.9917519784744977,
+      0.9892354689107956,
+      0.9912364838279742,
+      0.9888294208558343,
+      0.9926656142041668,
+      0.9857552446827123,
+      0.9956705442349507,
+      0.9915566311233962
+    ]
+  },
+  "final_fit": {
+    "ce": 1.0915856131191912,
+    "accuracy": 0.4442528735632184,
+    "balanced_accuracy": 0.4459303667139673,
+    "per_class_recall": [
+      0.5571428571428572,
+      0.3990228013029316,
+      0.38162544169611307
+    ],
+    "class_counts": [
+      1120,
+      1228,
+      1132
+    ],
+    "confusion_matrix": [
+      [
+        624,
+        260,
+        236
+      ],
+      [
+        482,
+        490,
+        256
+      ],
+      [
+        426,
+        274,
+        432
+      ]
+    ],
+    "events": 3480,
+    "minimum_offset_separation": 1.9668800830841064,
+    "maximum_offset_displacement": 0.10448069125413895,
+    "phase_resultant": 0.252863990724342,
+    "phase_resultant_per_world": [
+      0.36964283579338414,
+      0.1805325072448474,
+      0.4538902851487251,
+      0.24595297582574033,
+      0.050990561773134276,
+      0.23404923656228593,
+      0.15735378874134634,
+      0.33049973470527255
+    ]
+  },
+  "final_monitor": {
+    "ce": 1.2966404032886476,
+    "accuracy": 0.3383458646616541,
+    "balanced_accuracy": 0.3386419149975574,
+    "per_class_recall": [
+      0.4550561797752809,
+      0.2608695652173913,
+      0.3
+    ],
+    "class_counts": [
+      356,
+      368,
+      340
+    ],
+    "confusion_matrix": [
+      [
+        162,
+        106,
+        88
+      ],
+      [
+        160,
+        96,
+        112
+      ],
+      [
+        134,
+        104,
+        102
+      ]
+    ],
+    "events": 1064,
+    "minimum_offset_separation": 1.9668800830841064,
+    "maximum_offset_displacement": 0.10448069125413895,
+    "phase_resultant": 0.25435086757151826,
+    "phase_resultant_per_world": [
+      0.3302496471374706,
+      0.18699241485893797,
+      0.460502854777794,
+      0.2508214390080622,
+      0.04773926624250392,
+      0.22677434204022875,
+      0.15220667160033974,
+      0.37952030490680894
+    ]
+  },
+  "final_checks": {
+    "all_relation_classes_present": true,
+    "balanced_accuracy": false,
+    "minimum_class_recall": false,
+    "ce_reduction": true,
+    "offset_separation": true,
+    "phase_not_constant": true
+  },
+  "completed_epochs": 20,
+  "completed_optimizer_steps": 480,
+  "calibration_seconds": 37.67145719999098,
+  "trained_native_weights_unchanged": true,
+  "native_output_and_hard_decision_parity": true,
+  "remote_relation_counterexample": {
+    "remote_relation_token_changed": true,
+    "canonical_endpoint_anchors_exactly_unchanged_before_and_after_training": true,
+    "interpretation": "Per-token Psi0 anchors cannot distinguish this change of relation at canonical endpoints."
+  },
+  "feature_conflicts": {
+    "events": 4544,
+    "distinct_endpoint_features": 2178,
+    "conflicting_feature_groups": 55,
+    "events_in_conflicting_groups": 224,
+    "empirical_feature_memorization_accuracy_ceiling": 0.9753521126760564
+  },
+  "offsets_frozen": true,
+  "rollback_to_initial_on_failure": true,
+  "protocol_sha256": "a1690b8e833865b67773373643450f087a1a1a7a56e685b1f946fee77dbf50a5",
+  "train_sha256": "e3978bd5688fa0145cc4da581e332d1ee9b67d61aff43fcd8fb0ccec224b6c53",
+  "fit_examples": 382,
+  "monitor_examples": 122,
+  "final_horizon_examples_used": 0,
+  "model_answer_improvement_claimed": false,
+  "checkpoint_resume_contract": "full_research_state_at_step_boundaries",
+  "engineering_acceptance": {
+    "passed": true,
+    "unique_tests": 93,
+    "m2_tests": 19,
+    "m1_tests": 44,
+    "m0_tests": 30,
+    "records": [
+      {
+        "file": "engineering-tests.xml",
+        "tests": 93,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "file": "resume-and-offset-tests.xml",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "note": "The two strengthened resume/offset tests supersede their earlier versions; do not count them twice."
+  },
+  "source_sha256": {
+    "tests/test_shadow_phase.py": "3e846d09ce6ef75448cf6179d25a07bd37ac5ac4e012c78d8bf49a7be28fd6b5",
+    "scripts/shadow_resume_worker.py": "9dcbd470ba14638ba11ce59f308c463e2b42ea2cca1741599b1bc89a985db898",
+    "scripts/finalize_m2.py": "f195c839c5b632e452d66df145fd8f36ff61bea180cbf7a487c54671365fc3e2"
+  },
+  "artifact_sha256": {
+    "curves.json": "508e943805eeabf77023c543cad6f342a0360c5079bb38bb0ebce03f0ed0ca05",
+    "engineering-tests.xml": "9e02ef2f399ca066193bd03350881f66746220af5af3c4b327f636d2c1b94a1c",
+    "feature_conflicts.json": "bb5c4ee2c5a18f134eeb17d5fc978de902f223042031e214c5527d489ff66a27",
+    "initial_full_state.pt": "d35023d57bc5d3182fb4d45f556e211b17e29d36d02a6cba0e8ce6416813d249",
+    "latest_full_state.pt": "e6f86cd73e7746f81c5ba57ec8e076f99103a046778ee203819dcdbfd3bdf756",
+    "protocol.json": "a1690b8e833865b67773373643450f087a1a1a7a56e685b1f946fee77dbf50a5",
+    "rejected_full_state.pt": "b538819a3355a6c15e5f3ed10db684058cdaae74dcb10168250e5fcde96e8c62",
+    "restored_initial_full_state.pt": "05ed1d9b5d1f4bbd4831d1c2d104f43a178b0e109a61a8729be122da5e625eb8",
+    "resume-and-offset-tests.xml": "eb0dc89088310eb0b9db1e822ba15f84b47207ecb4558804e51f0cfc3e76508c"
+  }
+}

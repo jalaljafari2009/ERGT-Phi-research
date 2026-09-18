@@ -47,6 +47,6 @@
   "energy_after": 0.0009936765672462877,
   "residual": 4.1794737710481926e-10,
   "error_bound_ignoring_roundoff": 1.044868442762048e-09,
-  "single_toy_solve_seconds": 0.05021400000259746,
+  "single_toy_solve_seconds": 0.0609971000085352,
   "performance_claim": false
 }

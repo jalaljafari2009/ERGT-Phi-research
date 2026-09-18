@@ -5,7 +5,7 @@
   "tests": [
     {
       "suite": "kernel",
-      "seconds": 26.08695520000765,
+      "seconds": 22.91963869999745,
       "tests": 44,
       "failures": 0,
       "errors": 0,
@@ -13,7 +13,7 @@
     },
     {
       "suite": "m0_regression",
-      "seconds": 102.17280610000307,
+      "seconds": 106.28235790001054,
       "tests": 30,
       "failures": 0,
       "errors": 0,
@@ -21,7 +21,7 @@
     },
     {
       "suite": "reference",
-      "seconds": 117.43802410000353,
+      "seconds": 113.53182030000607,
       "tests": 12,
       "failures": 0,
       "errors": 0,
