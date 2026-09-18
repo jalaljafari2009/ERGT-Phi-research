@@ -1,0 +1,635 @@
+{
+  "status": "completed_diagnostic",
+  "M2_complete": false,
+  "M3_authorized_by_results": false,
+  "results": {
+    "token_true": {
+      "initial_monitor": {
+        "ce": 2.498420084329476,
+        "accuracy": 0.33458646616541354,
+        "balanced_accuracy": 0.3333333333333333,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            356,
+            0,
+            0
+          ],
+          [
+            368,
+            0,
+            0
+          ],
+          [
+            340,
+            0,
+            0
+          ]
+        ],
+        "events": 1064
+      },
+      "final_fit": {
+        "ce": 1.0915856131191912,
+        "accuracy": 0.4442528735632184,
+        "balanced_accuracy": 0.4459303667139673,
+        "per_class_recall": [
+          0.5571428571428572,
+          0.3990228013029316,
+          0.38162544169611307
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            624,
+            260,
+            236
+          ],
+          [
+            482,
+            490,
+            256
+          ],
+          [
+            426,
+            274,
+            432
+          ]
+        ],
+        "events": 3480
+      },
+      "final_monitor": {
+        "ce": 1.2966404032886476,
+        "accuracy": 0.3383458646616541,
+        "balanced_accuracy": 0.3386419149975574,
+        "per_class_recall": [
+          0.4550561797752809,
+          0.2608695652173913,
+          0.3
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            162,
+            106,
+            88
+          ],
+          [
+            160,
+            96,
+            112
+          ],
+          [
+            134,
+            104,
+            102
+          ]
+        ],
+        "events": 1064
+      },
+      "steps": 480
+    },
+    "token_shuffled": {
+      "initial_monitor": {
+        "ce": 2.498420084329476,
+        "accuracy": 0.33458646616541354,
+        "balanced_accuracy": 0.3333333333333333,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            356,
+            0,
+            0
+          ],
+          [
+            368,
+            0,
+            0
+          ],
+          [
+            340,
+            0,
+            0
+          ]
+        ],
+        "events": 1064
+      },
+      "final_fit": {
+        "ce": 1.2208255767822265,
+        "accuracy": 0.3482758620689655,
+        "balanced_accuracy": 0.3506493282272796,
+        "per_class_recall": [
+          0.4357142857142857,
+          0.2752442996742671,
+          0.3409893992932862
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            488,
+            340,
+            292
+          ],
+          [
+            522,
+            338,
+            368
+          ],
+          [
+            424,
+            322,
+            386
+          ]
+        ],
+        "events": 3480
+      },
+      "final_monitor": {
+        "ce": 1.259904094208452,
+        "accuracy": 0.3308270676691729,
+        "balanced_accuracy": 0.33018884642278995,
+        "per_class_recall": [
+          0.5224719101123596,
+          0.24456521739130435,
+          0.2235294117647059
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            186,
+            94,
+            76
+          ],
+          [
+            162,
+            90,
+            116
+          ],
+          [
+            158,
+            106,
+            76
+          ]
+        ],
+        "events": 1064
+      },
+      "steps": 480
+    },
+    "contextual_true": {
+      "initial_monitor": {
+        "ce": 2.477188913445724,
+        "accuracy": 0.33458646616541354,
+        "balanced_accuracy": 0.3333333333333333,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            356,
+            0,
+            0
+          ],
+          [
+            368,
+            0,
+            0
+          ],
+          [
+            340,
+            0,
+            0
+          ]
+        ],
+        "events": 1064
+      },
+      "final_fit": {
+        "ce": 1.0643358888297245,
+        "accuracy": 0.4640804597701149,
+        "balanced_accuracy": 0.466507332004751,
+        "per_class_recall": [
+          0.5848214285714286,
+          0.3933224755700326,
+          0.4213780918727915
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            655,
+            227,
+            238
+          ],
+          [
+            477,
+            483,
+            268
+          ],
+          [
+            387,
+            268,
+            477
+          ]
+        ],
+        "events": 3480
+      },
+      "final_monitor": {
+        "ce": 1.2991817732502644,
+        "accuracy": 0.3533834586466165,
+        "balanced_accuracy": 0.35229400749063666,
+        "per_class_recall": [
+          0.4943820224719101,
+          0.3125,
+          0.25
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            176,
+            84,
+            96
+          ],
+          [
+            166,
+            115,
+            87
+          ],
+          [
+            167,
+            88,
+            85
+          ]
+        ],
+        "events": 1064
+      },
+      "steps": 480
+    },
+    "contextual_shuffled": {
+      "initial_monitor": {
+        "ce": 2.477188913445724,
+        "accuracy": 0.33458646616541354,
+        "balanced_accuracy": 0.3333333333333333,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            356,
+            0,
+            0
+          ],
+          [
+            368,
+            0,
+            0
+          ],
+          [
+            340,
+            0,
+            0
+          ]
+        ],
+        "events": 1064
+      },
+      "final_fit": {
+        "ce": 1.224059646431057,
+        "accuracy": 0.33936781609195404,
+        "balanced_accuracy": 0.3400475493025216,
+        "per_class_recall": [
+          0.3705357142857143,
+          0.31921824104234525,
+          0.3303886925795053
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            415,
+            346,
+            359
+          ],
+          [
+            461,
+            392,
+            375
+          ],
+          [
+            399,
+            359,
+            374
+          ]
+        ],
+        "events": 3480
+      },
+      "final_monitor": {
+        "ce": 1.2321897162530655,
+        "accuracy": 0.3449248120300752,
+        "balanced_accuracy": 0.34457515541634337,
+        "per_class_recall": [
+          0.37640449438202245,
+          0.33967391304347827,
+          0.3176470588235294
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            134,
+            115,
+            107
+          ],
+          [
+            139,
+            125,
+            104
+          ],
+          [
+            135,
+            97,
+            108
+          ]
+        ],
+        "events": 1064
+      },
+      "steps": 480
+    },
+    "pair_true": {
+      "initial_monitor": {
+        "ce": 1.111183327839787,
+        "accuracy": 0.33458646616541354,
+        "balanced_accuracy": 0.3335977087464199,
+        "per_class_recall": [
+          0.9831460674157303,
+          0.0,
+          0.01764705882352941
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            350,
+            0,
+            6
+          ],
+          [
+            364,
+            0,
+            4
+          ],
+          [
+            334,
+            0,
+            6
+          ]
+        ],
+        "events": 1064
+      },
+      "final_fit": {
+        "ce": 0.7553202903133699,
+        "accuracy": 0.6709770114942529,
+        "balanced_accuracy": 0.6684077351834831,
+        "per_class_recall": [
+          0.7258928571428571,
+          0.7687296416938111,
+          0.5106007067137809
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            813,
+            224,
+            83
+          ],
+          [
+            137,
+            944,
+            147
+          ],
+          [
+            191,
+            363,
+            578
+          ]
+        ],
+        "events": 3480
+      },
+      "final_monitor": {
+        "ce": 1.2700651713779993,
+        "accuracy": 0.3956766917293233,
+        "balanced_accuracy": 0.39202371715662326,
+        "per_class_recall": [
+          0.42696629213483145,
+          0.5108695652173914,
+          0.23823529411764705
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            152,
+            146,
+            58
+          ],
+          [
+            117,
+            188,
+            63
+          ],
+          [
+            95,
+            164,
+            81
+          ]
+        ],
+        "events": 1064
+      },
+      "steps": 480
+    },
+    "pair_shuffled": {
+      "initial_monitor": {
+        "ce": 1.111183327839787,
+        "accuracy": 0.33458646616541354,
+        "balanced_accuracy": 0.3335977087464199,
+        "per_class_recall": [
+          0.9831460674157303,
+          0.0,
+          0.01764705882352941
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            350,
+            0,
+            6
+          ],
+          [
+            364,
+            0,
+            4
+          ],
+          [
+            334,
+            0,
+            6
+          ]
+        ],
+        "events": 1064
+      },
+      "final_fit": {
+        "ce": 1.0974952434671337,
+        "accuracy": 0.3528735632183908,
+        "balanced_accuracy": 0.3333333333333333,
+        "per_class_recall": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            1120,
+            0
+          ],
+          [
+            0,
+            1228,
+            0
+          ],
+          [
+            0,
+            1132,
+            0
+          ]
+        ],
+        "events": 3480
+      },
+      "final_monitor": {
+        "ce": 1.0987914164263504,
+        "accuracy": 0.3458646616541353,
+        "balanced_accuracy": 0.3333333333333333,
+        "per_class_recall": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            356,
+            0
+          ],
+          [
+            0,
+            368,
+            0
+          ],
+          [
+            0,
+            340,
+            0
+          ]
+        ],
+        "events": 1064
+      },
+      "steps": 480
+    }
+  },
+  "elapsed_seconds": 130.142299500003,
+  "protocol_sha256": "a5761baab4249452600aa69e9768330d9314737fb417299c711b1513ed2f7514",
+  "interpretation": {
+    "true_pair_vs_context_required": "compare monitor balanced accuracy",
+    "shuffled_control": "should remain near chance; it is not a qualification gate",
+    "pair_head_is_loss_only": true
+  },
+  "provenance_verified": true,
+  "summary_balanced_accuracy": {
+    "token_true": 0.3386419149975574,
+    "token_shuffled": 0.33018884642278995,
+    "contextual_true": 0.35229400749063666,
+    "contextual_shuffled": 0.34457515541634337,
+    "pair_true": 0.39202371715662326,
+    "pair_shuffled": 0.3333333333333333
+  }
+}
