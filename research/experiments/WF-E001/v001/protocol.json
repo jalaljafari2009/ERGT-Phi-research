@@ -1,0 +1,66 @@
+{
+  "command": [
+    "{python}",
+    "-B",
+    "scripts/workflow_smoke.py"
+  ],
+  "compute": {
+    "device": "cpu",
+    "expected_seconds": 10,
+    "gpu_required": false
+  },
+  "controls": [
+    "Typed boolean gate comparisons",
+    "All files checked with SHA-256",
+    "Source extraction in an empty directory"
+  ],
+  "created_at": "2026-09-20T11:09:55+00:00",
+  "dependencies": [
+    "Python standard library only"
+  ],
+  "experiment_id": "WF-E001",
+  "gates": [
+    {
+      "artifact": "runs/workflow_smoke/metrics.json",
+      "name": "arithmetic",
+      "op": "eq",
+      "pointer": "/checks/arithmetic",
+      "value": true
+    },
+    {
+      "artifact": "runs/workflow_smoke/metrics.json",
+      "name": "deterministic",
+      "op": "eq",
+      "pointer": "/checks/deterministic",
+      "value": true
+    },
+    {
+      "artifact": "runs/workflow_smoke/metrics.json",
+      "name": "scope_is_infrastructure",
+      "op": "eq",
+      "pointer": "/scientific_evidence",
+      "value": false
+    }
+  ],
+  "goal_reference": "research/decisions/ADR-0001.md; docs/OPERATIONAL_ROADMAP_FA.md workflow contract",
+  "hypothesis": "A deterministic CPU fixture can be packaged, executed, imported and reviewed with exact provenance and all declared artifacts.",
+  "inputs": [],
+  "kind": "infrastructure",
+  "output_paths": [
+    "runs/workflow_smoke"
+  ],
+  "parent": null,
+  "prerequisites": [
+    "No pre-existing runs/workflow_smoke output directory"
+  ],
+  "required_artifacts": [
+    "runs/workflow_smoke/metrics.json"
+  ],
+  "revision": "v001",
+  "schema": "ergt-phi-protocol-v1",
+  "scientific_scope": "Infrastructure acceptance only. No ERGT model is trained, no M2 gate is passed, no M3 coupling is authorized.",
+  "seed_and_split": "Not applicable: no data sampling or learned model",
+  "stage": "workflow",
+  "timeout_seconds": 60,
+  "title": "Validate the versioned notebook and result-evidence lifecycle"
+}

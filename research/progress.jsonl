@@ -1,0 +1,2 @@
+{"created_at": "2026-09-20T11:09:55+00:00", "event_id": "4e1d1208ce8f46da9a0bccbe4c117e77", "experiment_id": "WF-E001", "kind": "experiment_created", "message": "Registered WF-E001/v001", "path": "research/experiments/WF-E001/v001", "revision": "v001", "schema": "ergt-phi-progress-v1"}
+{"created_at": "2026-09-20T11:11:04+00:00", "event_id": "e8d3151719db41219d3146d64132d956", "experiment_id": "WF-E001", "kind": "notebook_generated", "message": "Generated notebook for WF-E001/v001", "revision": "v001", "schema": "ergt-phi-progress-v1"}

@@ -1,0 +1,22 @@
+{
+  "schema": "ergt-phi-protocol-v1",
+  "experiment_id": "M2-E002",
+  "revision": "v001",
+  "created_at": "REPLACE_WITH_UTC_ISO_TIMESTAMP",
+  "stage": "M2",
+  "kind": "research",
+  "title": "REPLACE: concise question for this experiment",
+  "hypothesis": "REPLACE: falsifiable expected result and why it advances the specification",
+  "goal_reference": "docs/MATHEMATICAL_SPEC.md sections 5,14,15,17; docs/OPERATIONAL_ROADMAP_FA.md step 2",
+  "parent": null,
+  "command": ["{python}", "-B", "scripts/REPLACE_WITH_REGISTERED_RUNNER.py"],
+  "output_paths": ["runs/REPLACE_WITH_FRESH_OUTPUT_DIRECTORY"],
+  "required_artifacts": ["runs/REPLACE_WITH_FRESH_OUTPUT_DIRECTORY/result.json", "runs/REPLACE_WITH_FRESH_OUTPUT_DIRECTORY/selected_full_state.pt"],
+  "inputs": [],
+  "gates": [
+    {"name": "balanced_accuracy", "artifact": "runs/REPLACE_WITH_FRESH_OUTPUT_DIRECTORY/result.json", "pointer": "/final_monitor/balanced_accuracy", "op": "ge", "value": 0.7},
+    {"name": "checkpoint_reloaded", "artifact": "runs/REPLACE_WITH_FRESH_OUTPUT_DIRECTORY/result.json", "pointer": "/checkpoint_reload_verified", "op": "eq", "value": true}
+  ],
+  "resources": {"device": "declare cpu or cuda before building", "maximum_runtime_minutes": null},
+  "scientific_scope": "Calibration gate only; not answer improvement or automatic phase promotion"
+}

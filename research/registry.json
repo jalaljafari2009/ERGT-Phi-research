@@ -1,0 +1,10 @@
+{
+  "experiments": {
+    "WF-E001": {
+      "revisions": {
+        "v001": "experiments/WF-E001/v001"
+      }
+    }
+  },
+  "schema": "ergt-phi-registry-v1"
+}

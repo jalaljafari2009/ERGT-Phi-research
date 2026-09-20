@@ -3,6 +3,10 @@ __pycache__/
 .pytest_cache/
 pytest-cache-files-*/
 *.pyc
-runs/
+/runs/
 *.pt
 *.pth
+/research/inbox/
+/research/packages/
+/research/artifacts/
+/research/.staging/

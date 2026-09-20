@@ -1,4 +1,20 @@
-# ERGT-Phi — M0 research workspace
+# ERGT-Phi — research workspace
+
+## شروع هر جلسهٔ پژوهش
+
+راهنمای ایجنت در [AGENTS.md](AGENTS.md)، نقشهٔ مسیرهای ثابت در
+[research/INDEX.md](research/INDEX.md) و اقدام بعدی در [research/STATE.md](research/STATE.md)
+قرار دارد. چرخهٔ برنامه → کد → نوت‌بوک نسخه‌دار → اجرای Colab → دریافت شواهد → مرور
+→ تصمیم و commit در [research/WORKFLOW.md](research/WORKFLOW.md) تعریف شده است.
+
+[برنامهٔ عملیاتی](docs/OPERATIONAL_ROADMAP_FA.md)، [تصمیم‌های معماری](research/ARCHITECTURE.md)
+و [فهرست شواهد قدیمی](research/legacy/index.json) مرجع ادامهٔ کار هستند. گزارش‌های فازها در
+ادامه سوابق تاریخی‌اند: M2-Q معیار عددی را پاس کرده، اما checkpoint منتخب و تحویل اجرایی
+کامل ندارد؛ [مرور فعلی M2](research/phase_reviews/M2_CURRENT.md) این محدودیت را ثبت می‌کند.
+
+هر آزمایش جدید در `research/experiments/<experiment_id>/v001/` قرار می‌گیرد؛ نوت‌بوک،
+پروتکل، قفل بسته و گزارش هر اجرا کنار همان نسخه‌اند. ZIP و checkpoint بزرگ خارج از Git
+نگهداری می‌شوند و هش و محل بازیابی‌شان در شواهد اجرا ثبت می‌شود.
 
 ## M2: بازنگری anchor اجرا شد؛ کالیبراسیون پذیرفته نشد
 

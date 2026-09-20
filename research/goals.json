@@ -1,0 +1,20 @@
+{
+  "schema": "ergt-phi-goal-register-v1",
+  "active_goal_id": "GOAL-001",
+  "goals": [
+    {
+      "id": "GOAL-001",
+      "version": 1,
+      "status": "active",
+      "specification": "docs/MATHEMATICAL_SPEC.md",
+      "operational_plan": "docs/OPERATIONAL_ROADMAP_FA.md",
+      "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
+      "scientific_hypothesis": "Any improvement in answer quality or compute cost must be established independently against the corresponding native baseline and matched controls.",
+      "active_stage": "M2",
+      "current_variant": "Q-conditioned anchor: numerical development result exists; explicit architecture addendum and execution handoff still required",
+      "phase_review": "research/phase_reviews/M2_CURRENT.md",
+      "decision_history": ["ADR-0001"],
+      "change_policy": "Record a new goal version and ADR before a new run if scope, architecture or primary claim changes; retain all prior versions and negative results."
+    }
+  ]
+}
