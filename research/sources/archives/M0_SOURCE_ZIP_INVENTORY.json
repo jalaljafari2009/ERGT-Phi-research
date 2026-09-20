@@ -1,0 +1,744 @@
+{
+  "schema": "ergt-phi-source-archive-inventory-v1",
+  "source_id": "SRC-006",
+  "original_locator": "C:\\Users\\novo\\Desktop\\ERGT-Phi-M0.zip",
+  "bytes": 2552721,
+  "sha256": "0a6d45458fedda43e56741b17acf4be3b6e2c91ee9bc51d5d48d17a68cc43974",
+  "member_count": 122,
+  "total_uncompressed_bytes": 49043671,
+  "inspection": "ZIP directory read only; no checkpoint or member executed",
+  "members": [
+    {
+      "path": "ERGT-Phi-research/.gitignore",
+      "bytes": 58,
+      "compressed_bytes": 49,
+      "crc32": "e180e991"
+    },
+    {
+      "path": "ERGT-Phi-research/configs/m0.json",
+      "bytes": 574,
+      "compressed_bytes": 291,
+      "crc32": "24dfec23"
+    },
+    {
+      "path": "ERGT-Phi-research/docs/M0_ACCEPTANCE.md",
+      "bytes": 2567,
+      "compressed_bytes": 1345,
+      "crc32": "d03e2018"
+    },
+    {
+      "path": "ERGT-Phi-research/docs/M0_REPORT_FA.md",
+      "bytes": 7418,
+      "compressed_bytes": 2864,
+      "crc32": "50258c8a"
+    },
+    {
+      "path": "ERGT-Phi-research/docs/MATHEMATICAL_SPEC.md",
+      "bytes": 23450,
+      "compressed_bytes": 10568,
+      "crc32": "c2cce1d7"
+    },
+    {
+      "path": "ERGT-Phi-research/ergt_phi/__init__.py",
+      "bytes": 70,
+      "compressed_bytes": 71,
+      "crc32": "6250c142"
+    },
+    {
+      "path": "ERGT-Phi-research/ergt_phi/checkpoint.py",
+      "bytes": 3581,
+      "compressed_bytes": 1214,
+      "crc32": "a824fe67"
+    },
+    {
+      "path": "ERGT-Phi-research/ergt_phi/fixtures.py",
+      "bytes": 2414,
+      "compressed_bytes": 941,
+      "crc32": "fd2f7728"
+    },
+    {
+      "path": "ERGT-Phi-research/ergt_phi/model.py",
+      "bytes": 2424,
+      "compressed_bytes": 840,
+      "crc32": "76b25d05"
+    },
+    {
+      "path": "ERGT-Phi-research/ergt_phi/native_steps.py",
+      "bytes": 23581,
+      "compressed_bytes": 5029,
+      "crc32": "39e9c18b"
+    },
+    {
+      "path": "ERGT-Phi-research/ergt_phi/provenance.py",
+      "bytes": 1908,
+      "compressed_bytes": 831,
+      "crc32": "926dcd78"
+    },
+    {
+      "path": "ERGT-Phi-research/ergt_phi/runtime.py",
+      "bytes": 756,
+      "compressed_bytes": 375,
+      "crc32": "1f0b13eb"
+    },
+    {
+      "path": "ERGT-Phi-research/ergt_phi/training.py",
+      "bytes": 1070,
+      "compressed_bytes": 522,
+      "crc32": "21c1e9ae"
+    },
+    {
+      "path": "ERGT-Phi-research/manifests/engineering_fixture.json",
+      "bytes": 529,
+      "compressed_bytes": 306,
+      "crc32": "0f8bef8e"
+    },
+    {
+      "path": "ERGT-Phi-research/manifests/environment.json",
+      "bytes": 3380,
+      "compressed_bytes": 1219,
+      "crc32": "7264c957"
+    },
+    {
+      "path": "ERGT-Phi-research/manifests/m0_status.json",
+      "bytes": 625,
+      "compressed_bytes": 282,
+      "crc32": "0595baa7"
+    },
+    {
+      "path": "ERGT-Phi-research/manifests/reference.json",
+      "bytes": 9729,
+      "compressed_bytes": 3884,
+      "crc32": "646e65f6"
+    },
+    {
+      "path": "ERGT-Phi-research/manifests/reference_training_status.json",
+      "bytes": 163,
+      "compressed_bytes": 126,
+      "crc32": "24b6280a"
+    },
+    {
+      "path": "ERGT-Phi-research/manifests/research_source.json",
+      "bytes": 2318,
+      "compressed_bytes": 1189,
+      "crc32": "fcaa7b9f"
+    },
+    {
+      "path": "ERGT-Phi-research/manifests/resolved_paper_protocol.json",
+      "bytes": 5321,
+      "compressed_bytes": 1586,
+      "crc32": "72759db7"
+    },
+    {
+      "path": "ERGT-Phi-research/manifests/version_control.json",
+      "bytes": 184,
+      "compressed_bytes": 148,
+      "crc32": "a7c3c6d3"
+    },
+    {
+      "path": "ERGT-Phi-research/notebook/M0_Reference_Training.ipynb",
+      "bytes": 3933,
+      "compressed_bytes": 1402,
+      "crc32": "cb17822e"
+    },
+    {
+      "path": "ERGT-Phi-research/README.md",
+      "bytes": 6204,
+      "compressed_bytes": 2497,
+      "crc32": "611478af"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/configs/immutable_final_configuration.json",
+      "bytes": 3673,
+      "compressed_bytes": 1226,
+      "crc32": "590b649b"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/contracts/checkpoint_policy.json",
+      "bytes": 1055,
+      "compressed_bytes": 502,
+      "crc32": "4c82b671"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/contracts/checkpoint_repair_design.json",
+      "bytes": 1374,
+      "compressed_bytes": 597,
+      "crc32": "d1125b24"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/contracts/ergt43_v21_reference.json",
+      "bytes": 832,
+      "compressed_bytes": 503,
+      "crc32": "a257176f"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/contracts/execution_lock.json",
+      "bytes": 3753,
+      "compressed_bytes": 1803,
+      "crc32": "b794ea30"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/contracts/native_core_lock.json",
+      "bytes": 836,
+      "compressed_bytes": 494,
+      "crc32": "b0cf3a70"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/contracts/result_acceptance.json",
+      "bytes": 516,
+      "compressed_bytes": 280,
+      "crc32": "3bf86f6b"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/contracts/selected_transformer_manifest.json",
+      "bytes": 3103,
+      "compressed_bytes": 1233,
+      "crc32": "28512b1e"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/contracts/stability_capability_catalog.json",
+      "bytes": 3962,
+      "compressed_bytes": 1568,
+      "crc32": "de8f0c9d"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/data/canonical_registered_inputs.jsonl",
+      "bytes": 47776636,
+      "compressed_bytes": 2101492,
+      "crc32": "19df974e"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/data/cohort_fingerprints.json",
+      "bytes": 13430,
+      "compressed_bytes": 3905,
+      "crc32": "648c1d2e"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/data/tokenizer_fingerprint.json",
+      "bytes": 15640,
+      "compressed_bytes": 1180,
+      "crc32": "5c4d4bed"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/environment.lock.json",
+      "bytes": 956,
+      "compressed_bytes": 478,
+      "crc32": "fbf1d054"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/__init__.py",
+      "bytes": 213,
+      "compressed_bytes": 139,
+      "crc32": "39fd1156"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/configs/paper_final_v9.json",
+      "bytes": 3673,
+      "compressed_bytes": 1226,
+      "crc32": "590b649b"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/configs/repair_pilot_v9.json",
+      "bytes": 3584,
+      "compressed_bytes": 1173,
+      "crc32": "9987f405"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/configs/standalone_smoke.json",
+      "bytes": 3325,
+      "compressed_bytes": 1007,
+      "crc32": "bfb0f89e"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/contracts/qualification_source/configs/baseline_qualification_v8.json",
+      "bytes": 3543,
+      "compressed_bytes": 973,
+      "crc32": "897c079b"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/contracts/qualification_source/configs/paper_final_v8.json",
+      "bytes": 3145,
+      "compressed_bytes": 1095,
+      "crc32": "5be8d741"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/contracts/qualification_source/ergt_reviewer/baseline.py",
+      "bytes": 14322,
+      "compressed_bytes": 3852,
+      "crc32": "3e3f6b05"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/contracts/qualification_source/ergt_reviewer/baseline_qualification_v8.py",
+      "bytes": 22333,
+      "compressed_bytes": 5317,
+      "crc32": "b11939f7"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/contracts/qualification_source/ergt_reviewer/fair_data.py",
+      "bytes": 28701,
+      "compressed_bytes": 6448,
+      "crc32": "4bfefc70"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/contracts/qualification_source/ergt_reviewer/training.py",
+      "bytes": 101695,
+      "compressed_bytes": 14916,
+      "crc32": "91784f95"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/__init__.py",
+      "bytes": 592,
+      "compressed_bytes": 187,
+      "crc32": "4af41568"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/artifacts.py",
+      "bytes": 6719,
+      "compressed_bytes": 2214,
+      "crc32": "3a2aac13"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/baseline.py",
+      "bytes": 14322,
+      "compressed_bytes": 3852,
+      "crc32": "3e3f6b05"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/baseline_qualification.py",
+      "bytes": 339,
+      "compressed_bytes": 215,
+      "crc32": "373f1af9"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/baseline_qualification_v8.py",
+      "bytes": 342,
+      "compressed_bytes": 219,
+      "crc32": "f1db9ecf"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/data_schema.py",
+      "bytes": 17704,
+      "compressed_bytes": 4246,
+      "crc32": "8940bdaa"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/evaluation_v9.py",
+      "bytes": 28598,
+      "compressed_bytes": 5322,
+      "crc32": "817df3c9"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/fair_data_v9.py",
+      "bytes": 29993,
+      "compressed_bytes": 6655,
+      "crc32": "e63927a1"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/matched_data.py",
+      "bytes": 26277,
+      "compressed_bytes": 6209,
+      "crc32": "420b27a4"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/native_solver.py",
+      "bytes": 96206,
+      "compressed_bytes": 20170,
+      "crc32": "c11aa370"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/physics_core.py",
+      "bytes": 67860,
+      "compressed_bytes": 14150,
+      "crc32": "0d1fcb65"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/product_geodesic.py",
+      "bytes": 18490,
+      "compressed_bytes": 4435,
+      "crc32": "65164ceb"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/reporting_v9.py",
+      "bytes": 21287,
+      "compressed_bytes": 4479,
+      "crc32": "db86d0d7"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/spectral_runtime.py",
+      "bytes": 9765,
+      "compressed_bytes": 2812,
+      "crc32": "0fb75fbc"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/statistics.py",
+      "bytes": 4557,
+      "compressed_bytes": 1442,
+      "crc32": "9002c7a5"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/suite.py",
+      "bytes": 162,
+      "compressed_bytes": 123,
+      "crc32": "c4bfc995"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/suite_v9.py",
+      "bytes": 101054,
+      "compressed_bytes": 20490,
+      "crc32": "162a4f97"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/training_v9.py",
+      "bytes": 125984,
+      "compressed_bytes": 18917,
+      "crc32": "bd9d3f92"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/v7_confirmation.py",
+      "bytes": 338,
+      "compressed_bytes": 218,
+      "crc32": "281dfd4f"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/v8_confirmation.py",
+      "bytes": 5456,
+      "compressed_bytes": 1769,
+      "crc32": "c51acc94"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/v9_confirmation.py",
+      "bytes": 8778,
+      "compressed_bytes": 2559,
+      "crc32": "ad7f0211"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/ergt_reviewer/world_contract.py",
+      "bytes": 828,
+      "compressed_bytes": 474,
+      "crc32": "4be685df"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/manifests/ergt43_v21_reference.json",
+      "bytes": 832,
+      "compressed_bytes": 503,
+      "crc32": "a257176f"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/manifests/ergt_stability_capability_catalog.json",
+      "bytes": 3962,
+      "compressed_bytes": 1568,
+      "crc32": "de8f0c9d"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/manifests/v5_locked_native_core_hashes.json",
+      "bytes": 836,
+      "compressed_bytes": 494,
+      "crc32": "b0cf3a70"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/manifests/v6_repair_design.json",
+      "bytes": 1374,
+      "compressed_bytes": 597,
+      "crc32": "d1125b24"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/manifests/v8_1_selected_baseline_manifest.json",
+      "bytes": 3103,
+      "compressed_bytes": 1233,
+      "crc32": "28512b1e"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/manifests/v9_execution_lock.json",
+      "bytes": 3753,
+      "compressed_bytes": 1803,
+      "crc32": "b794ea30"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/data_registry.py",
+      "bytes": 3006,
+      "compressed_bytes": 1068,
+      "crc32": "a4ae8aa7"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/entrypoint.py",
+      "bytes": 1464,
+      "compressed_bytes": 586,
+      "crc32": "ab618a67"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/environment.py",
+      "bytes": 4731,
+      "compressed_bytes": 1535,
+      "crc32": "150c1f93"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/integrity.py",
+      "bytes": 1554,
+      "compressed_bytes": 681,
+      "crc32": "2ddc881e"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/ergt_four_seed/runtime.py",
+      "bytes": 449,
+      "compressed_bytes": 253,
+      "crc32": "9f44b550"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/LICENSE",
+      "bytes": 4760,
+      "compressed_bytes": 1941,
+      "crc32": "4bfc01fa"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/MANIFEST.sha256",
+      "bytes": 8729,
+      "compressed_bytes": 3672,
+      "crc32": "d0c67188"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/notebook/ERGT_Attention_Free_Geometric_Reasoning_Study.ipynb",
+      "bytes": 12305,
+      "compressed_bytes": 3556,
+      "crc32": "36aef0ee"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/paper/manuscript.pdf",
+      "bytes": 145956,
+      "compressed_bytes": 143251,
+      "crc32": "ccc535f5"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/paper/manuscript.tex",
+      "bytes": 68842,
+      "compressed_bytes": 24538,
+      "crc32": "9d681d59"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/paper/references.bib",
+      "bytes": 3377,
+      "compressed_bytes": 1386,
+      "crc32": "1e56ebcf"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/README.md",
+      "bytes": 4994,
+      "compressed_bytes": 2320,
+      "crc32": "6320fd72"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/requirements.lock.txt",
+      "bytes": 186,
+      "compressed_bytes": 137,
+      "crc32": "13894d0d"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/run_four_seed_study.py",
+      "bytes": 687,
+      "compressed_bytes": 362,
+      "crc32": "af84c847"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/run_acceptance.py",
+      "bytes": 377,
+      "compressed_bytes": 249,
+      "crc32": "5524072e"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/run_one_seed_acceptance.py",
+      "bytes": 1146,
+      "compressed_bytes": 524,
+      "crc32": "e9fbfc07"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/test_clean_import.py",
+      "bytes": 1167,
+      "compressed_bytes": 502,
+      "crc32": "b62315b4"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/test_data_parity.py",
+      "bytes": 268,
+      "compressed_bytes": 158,
+      "crc32": "44674792"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/test_end_to_end_smoke.py",
+      "bytes": 1741,
+      "compressed_bytes": 701,
+      "crc32": "88a93ba5"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/test_environment_compatibility.py",
+      "bytes": 1283,
+      "compressed_bytes": 587,
+      "crc32": "ed2f1308"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/test_frozen_checkpoint.py",
+      "bytes": 1095,
+      "compressed_bytes": 513,
+      "crc32": "b8b3d590"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/test_integrity.py",
+      "bytes": 1037,
+      "compressed_bytes": 418,
+      "crc32": "fa56adb0"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/test_registered_protocol.py",
+      "bytes": 2330,
+      "compressed_bytes": 861,
+      "crc32": "6943b3a0"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/test_result_validator.py",
+      "bytes": 1329,
+      "compressed_bytes": 547,
+      "crc32": "a3525a7d"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/test_resume_equivalence.py",
+      "bytes": 2167,
+      "compressed_bytes": 779,
+      "crc32": "2993436c"
+    },
+    {
+      "path": "ERGT-Phi-research/reference/tests/validate_completed_run.py",
+      "bytes": 3238,
+      "compressed_bytes": 1043,
+      "crc32": "38cc5129"
+    },
+    {
+      "path": "ERGT-Phi-research/requirements-m0.lock.txt",
+      "bytes": 400,
+      "compressed_bytes": 261,
+      "crc32": "a0c30b7a"
+    },
+    {
+      "path": "ERGT-Phi-research/runs/m0/acceptance.json",
+      "bytes": 568,
+      "compressed_bytes": 200,
+      "crc32": "76633f8c"
+    },
+    {
+      "path": "ERGT-Phi-research/runs/m0/parity-first.xml",
+      "bytes": 2673,
+      "compressed_bytes": 621,
+      "crc32": "df8964a7"
+    },
+    {
+      "path": "ERGT-Phi-research/runs/m0/reference-tests.xml",
+      "bytes": 1693,
+      "compressed_bytes": 621,
+      "crc32": "7710dfde"
+    },
+    {
+      "path": "ERGT-Phi-research/runs/m0/reference_audit.log",
+      "bytes": 96,
+      "compressed_bytes": 87,
+      "crc32": "89a1aa69"
+    },
+    {
+      "path": "ERGT-Phi-research/runs/m0/reference_tests.log",
+      "bytes": 112,
+      "compressed_bytes": 47,
+      "crc32": "64c1d476"
+    },
+    {
+      "path": "ERGT-Phi-research/runs/m0/research-tests.xml",
+      "bytes": 3603,
+      "compressed_bytes": 885,
+      "crc32": "79eca42a"
+    },
+    {
+      "path": "ERGT-Phi-research/runs/m0/research_tests.log",
+      "bytes": 112,
+      "compressed_bytes": 47,
+      "crc32": "014bda91"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/audit_reference.py",
+      "bytes": 3493,
+      "compressed_bytes": 1387,
+      "crc32": "aeae1168"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/bootstrap_m0.py",
+      "bytes": 7930,
+      "compressed_bytes": 2642,
+      "crc32": "ea249725"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/build_colab_notebook.py",
+      "bytes": 3417,
+      "compressed_bytes": 1567,
+      "crc32": "7059ac39"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/finalize_m0.py",
+      "bytes": 2388,
+      "compressed_bytes": 1049,
+      "crc32": "9fd7f850"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/package_m0.py",
+      "bytes": 1076,
+      "compressed_bytes": 587,
+      "crc32": "4032f761"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/resume_worker.py",
+      "bytes": 2758,
+      "compressed_bytes": 1120,
+      "crc32": "f77a820d"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/run_m0.py",
+      "bytes": 2001,
+      "compressed_bytes": 892,
+      "crc32": "1a1cb4ce"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/run_reference_training.py",
+      "bytes": 2519,
+      "compressed_bytes": 1022,
+      "crc32": "ef7f0ab1"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/save_engineering_fixture.py",
+      "bytes": 3057,
+      "compressed_bytes": 1237,
+      "crc32": "396aff3a"
+    },
+    {
+      "path": "ERGT-Phi-research/scripts/version_m0.py",
+      "bytes": 1245,
+      "compressed_bytes": 658,
+      "crc32": "c2ac7835"
+    },
+    {
+      "path": "ERGT-Phi-research/tests/conftest.py",
+      "bytes": 176,
+      "compressed_bytes": 132,
+      "crc32": "4c0650b9"
+    },
+    {
+      "path": "ERGT-Phi-research/tests/test_m0_checkpoint.py",
+      "bytes": 3033,
+      "compressed_bytes": 1128,
+      "crc32": "bfa653e3"
+    },
+    {
+      "path": "ERGT-Phi-research/tests/test_m0_contracts.py",
+      "bytes": 3196,
+      "compressed_bytes": 1133,
+      "crc32": "bf11f437"
+    },
+    {
+      "path": "ERGT-Phi-research/tests/test_m0_parity.py",
+      "bytes": 7839,
+      "compressed_bytes": 2167,
+      "crc32": "0036e150"
+    }
+  ]
+}

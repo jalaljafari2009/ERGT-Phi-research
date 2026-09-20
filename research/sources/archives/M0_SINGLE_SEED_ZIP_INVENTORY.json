@@ -1,0 +1,384 @@
+{
+  "schema": "ergt-phi-source-archive-inventory-v1",
+  "source_id": "SRC-005",
+  "original_locator": "C:\\Users\\novo\\Downloads\\m0_single_seed_reference-20260916T204731Z-1-001 (1).zip",
+  "bytes": 16018782,
+  "sha256": "42b1c619086df658b4e4513248ce8dfc69686a441c61036c6f8adaf0e8bf444a",
+  "member_count": 62,
+  "total_uncompressed_bytes": 17638151,
+  "inspection": "ZIP directory read only; no checkpoint or member executed",
+  "members": [
+    {
+      "path": "m0_single_seed_reference/claim_matrix.json",
+      "bytes": 4037,
+      "compressed_bytes": 1345,
+      "crc32": "9796b441"
+    },
+    {
+      "path": "m0_single_seed_reference/figure_horizon_accuracy.png",
+      "bytes": 51516,
+      "compressed_bytes": 51526,
+      "crc32": "2d51f121"
+    },
+    {
+      "path": "m0_single_seed_reference/parameter_audit.json",
+      "bytes": 8720,
+      "compressed_bytes": 2886,
+      "crc32": "e5b3d8db"
+    },
+    {
+      "path": "m0_single_seed_reference/figure_convergence.png",
+      "bytes": 48570,
+      "compressed_bytes": 48580,
+      "crc32": "132098a1"
+    },
+    {
+      "path": "m0_single_seed_reference/locked_native_core_audit.json",
+      "bytes": 1312,
+      "compressed_bytes": 450,
+      "crc32": "9301c6e0"
+    },
+    {
+      "path": "m0_single_seed_reference/runtime_invariance_audit.json",
+      "bytes": 323,
+      "compressed_bytes": 156,
+      "crc32": "027ab3b9"
+    },
+    {
+      "path": "m0_single_seed_reference/checkpoint_selection_interventions.csv",
+      "bytes": 1441,
+      "compressed_bytes": 296,
+      "crc32": "8e7d913a"
+    },
+    {
+      "path": "m0_single_seed_reference/native_stability_invariants.csv",
+      "bytes": 1550,
+      "compressed_bytes": 660,
+      "crc32": "91f462d0"
+    },
+    {
+      "path": "m0_single_seed_reference/native_training_exposure_audit.json",
+      "bytes": 13676,
+      "compressed_bytes": 804,
+      "crc32": "cf3fb765"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T09_chain_and_closure_diagnostics.csv",
+      "bytes": 907,
+      "compressed_bytes": 318,
+      "crc32": "a421b41f"
+    },
+    {
+      "path": "m0_single_seed_reference/v6_repair_design.json",
+      "bytes": 1373,
+      "compressed_bytes": 593,
+      "crc32": "a407458c"
+    },
+    {
+      "path": "m0_single_seed_reference/paired_statistics.csv",
+      "bytes": 5621,
+      "compressed_bytes": 1178,
+      "crc32": "44b7aae5"
+    },
+    {
+      "path": "m0_single_seed_reference/baseline_qualification_manifest.json",
+      "bytes": 3102,
+      "compressed_bytes": 1231,
+      "crc32": "5cf9f014"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T11_curvature_and_spectrum_observers.csv",
+      "bytes": 10060,
+      "compressed_bytes": 1929,
+      "crc32": "df4824ea"
+    },
+    {
+      "path": "m0_single_seed_reference/raw_input_internalization_audit.json",
+      "bytes": 577,
+      "compressed_bytes": 253,
+      "crc32": "24a6a8fe"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T10_identity_and_invariance_audit.csv",
+      "bytes": 377,
+      "compressed_bytes": 218,
+      "crc32": "9b714128"
+    },
+    {
+      "path": "m0_single_seed_reference/paper_readout.md",
+      "bytes": 8854,
+      "compressed_bytes": 3028,
+      "crc32": "16ab115e"
+    },
+    {
+      "path": "m0_single_seed_reference/final_execution_lock_audit.json",
+      "bytes": 6453,
+      "compressed_bytes": 1896,
+      "crc32": "70b5932e"
+    },
+    {
+      "path": "m0_single_seed_reference/paper_results_table.tex",
+      "bytes": 728,
+      "compressed_bytes": 233,
+      "crc32": "b42a63bb"
+    },
+    {
+      "path": "m0_single_seed_reference/gate_details.json",
+      "bytes": 4918,
+      "compressed_bytes": 1385,
+      "crc32": "9feb0ed3"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T05_context_matrix.csv",
+      "bytes": 1182,
+      "compressed_bytes": 419,
+      "crc32": "f5bbd0cf"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T12_resource_disclosure.csv",
+      "bytes": 417,
+      "compressed_bytes": 273,
+      "crc32": "819f0d83"
+    },
+    {
+      "path": "m0_single_seed_reference/spectral_observer_numerical_audit.json",
+      "bytes": 514,
+      "compressed_bytes": 274,
+      "crc32": "b783760f"
+    },
+    {
+      "path": "m0_single_seed_reference/qualification_manifest_audit.json",
+      "bytes": 3162,
+      "compressed_bytes": 945,
+      "crc32": "c97fe316"
+    },
+    {
+      "path": "m0_single_seed_reference/figure_causal_interventions.png",
+      "bytes": 126846,
+      "compressed_bytes": 126866,
+      "crc32": "31215113"
+    },
+    {
+      "path": "m0_single_seed_reference/causal_interventions.csv",
+      "bytes": 1930,
+      "compressed_bytes": 450,
+      "crc32": "b2ae0e79"
+    },
+    {
+      "path": "m0_single_seed_reference/environment.json",
+      "bytes": 247,
+      "compressed_bytes": 186,
+      "crc32": "c588c134"
+    },
+    {
+      "path": "m0_single_seed_reference/cohort_metrics.csv",
+      "bytes": 10002,
+      "compressed_bytes": 3253,
+      "crc32": "bc5312f2"
+    },
+    {
+      "path": "m0_single_seed_reference/protocol.json",
+      "bytes": 37164,
+      "compressed_bytes": 7547,
+      "crc32": "a1ca8499"
+    },
+    {
+      "path": "m0_single_seed_reference/paired_predictions.csv",
+      "bytes": 382552,
+      "compressed_bytes": 50478,
+      "crc32": "50bf5df6"
+    },
+    {
+      "path": "m0_single_seed_reference/fresh_seed_audit.json",
+      "bytes": 350,
+      "compressed_bytes": 168,
+      "crc32": "09c8ed36"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T06_unsupported_rejection.csv",
+      "bytes": 541,
+      "compressed_bytes": 189,
+      "crc32": "08915e82"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T02b_native_stability_invariants.csv",
+      "bytes": 1550,
+      "compressed_bytes": 660,
+      "crc32": "91f462d0"
+    },
+    {
+      "path": "m0_single_seed_reference/final_verdict.json",
+      "bytes": 14061,
+      "compressed_bytes": 3849,
+      "crc32": "d2ca0ebb"
+    },
+    {
+      "path": "m0_single_seed_reference/label_contract_audit.json",
+      "bytes": 8028,
+      "compressed_bytes": 718,
+      "crc32": "d1338974"
+    },
+    {
+      "path": "m0_single_seed_reference/training_curves.csv",
+      "bytes": 19884,
+      "compressed_bytes": 7257,
+      "crc32": "d7757bd4"
+    },
+    {
+      "path": "m0_single_seed_reference/claim_matrix.csv",
+      "bytes": 2861,
+      "compressed_bytes": 1260,
+      "crc32": "69fcd5be"
+    },
+    {
+      "path": "m0_single_seed_reference/native_stability_invariants.json",
+      "bytes": 3501,
+      "compressed_bytes": 742,
+      "crc32": "16e76f94"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T08_geometry_and_world_controls.csv",
+      "bytes": 3916,
+      "compressed_bytes": 508,
+      "crc32": "64aeeb79"
+    },
+    {
+      "path": "m0_single_seed_reference/checkpoint_manifest.json",
+      "bytes": 340,
+      "compressed_bytes": 151,
+      "crc32": "1ec9eb03"
+    },
+    {
+      "path": "m0_single_seed_reference/resource_disclosure.csv",
+      "bytes": 12240,
+      "compressed_bytes": 1896,
+      "crc32": "1800224b"
+    },
+    {
+      "path": "m0_single_seed_reference/open_scientific_rows.csv",
+      "bytes": 737,
+      "compressed_bytes": 361,
+      "crc32": "81338c06"
+    },
+    {
+      "path": "m0_single_seed_reference/geometry_observers.csv",
+      "bytes": 137669,
+      "compressed_bytes": 39610,
+      "crc32": "dec1b3b8"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T07_registered_mechanism_matrix.csv",
+      "bytes": 1830,
+      "compressed_bytes": 357,
+      "crc32": "dfec0c1c"
+    },
+    {
+      "path": "m0_single_seed_reference/cross_seed_data_audit.json",
+      "bytes": 148,
+      "compressed_bytes": 105,
+      "crc32": "2c804fa5"
+    },
+    {
+      "path": "m0_single_seed_reference/data_manifest.json",
+      "bytes": 16308,
+      "compressed_bytes": 3162,
+      "crc32": "5981c075"
+    },
+    {
+      "path": "m0_single_seed_reference/shared_input_audit.json",
+      "bytes": 1631,
+      "compressed_bytes": 531,
+      "crc32": "5f25734b"
+    },
+    {
+      "path": "m0_single_seed_reference/failed_rows.csv",
+      "bytes": 37,
+      "compressed_bytes": 36,
+      "crc32": "ccde9397"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T02_checkpoint_and_exposure_audit.csv",
+      "bytes": 450,
+      "compressed_bytes": 256,
+      "crc32": "86c4f121"
+    },
+    {
+      "path": "m0_single_seed_reference/gate_results.csv",
+      "bytes": 2986,
+      "compressed_bytes": 1315,
+      "crc32": "0d479395"
+    },
+    {
+      "path": "m0_single_seed_reference/paper_claims_table.tex",
+      "bytes": 1781,
+      "compressed_bytes": 654,
+      "crc32": "40f5522c"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/compact_table_manifest.json",
+      "bytes": 950,
+      "compressed_bytes": 362,
+      "crc32": "d932c359"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T01_claim_and_gate_matrix.csv",
+      "bytes": 6899,
+      "compressed_bytes": 2313,
+      "crc32": "44054c87"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T13_paired_statistics.csv",
+      "bytes": 3012,
+      "compressed_bytes": 770,
+      "crc32": "389d8dc3"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T03_independent_convergence.csv",
+      "bytes": 302,
+      "compressed_bytes": 202,
+      "crc32": "06f415a6"
+    },
+    {
+      "path": "m0_single_seed_reference/architecture_audit.json",
+      "bytes": 1842,
+      "compressed_bytes": 678,
+      "crc32": "3677beff"
+    },
+    {
+      "path": "m0_single_seed_reference/compact_tables/T04_horizon_matrix.csv",
+      "bytes": 767,
+      "compressed_bytes": 245,
+      "crc32": "e050ff06"
+    },
+    {
+      "path": "m0_single_seed_reference/opt_12011_data_16301/native_ergt_training_field_step_600.pt",
+      "bytes": 840663,
+      "compressed_bytes": 743321,
+      "crc32": "80650f71"
+    },
+    {
+      "path": "m0_single_seed_reference/opt_12011_data_16301/native_ergt_training.pt",
+      "bytes": 4231927,
+      "compressed_bytes": 3701923,
+      "crc32": "fb1e1244"
+    },
+    {
+      "path": "m0_single_seed_reference/opt_12011_data_16301/direct_transformer_training.pt",
+      "bytes": 2756711,
+      "compressed_bytes": 2444691,
+      "crc32": "58ff5df0"
+    },
+    {
+      "path": "m0_single_seed_reference/ergt_geometric_study_evidence_bundle.zip",
+      "bytes": 7985435,
+      "compressed_bytes": 7986655,
+      "crc32": "a9b9242c"
+    },
+    {
+      "path": "m0_single_seed_reference/opt_12011_data_16301/native_ergt_training_field_step_700.pt",
+      "bytes": 840663,
+      "compressed_bytes": 743307,
+      "crc32": "676e9e69"
+    }
+  ]
+}

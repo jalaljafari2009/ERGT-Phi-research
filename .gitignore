@@ -10,3 +10,5 @@ pytest-cache-files-*/
 /research/packages/
 /research/artifacts/
 /research/.staging/
+/research/workspace/
+/.cache/

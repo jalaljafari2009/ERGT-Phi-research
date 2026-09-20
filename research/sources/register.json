@@ -1,0 +1,124 @@
+{
+  "schema": "ergt-phi-source-register-v1",
+  "recorded_at": "2026-09-20",
+  "paths_relative_to": "repository_root",
+  "archive_policy": "Small original attachments tracked byte-exact; original ZIP copies kept in ignored research/artifacts/source_archives with tracked hash/inventory; originals unmodified.",
+  "chat_scope": "Available user messages and attachments only; absent assistant history and original chat timestamps are not reconstructed.",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "kind": "reference_package_description",
+      "original_locator": "C:\\Users\\novo\\.codex\\attachments\\1cf19509-bbd8-4686-896a-a0e5fe84953d\\pasted-text.txt",
+      "archived_path": "research/sources/attachments/CHAT-ATT-001_package_readme.txt",
+      "preservation": "byte_exact_verified",
+      "evidence_level": "received_file",
+      "legacy_id": "LEGACY-M0",
+      "bytes": 5099,
+      "sha256": "c3546a71175c948a4a7ef6515380d9a629adbb581ceafcb8b4a4f08522d7ac61"
+    },
+    {
+      "id": "SRC-002",
+      "kind": "pasted_result_json_and_summary",
+      "original_locator": "C:\\Users\\novo\\.codex\\attachments\\b1e4f59d-880c-4b03-a62f-9a3b4e2043ff\\pasted-text.txt",
+      "archived_path": "research/sources/attachments/CHAT-ATT-002_m0_run_verdict.txt",
+      "preservation": "byte_exact_verified",
+      "evidence_level": "received_file",
+      "legacy_id": "LEGACY-M0",
+      "bytes": 14862,
+      "sha256": "24d76927cf3e333a279788d49aa5dff0f87553634403f05413b1b169ba3ff3ad"
+    },
+    {
+      "id": "SRC-003",
+      "kind": "user_supplied_manuscript",
+      "original_locator": "C:\\Users\\novo\\Desktop\\manuscript.pdf",
+      "archived_path": "research/sources/paper/manuscript_user_supplied.pdf",
+      "preservation": "byte_exact_verified",
+      "evidence_level": "received_file",
+      "legacy_id": null,
+      "bytes": 375782,
+      "sha256": "bd7040a410aa6480e173eadf5ff55de438d120bde254df3c32e9ad20d9f2f11c",
+      "comparison": {
+        "path": "reference/paper/manuscript.pdf",
+        "bytes": 145956,
+        "sha256": "6498b5b2ddb127e60b99cfdb865f0c58fac495b2dc804cf724f0c7323574f6b2",
+        "byte_identical": false,
+        "scientific_version_comparison": "not_performed"
+      }
+    },
+    {
+      "id": "SRC-004",
+      "kind": "user_supplied_mathematical_spec",
+      "original_locator": "C:\\Users\\novo\\Desktop\\MATHEMATICAL_SPEC (1).md",
+      "archived_path": "research/sources/spec/MATHEMATICAL_SPEC_user_supplied.md",
+      "preservation": "byte_exact_verified",
+      "evidence_level": "received_file",
+      "legacy_id": null,
+      "bytes": 23450,
+      "sha256": "04ac57cc76395f7b032356bcac38b70b796233ac4aa59ba26a6b2474977c5d90",
+      "comparison": {
+        "path": "docs/MATHEMATICAL_SPEC.md",
+        "bytes": 23450,
+        "sha256": "04ac57cc76395f7b032356bcac38b70b796233ac4aa59ba26a6b2474977c5d90",
+        "byte_identical": true
+      }
+    },
+    {
+      "id": "SRC-005",
+      "kind": "historical_single_seed_result_archive",
+      "original_locator": "C:\\Users\\novo\\Downloads\\m0_single_seed_reference-20260916T204731Z-1-001 (1).zip",
+      "archived_path": "research/artifacts/source_archives/m0_single_seed_reference-20260916T204731Z-1-001 (1).zip",
+      "archive_copy_verified": true,
+      "evidence_level": "received_archive_inventory",
+      "legacy_id": "LEGACY-M0",
+      "bytes": 16018782,
+      "sha256": "42b1c619086df658b4e4513248ce8dfc69686a441c61036c6f8adaf0e8bf444a",
+      "inventory_path": "research/sources/archives/M0_SINGLE_SEED_ZIP_INVENTORY.json",
+      "preservation": "byte_exact_local_archive_verified",
+      "durable_remote_backup_verified": false
+    },
+    {
+      "id": "SRC-006",
+      "kind": "historical_m0_source_archive",
+      "original_locator": "C:\\Users\\novo\\Desktop\\ERGT-Phi-M0.zip",
+      "archived_path": "research/artifacts/source_archives/ERGT-Phi-M0.zip",
+      "archive_copy_verified": true,
+      "evidence_level": "received_archive_inventory",
+      "legacy_id": "LEGACY-M0",
+      "bytes": 2552721,
+      "sha256": "0a6d45458fedda43e56741b17acf4be3b6e2c91ee9bc51d5d48d17a68cc43974",
+      "inventory_path": "research/sources/archives/M0_SOURCE_ZIP_INVENTORY.json",
+      "preservation": "byte_exact_local_archive_verified",
+      "durable_remote_backup_verified": false
+    },
+    {
+      "id": "CHAT-001",
+      "kind": "curated_visible_conversation_chronology",
+      "original_locator": "visible conversation supplied to this session; message timestamps unavailable",
+      "archived_path": "research/sources/CONVERSATION_HISTORY_FA.md",
+      "preservation": "curated_from_visible_messages_not_full_chat_export",
+      "evidence_level": "reported_in_chat",
+      "bytes": 9278,
+      "sha256": "a625cd9eeaa7c1c4dfa14d7824f5d7aecfaf3a428ebf27bde01891aff66d2cb7"
+    },
+    {
+      "id": "CHAT-002",
+      "kind": "researcher_requirements_with_quotations",
+      "original_locator": "visible conversation supplied to this session; message timestamps unavailable",
+      "archived_path": "research/sources/RESEARCHER_REQUIREMENTS_FA.md",
+      "preservation": "curated_from_visible_messages_not_full_chat_export",
+      "evidence_level": "reported_in_chat",
+      "bytes": 7862,
+      "sha256": "ed4b4ae06ce6f0051e2ea62f68a6a0f7095a78b2f5734b52a1366803a617efc8"
+    },
+    {
+      "id": "CHAT-003",
+      "kind": "user_reported_terminal_excerpts",
+      "original_locator": "visible conversation supplied to this session; message timestamps unavailable",
+      "archived_path": "research/sources/chat/terminal_excerpts.md",
+      "preservation": "curated_from_visible_messages_not_full_chat_export",
+      "evidence_level": "reported_in_chat",
+      "bytes": 6717,
+      "sha256": "9e520f70d65b1da976e5c42d60a3840706f313db0cf2d966b596cdb25abaedfa"
+    }
+  ]
+}

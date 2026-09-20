@@ -1,0 +1,38 @@
+{
+  "schema": "ergt-phi-source-reconciliation-v1",
+  "recorded_at": "2026-09-20",
+  "source_ids": [
+    "SRC-002",
+    "SRC-005"
+  ],
+  "pasted_verdict_equals_archive_verdict": true,
+  "comparison": "JSON semantic equality of second JSON object in pasted text and archive final_verdict.json",
+  "archive_verdict_member": "m0_single_seed_reference/final_verdict.json",
+  "archive_verdict_bytes_sha256": "12e0657aefbd3d8aa26ade59d60d4eb8249a2ba7cc90901e10a358882c9defc4",
+  "pasted_execution_summary": {
+    "status": "execution_completed",
+    "mode": "single",
+    "run_root": "/content/drive/MyDrive/ERGT_Phi_M0/reference_training/m0_single_seed_reference",
+    "summary_path": "/content/drive/MyDrive/ERGT_Phi_M0/reference_training/m0_single_seed_reference/final_verdict.json",
+    "native_claim_status": "open",
+    "execution_integrity_pass": true,
+    "note": "Inspect checkpoint selection and native readiness before admitting a trained reference."
+  },
+  "archive_environment": {
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "device": "cuda",
+    "gpu_name": "Tesla T4",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+    "torch": "2.11.0+cu128"
+  },
+  "archive_checkpoint_manifest": {
+    "opt_12011_data_16301": {
+      "direct_transformer": "/content/drive/MyDrive/ERGT_Phi_M0/reference_training/m0_single_seed_reference/opt_12011_data_16301/direct_transformer_training.pt",
+      "native_ergt": "/content/drive/MyDrive/ERGT_Phi_M0/reference_training/m0_single_seed_reference/opt_12011_data_16301/native_ergt_training.pt"
+    }
+  },
+  "scope": "Source reconciliation only; no scientific re-execution, checkpoint loading, or new-bundle provenance authentication",
+  "canonical_historical_record": "research/legacy/LEGACY-M0/README.md"
+}
