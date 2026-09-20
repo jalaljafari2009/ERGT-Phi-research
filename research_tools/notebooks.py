@@ -12,7 +12,14 @@ from research_tools.runner import safe_path, sha256
 
 
 SOURCE_DIRECTORIES = ("ergt_phi", "reference", "scripts", "configs", "research_tools", "tests")
-SOURCE_FILES = ("requirements-m0.lock.txt", "README.md", "AGENTS.md")
+SOURCE_FILES = (
+    "requirements-m0.lock.txt", "README.md", "AGENTS.md",
+    # Small accepted metadata needed by relocated legacy readers. Raw data and
+    # checkpoints remain explicit, hash-pinned protocol inputs.
+    "research/legacy/path_map.json",
+    "research/legacy/LEGACY-M0/manifests/reference.json",
+    "research/legacy/LEGACY-M0/manifests/trained_m0_audit.json",
+)
 EXCLUDED_PARTS = {".git", ".venv", "__pycache__", ".pytest_cache", "node_modules", "runs", "secrets", "credentials"}
 EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".pt", ".pth", ".ckpt", ".safetensors", ".pem", ".key", ".p12", ".bin", ".onnx", ".h5", ".hdf5", ".zip", ".exe", ".dll", ".so"}
 

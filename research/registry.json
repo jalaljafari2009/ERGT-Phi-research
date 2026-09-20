@@ -6,5 +6,8 @@
       }
     }
   },
-  "schema": "ergt-phi-registry-v1"
+  "legacy_index": "legacy/index.json",
+  "schema": "ergt-phi-registry-v1",
+  "source_register": "sources/register.json",
+  "state": "STATE.md"
 }

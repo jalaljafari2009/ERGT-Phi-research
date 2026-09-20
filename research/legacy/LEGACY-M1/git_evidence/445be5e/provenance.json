@@ -1,0 +1,22 @@
+{
+  "schema": "ergt-phi-legacy-git-recovery-v1",
+  "recovered_at": "2026-09-20",
+  "experiment_id": "LEGACY-M1",
+  "source_commit": "445be5e4bde125b06b66a6eed9b5cb653c974ef5",
+  "reason": "First local M1 acceptance run; later rerun has the same counts and different timings.",
+  "records": [
+    {
+      "original_path": "manifests/m1_status.json",
+      "recovered_path": "research/legacy/LEGACY-M1/git_evidence/445be5e/manifests/m1_status.json",
+      "git_commit": "445be5e4bde125b06b66a6eed9b5cb653c974ef5",
+      "git_blob": "3e5a5eebe4d87e25bb4309ca2a42b738a2f22312",
+      "sha256": "0a205729a18d50ad538fcd0b6208dab9630936f6d913b5706d76360a7a035051",
+      "bytes": 1648,
+      "byte_exact_recovery": true
+    }
+  ],
+  "limitations": [
+    "Recovery retains the historical statement and does not rerun or newly authenticate the experiment.",
+    "No original raw output or checkpoint is reconstructed from a manifest."
+  ]
+}

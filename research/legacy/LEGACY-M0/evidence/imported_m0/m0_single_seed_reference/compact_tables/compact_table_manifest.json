@@ -1,0 +1,21 @@
+{
+  "curvature_and_spectrum_are_observer_only": true,
+  "display_order": [
+    "compact_tables/T01_claim_and_gate_matrix.csv",
+    "compact_tables/T02_checkpoint_and_exposure_audit.csv",
+    "compact_tables/T02b_native_stability_invariants.csv",
+    "compact_tables/T03_independent_convergence.csv",
+    "compact_tables/T04_horizon_matrix.csv",
+    "compact_tables/T05_context_matrix.csv",
+    "compact_tables/T06_unsupported_rejection.csv",
+    "compact_tables/T07_registered_mechanism_matrix.csv",
+    "compact_tables/T08_geometry_and_world_controls.csv",
+    "compact_tables/T09_chain_and_closure_diagnostics.csv",
+    "compact_tables/T10_identity_and_invariance_audit.csv",
+    "compact_tables/T11_curvature_and_spectrum_observers.csv",
+    "compact_tables/T12_resource_disclosure.csv",
+    "compact_tables/T13_paired_statistics.csv"
+  ],
+  "raw_exports_follow_compact_tables": true,
+  "schema_version": "ergt-geometric-study-compact-tables-v1"
+}

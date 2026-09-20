@@ -1,0 +1,2 @@
+batch_invariance_pass,batch_mismatches,contract_pass,data_seed,full_forward_exact,identity_fibre_exact,native_readiness_domain_matches_config,optimization_seed,padding_invariance_pass,padding_mismatches,public_raw_token_only,raw_fingerprint_collision_free,train_evaluation_raw_overlap_count,unknown_token_free
+True,[],True,16301,True,True,True,12011,True,[],True,True,0,True

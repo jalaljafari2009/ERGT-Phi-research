@@ -1,0 +1,97 @@
+{
+  "schema": "ergt-phi-legacy-git-recovery-v1",
+  "recovered_at": "2026-09-20",
+  "experiment_id": "LEGACY-M2-INITIAL",
+  "reason": "Initial M2 tracked manifest and protocol were overwritten by contextual revision; original raw run directory was ignored by Git.",
+  "source_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+  "records": [
+    {
+      "original_path": "manifests/m2_status.json",
+      "recovered_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_status.json",
+      "git_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+      "git_blob": "f0213b416989ff47fc4e319c900e4de993acacd4",
+      "sha256": "fcf63dd089c6418669cb1b09cdbbfb36ab731329176270d1be6950ebd96295fb",
+      "bytes": 7183,
+      "byte_exact_recovery": true
+    },
+    {
+      "original_path": "manifests/m2_protocol.json",
+      "recovered_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_protocol.json",
+      "git_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+      "git_blob": "c19a5691bf4004f8e60e9a863d6284c4f3ca3674",
+      "sha256": "a1690b8e833865b67773373643450f087a1a1a7a56e685b1f946fee77dbf50a5",
+      "bytes": 33789,
+      "byte_exact_recovery": true
+    }
+  ],
+  "original_raw_artifacts": [
+    {
+      "original_path": "runs/m2/curves.json",
+      "expected_sha256": "508e943805eeabf77023c543cad6f342a0360c5079bb38bb0ebce03f0ed0ca05",
+      "same_bytes_survived_in_current_run_directory_at_audit": false,
+      "recovered_from_git": false,
+      "surviving_location_after_migration": null
+    },
+    {
+      "original_path": "runs/m2/engineering-tests.xml",
+      "expected_sha256": "9e02ef2f399ca066193bd03350881f66746220af5af3c4b327f636d2c1b94a1c",
+      "same_bytes_survived_in_current_run_directory_at_audit": false,
+      "recovered_from_git": false,
+      "surviving_location_after_migration": null
+    },
+    {
+      "original_path": "runs/m2/feature_conflicts.json",
+      "expected_sha256": "bb5c4ee2c5a18f134eeb17d5fc978de902f223042031e214c5527d489ff66a27",
+      "same_bytes_survived_in_current_run_directory_at_audit": false,
+      "recovered_from_git": false,
+      "surviving_location_after_migration": null
+    },
+    {
+      "original_path": "runs/m2/initial_full_state.pt",
+      "expected_sha256": "d35023d57bc5d3182fb4d45f556e211b17e29d36d02a6cba0e8ce6416813d249",
+      "same_bytes_survived_in_current_run_directory_at_audit": false,
+      "recovered_from_git": false,
+      "surviving_location_after_migration": null
+    },
+    {
+      "original_path": "runs/m2/latest_full_state.pt",
+      "expected_sha256": "e6f86cd73e7746f81c5ba57ec8e076f99103a046778ee203819dcdbfd3bdf756",
+      "same_bytes_survived_in_current_run_directory_at_audit": false,
+      "recovered_from_git": false,
+      "surviving_location_after_migration": null
+    },
+    {
+      "original_path": "runs/m2/protocol.json",
+      "expected_sha256": "a1690b8e833865b67773373643450f087a1a1a7a56e685b1f946fee77dbf50a5",
+      "same_bytes_survived_in_current_run_directory_at_audit": false,
+      "recovered_from_git": true,
+      "surviving_location_after_migration": null
+    },
+    {
+      "original_path": "runs/m2/rejected_full_state.pt",
+      "expected_sha256": "b538819a3355a6c15e5f3ed10db684058cdaae74dcb10168250e5fcde96e8c62",
+      "same_bytes_survived_in_current_run_directory_at_audit": false,
+      "recovered_from_git": false,
+      "surviving_location_after_migration": null
+    },
+    {
+      "original_path": "runs/m2/restored_initial_full_state.pt",
+      "expected_sha256": "05ed1d9b5d1f4bbd4831d1c2d104f43a178b0e109a61a8729be122da5e625eb8",
+      "same_bytes_survived_in_current_run_directory_at_audit": false,
+      "recovered_from_git": false,
+      "surviving_location_after_migration": null
+    },
+    {
+      "original_path": "runs/m2/resume-and-offset-tests.xml",
+      "expected_sha256": "eb0dc89088310eb0b9db1e822ba15f84b47207ecb4558804e51f0cfc3e76508c",
+      "same_bytes_survived_in_current_run_directory_at_audit": false,
+      "recovered_from_git": false,
+      "surviving_location_after_migration": null
+    }
+  ],
+  "limitations": [
+    "No original training checkpoint or training curve is reconstructed.",
+    "Historical source commit is recoverable through Git; no new experiment execution is claimed.",
+    "No new workflow bundle authenticity is claimed for this historical run."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "stage": "M2_representation_diagnostic",
+  "data_train_sha256": "e3978bd5688fa0145cc4da581e332d1ee9b67d61aff43fcd8fb0ccec224b6c53",
+  "fit_count": 382,
+  "monitor_count": 122,
+  "epochs": 20,
+  "batch_size": 16,
+  "shuffle_controls": true,
+  "native_integration": false,
+  "answer_claim": false,
+  "source_sha256": {
+    "ergt_phi/shadow_phase.py": "1e8e2831dd18848455e941562769e6e0ae922dbb17938285e9a7084f97388e22",
+    "ergt_phi/shadow_data.py": "b53c529738df8cfd45cb0df2a5089c290439b5ed1d58ba670b4731beace8a0ac",
+    "ergt_phi/contextual_shadow.py": "3832722eac016195c95768f38ae7a10fbb7f3b9a89eccc0347169dcf0437a53a",
+    "ergt_phi/pair_diagnostic.py": "80de30d1f55e2708c1a0cb71d89e41a65ccb6afcb2462b132dbfe677c5518918",
+    "scripts/run_m2_diagnostic.py": "a10de9d37588d3fff3ca9c1405a36252faea85387c70b3220261e182b7f45bc6"
+  }
+}

@@ -1,6 +1,8 @@
 """Run the preregistered CPU shadow-calibration experiment on M0 training data only."""
 from pathlib import Path
 import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import legacy_input, workspace_path
 import json
 import hashlib
 import random
@@ -39,9 +41,9 @@ def main():
     torch.set_num_threads(1); torch.use_deterministic_algorithms(True)
     cfg = CalibrationConfig()
     out = ROOT/'runs/m2'; out.mkdir(parents=True,exist_ok=True)
-    run = ROOT/'runs/imported_m0/m0_single_seed_reference'
+    run = legacy_input(ROOT, "runs/imported_m0/m0_single_seed_reference")
     cp = run/'opt_12011_data_16301/native_ergt_training.pt'
-    accepted = json.loads((ROOT/'manifests/trained_m0_audit.json').read_text())
+    accepted = json.loads((legacy_input(ROOT, "manifests/trained_m0_audit.json")).read_text())
     if digest(cp)!=accepted['checkpoint_sha256'] or accepted['status']!='passed':
         raise ValueError('accepted M0 checkpoint required')
     state = torch.load(cp,map_location='cpu',weights_only=True)
@@ -72,7 +74,7 @@ def main():
                 'threshold_provenance':'new_research_preregistration_not_fixed_by_mathematical_spec'}
     # Write protocol and thresholds BEFORE observing calibration performance.
     (out/'protocol.json').write_text(json.dumps(contract,indent=2))
-    (ROOT/'manifests/m2_status.json').write_text(json.dumps({'status':'running','M2_complete':False,'M3_authorized_by_results':False}))
+    (workspace_path(ROOT, "manifests/m2_status.json")).write_text(json.dumps({'status':'running','M2_complete':False,'M3_authorized_by_results':False}))
     print(f'Training hash verified. Fit={len(fit)}, monitor={len(monitor)}; caching frozen native context.',flush=True)
     records = cache_context_fields(shadow,examples,tokenizer)
     ambiguity = feature_conflicts(records)
@@ -156,7 +158,7 @@ def main():
               'protocol_sha256':digest(out/'protocol.json'),'train_sha256':train_hash,
               'fit_examples':len(fit),'monitor_examples':len(monitor),'final_horizon_examples_used':0,
               'model_answer_improvement_claimed':False,'checkpoint_resume_contract':'full_research_state_at_step_boundaries'}
-    (ROOT/'manifests/m2_status.json').write_text(json.dumps(result,indent=2))
+    (workspace_path(ROOT, "manifests/m2_status.json")).write_text(json.dumps(result,indent=2))
     (out/'result.json').write_text(json.dumps(result,indent=2))
     print('M2 EXPERIMENT COMPLETED: '+result['status'],flush=True)
 

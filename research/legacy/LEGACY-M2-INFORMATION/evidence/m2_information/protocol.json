@@ -1,0 +1,19 @@
+{
+  "stage": "M2_context_information_probe",
+  "train_sha256": "e3978bd5688fa0145cc4da581e332d1ee9b67d61aff43fcd8fb0ccec224b6c53",
+  "fit_examples": 382,
+  "monitor_examples": 122,
+  "feature_modes": [
+    "psi0",
+    "native_final",
+    "native_history"
+  ],
+  "probe": "LayerNorm+linear relation classifier",
+  "epochs": 40,
+  "native_integration": false,
+  "source_sha256": {
+    "ergt_phi/information_probe.py": "11ec89cdb679ec10d6fbcbd4c82248a8530148a063d801236ffb1b81a88c914d",
+    "ergt_phi/contextual_shadow.py": "22c006261cee335f0358be5a81afb54a6253d887afeae6997a7c87ad63326ae4",
+    "scripts/run_m2_information_probe.py": "ecf77145403d02330a79af26383f7e73aa850cecf923bccf6a22f9ac56c028e6"
+  }
+}

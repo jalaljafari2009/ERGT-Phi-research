@@ -1,0 +1,128 @@
+[
+  {
+    "data_seed": 16301,
+    "evidence": "strict readiness includes measurement, action MAE, and conservation",
+    "invariant": "registered_measurement_and_action",
+    "invariant_id": "S01",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "[2, 3, 4, 5, 6, 7, 8]",
+    "invariant": "independent_multihop_field_readiness",
+    "invariant_id": "S02",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "stable_zero_teacher_windows=2",
+    "invariant": "consecutive_readiness_and_zero_teacher_windows",
+    "invariant_id": "S03",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "zero_teacher_optimizer_steps=0",
+    "invariant": "zero_optimizer_updates_after_freeze",
+    "invariant_id": "S04",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "readiness event recall/precision, chain exactness, closure, and overflow",
+    "invariant": "complete_event_chain_closure_overflow_contract",
+    "invariant_id": "S05",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "native architecture audit",
+    "invariant": "product_manifold_fixed_point_closure",
+    "invariant_id": "S06",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "native architecture audit",
+    "invariant": "valid_domain_multiscale_backbone",
+    "invariant_id": "S07",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "batch=True padding=True",
+    "invariant": "batch_and_padding_invariance",
+    "invariant_id": "S08",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "architecture plus raw-input identity parity",
+    "invariant": "semantic_identity_factorization",
+    "invariant_id": "S09",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "native architecture audit",
+    "invariant": "registered_local_action_cells",
+    "invariant_id": "S10",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "evaluable_single_world_rows=8",
+    "invariant": "functional_multiworld_dependence",
+    "invariant_id": "S11",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "bitwise public/internal forward audit",
+    "invariant": "internal_raw_input_identity_parity",
+    "invariant_id": "S12",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "independent_2_8_hop_readiness+two_frozen_mechanism_shards",
+    "invariant": "same_frozen_checkpoint_and_no_final_selection",
+    "invariant_id": "S13",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  },
+  {
+    "data_seed": 16301,
+    "evidence": "detached_cpu_float64_symmetric_eigvalsh_fail_open_v1",
+    "invariant": "detached_fail_open_geometry_observers",
+    "invariant_id": "S14",
+    "optimization_seed": 12011,
+    "passed": true,
+    "status": "passed"
+  }
+]

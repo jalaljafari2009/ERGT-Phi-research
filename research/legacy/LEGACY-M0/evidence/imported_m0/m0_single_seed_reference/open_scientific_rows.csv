@@ -1,0 +1,5 @@
+category,name,reason,required,value
+open_scientific_gate,direct_transformer_checkpoint_selection,The strengthened direct Transformer checkpoint is selected without final panels; a miss is reported for that baseline arm and is not an ERGT veto.,False,False
+open_scientific_gate,native_ergt_absolute_32_hop_floor,ERGT independently clears the registered absolute 32-hop accuracy floor.,False,False
+open_scientific_gate,registered_large_32_hop_margin,The observed mean difference clears the preregistered large-effect margin.,False,False
+open_scientific_gate,native_ergt_claim_bundle,"Native checkpoint stability, ERGT convergence, absolute 32-hop accuracy, mechanisms, multiworld dependence, and rejection pass together.",False,False

@@ -1,0 +1,15 @@
+{
+  "schema": "ergt-phi-layout-audit-v1",
+  "pass": true,
+  "migrated_originals_checked": 134,
+  "tracked_evidence_checked": 121,
+  "registered_sources_checked": 9,
+  "historical_source_records_verified": 195,
+  "original_colab_zip_members_reconciled": 62,
+  "sealed_runs_reverified": 1,
+  "markdown_links_checked": 384,
+  "preserved_historical_link_notes": [],
+  "missing_local_archives": [],
+  "errors": [],
+  "scientific_phase_promoted": false
+}

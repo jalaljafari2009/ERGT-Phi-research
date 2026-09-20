@@ -1,0 +1,152 @@
+{
+  "schema": "ergt-phi-legacy-inventory-v1",
+  "experiment_id": "LEGACY-M2-CONTEXT",
+  "migration_id": "20260920-history-consolidation",
+  "entries": [
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "docs/M2_CONTEXTUAL_REVISION_FA.md",
+      "new_path": "research/legacy/LEGACY-M2-CONTEXT/reports/M2_CONTEXTUAL_REVISION_FA.md",
+      "sha256": "7d5ae249ef950eaa74b34d2625dc47ad23637f3d391692912c4feec918d1e43f",
+      "bytes": 5469,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/reports/M2_CONTEXTUAL_REVISION_FA.md"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "manifests/m2_status.json",
+      "new_path": "research/legacy/LEGACY-M2-CONTEXT/manifests/m2_status.json",
+      "sha256": "6ad7c3002def098619ca107ec8575105d433fd12effddb432aae708fae23818c",
+      "bytes": 7515,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/manifests/m2_status.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "manifests/m2_protocol.json",
+      "new_path": "research/legacy/LEGACY-M2-CONTEXT/manifests/m2_protocol.json",
+      "sha256": "0f617c76c46369699106e5de151b878eac6d6d8dac1839a23add1f91575dc6a2",
+      "bytes": 33997,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/manifests/m2_protocol.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "manifests/anchor_context_audit.json",
+      "new_path": "research/legacy/LEGACY-M2-CONTEXT/manifests/anchor_context_audit.json",
+      "sha256": "00970cd38d586840889c0fab7b62da35368d28213648453bdc36aa46aff0341c",
+      "bytes": 6077,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/manifests/anchor_context_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/contextual-tests.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/contextual-tests.xml",
+      "sha256": "b581d5eb292081e8fed7a17a7045b8153f7ba075a5ad0cd12c54799182723c5d",
+      "bytes": 777,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/evidence/m2/contextual-tests.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/curves.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/curves.json",
+      "sha256": "d939f6f6042ab1f8df923c513d707cd017757e166e6bdb3fd858a707404c8e4a",
+      "bytes": 48776,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/evidence/m2/curves.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/engineering-tests.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/engineering-tests.xml",
+      "sha256": "9e02ef2f399ca066193bd03350881f66746220af5af3c4b327f636d2c1b94a1c",
+      "bytes": 10604,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/evidence/m2/engineering-tests.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/feature_conflicts.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/feature_conflicts.json",
+      "sha256": "e827ce32461ee33a031fa415314a391f5fed697ca8394db6ba897e3c9e46b485",
+      "bytes": 194,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/evidence/m2/feature_conflicts.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/initial_full_state.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/initial_full_state.pt",
+      "sha256": "f2b7e3fc4e5f2dcd7aae7c373b2224b08a53399fe49779209940137204523add",
+      "bytes": 84571,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/latest_full_state.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/latest_full_state.pt",
+      "sha256": "97dcf9dc7b118d4740e73596f2d7452d178853e3585938d40cbe6f397fbbf0a2",
+      "bytes": 155549,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/protocol.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/protocol.json",
+      "sha256": "0f617c76c46369699106e5de151b878eac6d6d8dac1839a23add1f91575dc6a2",
+      "bytes": 33997,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/evidence/m2/protocol.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/rejected_full_state.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/rejected_full_state.pt",
+      "sha256": "b50ebc276d468a53472498ee73c7dcb2c26290d0171a89b807dde802015bd7e3",
+      "bytes": 155685,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/restored_initial_full_state.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/restored_initial_full_state.pt",
+      "sha256": "440e837e7449f843c92da648f851fbb46bdac994a3f99e93ede48480ef493070",
+      "bytes": 84770,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/result.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/result.json",
+      "sha256": "392e058c37186219252fd3ec34a520edff75d2dcc18d287042ff0a616c6e1ca3",
+      "bytes": 5430,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/evidence/m2/result.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2/resume-and-offset-tests.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2/resume-and-offset-tests.xml",
+      "sha256": "eb0dc89088310eb0b9db1e822ba15f84b47207ecb4558804e51f0cfc3e76508c",
+      "bytes": 461,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/evidence/m2/resume-and-offset-tests.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M2-CONTEXT",
+      "old_path": "runs/m2_context/sensitivity_protocol.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-CONTEXT/m2_context/sensitivity_protocol.json",
+      "sha256": "25cdedf4d284f44a7ff7851ca7e7c1bcafc59bf879c86e72b622304465708405",
+      "bytes": 515,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-CONTEXT/evidence/m2_context/sensitivity_protocol.json"
+    }
+  ],
+  "new_execution_claimed": false
+}

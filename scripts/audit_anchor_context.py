@@ -1,5 +1,8 @@
 """Check whether changing a remote relation reaches native endpoint field states."""
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import legacy_input, workspace_path
 import sys,json,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
@@ -14,9 +17,9 @@ from ergt_reviewer.data_schema import RELATION_SURFACES
 
 
 def load_reference():
-    run=ROOT/'runs/imported_m0/m0_single_seed_reference'
+    run=legacy_input(ROOT, "runs/imported_m0/m0_single_seed_reference")
     path=run/'opt_12011_data_16301/native_ergt_training.pt'
-    accepted=json.loads((ROOT/'manifests/trained_m0_audit.json').read_text())
+    accepted=json.loads((legacy_input(ROOT, "manifests/trained_m0_audit.json")).read_text())
     assert hashlib.sha256(path.read_bytes()).hexdigest()==accepted['checkpoint_sha256']
     state=torch.load(path,map_location='cpu',weights_only=True)
     config=dict(state['config']);config['raw_input_contract']=RawTokenInputContract(**config['raw_input_contract'])
@@ -61,7 +64,7 @@ def main():
             'base_checkpoint_sha256':hashlib.sha256(cp.read_bytes()).hexdigest(),
             'source_sha256':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in ('ergt_phi/contextual_shadow.py','scripts/audit_anchor_context.py')},
             'protocol':protocol}
-    (ROOT/'manifests/anchor_context_audit.json').write_text(json.dumps(result,indent=2))
+    (workspace_path(ROOT, "manifests/anchor_context_audit.json")).write_text(json.dumps(result,indent=2))
     print('CONTEXT SENSITIVITY: '+str(result['candidate_pass']),flush=True)
 
 

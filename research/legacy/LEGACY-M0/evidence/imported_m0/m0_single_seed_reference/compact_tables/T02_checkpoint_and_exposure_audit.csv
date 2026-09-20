@@ -1,0 +1,2 @@
+data_seed,evaluation_state_status,field_ready_step,mean_group_exposure,mechanism_shards_expected,mechanism_shards_passed,minimum_group_exposure,optimization_seed,pair_group_count,readiness_hops,required_minimum_group_exposure,selected_checkpoint_step,strict_v21_contract,unseen_group_count,zero_teacher_optimizer_steps
+16301,selected_v9_multihop_ready_frozen_checkpoint,700,11.11111111111111,2,2,11,12011,252,"[2, 3, 4, 5, 6, 7, 8]",8,700,True,0,0

@@ -7,9 +7,11 @@ answer and parameters remain bitwise unchanged.
 """
 from dataclasses import asdict
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import legacy_input, workspace_path
 import hashlib
 import json
-import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -47,7 +49,7 @@ def exact(left, right):
 def main():
     torch.set_num_threads(1)
     torch.use_deterministic_algorithms(True)
-    run = ROOT / 'runs/imported_m0/m0_single_seed_reference'
+    run = legacy_input(ROOT, "runs/imported_m0/m0_single_seed_reference")
     checkpoint = run / 'opt_12011_data_16301/native_ergt_training.pt'
     state = torch.load(checkpoint, map_location='cpu', weights_only=True)
     config = dict(state['config'])
@@ -147,7 +149,7 @@ def main():
     out = ROOT / 'runs/m2_q_shadow'
     out.mkdir(parents=True, exist_ok=True)
     (out / 'result.json').write_text(json.dumps(result, indent=2))
-    (ROOT / 'manifests/m2_q_shadow.json').write_text(json.dumps(result, indent=2))
+    (workspace_path(ROOT, "manifests/m2_q_shadow.json")).write_text(json.dumps(result, indent=2))
     print(json.dumps({
         'status': result['status'],
         'audit_examples': result['audit_examples'],

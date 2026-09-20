@@ -5,6 +5,7 @@ from pathlib import Path
 import pytest
 import torch
 from ergt_phi.runtime import ROOT, REFERENCE
+from ergt_phi.research_paths import legacy_input
 from ergt_phi.fixtures import example_batch, model_config, seed_all
 from ergt_phi.native_steps import SteppedNative
 from ergt_phi.training import update_native
@@ -13,7 +14,7 @@ from ergt_reviewer.suite_v9 import _native_runtime_invariance_audit
 
 
 def test_reference_files_remain_byte_identical():
-    manifest = json.loads((ROOT / "manifests/reference.json").read_text())
+    manifest = json.loads(legacy_input(ROOT, "manifests/reference.json").read_text())
     original = Path(manifest["original_root"])
     for relative, expected in manifest["files"].items():
         assert hashlib.sha256((REFERENCE / relative).read_bytes()).hexdigest() == expected

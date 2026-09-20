@@ -1,0 +1,22 @@
+blocking_for_execution_integrity,detail,gate,passed
+True,Immutable V21-derived native-core SHA-256 audit.,locked_native_core_unchanged,True
+True,Direct Transformer and native ERGT receive the same raw serialization.,architecture_and_shared_input,True
+True,No train/evaluation or cross-seed raw overlap.,data_protocol_integrity,True
+True,The direct Transformer recipe was selected by the bounded development-only qualification stage without evaluating final 12--32-hop panels.,locked_baseline_qualification_manifest,True
+True,"The V21/V6 native path, final config, evaluator, data path, selected baseline recipe, and checkpoint policy match their registered SHA-256 lock.",immutable_final_execution_lock,True
+True,Optimization and data seeds are disjoint from qualification and all V3--V6 development seeds.,fresh_confirmatory_seed_separation,True
+True,"The selected direct Transformer uses the locked qualified loss mode, raw tokens only, and no compiler, executor, or ERGT geometry.",qualified_baseline_and_disclosed_training_supervision,True
+False,"Strict independent 2--8-hop readiness, complete V21 chain/closure/overflow checks, deterministic coverage, and minimum exposure precede native freeze.",native_multihop_exposure_locked_checkpoint,True
+False,"All cumulative S01--S14 architecture, training, invariance, mechanism, multiworld, identity, and observer invariants are evaluated per seed.",native_stability_capability_catalog,True
+False,The strengthened direct Transformer checkpoint is selected without final panels; a miss is reported for that baseline arm and is not an ERGT veto.,direct_transformer_checkpoint_selection,False
+False,All six mechanisms pass independently on both frozen selection shards.,decoupled_frozen_mechanism_checkpoint_selection,True
+True,Final validation and causal panels are evaluation-only.,heldout_validation_not_used_for_selection,True
+True,Inference-active parameters differ by at most ten percent.,parameter_count_match,True
+False,ERGT clears its registered train/validation ID floor on every seed.,native_ergt_converged_id,True
+False,ERGT independently clears the registered absolute 32-hop accuracy floor.,native_ergt_absolute_32_hop_floor,False
+False,"Observed paired difference is positive, its hierarchical interval excludes zero, and the exact paired test is significant.",observed_paired_32_hop_advantage,True
+False,The observed mean difference clears the preregistered large-effect margin.,registered_large_32_hop_margin,False
+False,Every held-out scenario is evaluable and clears the targeted-drop floor.,registered_causal_interventions,True
+False,No single world retains the complete program.,functional_multiworld_dependence,True
+False,Native unsupported error remains below the registered ceiling.,unsupported_answer_rejection,True
+False,"Native checkpoint stability, ERGT convergence, absolute 32-hop accuracy, mechanisms, multiworld dependence, and rejection pass together.",native_ergt_claim_bundle,False

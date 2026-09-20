@@ -1,0 +1,16 @@
+{
+  "calls": 122,
+  "checkpoint_compatibility_preserved": true,
+  "cuda_eigensolver_calls": 0,
+  "cuda_input_calls": 122,
+  "fail_open": true,
+  "governing_answer_path_changed": false,
+  "graphs_considered": 6560,
+  "graphs_solved_cpu_float64": 6560,
+  "graphs_unavailable_after_numerical_failure": 0,
+  "graphs_without_spectral_mass": 4184,
+  "nonfinite_values_sanitized": 0,
+  "policy": "detached_cpu_float64_symmetric_eigvalsh_fail_open_v1",
+  "reporting_only": true,
+  "training_source_hashes_changed": false
+}

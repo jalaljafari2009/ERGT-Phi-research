@@ -1,11 +1,13 @@
 """Read-only verification of both source trees, data and observed environment."""
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import workspace_path
 import hashlib
 import importlib.metadata
 import json
 import platform
 import subprocess
-import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from ergt_phi.runtime import ROOT, REFERENCE, activate_reference
 
@@ -40,18 +42,18 @@ def main():
         record["nvidia_smi"] = {"returncode": gpu.returncode, "stdout": gpu.stdout, "stderr": gpu.stderr}
     except (OSError, subprocess.TimeoutExpired) as error:
         record["nvidia_smi"] = {"available": False, "error": str(error)}
-    (ROOT / "manifests/environment.json").write_text(json.dumps(record, indent=2), encoding="utf-8")
+    (workspace_path(ROOT, "manifests/environment.json")).write_text(json.dumps(record, indent=2), encoding="utf-8")
     packages = subprocess.run([sys.executable, "-m", "pip", "freeze"], capture_output=True, text=True, check=True)
     (ROOT / "requirements-m0.lock.txt").write_text(packages.stdout, encoding="utf-8")
     config = json.loads((REFERENCE / "configs/immutable_final_configuration.json").read_text())
     recipe = json.loads((REFERENCE / "contracts/selected_transformer_manifest.json").read_text())["selected_candidate"]["recipe"]
-    (ROOT / "manifests/resolved_paper_protocol.json").write_text(json.dumps({
+    (workspace_path(ROOT, "manifests/resolved_paper_protocol.json")).write_text(json.dumps({
         "native_and_data": config, "transformer_recipe": recipe,
         "native_answer_weight": .15, "native_teacher_weight_during_updates": 1.0,
         "transformer_total_registered_steps": recipe["warmup_steps"] + sum(s["steps"] for s in recipe["curriculum_stages"]),
         "note": "Official entrypoint also attaches qualification and execution audits. This is a descriptive export, not an alternate execution config.",
     }, indent=2), encoding="utf-8")
-    print(json.dumps({"integrity": True, "cohort_count": record["data_parity"]["cohort_count"], "cuda": torch.cuda.is_available(), "report": "manifests/environment.json"}))
+    print(json.dumps({"integrity": True, "cohort_count": record["data_parity"]["cohort_count"], "cuda": torch.cuda.is_available(), "report": "research/workspace/manifests/environment.json"}))
 
 
 if __name__ == "__main__":

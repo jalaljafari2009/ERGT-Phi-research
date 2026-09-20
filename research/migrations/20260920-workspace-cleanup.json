@@ -1,0 +1,102 @@
+{
+    "scope":  "Empty cache folders and synthetic test fixtures; scientific evidence preserved separately.",
+    "entries":  [
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-4l6ydr92",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-7686jb99",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-9t8wrtnt",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-cbiim4df",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-e257dbae",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-eg8jlj2f",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-g84zglnu",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-idcz4ymw",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-itrlpf75",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-jhze6f01",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-rwnc7oyt",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-uds7qv2s",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "pytest-cache-files-wl8htly5",
+                        "action":  "removed_verified_empty_cache"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "manifests",
+                        "action":  "removed_empty_former_container"
+                    },
+                    {
+                        "files":  0,
+                        "old_path":  "notebook",
+                        "action":  "removed_empty_former_container"
+                    },
+                    {
+                        "bytes":  null,
+                        "files":  0,
+                        "old_path":  "runs/workflow_test_tmp",
+                        "action":  "archived_synthetic_test_workspace",
+                        "new_path":  ".cache/workflow-tests/workflow_test_tmp"
+                    },
+                    {
+                        "bytes":  191553,
+                        "files":  69,
+                        "old_path":  "runs/workflow_test_tmp_verified",
+                        "action":  "archived_synthetic_test_workspace",
+                        "new_path":  ".cache/workflow-tests/workflow_test_tmp_verified"
+                    },
+                    {
+                        "bytes":  315986,
+                        "files":  155,
+                        "old_path":  "runs/workflow_colab_verified_2",
+                        "action":  "archived_synthetic_test_workspace",
+                        "new_path":  ".cache/workflow-tests/workflow_colab_verified_2"
+                    }
+                ],
+    "schema":  "ergt-phi-workspace-cleanup-v1"
+}

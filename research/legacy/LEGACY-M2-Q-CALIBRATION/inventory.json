@@ -1,0 +1,44 @@
+{
+  "schema": "ergt-phi-legacy-inventory-v1",
+  "experiment_id": "LEGACY-M2-Q-CALIBRATION",
+  "migration_id": "20260920-history-consolidation",
+  "entries": [
+    {
+      "experiment_id": "LEGACY-M2-Q-CALIBRATION",
+      "old_path": "docs/M2_Q_CALIBRATION_FA.md",
+      "new_path": "research/legacy/LEGACY-M2-Q-CALIBRATION/reports/M2_Q_CALIBRATION_FA.md",
+      "sha256": "87780ab95e223c40fb4ce808b0500a14dda1b9e14d336ab8aaf965b65f1a56ad",
+      "bytes": 2611,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-Q-CALIBRATION/reports/M2_Q_CALIBRATION_FA.md"
+    },
+    {
+      "experiment_id": "LEGACY-M2-Q-CALIBRATION",
+      "old_path": "manifests/m2_q_calibration.json",
+      "new_path": "research/legacy/LEGACY-M2-Q-CALIBRATION/manifests/m2_q_calibration.json",
+      "sha256": "cc0c6cb480cfa95824c4658e1a2d5b23969cb959294e495f1a225ae04645ebd4",
+      "bytes": 111176,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-Q-CALIBRATION/manifests/m2_q_calibration.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-Q-CALIBRATION",
+      "old_path": "runs/m2_q_calibration/protocol.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-Q-CALIBRATION/m2_q_calibration/protocol.json",
+      "sha256": "1ce64a0f41b70f531a1236d833d137979439ab841b3d3cf213fb5ee9a222b000",
+      "bytes": 1447,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-Q-CALIBRATION/evidence/m2_q_calibration/protocol.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-Q-CALIBRATION",
+      "old_path": "runs/m2_q_calibration/result.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-Q-CALIBRATION/m2_q_calibration/result.json",
+      "sha256": "cc0c6cb480cfa95824c4658e1a2d5b23969cb959294e495f1a225ae04645ebd4",
+      "bytes": 111176,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-Q-CALIBRATION/evidence/m2_q_calibration/result.json"
+    }
+  ],
+  "new_execution_claimed": false
+}

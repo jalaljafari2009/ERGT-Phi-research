@@ -1,0 +1,17 @@
+{
+  "schema": "ergt-phi-legacy-inventory-v1",
+  "experiment_id": "LEGACY-M2-Q-TIMING",
+  "migration_id": "20260920-history-consolidation",
+  "entries": [
+    {
+      "experiment_id": "LEGACY-M2-Q-TIMING",
+      "old_path": "docs/M2_LAGGED_Q_FA.md",
+      "new_path": "research/legacy/LEGACY-M2-Q-TIMING/reports/M2_LAGGED_Q_FA.md",
+      "sha256": "ce3d79a7f077028d8b57e1d329336012357d823d1ce5a2492a6e980b178f709a",
+      "bytes": 2098,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-Q-TIMING/reports/M2_LAGGED_Q_FA.md"
+    }
+  ],
+  "new_execution_claimed": false
+}

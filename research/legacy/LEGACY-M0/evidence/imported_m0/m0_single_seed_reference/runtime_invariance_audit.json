@@ -1,0 +1,13 @@
+[
+  {
+    "batch_hard_and_mechanism_invariance_pass": true,
+    "batch_mismatches": [],
+    "contract_pass": true,
+    "data_seed": 16301,
+    "extended_pad_tokens": 51,
+    "observed_pad_tokens": 35,
+    "optimization_seed": 12011,
+    "padding_hard_and_mechanism_invariance_pass": true,
+    "padding_mismatches": []
+  }
+]

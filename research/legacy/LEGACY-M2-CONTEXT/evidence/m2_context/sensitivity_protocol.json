@@ -1,0 +1,19 @@
+{
+  "scope": "fit_partition_only",
+  "examples_by_hop": {
+    "6": 0,
+    "5": 1,
+    "8": 3,
+    "2": 7,
+    "7": 8,
+    "3": 10,
+    "1": 15,
+    "4": 38
+  },
+  "edits": "first event, each of the two other non-null relation words",
+  "observable": "maximum absolute difference at canonical source/target Psi",
+  "threshold": 1e-06,
+  "pass_fraction": 0.9,
+  "candidate": "final_completed_native_field",
+  "claims": "Sensitivity only; not proof of decodable or sufficient relation information."
+}

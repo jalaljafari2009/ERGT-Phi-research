@@ -80,15 +80,23 @@ def test_notebook_explains_and_compiles_without_execution(tmp_path, monkeypatch)
 
 def test_package_excludes_weights_secrets_and_other_experiments(tmp_path, monkeypatch):
     root, revision = prepare(tmp_path, monkeypatch)
-    for name in ("scripts/.env", "scripts/private.pem", "scripts/weights.pt", "scripts/secrets/token.json", "runs/previous.json", "research/inbox/data.txt", ".venv/private.py"):
+    for name in ("scripts/.env", "scripts/private.pem", "scripts/weights.pt", "scripts/secrets/token.json", "runs/previous.json", "research/inbox/data.txt", ".venv/private.py", "research/artifacts/legacy/model.pt"):
         path = root / name
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text("private")
+    metadata = ("research/legacy/path_map.json", "research/legacy/LEGACY-M0/manifests/reference.json",
+                "research/legacy/LEGACY-M0/manifests/trained_m0_audit.json")
+    for name in metadata:
+        path = root / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("{}")
     generate_notebook(root, revision)
     package = build_source_package(root, revision)
     with zipfile.ZipFile(package) as archive:
         names = set(archive.namelist())
         assert "scripts/example.py" in names
+        assert set(metadata).issubset(names)
+        assert not any(name.startswith("research/artifacts/") for name in names)
         assert not any("private" in name or "weights.pt" in name or ".env" in name or "runs/" in name or "inbox" in name or "token.json" in name for name in names)
         manifest = json.loads(archive.read("PACKAGE_MANIFEST.json"))
         assert names == set(manifest["files"]) | {"PACKAGE_MANIFEST.json"}

@@ -1,0 +1,29 @@
+{
+  "schema": "ergt-phi-legacy-source-provenance-v1",
+  "experiment_id": "LEGACY-M2-Q-TIMING",
+  "audited_at": "2026-09-20",
+  "scanned_git_head": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+  "commits_scanned": 15,
+  "method": "Recorded historical source hashes are resolved against Git blob bytes. Exact bytes are preferred; documented canonical LF normalization is used explicitly where required. Commit fields locate content only and do not identify an execution checkout.",
+  "limitations": [
+    "A matching source blob does not prove execution used a clean checkout or only these files.",
+    "Recorded source inventories can be partial; missing files and run metadata are not reconstructed.",
+    "Current source paths may differ after migration; the Git locator preserves original bytes."
+  ],
+  "records": [],
+  "absence_reason": "No historical run source hash map is recorded in this dossier.",
+  "design_source_locators_not_run_claims": [
+    {
+      "git_commit": "40b6ad4c90850b5e268983cb8b0e14dbafe4dbe3",
+      "git_path": "ergt_phi/lagged_q.py",
+      "git_blob": "d971570992c94310c87182c28b6f9ca64eed8bb3",
+      "sha256_computed_during_migration": "e0fabcceaa8463f20fd22e20af795ef358ca76c5cde8bcfab1a423fb734a0d46"
+    },
+    {
+      "git_commit": "40b6ad4c90850b5e268983cb8b0e14dbafe4dbe3",
+      "git_path": "tests/test_lagged_q.py",
+      "git_blob": "11d078f90bdbfae12b93d94956d463ffd58925aa",
+      "sha256_computed_during_migration": "15aa52ff6012312a5003819071b8ed8c818dda4b8d311300bb744eb3a3e11d05"
+    }
+  ]
+}

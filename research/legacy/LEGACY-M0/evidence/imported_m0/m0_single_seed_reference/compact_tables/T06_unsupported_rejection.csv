@@ -1,0 +1,7 @@
+accuracy,cohort,data_seed,model,optimization_seed,unsupported_error_rate,unsupported_examples
+1.0,unsupported_hop_4,16301,ERGT Geometric Model,12011,0.0,28.0
+0.07142857142857142,unsupported_hop_4,16301,Direct Transformer Baseline,12011,0.9285714285714286,28.0
+1.0,unsupported_hop_16,16301,ERGT Geometric Model,12011,0.0,28.0
+0.0,unsupported_hop_16,16301,Direct Transformer Baseline,12011,1.0,28.0
+1.0,unsupported_hop_32,16301,ERGT Geometric Model,12011,0.0,28.0
+0.0,unsupported_hop_32,16301,Direct Transformer Baseline,12011,1.0,28.0

@@ -58,7 +58,10 @@ ERGT پایه و کنترل‌های هم‌ظرفیت نیاز دارد. اگر
 | Q-shadow | محاسبات جدا از native، Q بدون گرادیان و وزن‌های مرجع ثابت | تست اتصال واقعی یا تأخیر یک‌گامی نیست |
 | M3 تا M8 | طرح در سند وجود دارد | مسیر coupled در `model.py` هنوز پیاده نشده است |
 
-هش پروتکل M2-Q و چهار فایل سورس ثبت‌شده با فایل‌های فعلی تطبیق داده شد. عدد ۸۱٫۲۲٪
+در ممیزی پیش از سامان‌دهی، هش پروتکل M2-Q و چهار فایل سورس ثبت‌شده تطبیق داده شد.
+اکنون کد اجرای ابزارها برای مسیرهای جدید اصلاح شده است؛ نسخهٔ تاریخی متناظر با هش‌ها
+در `research/legacy/LEGACY-M2-Q-CALIBRATION/source_provenance.json` به Git متصل است.
+عدد ۸۱٫۲۲٪
 معتبر است به‌عنوان نتیجهٔ ذخیره‌شدهٔ کالیبراسیون کمکی. monitor آن از cohort آموزش
 مرجع جدا شده؛ برای شبکهٔ phase بخش fit نیست، اما مدل بومی قبلاً این cohort را دیده است.
 همین monitor در چند طراحی قبلی هم بررسی شده، پس شاهد تأییدی مستقل محسوب نمی‌شود.
@@ -69,7 +72,7 @@ ERGT پایه و کنترل‌های هم‌ظرفیت نیاز دارد. اگر
 
 **اصلاح برداشت‌های قبلی که در برنامه اثر دارند**
 
-۱. در `runs/m2_q_calibration/` فقط `protocol.json` و `result.json` وجود دارد.
+۱. در `research/artifacts/legacy/LEGACY-M2-Q-CALIBRATION/m2_q_calibration/` فقط `protocol.json` و `result.json` وجود دارد.
 اسکریپت وزن‌های آموزش‌دیده، optimizer و حالت ادامه را ذخیره و phase را freeze نمی‌کند.
 بنابراین قبل از M3 باید یک checkpoint منتخبِ قابل بارگذاری تولید شود.
 
@@ -149,7 +152,7 @@ M6 و M7 شاخه‌های اختیاری‌اند و برای فعال‌ساز
 معیار خروج: checkpoint منتخب و freeze‌شده موجود باشد، هش آن ثبت شود، reload نتیجهٔ
 منتخب را بازتولید کند و resume/rollback و کنترل عدم تغییر مرجع پاس شوند.
 
-خروجی پیشنهادی: `runs/m2_q_v2/<run_id>/selected_full_state.pt` و
+خروجی پیشنهادی: `research/artifacts/legacy/LEGACY-M2-CONTEXT/m2_q_v2/<run_id>/selected_full_state.pt` و
 `manifests/m2_handoff.json`. این manifest صلاحیت برای آزمایش محدود M3 را ثبت می‌کند.
 
 **گام ۳ — تأیید کالیبراسیون روی دادهٔ توسعهٔ تازه**
@@ -334,11 +337,11 @@ patch خالی، تغییر ترتیب یال، جدایی batch/world و تغی
 **منابع محلی بررسی**
 
 - [سند ریاضی](MATHEMATICAL_SPEC.md): بخش‌های ۱، ۴ تا ۶ و ۱۰ تا ۱۷.
-- [گزارش مرجع آموزش‌دیده](M0_TRAINED_REPORT_FA.md): محدودهٔ تک‌بذر و ادعاهای باز.
+- [گزارش مرجع آموزش‌دیده](../research/legacy/LEGACY-M0/reports/M0_TRAINED_REPORT_FA.md): محدودهٔ تک‌بذر و ادعاهای باز.
 - [مقالهٔ مرجع](../reference/paper/manuscript.tex): پروتکل و محدودیت‌های مطالعه.
 - [قرارداد checkpoint مرجع](../reference/contracts/checkpoint_policy.json).
 - [مرحله‌های native](../ergt_phi/native_steps.py) و [هستهٔ مستقل](../ergt_phi/phase_core.py).
 - [Q و انتخاب فعلی patch](../ergt_phi/lagged_q.py).
 - [runner Q-shadow](../scripts/run_m2_q_shadow.py).
-- [runner کالیبراسیون Q](../scripts/run_m2_q_calibration.py) و [نتیجه](../manifests/m2_q_calibration.json).
+- [runner کالیبراسیون Q](../scripts/run_m2_q_calibration.py) و [نتیجه](../research/legacy/LEGACY-M2-Q-CALIBRATION/manifests/m2_q_calibration.json).
 - [ابزار ذخیره/بازیابی](../ergt_phi/checkpoint.py) و [دروازهٔ فعلی مدل](../ergt_phi/model.py).

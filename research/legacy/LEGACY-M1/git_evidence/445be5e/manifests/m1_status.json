@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "complete": true,
+  "stage": "M1_isolated_kernel",
+  "tests": [
+    {
+      "suite": "kernel",
+      "seconds": 26.08695520000765,
+      "tests": 44,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "m0_regression",
+      "seconds": 102.17280610000307,
+      "tests": 30,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "reference",
+      "seconds": 117.43802410000353,
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "config": {
+    "mu": 1.0,
+    "tau_a": 0.25,
+    "coupling": 0.02,
+    "nu": 0.0,
+    "n": 2,
+    "c": 0.5,
+    "c0": 0.5,
+    "phase_radius": 0.35,
+    "logit_radius": 0.1,
+    "epsilon_a": 0.0001,
+    "epsilon_q": 1e-12,
+    "steps": 24,
+    "sigma": 0.5
+  },
+  "c0_policy": "explicit_research_default_0.5_not_fixed_by_spec",
+  "device": "cpu",
+  "dtype": "float64_math_checks_and_float32_domain_checks",
+  "torch": "2.14.0+cpu",
+  "native_phase_integration": false,
+  "anchor_calibration": false,
+  "scientific_validation": false,
+  "certificate_scope": "fixed_context_analytic_bound_ignoring_roundoff",
+  "source_sha256": {
+    "ergt_phi/phase_core.py": "60b4f53b51fba6b2c35b9edd916df6299c227136b3f96e40340b4e4b77e1a081",
+    "tests/test_phase_core.py": "ad527eabcd625ac1f52e0befaa9379618ada720361dcaa94f0c388f9a1210161",
+    "scripts/run_m1.py": "c5c84aab6fde76d5baa0f04e200c81f6204a355ea86a3130bb586045d11c8bc1",
+    "docs/MATHEMATICAL_SPEC.md": "04ac57cc76395f7b032356bcac38b70b796233ac4aa59ba26a6b2474977c5d90"
+  }
+}

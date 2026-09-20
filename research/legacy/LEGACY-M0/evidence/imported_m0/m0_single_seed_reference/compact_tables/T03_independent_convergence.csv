@@ -1,0 +1,3 @@
+blocks_ergt_claim,data_seed,included_in_matched_convergence_analysis,model,model_specific_convergence,optimization_seed,train_id_accuracy,validation_id_accuracy
+True,16301,False,ERGT Geometric Model,True,12011,1.0,1.0
+False,16301,False,Direct Transformer Baseline,False,12011,1.0,0.4897959183673469

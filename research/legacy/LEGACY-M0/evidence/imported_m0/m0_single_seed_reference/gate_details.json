@@ -1,0 +1,128 @@
+[
+  {
+    "blocking_for_execution_integrity": true,
+    "detail": "Immutable V21-derived native-core SHA-256 audit.",
+    "gate": "locked_native_core_unchanged",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": true,
+    "detail": "Direct Transformer and native ERGT receive the same raw serialization.",
+    "gate": "architecture_and_shared_input",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": true,
+    "detail": "No train/evaluation or cross-seed raw overlap.",
+    "gate": "data_protocol_integrity",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": true,
+    "detail": "The direct Transformer recipe was selected by the bounded development-only qualification stage without evaluating final 12--32-hop panels.",
+    "gate": "locked_baseline_qualification_manifest",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": true,
+    "detail": "The V21/V6 native path, final config, evaluator, data path, selected baseline recipe, and checkpoint policy match their registered SHA-256 lock.",
+    "gate": "immutable_final_execution_lock",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": true,
+    "detail": "Optimization and data seeds are disjoint from qualification and all V3--V6 development seeds.",
+    "gate": "fresh_confirmatory_seed_separation",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": true,
+    "detail": "The selected direct Transformer uses the locked qualified loss mode, raw tokens only, and no compiler, executor, or ERGT geometry.",
+    "gate": "qualified_baseline_and_disclosed_training_supervision",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "Strict independent 2--8-hop readiness, complete V21 chain/closure/overflow checks, deterministic coverage, and minimum exposure precede native freeze.",
+    "gate": "native_multihop_exposure_locked_checkpoint",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "All cumulative S01--S14 architecture, training, invariance, mechanism, multiworld, identity, and observer invariants are evaluated per seed.",
+    "gate": "native_stability_capability_catalog",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "The strengthened direct Transformer checkpoint is selected without final panels; a miss is reported for that baseline arm and is not an ERGT veto.",
+    "gate": "direct_transformer_checkpoint_selection",
+    "passed": false
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "All six mechanisms pass independently on both frozen selection shards.",
+    "gate": "decoupled_frozen_mechanism_checkpoint_selection",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": true,
+    "detail": "Final validation and causal panels are evaluation-only.",
+    "gate": "heldout_validation_not_used_for_selection",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": true,
+    "detail": "Inference-active parameters differ by at most ten percent.",
+    "gate": "parameter_count_match",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "ERGT clears its registered train/validation ID floor on every seed.",
+    "gate": "native_ergt_converged_id",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "ERGT independently clears the registered absolute 32-hop accuracy floor.",
+    "gate": "native_ergt_absolute_32_hop_floor",
+    "passed": false
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "Observed paired difference is positive, its hierarchical interval excludes zero, and the exact paired test is significant.",
+    "gate": "observed_paired_32_hop_advantage",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "The observed mean difference clears the preregistered large-effect margin.",
+    "gate": "registered_large_32_hop_margin",
+    "passed": false
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "Every held-out scenario is evaluable and clears the targeted-drop floor.",
+    "gate": "registered_causal_interventions",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "No single world retains the complete program.",
+    "gate": "functional_multiworld_dependence",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "Native unsupported error remains below the registered ceiling.",
+    "gate": "unsupported_answer_rejection",
+    "passed": true
+  },
+  {
+    "blocking_for_execution_integrity": false,
+    "detail": "Native checkpoint stability, ERGT convergence, absolute 32-hop accuracy, mechanisms, multiworld dependence, and rejection pass together.",
+    "gate": "native_ergt_claim_bundle",
+    "passed": false
+  }
+]

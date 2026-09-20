@@ -1,0 +1,7 @@
+{
+  "events": 4544,
+  "distinct_endpoint_features": 4544,
+  "conflicting_feature_groups": 0,
+  "events_in_conflicting_groups": 0,
+  "empirical_feature_memorization_accuracy_ceiling": 1.0
+}

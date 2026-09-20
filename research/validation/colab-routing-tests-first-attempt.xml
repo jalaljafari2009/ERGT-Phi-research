@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="8" time="5.075" timestamp="2026-09-20T14:53:56.558715+03:00" hostname="srv7446483253"><testcase classname="tests.test_colab_workflow" name="test_notebook_explains_and_compiles_without_execution" time="0.146" /><testcase classname="tests.test_colab_workflow" name="test_package_excludes_weights_secrets_and_other_experiments" time="0.425" /><testcase classname="tests.test_colab_workflow" name="test_success_roundtrip_records_real_outputs_and_log" time="0.928" /><testcase classname="tests.test_colab_workflow" name="test_subprocess_failure_still_exports_partial_artifacts" time="0.681" /><testcase classname="tests.test_colab_workflow" name="test_source_tampering_and_stale_outputs_cannot_be_new_evidence" time="0.550" /><testcase classname="tests.test_colab_workflow" name="test_input_sha_is_required_before_execution" time="0.465"><failure message="PermissionError: [WinError 5] Access is denied: 'C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.cache\\tests\\colab-routing-regression-20260920\\test_input_sha_is_required_bef0\\repository\\research\\inbox\\.import-z9nsygrt\\run' -&gt; 'C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.cache\\tests\\colab-routing-regression-20260920\\test_input_sha_is_required_bef0\\repository\\research\\experiments\\WF-E099\\v001\\runs\\missing'">tmp_path = WindowsPath('C:/Users/novo/Desktop/ERGT-Phi-research/.cache/tests/colab-routing-regression-20260920/test_input_sha_is_required_bef0')
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x0000022FF3DA4150&gt;
+
+    def test_input_sha_is_required_before_execution(tmp_path, monkeypatch):
+        root, revision = prepare(tmp_path, monkeypatch, inputs=[{"path": "runs/input/model.pt", "sha256": "0" * 64, "uri": "drive://registered"}])
+        package, extracted, remote_revision = release_and_extract(root, revision, tmp_path)
+        output = tmp_path / "missing.zip"
+        run_protocol(extracted, remote_revision, output, run_id="missing", package_sha256=sha256(package))
+        manifest, _ = read_bundle(output)
+        assert manifest["status"] == "preflight_failed"
+        assert "Missing input" in manifest["error"]
+        assert not (extracted / "runs/example").exists()
+&gt;       imported = import_bundle(root, output, source_uri="local-test://missing-input")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_colab_workflow.py:175: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+root = WindowsPath('C:/Users/novo/Desktop/ERGT-Phi-research/.cache/tests/colab-routing-regression-20260920/test_input_sha_is_required_bef0/repository')
+bundle = WindowsPath('C:/Users/novo/Desktop/ERGT-Phi-research/.cache/tests/colab-routing-regression-20260920/test_input_sha_is_required_bef0/missing.zip')
+source_uri = 'local-test://missing-input'
+
+    def import_bundle(root: Path, bundle: Path, source_uri: str = "") -&gt; Path:
+        """Verify first, then import. ZIP paths never control an extraction location."""
+        root, bundle = Path(root).resolve(), Path(bundle).resolve()
+        if not bundle.is_file():
+            raise WorkflowError(f"Bundle does not exist: {bundle}")
+        try:
+            with zipfile.ZipFile(bundle) as archive:
+                inventory = _validate_zip(archive)
+                info = inventory.get("RUN_MANIFEST.json")
+                if info is None or info.file_size &gt; MAX_JSON_BYTES:
+                    raise WorkflowError("Bundle needs a reasonably sized RUN_MANIFEST.json")
+                manifest = json.loads(archive.read(info).decode("utf-8"))
+                directory = revision_path(root, manifest.get("experiment_id", ""), manifest.get("revision", ""))
+                protocol = validate_protocol(_read_json(directory / "protocol.json"))
+                lock = _read_json(directory / "package.json")
+                _verify_release(directory, protocol, lock)
+                _validate_manifest(manifest, protocol, lock, inventory)
+                run_id = manifest["run_id"]
+                target = _contained(directory, f"runs/{run_id}")
+                external = _contained(_research(root),
+                                      f"artifacts/{protocol['experiment_id']}/{protocol['revision']}/{run_id}")
+                bundle_hash = sha256_file(bundle)
+                if target.exists():
+                    stored = _read_json(target / "artifacts.json")
+                    if _read_json(target / "run.json") != manifest or stored.get("bundle_sha256") != bundle_hash:
+                        raise WorkflowError(f"Run id {run_id} already exists with different evidence")
+                    for item in stored["artifacts"]:
+                        file = _contained(root, item["local_path"])
+                        if not file.is_file() or sha256_file(file) != item["sha256"]:
+                            raise WorkflowError(f"Previously imported artifact is missing or changed: {file}")
+                    _record_location(root, target, source_uri, bundle_hash)
+                    return target
+                if external.exists():
+                    raise WorkflowError(f"External artifact destination already exists: {external}")
+                inbox = _research(root) / "inbox"
+                inbox.mkdir(parents=True, exist_ok=True)
+                with tempfile.TemporaryDirectory(prefix=".import-", dir=inbox) as staging_name:
+                    staging = Path(staging_name)
+                    run_staging, artifact_staging = staging / "run", staging / "artifacts"
+                    run_staging.mkdir()
+                    verified = {}
+                    locators = []
+                    for item in manifest["artifacts"]:
+                        temporary = _contained(staging / "verified", item["path"])
+                        temporary.parent.mkdir(parents=True, exist_ok=True)
+                        digest = hashlib.sha256()
+                        with archive.open(inventory["payload/" + item["path"]]) as source, temporary.open("wb") as sink:
+                            for block in iter(lambda: source.read(1024 * 1024), b""):
+                                digest.update(block)
+                                sink.write(block)
+                        if digest.hexdigest() != item["sha256"]:
+                            raise WorkflowError(f"Artifact SHA-256 mismatch: {item['path']}")
+                        verified[item["path"]] = temporary
+                    evaluation = evaluate_run(protocol, manifest, verified)
+                    for item in manifest["artifacts"]:
+                        temporary = verified[item["path"]]
+                        tracked = _tracked_artifact(temporary)
+                        storage_root = run_staging / "files" if tracked else artifact_staging
+                        destination = _contained(storage_root, item["path"])
+                        destination.parent.mkdir(parents=True, exist_ok=True)
+                        shutil.move(str(temporary), str(destination))
+                        final_file = (target / "files" if tracked else external).joinpath(*item["path"].split("/"))
+                        locators.append({**item, "local_path": final_file.relative_to(root).as_posix(),
+                                         "tracked": tracked})
+                    _write_json(run_staging / "run.json", manifest)
+                    _write_json(run_staging / "evaluation.json", evaluation)
+                    _write_json(run_staging / "artifacts.json", {
+                        "schema": "ergt-phi-artifacts-v1", "bundle_sha256": bundle_hash,
+                        "bundle_name": bundle.name, "imported_at": utc_now(),
+                        "source_uri": source_uri,
+                        "run_manifest_sha256": hashlib.sha256(_json_bytes(manifest)).hexdigest(),
+                        "artifacts": locators,
+                    })
+                    (run_staging / "summary.md").write_text(_summary(protocol, manifest, evaluation),
+                                                            encoding="utf-8", newline="\n")
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    if artifact_staging.exists():
+                        external.parent.mkdir(parents=True, exist_ok=True)
+                        os.replace(artifact_staging, external)
+                    try:
+&gt;                       os.replace(run_staging, target)
+E                       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.cache\\tests\\colab-routing-regression-20260920\\test_input_sha_is_required_bef0\\repository\\research\\inbox\\.import-z9nsygrt\\run' -&gt; 'C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.cache\\tests\\colab-routing-regression-20260920\\test_input_sha_is_required_bef0\\repository\\research\\experiments\\WF-E099\\v001\\runs\\missing'
+
+research_tools\workflow.py:593: PermissionError</failure></testcase><testcase classname="tests.test_colab_workflow" name="test_missing_executable_is_importable_failed_evidence" time="0.498" /><testcase classname="tests.test_colab_workflow" name="test_timeout_exports_diagnostic_bundle" time="0.897" /></testsuite></testsuites>

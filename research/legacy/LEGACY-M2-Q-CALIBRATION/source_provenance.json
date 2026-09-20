@@ -1,0 +1,103 @@
+{
+  "schema": "ergt-phi-legacy-source-provenance-v1",
+  "experiment_id": "LEGACY-M2-Q-CALIBRATION",
+  "audited_at": "2026-09-20",
+  "scanned_git_head": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+  "commits_scanned": 15,
+  "method": "Recorded historical source hashes are resolved against Git blob bytes. Exact bytes are preferred; documented canonical LF normalization is used explicitly where required. Commit fields locate content only and do not identify an execution checkout.",
+  "limitations": [
+    "A matching source blob does not prove execution used a clean checkout or only these files.",
+    "Recorded source inventories can be partial; missing files and run metadata are not reconstructed.",
+    "Current source paths may differ after migration; the Git locator preserves original bytes."
+  ],
+  "records": [
+    {
+      "historical_path": "ergt_phi/lagged_q.py",
+      "recorded_sha256": "a9f1824519c7b6f06ff7bd7a09120f81b2d12d8eb7a51a1b38588b7dd0371f90",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-Q-CALIBRATION/evidence/m2_q_calibration/protocol.json",
+          "json_pointer": "/source_sha256/ergt_phi~1lagged_q.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "ergt_phi/lagged_q.py",
+          "git_blob": "c3a8bfc9cf28cc55e71fc728b1d056bbf35206e5",
+          "locator_commit": "6d669b3fb4d7312832ad2884d3af92647867597f",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 6
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "ergt_phi/shadow_metrics.py",
+      "recorded_sha256": "afb7ac530d71f3ae161953893be95bed4d58f309ab760aaa9bd77e831d43685d",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-Q-CALIBRATION/evidence/m2_q_calibration/protocol.json",
+          "json_pointer": "/source_sha256/ergt_phi~1shadow_metrics.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "ergt_phi/shadow_metrics.py",
+          "git_blob": "7bcec085a510c45b687e078ace46a2d1250588be",
+          "locator_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 11
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "ergt_phi/shadow_phase.py",
+      "recorded_sha256": "1e8e2831dd18848455e941562769e6e0ae922dbb17938285e9a7084f97388e22",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-Q-CALIBRATION/evidence/m2_q_calibration/protocol.json",
+          "json_pointer": "/source_sha256/ergt_phi~1shadow_phase.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "ergt_phi/shadow_phase.py",
+          "git_blob": "4ca7c7cf34fe41390ebf16d5add51003b1b3c304",
+          "locator_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 11
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "scripts/run_m2_q_calibration.py",
+      "recorded_sha256": "42ecb42d000562b1db634b323747c2c3557daa239bf90b90d1cf0b7920676dfb",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-Q-CALIBRATION/evidence/m2_q_calibration/protocol.json",
+          "json_pointer": "/source_sha256/scripts~1run_m2_q_calibration.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "scripts/run_m2_q_calibration.py",
+          "git_blob": "cdfff2d3aa8642af844923ad2d96821b8133beae",
+          "locator_commit": "9072e12465f6227656dbb9e640eb8244899f4a8f",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 5
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    }
+  ]
+}

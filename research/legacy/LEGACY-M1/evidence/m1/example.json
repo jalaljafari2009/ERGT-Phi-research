@@ -1,0 +1,52 @@
+{
+  "config": {
+    "mu": 1.0,
+    "tau_a": 0.25,
+    "coupling": 0.02,
+    "nu": 0.0,
+    "n": 2,
+    "c": 0.5,
+    "c0": 0.5,
+    "phase_radius": 0.35,
+    "logit_radius": 0.1,
+    "epsilon_a": 0.0001,
+    "epsilon_q": 1e-12,
+    "steps": 24,
+    "sigma": 0.5
+  },
+  "certificate": {
+    "dstar": 1.0,
+    "reward_hessian_bound": 2.0,
+    "coupling_ceiling": 0.05,
+    "strong_convexity_margin": 0.96,
+    "eta": 4.0,
+    "contraction_bound": 0.6,
+    "ignores_roundoff": true,
+    "scope": "fixed_context_only"
+  },
+  "iterations": 24,
+  "anchor": [
+    -0.2,
+    0.1,
+    0.3
+  ],
+  "theta": [
+    -0.19976313696802503,
+    0.09940554463882204,
+    0.30035759232920295
+  ],
+  "base": [
+    0.4,
+    0.6
+  ],
+  "adhesion": [
+    0.4018361117068393,
+    0.5971746648102293
+  ],
+  "energy_before": 0.0009998506488137504,
+  "energy_after": 0.0009936765672462877,
+  "residual": 4.1794737710481926e-10,
+  "error_bound_ignoring_roundoff": 1.044868442762048e-09,
+  "single_toy_solve_seconds": 0.0609971000085352,
+  "performance_claim": false
+}

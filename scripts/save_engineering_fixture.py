@@ -1,8 +1,10 @@
 """Persist reproducible UNTRAINED numerical evidence, separate from scientific results."""
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import workspace_path
 import hashlib
 import json
-import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from dataclasses import asdict
 import torch
@@ -44,7 +46,7 @@ def main():
         "model_state": model.state_dict(), "inputs": batch.model_inputs(), "outputs": outputs,
         "field_trace": trace, "hard_solution": asdict(solution),
         "examples": [example.to_manifest_record() for example in batch.examples]}, target)
-    (ROOT / "manifests/engineering_fixture.json").write_text(json.dumps({
+    (workspace_path(ROOT, "manifests/engineering_fixture.json")).write_text(json.dumps({
         "status": "untrained_engineering_only", "path": str(target.relative_to(ROOT)),
         "sha256": hashlib.sha256(target.read_bytes()).hexdigest(),
         "field_snapshots": len(trace), "compared_output_fields": len(outputs),

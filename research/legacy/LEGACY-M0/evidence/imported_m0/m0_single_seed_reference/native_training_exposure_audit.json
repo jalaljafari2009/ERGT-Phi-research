@@ -1,0 +1,569 @@
+[
+  {
+    "by_hop": {
+      "1": {
+        "groups": 31,
+        "maximum": 12,
+        "mean": 11.096774193548388,
+        "minimum": 11
+      },
+      "2": {
+        "groups": 31,
+        "maximum": 12,
+        "mean": 11.064516129032258,
+        "minimum": 11
+      },
+      "3": {
+        "groups": 34,
+        "maximum": 12,
+        "mean": 11.176470588235293,
+        "minimum": 11
+      },
+      "4": {
+        "groups": 29,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "5": {
+        "groups": 32,
+        "maximum": 12,
+        "mean": 11.15625,
+        "minimum": 11
+      },
+      "6": {
+        "groups": 31,
+        "maximum": 12,
+        "mean": 11.096774193548388,
+        "minimum": 11
+      },
+      "7": {
+        "groups": 33,
+        "maximum": 12,
+        "mean": 11.121212121212121,
+        "minimum": 11
+      },
+      "8": {
+        "groups": 31,
+        "maximum": 12,
+        "mean": 11.161290322580646,
+        "minimum": 11
+      }
+    },
+    "by_scenario_hop": {
+      "boundary_deficit|hop_1|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_2|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_2|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_3|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.5,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_3|unsupported_1": {
+        "groups": 1,
+        "maximum": 12,
+        "mean": 12.0,
+        "minimum": 12
+      },
+      "boundary_deficit|hop_4|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_5|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_5|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_6|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_6|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_7|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "boundary_deficit|hop_8|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_1|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_1|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_2|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_2|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_3|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_3|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_4|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_4|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_5|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_5|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_6|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_7|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_7|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "combined_long_horizon|hop_8|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_1|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_2|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_2|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_3|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_3|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_4|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_5|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_6|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_7|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_7|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "finite_speed_cone|hop_8|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "geodesic_action|hop_1|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "geodesic_action|hop_2|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "geodesic_action|hop_3|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "geodesic_action|hop_3|unsupported_1": {
+        "groups": 1,
+        "maximum": 12,
+        "mean": 12.0,
+        "minimum": 12
+      },
+      "geodesic_action|hop_4|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "geodesic_action|hop_5|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.5,
+        "minimum": 11
+      },
+      "geodesic_action|hop_5|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "geodesic_action|hop_6|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "geodesic_action|hop_7|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "geodesic_action|hop_8|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "geodesic_action|hop_8|unsupported_1": {
+        "groups": 1,
+        "maximum": 12,
+        "mean": 12.0,
+        "minimum": 12
+      },
+      "memory_source_condition|hop_1|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_1|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_2|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_3|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_4|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_5|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_5|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_6|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_6|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_7|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_7|unsupported_1": {
+        "groups": 1,
+        "maximum": 12,
+        "mean": 12.0,
+        "minimum": 12
+      },
+      "memory_source_condition|hop_8|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "memory_source_condition|hop_8|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "payload_transport|hop_1|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "payload_transport|hop_2|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "payload_transport|hop_3|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.5,
+        "minimum": 11
+      },
+      "payload_transport|hop_3|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "payload_transport|hop_4|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "payload_transport|hop_5|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "payload_transport|hop_6|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "payload_transport|hop_6|unsupported_1": {
+        "groups": 1,
+        "maximum": 12,
+        "mean": 12.0,
+        "minimum": 12
+      },
+      "payload_transport|hop_7|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "payload_transport|hop_7|unsupported_1": {
+        "groups": 1,
+        "maximum": 12,
+        "mean": 12.0,
+        "minimum": 12
+      },
+      "payload_transport|hop_8|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "terminal_mass|hop_1|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "terminal_mass|hop_1|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "terminal_mass|hop_2|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "terminal_mass|hop_3|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "terminal_mass|hop_3|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "terminal_mass|hop_4|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "terminal_mass|hop_5|unsupported_0": {
+        "groups": 4,
+        "maximum": 12,
+        "mean": 11.25,
+        "minimum": 11
+      },
+      "terminal_mass|hop_6|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "terminal_mass|hop_7|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "terminal_mass|hop_7|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "terminal_mass|hop_8|unsupported_0": {
+        "groups": 4,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      },
+      "terminal_mass|hop_8|unsupported_1": {
+        "groups": 1,
+        "maximum": 11,
+        "mean": 11.0,
+        "minimum": 11
+      }
+    },
+    "data_seed": 16301,
+    "maximum_group_exposure": 12,
+    "mean_group_exposure": 11.11111111111111,
+    "minimum_exposure_pass": true,
+    "minimum_group_exposure": 11,
+    "optimization_seed": 12011,
+    "pair_group_count": 252,
+    "required_minimum_group_exposure": 8,
+    "unseen_group_count": 0
+  }
+]

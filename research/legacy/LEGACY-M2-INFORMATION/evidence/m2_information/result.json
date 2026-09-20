@@ -1,0 +1,628 @@
+{
+  "status": "completed_information_probe",
+  "M2_complete": false,
+  "M3_authorized_by_results": false,
+  "results": {
+    "psi0_true": {
+      "initial_monitor": {
+        "accuracy": 0.31203007518796994,
+        "balanced_accuracy": 0.3191653016849143,
+        "per_class_recall": [
+          0.3651685393258427,
+          0.021739130434782608,
+          0.5705882352941176
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            130,
+            6,
+            220
+          ],
+          [
+            140,
+            8,
+            220
+          ],
+          [
+            144,
+            2,
+            194
+          ]
+        ],
+        "ce": 1.134984016418457,
+        "events": 1064
+      },
+      "final_train": {
+        "accuracy": 0.4362068965517241,
+        "balanced_accuracy": 0.4399434283675372,
+        "per_class_recall": [
+          0.675,
+          0.3338762214983713,
+          0.31095406360424027
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            756,
+            176,
+            188
+          ],
+          [
+            578,
+            410,
+            240
+          ],
+          [
+            536,
+            244,
+            352
+          ]
+        ],
+        "ce": 1.0394903421401978,
+        "events": 3480
+      },
+      "final_monitor": {
+        "accuracy": 0.3233082706766917,
+        "balanced_accuracy": 0.32309165972202264,
+        "per_class_recall": [
+          0.5224719101123596,
+          0.21739130434782608,
+          0.22941176470588234
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            186,
+            94,
+            76
+          ],
+          [
+            212,
+            80,
+            76
+          ],
+          [
+            162,
+            100,
+            78
+          ]
+        ],
+        "ce": 1.1522339582443237,
+        "events": 1064
+      },
+      "epochs": 40,
+      "shuffled_labels": false
+    },
+    "psi0_shuffled": {
+      "initial_monitor": {
+        "accuracy": 0.37030075187969924,
+        "balanced_accuracy": 0.37249705451306075,
+        "per_class_recall": [
+          0.39325842696629215,
+          0.27717391304347827,
+          0.4470588235294118
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            140,
+            74,
+            142
+          ],
+          [
+            128,
+            102,
+            138
+          ],
+          [
+            88,
+            100,
+            152
+          ]
+        ],
+        "ce": 1.1075714826583862,
+        "events": 1064
+      },
+      "final_train": {
+        "accuracy": 0.3385057471264368,
+        "balanced_accuracy": 0.33479049203042366,
+        "per_class_recall": [
+          0.08392857142857142,
+          0.4381107491856677,
+          0.4823321554770318
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            94,
+            464,
+            562
+          ],
+          [
+            104,
+            538,
+            586
+          ],
+          [
+            82,
+            504,
+            546
+          ]
+        ],
+        "ce": 1.101230502128601,
+        "events": 3480
+      },
+      "final_monitor": {
+        "accuracy": 0.3533834586466165,
+        "balanced_accuracy": 0.3553093000756727,
+        "per_class_recall": [
+          0.07865168539325842,
+          0.44021739130434784,
+          0.5470588235294118
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            28,
+            138,
+            190
+          ],
+          [
+            26,
+            162,
+            180
+          ],
+          [
+            14,
+            140,
+            186
+          ]
+        ],
+        "ce": 1.0970344543457031,
+        "events": 1064
+      },
+      "epochs": 40,
+      "shuffled_labels": true
+    },
+    "native_final_true": {
+      "initial_monitor": {
+        "accuracy": 0.34774436090225563,
+        "balanced_accuracy": 0.3352941176470588,
+        "per_class_recall": [
+          0.0,
+          1.0,
+          0.0058823529411764705
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            354,
+            2
+          ],
+          [
+            0,
+            368,
+            0
+          ],
+          [
+            0,
+            338,
+            2
+          ]
+        ],
+        "ce": 1.1965714693069458,
+        "events": 1064
+      },
+      "final_train": {
+        "accuracy": 0.4896551724137931,
+        "balanced_accuracy": 0.48266752799806634,
+        "per_class_recall": [
+          0.4125,
+          0.7271986970684039,
+          0.3083038869257951
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            462,
+            485,
+            173
+          ],
+          [
+            160,
+            893,
+            175
+          ],
+          [
+            194,
+            589,
+            349
+          ]
+        ],
+        "ce": 1.0078681707382202,
+        "events": 3480
+      },
+      "final_monitor": {
+        "accuracy": 0.4191729323308271,
+        "balanced_accuracy": 0.4141596501815186,
+        "per_class_recall": [
+          0.3595505617977528,
+          0.6358695652173914,
+          0.24705882352941178
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            128,
+            172,
+            56
+          ],
+          [
+            70,
+            234,
+            64
+          ],
+          [
+            61,
+            195,
+            84
+          ]
+        ],
+        "ce": 1.0950185060501099,
+        "events": 1064
+      },
+      "epochs": 40,
+      "shuffled_labels": false
+    },
+    "native_final_shuffled": {
+      "initial_monitor": {
+        "accuracy": 0.34022556390977443,
+        "balanced_accuracy": 0.3284276607565351,
+        "per_class_recall": [
+          0.028089887640449437,
+          0.9483695652173914,
+          0.008823529411764706
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            10,
+            345,
+            1
+          ],
+          [
+            17,
+            349,
+            2
+          ],
+          [
+            15,
+            322,
+            3
+          ]
+        ],
+        "ce": 1.1742385625839233,
+        "events": 1064
+      },
+      "final_train": {
+        "accuracy": 0.35201149425287354,
+        "balanced_accuracy": 0.3325190010857763,
+        "per_class_recall": [
+          0.0,
+          0.997557003257329,
+          0.0
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            1120,
+            0
+          ],
+          [
+            0,
+            1225,
+            3
+          ],
+          [
+            0,
+            1132,
+            0
+          ]
+        ],
+        "ce": 1.1067345142364502,
+        "events": 3480
+      },
+      "final_monitor": {
+        "accuracy": 0.3458646616541353,
+        "balanced_accuracy": 0.3333333333333333,
+        "per_class_recall": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            356,
+            0
+          ],
+          [
+            0,
+            368,
+            0
+          ],
+          [
+            0,
+            340,
+            0
+          ]
+        ],
+        "ce": 1.1117966175079346,
+        "events": 1064
+      },
+      "epochs": 40,
+      "shuffled_labels": true
+    },
+    "native_history_true": {
+      "initial_monitor": {
+        "accuracy": 0.3458646616541353,
+        "balanced_accuracy": 0.3333333333333333,
+        "per_class_recall": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            356,
+            0
+          ],
+          [
+            0,
+            368,
+            0
+          ],
+          [
+            0,
+            340,
+            0
+          ]
+        ],
+        "ce": 1.3415874242782593,
+        "events": 1064
+      },
+      "final_train": {
+        "accuracy": 0.582471264367816,
+        "balanced_accuracy": 0.5845814108898817,
+        "per_class_recall": [
+          0.6241071428571429,
+          0.5130293159609121,
+          0.6166077738515902
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            699,
+            179,
+            242
+          ],
+          [
+            259,
+            630,
+            339
+          ],
+          [
+            233,
+            201,
+            698
+          ]
+        ],
+        "ce": 0.9161770939826965,
+        "events": 3480
+      },
+      "final_monitor": {
+        "accuracy": 0.42199248120300753,
+        "balanced_accuracy": 0.42309620966119715,
+        "per_class_recall": [
+          0.47191011235955055,
+          0.3532608695652174,
+          0.4441176470588235
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            168,
+            84,
+            104
+          ],
+          [
+            120,
+            130,
+            118
+          ],
+          [
+            102,
+            87,
+            151
+          ]
+        ],
+        "ce": 1.118595838546753,
+        "events": 1064
+      },
+      "epochs": 40,
+      "shuffled_labels": false
+    },
+    "native_history_shuffled": {
+      "initial_monitor": {
+        "accuracy": 0.31203007518796994,
+        "balanced_accuracy": 0.31120003448374955,
+        "per_class_recall": [
+          0.8539325842696629,
+          0.03260869565217391,
+          0.047058823529411764
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            304,
+            16,
+            36
+          ],
+          [
+            343,
+            12,
+            13
+          ],
+          [
+            312,
+            12,
+            16
+          ]
+        ],
+        "ce": 1.134016752243042,
+        "events": 1064
+      },
+      "final_train": {
+        "accuracy": 0.3307471264367816,
+        "balanced_accuracy": 0.3361294848564073,
+        "per_class_recall": [
+          0.7258928571428571,
+          0.18973941368078176,
+          0.09275618374558305
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            813,
+            225,
+            82
+          ],
+          [
+            860,
+            233,
+            135
+          ],
+          [
+            801,
+            226,
+            105
+          ]
+        ],
+        "ce": 1.1144684553146362,
+        "events": 3480
+      },
+      "final_monitor": {
+        "accuracy": 0.29605263157894735,
+        "balanced_accuracy": 0.29401706945601885,
+        "per_class_recall": [
+          0.6966292134831461,
+          0.14130434782608695,
+          0.04411764705882353
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            248,
+            70,
+            38
+          ],
+          [
+            268,
+            52,
+            48
+          ],
+          [
+            253,
+            72,
+            15
+          ]
+        ],
+        "ce": 1.1163015365600586,
+        "events": 1064
+      },
+      "epochs": 40,
+      "shuffled_labels": true
+    }
+  },
+  "protocol_sha256": "8611fc4a81ad2aa407e1d7677bf124da7324407741d8f08c91d92ffc49604669",
+  "elapsed_seconds": 20.071247300016694,
+  "interpretation": "probe measures accessible relation information; it is not native accuracy or a promotion gate"
+}

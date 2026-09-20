@@ -1,0 +1,33 @@
+{
+  "controls": {
+    "R0": {
+      "historical_native_32_hop_accuracy": 0.661,
+      "interpretation": "A valid intermediate mechanism state was overwritten by continued teacher-on optimization.",
+      "status": "historical_v5_failure_diagnostic",
+      "teacher_lock": "v5_field_and_mechanism_coupled",
+      "training_distribution": "one_hop"
+    },
+    "R1": {
+      "evidence_path": "evidence/ergt_reviewer_v4_paper_full_summary.json",
+      "historical_native_32_hop_accuracy": 0.8035714285714286,
+      "interpretation": "Decoupled freezing recovered the earlier checkpoint but one-hop training remained limiting.",
+      "status": "frozen_v4_control",
+      "teacher_lock": "historical_field_only_freeze",
+      "training_distribution": "one_hop"
+    },
+    "R2": {
+      "interpretation": "The fresh run is the only source of the V6 repair verdict.",
+      "mechanism_selection": "two_raw_disjoint_frozen_shards",
+      "one_hop_pair_fraction": 0.25,
+      "status": "current_prospective_repair_pilot",
+      "teacher_lock": "v21_field_only_immediate_freeze",
+      "training_distribution": "scenario_balanced_1_to_8_hops"
+    }
+  },
+  "data_seed": 5209,
+  "historical_controls_are_nonblocking": true,
+  "optimization_seed": 2027,
+  "prospective": true,
+  "schema_version": "ergt-reviewer-v6-repair-design-v1",
+  "scientific_verdict_uses_only_current_run": true
+}

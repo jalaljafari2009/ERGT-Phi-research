@@ -1,0 +1,753 @@
+{
+  "accepted_raw_duplicates_across_cohorts_policy": "forbidden",
+  "baseline_qualification_manifest": {
+    "data_seed": 5209,
+    "final_12_32_hop_panels_evaluated": 0,
+    "forbidden_components": [
+      "compiler",
+      "generic_executor",
+      "ERGT_graph",
+      "geometry_side_input",
+      "final_horizon_selection"
+    ],
+    "fresh_final_profile": "paper_final_v8",
+    "manifest_sha256": "2835426c8d317cf4f30d842276870b5cf64c10ace4d1268e27caa4c08244168b",
+    "optimization_seed": 2027,
+    "protocol_revision": "v8.1_v7_warmup_restoration",
+    "protocol_sha256": "ba86380a5dd23a88ddd19b87ac0c897dc40ce1f2897757db371b48b54cef3695",
+    "qualification_pass": true,
+    "qualification_source_sha256": {
+      "configs/baseline_qualification_v8.json": "4b769d9db5ef513f81b1479f3ca240ca26600eebf3d2d7ce9101f61218be78fc",
+      "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+      "ergt_reviewer/baseline_qualification_v8.py": "21ece85f77ed8f00159a2ae78995b8d2e6a77cc811110930552ecdb8bce4a74d",
+      "ergt_reviewer/fair_data.py": "7342002c14edb35be0c504a2228f3e83d65c02dafeb5967f62380207e8975b6b",
+      "ergt_reviewer/training.py": "0abac04a3ff043d851f306bb7d9683f1e347e0aff0505c46716674701181a8d3"
+    },
+    "schema_version": "ergt-reviewer-baseline-qualification-v8.1",
+    "selected_candidate": {
+      "candidate_id": "t4_aux_staged_a",
+      "parameter_audit": {
+        "inference_active_relative_parameter_difference": 0.044803268026989675,
+        "native_inference_active_parameters": 196816,
+        "transformer_config": {
+          "answer_count": 3,
+          "candidate_a_token_id": 8,
+          "candidate_b_token_id": 9,
+          "dropout": 0.0,
+          "feedforward_dim": 192,
+          "hidden_dim": 64,
+          "max_tokens": 768,
+          "n_heads": 4,
+          "n_layers": 4,
+          "query_token_id": 130,
+          "vocab_size": 141
+        },
+        "transformer_inference_active_parameters": 205634,
+        "within_ten_percent": true
+      },
+      "qualification_metrics": {
+        "development_observer_pass": false,
+        "development_pair_exact": 0.3125,
+        "development_supported_accuracy": 0.59375,
+        "train_id_supported_accuracy": 1.0,
+        "tuning_pair_exact": 1.0,
+        "tuning_supported_accuracy": 1.0,
+        "validation_pair_exact": 1.0,
+        "validation_supported_accuracy": 1.0,
+        "validation_unsupported_error_rate": 0.0
+      },
+      "recipe": {
+        "batch_size": 16,
+        "candidate_id": "t4_aux_staged_a",
+        "curriculum_stages": [
+          {
+            "learning_rate_scale": 0.35,
+            "max_hop": 2,
+            "name": "curriculum_1_2",
+            "steps": 400
+          },
+          {
+            "learning_rate_scale": 0.25,
+            "max_hop": 4,
+            "name": "curriculum_1_4",
+            "steps": 500
+          },
+          {
+            "learning_rate_scale": 0.15,
+            "max_hop": 8,
+            "name": "curriculum_1_8",
+            "steps": 1400
+          }
+        ],
+        "eval_interval": 100,
+        "learning_rate": 0.0007,
+        "loss_mode": "matched_auxiliary",
+        "n_layers": 4,
+        "seed_offset": 0,
+        "warmup_batch_size": 8,
+        "warmup_sampling_seed_offset": 701,
+        "warmup_steps": 1400
+      }
+    },
+    "selection_is_development_only": true
+  },
+  "checkpoint_selection_split": {
+    "direct_transformer": "one_hop_eligibility+bounded_6_8_ranking",
+    "native_ergt": "independent_2_8_hop_readiness+minimum_exposure+two_frozen_6_8_mechanism_shards"
+  },
+  "config": {
+    "baseline_optimization_budget_policy": "baseline_favoring_extra_steps_disclosed_no_efficiency_claim",
+    "baseline_supervision_policy": "locked_v8_1_strengthened_direct_transformer",
+    "batch_size": 8,
+    "bootstrap_samples": 1000,
+    "checkpoint_stable_windows": 2,
+    "conservation_residual_ceiling": 0.0001,
+    "context_lengths": [
+      128,
+      256,
+      512,
+      768
+    ],
+    "context_pairs": 20,
+    "convergence_accuracy_floor": 0.9,
+    "data_seeds": [
+      16301
+    ],
+    "development_repair_pilot": true,
+    "development_results_forbidden_from_final_claim": true,
+    "eval_batch_size": 8,
+    "eval_interval": 100,
+    "final_execution_lock_audit": {
+      "checkpoint_contract": {
+        "consecutive_readiness_windows": 2,
+        "deterministic_complete_pair_epochs": true,
+        "fallback_to_unselected_final_state_for_verdict": false,
+        "final_12_32_hop_panels_used_for_selection": false,
+        "immediate_freeze_after_readiness": true,
+        "independent_2_8_hop_readiness": true,
+        "mechanism_shards": 2,
+        "minimum_pair_group_exposure": 8,
+        "one_hop_id_is_reporting_only": true,
+        "zero_teacher_optimizer_steps": 0
+      },
+      "checks": {
+        "baseline_failure_is_nonblocking_for_ergt": true,
+        "four_seed_results_are_retained": true,
+        "lock_hash_matches": true,
+        "lock_is_immutable": true,
+        "locked_files_are_unchanged": true,
+        "matched_convergence_requires_three_seeds": true,
+        "matched_seed_selection_uses_id_only": true,
+        "minimum_exposure_required": true,
+        "multihop_readiness_required": true,
+        "one_hop_id_is_not_native_freeze_condition": true,
+        "profile_is_locked": true,
+        "qualification_manifest_is_exact": true,
+        "schema_matches": true
+      },
+      "claim_policy": {
+        "all_four_seed_results_retained": true,
+        "baseline_convergence_reported_per_seed": true,
+        "baseline_failure_is_nonblocking_for_ergt": true,
+        "compute_efficiency_claimed": false,
+        "language_modeling_claimed": false,
+        "matched_convergence_is_numeric_readout_not_run_gate": true,
+        "matched_convergence_minimum_seed_count": 3,
+        "matched_convergence_seed_selection_uses_id_only": true,
+        "matched_convergence_wording_is_conditional": true,
+        "observed_paired_comparison_is_separate": true,
+        "universal_transformer_superiority_claimed": false
+      },
+      "expected_source_sha256": {
+        "configs/paper_final_v9.json": "7893d10c9909ad14a877122310e5cd9844dc362cac2571601c95061496d8b204",
+        "configs/repair_pilot_v9.json": "a96640ccf4c12377bc7c48b82f3b4608a26382a0e053bc52bb7b82aa2dcbd0bf",
+        "ergt_reviewer/__init__.py": "a9a12ee1bdc0e0b5962e75529f3336422df9e1283bd812248ff2a97af71ef30c",
+        "ergt_reviewer/artifacts.py": "27e20476a363281f9ee5efefb6128b7e59a9f563e683a8554ba6f4937642d91c",
+        "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+        "ergt_reviewer/data_schema.py": "e42f16e7284c5b1910c700e3be0a32c5b9f3f43faa9fcb0850508651ace46c2a",
+        "ergt_reviewer/evaluation_v9.py": "7c5b44f36c00cc3e525c82f9d336a76d099b19e211db451efb46879f9055f972",
+        "ergt_reviewer/fair_data_v9.py": "adf81a367b5b5e7e161ad4a85ee2b0a8345a86329d81ee89d8102ed7c034c48d",
+        "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+        "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+        "ergt_reviewer/physics_core.py": "15fcc716287ea1c051ee800f38cd6b4d827eefdcacaaccb01e0f8b84ddc4249c",
+        "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+        "ergt_reviewer/reporting_v9.py": "d3c9a06bb8ee16313eda60cbf0812eca659927941be373731f97ecf47d01d6fb",
+        "ergt_reviewer/spectral_runtime.py": "b6f1b44644406f1df74663bb912ba6e3667454a04ddeeb046f29383a4f6a0dbc",
+        "ergt_reviewer/statistics.py": "02151b5ac27dab490e249f0e943f71a0e1a84eecc6e63e87499d7b3827240940",
+        "ergt_reviewer/suite_v9.py": "e2f425aa095512f45f15bd36630ca40f6c8b9603ea97e0dd25ec8869c9910a65",
+        "ergt_reviewer/training_v9.py": "e1b2ac8a1cec7e7bde0947f9651ae2116fdc669ef772e183687b8ee7171700ca",
+        "ergt_reviewer/v9_confirmation.py": "5847cae483a07ef615cafc652f0d3d9b497f05287f1ee07e654711f07a4f7325",
+        "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e",
+        "manifests/ergt_stability_capability_catalog.json": "8ac034a5e77ed6cad99a080e5591ab2524fd2d99697a41e405d53e20f04e5005",
+        "manifests/v8_1_selected_baseline_manifest.json": "0a33cf262885d1ac3d97c934152a08fd9ff8a80819ef935ea36883a28ab49732"
+      },
+      "mismatched_files": [],
+      "observed_lock_sha256": "4b308bf50675b5e84c12cc8f07ea05fc220634c3cd7cbf48549568c88f2e9670",
+      "observed_source_sha256": {
+        "configs/paper_final_v9.json": "7893d10c9909ad14a877122310e5cd9844dc362cac2571601c95061496d8b204",
+        "configs/repair_pilot_v9.json": "a96640ccf4c12377bc7c48b82f3b4608a26382a0e053bc52bb7b82aa2dcbd0bf",
+        "ergt_reviewer/__init__.py": "a9a12ee1bdc0e0b5962e75529f3336422df9e1283bd812248ff2a97af71ef30c",
+        "ergt_reviewer/artifacts.py": "27e20476a363281f9ee5efefb6128b7e59a9f563e683a8554ba6f4937642d91c",
+        "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+        "ergt_reviewer/data_schema.py": "e42f16e7284c5b1910c700e3be0a32c5b9f3f43faa9fcb0850508651ace46c2a",
+        "ergt_reviewer/evaluation_v9.py": "7c5b44f36c00cc3e525c82f9d336a76d099b19e211db451efb46879f9055f972",
+        "ergt_reviewer/fair_data_v9.py": "adf81a367b5b5e7e161ad4a85ee2b0a8345a86329d81ee89d8102ed7c034c48d",
+        "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+        "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+        "ergt_reviewer/physics_core.py": "15fcc716287ea1c051ee800f38cd6b4d827eefdcacaaccb01e0f8b84ddc4249c",
+        "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+        "ergt_reviewer/reporting_v9.py": "d3c9a06bb8ee16313eda60cbf0812eca659927941be373731f97ecf47d01d6fb",
+        "ergt_reviewer/spectral_runtime.py": "b6f1b44644406f1df74663bb912ba6e3667454a04ddeeb046f29383a4f6a0dbc",
+        "ergt_reviewer/statistics.py": "02151b5ac27dab490e249f0e943f71a0e1a84eecc6e63e87499d7b3827240940",
+        "ergt_reviewer/suite_v9.py": "e2f425aa095512f45f15bd36630ca40f6c8b9603ea97e0dd25ec8869c9910a65",
+        "ergt_reviewer/training_v9.py": "e1b2ac8a1cec7e7bde0947f9651ae2116fdc669ef772e183687b8ee7171700ca",
+        "ergt_reviewer/v9_confirmation.py": "5847cae483a07ef615cafc652f0d3d9b497f05287f1ee07e654711f07a4f7325",
+        "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e",
+        "manifests/ergt_stability_capability_catalog.json": "8ac034a5e77ed6cad99a080e5591ab2524fd2d99697a41e405d53e20f04e5005",
+        "manifests/v8_1_selected_baseline_manifest.json": "0a33cf262885d1ac3d97c934152a08fd9ff8a80819ef935ea36883a28ab49732"
+      },
+      "pass": true,
+      "recomputed_lock_sha256": "4b308bf50675b5e84c12cc8f07ea05fc220634c3cd7cbf48549568c88f2e9670",
+      "schema_version": "ergt-reviewer-v9-execution-lock-v1"
+    },
+    "final_intervention_hops": [
+      12,
+      16,
+      24,
+      32
+    ],
+    "fresh_confirmatory_seeds": false,
+    "fresh_seed_audit": {
+      "checks": {
+        "optimization_and_data_seeds_disjoint": true,
+        "qualification_data_seed_excluded": true,
+        "qualification_optimization_seed_excluded": true
+      },
+      "data_seeds": [
+        16301
+      ],
+      "development_repair_pilot": true,
+      "development_seed_reuse_is_not_confirmatory": true,
+      "optimization_seeds": [
+        12011
+      ],
+      "pass": true
+    },
+    "id_hops": 1,
+    "interaction_context_lengths": [
+      512,
+      768
+    ],
+    "intervention_drop_floor": 0.2,
+    "intervention_full_accuracy_floor": 0.8,
+    "intervention_global_pairs": 14,
+    "intervention_pairs_per_scenario": 4,
+    "long_horizon_accuracy_floor": 0.9,
+    "long_horizon_margin_floor": 0.35,
+    "max_pairwise_cells": 2500000,
+    "max_tokens": 768,
+    "mechanism_tuning_drop_floor": 0.2,
+    "mechanism_tuning_full_accuracy_floor": 0.8,
+    "mechanism_tuning_hops": [
+      6,
+      8
+    ],
+    "mechanism_tuning_minimum_eligible_pairs": 2,
+    "mechanism_tuning_pairs_per_scenario": 2,
+    "mechanism_tuning_required": true,
+    "mechanism_tuning_shard_count": 2,
+    "minimum_intervention_eligible_pairs": 2,
+    "native_checkpoint_protocol": "v9_multihop_exposure_locked",
+    "native_effective_action_mae_ceiling": 0.12,
+    "native_event_chain_exact_floor": 0.99,
+    "native_event_selection_overflow_ceiling": 0.0,
+    "native_field_steps": 3,
+    "native_geodesic_backbone_levels": 10,
+    "native_geodesic_closure_non_degradation_floor": 1.0,
+    "native_geodesic_closure_steps": 36,
+    "native_hidden_dim": 56,
+    "native_learning_rate": 0.0025,
+    "native_max_hops": 36,
+    "native_measurement_accuracy_floor": 0.99,
+    "native_min_group_exposure_before_freeze": 8,
+    "native_path_coverage_floor": 0.99,
+    "native_program_event_precision_floor": 0.98,
+    "native_program_event_recall_floor": 0.99,
+    "native_psi_rank": 20,
+    "native_query_role_accuracy_floor": 0.99,
+    "native_readiness_accuracy_floor": 0.9,
+    "native_readiness_hop_pair_counts": {
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7
+    },
+    "native_readiness_max_hops": 8,
+    "native_readiness_min_hops": 2,
+    "native_readiness_pair_floor": 0.9,
+    "native_readiness_start_step": 200,
+    "native_readiness_unsupported_pairs": 7,
+    "native_sparse_top_k": 20,
+    "native_steps": 1800,
+    "native_teacher_cut_fraction": 0.78,
+    "native_teacher_schedule_steps": 1600,
+    "node_label_pool_size": 97,
+    "pairs_per_hop": 28,
+    "profile": "repair_pilot_v9",
+    "protocol_revision": "v9_multihop_exposure_lock",
+    "qualification_manifest_audit": {
+      "checks": {
+        "final_panels_remained_closed": true,
+        "final_profile_protocol_revision_matches": true,
+        "forbidden_components_complete": true,
+        "fresh_final_profile_registered": true,
+        "manifest_hash_matches": true,
+        "protocol_revision_matches": true,
+        "qualification_passed": true,
+        "qualification_source_is_unchanged": true,
+        "schema_matches": true,
+        "selected_batch_size_registered": true,
+        "selected_candidate_matches_recipe": true,
+        "selected_curriculum_registered": true,
+        "selected_depth_registered": true,
+        "selected_inference_parameters_matched": true,
+        "selected_loss_mode_registered": true,
+        "selected_raw_disjoint_validation_converged": true,
+        "selected_recipe_present": true,
+        "selected_train_id_converged": true,
+        "selected_tuning_converged": true,
+        "selected_warmup_batch_size_registered": true,
+        "selected_warmup_budget_registered": true,
+        "selected_warmup_stream_registered": true,
+        "selection_is_development_only": true
+      },
+      "current_source_sha256": {
+        "configs/baseline_qualification_v8.json": "4b769d9db5ef513f81b1479f3ca240ca26600eebf3d2d7ce9101f61218be78fc",
+        "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+        "ergt_reviewer/baseline_qualification_v8.py": "21ece85f77ed8f00159a2ae78995b8d2e6a77cc811110930552ecdb8bce4a74d",
+        "ergt_reviewer/fair_data.py": "7342002c14edb35be0c504a2228f3e83d65c02dafeb5967f62380207e8975b6b",
+        "ergt_reviewer/training.py": "0abac04a3ff043d851f306bb7d9683f1e347e0aff0505c46716674701181a8d3"
+      },
+      "data_seed": 5209,
+      "observed_manifest_sha256": "2835426c8d317cf4f30d842276870b5cf64c10ace4d1268e27caa4c08244168b",
+      "optimization_seed": 2027,
+      "pass": true,
+      "recomputed_manifest_sha256": "2835426c8d317cf4f30d842276870b5cf64c10ace4d1268e27caa4c08244168b",
+      "registered_source_sha256": {
+        "configs/baseline_qualification_v8.json": "4b769d9db5ef513f81b1479f3ca240ca26600eebf3d2d7ce9101f61218be78fc",
+        "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+        "ergt_reviewer/baseline_qualification_v8.py": "21ece85f77ed8f00159a2ae78995b8d2e6a77cc811110930552ecdb8bce4a74d",
+        "ergt_reviewer/fair_data.py": "7342002c14edb35be0c504a2228f3e83d65c02dafeb5967f62380207e8975b6b",
+        "ergt_reviewer/training.py": "0abac04a3ff043d851f306bb7d9683f1e347e0aff0505c46716674701181a8d3"
+      },
+      "selected_recipe": {
+        "batch_size": 16,
+        "candidate_id": "t4_aux_staged_a",
+        "curriculum_stages": [
+          {
+            "learning_rate_scale": 0.35,
+            "max_hop": 2,
+            "name": "curriculum_1_2",
+            "steps": 400
+          },
+          {
+            "learning_rate_scale": 0.25,
+            "max_hop": 4,
+            "name": "curriculum_1_4",
+            "steps": 500
+          },
+          {
+            "learning_rate_scale": 0.15,
+            "max_hop": 8,
+            "name": "curriculum_1_8",
+            "steps": 1400
+          }
+        ],
+        "eval_interval": 100,
+        "learning_rate": 0.0007,
+        "loss_mode": "matched_auxiliary",
+        "n_layers": 4,
+        "seed_offset": 0,
+        "warmup_batch_size": 8,
+        "warmup_sampling_seed_offset": 701,
+        "warmup_steps": 1400
+      }
+    },
+    "qualification_manifest_source": "/content/ERGT-Phi-research/reference/ergt_four_seed/_locked_runtime/manifests/v8_1_selected_baseline_manifest.json",
+    "qualified_transformer_recipe": {
+      "batch_size": 16,
+      "candidate_id": "t4_aux_staged_a",
+      "curriculum_stages": [
+        {
+          "learning_rate_scale": 0.35,
+          "max_hop": 2,
+          "name": "curriculum_1_2",
+          "steps": 400
+        },
+        {
+          "learning_rate_scale": 0.25,
+          "max_hop": 4,
+          "name": "curriculum_1_4",
+          "steps": 500
+        },
+        {
+          "learning_rate_scale": 0.15,
+          "max_hop": 8,
+          "name": "curriculum_1_8",
+          "steps": 1400
+        }
+      ],
+      "eval_interval": 100,
+      "learning_rate": 0.0007,
+      "loss_mode": "matched_auxiliary",
+      "n_layers": 4,
+      "seed_offset": 0,
+      "warmup_batch_size": 8,
+      "warmup_sampling_seed_offset": 701,
+      "warmup_steps": 1400
+    },
+    "seeds": [
+      12011
+    ],
+    "study_protocol_name": "single_seed_validation",
+    "test_hops": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32
+    ],
+    "train_max_hops": 8,
+    "train_min_hops": 1,
+    "train_pairs": 224,
+    "train_unsupported_pairs": 28,
+    "training_distractor_tokens": 16,
+    "training_hop_pair_counts": {
+      "1": 28,
+      "2": 28,
+      "3": 28,
+      "4": 28,
+      "5": 28,
+      "6": 28,
+      "7": 28,
+      "8": 28
+    },
+    "transformer_auxiliary_weight": 0.25,
+    "transformer_pair_equivariance_weight": 0.1,
+    "transformer_training_protocol": "v8_staged_qualified_curriculum",
+    "transformer_tuning_accuracy_floor": 0.9,
+    "transformer_tuning_pair_floor": 0.9,
+    "transformer_tuning_unsupported_error_ceiling": 0.1,
+    "tuning_pairs": 49,
+    "tuning_unsupported_pairs": 14,
+    "unsupported_error_ceiling": 0.1,
+    "unsupported_hops": [
+      4,
+      16,
+      32
+    ],
+    "v9_mode": "single_seed_validation",
+    "validation_pairs": 49,
+    "verdict_enabled": true
+  },
+  "curvature_observer_only": true,
+  "decoupled_native_selection": [
+    "one_hop_id_reporting_only",
+    "independent_2_8_hop_field_readiness",
+    "deterministic_epoch_coverage",
+    "minimum_pair_group_exposure",
+    "complete_chain_closure_overflow_contract",
+    "immediate_field_freeze",
+    "zero_teacher_stability",
+    "six_mechanism_interventions_on_two_frozen_shards"
+  ],
+  "ergt43_v21_is_immutable_reference": true,
+  "ergt43_v21_reference_contract": {
+    "complete_chain_closure_overflow_readiness": true,
+    "independent_2_8_hop_readiness_before_teacher_cut": true,
+    "minimum_pair_group_exposure_before_teacher_cut": 8,
+    "semantic_identity_factorization_preserved": true,
+    "stable_zero_teacher_windows": 2,
+    "zero_teacher_optimizer_steps": 0
+  },
+  "ergt43_v21_reference_manifest": {
+    "git_blob_sha1": "299d6bafb0f3ab7076182da32328c5ff04620b9e",
+    "immutable": true,
+    "introducing_commit": "14bfaff",
+    "modified_by_reviewer_v3": false,
+    "preserved_contracts": [
+      "semantic_identity_factorization",
+      "raw_token_only_public_boundary",
+      "compiler_free_native_target_path",
+      "generic_executor_free_native_target_path",
+      "hard_min_plus_geodesic_solver",
+      "typed_transport_and_terminal_boundary_measurement"
+    ],
+    "reference_name": "ERGT-43 V21 clean raw-input index",
+    "repository_path": "experiments/ergt43_native_geometric_boundary_suite.py",
+    "role": "Historical successful index only; fresh reviewer checkpoints determine confirmatory claims.",
+    "schema_version": "ergt43-v21-immutable-reference-v1",
+    "source_sha256": "1dd954213b5221dd66e2d7f36808572d88895c03017e4ce6bee3ed789aa42719"
+  },
+  "external_identity_sidecar": false,
+  "field_readiness_controls_immediate_freeze": true,
+  "final_execution_lock_audit": {
+    "checkpoint_contract": {
+      "consecutive_readiness_windows": 2,
+      "deterministic_complete_pair_epochs": true,
+      "fallback_to_unselected_final_state_for_verdict": false,
+      "final_12_32_hop_panels_used_for_selection": false,
+      "immediate_freeze_after_readiness": true,
+      "independent_2_8_hop_readiness": true,
+      "mechanism_shards": 2,
+      "minimum_pair_group_exposure": 8,
+      "one_hop_id_is_reporting_only": true,
+      "zero_teacher_optimizer_steps": 0
+    },
+    "checks": {
+      "baseline_failure_is_nonblocking_for_ergt": true,
+      "four_seed_results_are_retained": true,
+      "lock_hash_matches": true,
+      "lock_is_immutable": true,
+      "locked_files_are_unchanged": true,
+      "matched_convergence_requires_three_seeds": true,
+      "matched_seed_selection_uses_id_only": true,
+      "minimum_exposure_required": true,
+      "multihop_readiness_required": true,
+      "one_hop_id_is_not_native_freeze_condition": true,
+      "profile_is_locked": true,
+      "qualification_manifest_is_exact": true,
+      "schema_matches": true
+    },
+    "claim_policy": {
+      "all_four_seed_results_retained": true,
+      "baseline_convergence_reported_per_seed": true,
+      "baseline_failure_is_nonblocking_for_ergt": true,
+      "compute_efficiency_claimed": false,
+      "language_modeling_claimed": false,
+      "matched_convergence_is_numeric_readout_not_run_gate": true,
+      "matched_convergence_minimum_seed_count": 3,
+      "matched_convergence_seed_selection_uses_id_only": true,
+      "matched_convergence_wording_is_conditional": true,
+      "observed_paired_comparison_is_separate": true,
+      "universal_transformer_superiority_claimed": false
+    },
+    "expected_source_sha256": {
+      "configs/paper_final_v9.json": "7893d10c9909ad14a877122310e5cd9844dc362cac2571601c95061496d8b204",
+      "configs/repair_pilot_v9.json": "a96640ccf4c12377bc7c48b82f3b4608a26382a0e053bc52bb7b82aa2dcbd0bf",
+      "ergt_reviewer/__init__.py": "a9a12ee1bdc0e0b5962e75529f3336422df9e1283bd812248ff2a97af71ef30c",
+      "ergt_reviewer/artifacts.py": "27e20476a363281f9ee5efefb6128b7e59a9f563e683a8554ba6f4937642d91c",
+      "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+      "ergt_reviewer/data_schema.py": "e42f16e7284c5b1910c700e3be0a32c5b9f3f43faa9fcb0850508651ace46c2a",
+      "ergt_reviewer/evaluation_v9.py": "7c5b44f36c00cc3e525c82f9d336a76d099b19e211db451efb46879f9055f972",
+      "ergt_reviewer/fair_data_v9.py": "adf81a367b5b5e7e161ad4a85ee2b0a8345a86329d81ee89d8102ed7c034c48d",
+      "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+      "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+      "ergt_reviewer/physics_core.py": "15fcc716287ea1c051ee800f38cd6b4d827eefdcacaaccb01e0f8b84ddc4249c",
+      "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+      "ergt_reviewer/reporting_v9.py": "d3c9a06bb8ee16313eda60cbf0812eca659927941be373731f97ecf47d01d6fb",
+      "ergt_reviewer/spectral_runtime.py": "b6f1b44644406f1df74663bb912ba6e3667454a04ddeeb046f29383a4f6a0dbc",
+      "ergt_reviewer/statistics.py": "02151b5ac27dab490e249f0e943f71a0e1a84eecc6e63e87499d7b3827240940",
+      "ergt_reviewer/suite_v9.py": "e2f425aa095512f45f15bd36630ca40f6c8b9603ea97e0dd25ec8869c9910a65",
+      "ergt_reviewer/training_v9.py": "e1b2ac8a1cec7e7bde0947f9651ae2116fdc669ef772e183687b8ee7171700ca",
+      "ergt_reviewer/v9_confirmation.py": "5847cae483a07ef615cafc652f0d3d9b497f05287f1ee07e654711f07a4f7325",
+      "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e",
+      "manifests/ergt_stability_capability_catalog.json": "8ac034a5e77ed6cad99a080e5591ab2524fd2d99697a41e405d53e20f04e5005",
+      "manifests/v8_1_selected_baseline_manifest.json": "0a33cf262885d1ac3d97c934152a08fd9ff8a80819ef935ea36883a28ab49732"
+    },
+    "mismatched_files": [],
+    "observed_lock_sha256": "4b308bf50675b5e84c12cc8f07ea05fc220634c3cd7cbf48549568c88f2e9670",
+    "observed_source_sha256": {
+      "configs/paper_final_v9.json": "7893d10c9909ad14a877122310e5cd9844dc362cac2571601c95061496d8b204",
+      "configs/repair_pilot_v9.json": "a96640ccf4c12377bc7c48b82f3b4608a26382a0e053bc52bb7b82aa2dcbd0bf",
+      "ergt_reviewer/__init__.py": "a9a12ee1bdc0e0b5962e75529f3336422df9e1283bd812248ff2a97af71ef30c",
+      "ergt_reviewer/artifacts.py": "27e20476a363281f9ee5efefb6128b7e59a9f563e683a8554ba6f4937642d91c",
+      "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+      "ergt_reviewer/data_schema.py": "e42f16e7284c5b1910c700e3be0a32c5b9f3f43faa9fcb0850508651ace46c2a",
+      "ergt_reviewer/evaluation_v9.py": "7c5b44f36c00cc3e525c82f9d336a76d099b19e211db451efb46879f9055f972",
+      "ergt_reviewer/fair_data_v9.py": "adf81a367b5b5e7e161ad4a85ee2b0a8345a86329d81ee89d8102ed7c034c48d",
+      "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+      "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+      "ergt_reviewer/physics_core.py": "15fcc716287ea1c051ee800f38cd6b4d827eefdcacaaccb01e0f8b84ddc4249c",
+      "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+      "ergt_reviewer/reporting_v9.py": "d3c9a06bb8ee16313eda60cbf0812eca659927941be373731f97ecf47d01d6fb",
+      "ergt_reviewer/spectral_runtime.py": "b6f1b44644406f1df74663bb912ba6e3667454a04ddeeb046f29383a4f6a0dbc",
+      "ergt_reviewer/statistics.py": "02151b5ac27dab490e249f0e943f71a0e1a84eecc6e63e87499d7b3827240940",
+      "ergt_reviewer/suite_v9.py": "e2f425aa095512f45f15bd36630ca40f6c8b9603ea97e0dd25ec8869c9910a65",
+      "ergt_reviewer/training_v9.py": "e1b2ac8a1cec7e7bde0947f9651ae2116fdc669ef772e183687b8ee7171700ca",
+      "ergt_reviewer/v9_confirmation.py": "5847cae483a07ef615cafc652f0d3d9b497f05287f1ee07e654711f07a4f7325",
+      "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e",
+      "manifests/ergt_stability_capability_catalog.json": "8ac034a5e77ed6cad99a080e5591ab2524fd2d99697a41e405d53e20f04e5005",
+      "manifests/v8_1_selected_baseline_manifest.json": "0a33cf262885d1ac3d97c934152a08fd9ff8a80819ef935ea36883a28ab49732"
+    },
+    "pass": true,
+    "recomputed_lock_sha256": "4b308bf50675b5e84c12cc8f07ea05fc220634c3cd7cbf48549568c88f2e9670",
+    "schema_version": "ergt-reviewer-v9-execution-lock-v1"
+  },
+  "final_interventions_are_never_used_for_checkpoint_selection": true,
+  "forbidden_model_arms": [
+    "any_transformer_with_external_program_or_solver"
+  ],
+  "horizon_extrapolation_hops": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32
+  ],
+  "id_calibration_hops": [
+    1
+  ],
+  "locked_native_core_audit": {
+    "expected_sha256": {
+      "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+      "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+      "ergt_reviewer/physics_core.py": "15fcc716287ea1c051ee800f38cd6b4d827eefdcacaaccb01e0f8b84ddc4249c",
+      "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+      "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e"
+    },
+    "hash_policy": "sha256-canonical-lf-v1",
+    "immutable": true,
+    "locked_native_core_unchanged": true,
+    "mismatched_files": [],
+    "observed_sha256": {
+      "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+      "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+      "ergt_reviewer/physics_core.py": "15fcc716287ea1c051ee800f38cd6b4d827eefdcacaaccb01e0f8b84ddc4249c",
+      "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+      "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e"
+    },
+    "schema_version": "ergt-reviewer-v5-locked-native-core-v1"
+  },
+  "matched_convergence_rule": {
+    "all_seed_results_retained": true,
+    "minimum_id_converged_seed_pairs": 1,
+    "selection_uses_final_horizon_results": false,
+    "total_seed_pairs": 1
+  },
+  "mechanism_tuning_controls_teacher": false,
+  "mechanism_tuning_is_disjoint_from_final_interventions": true,
+  "mechanism_tuning_shards_are_raw_disjoint": true,
+  "model_display_names": {
+    "direct_transformer": "Direct Transformer Baseline",
+    "native_ergt": "ERGT Geometric Model"
+  },
+  "models": [
+    "direct_transformer",
+    "native_ergt"
+  ],
+  "native_internal_path_preserved_by_bitwise_audit": true,
+  "native_public_inputs": [
+    "raw_token_ids",
+    "attention_mask"
+  ],
+  "no_early_failure": true,
+  "pair_level_duplicate_rejection": true,
+  "parameter_match_basis": "inference_active_parameters",
+  "profile": "repair_pilot_v9",
+  "protocol_sha256": "c1ad423c0e47d9800b2a9061e760770605bfbcd9e3b2fe68f0ca093640471b74",
+  "qualified_transformer_loss_mode": "matched_auxiliary",
+  "raw_horizon_slope_is_descriptive_not_blocking": true,
+  "scenario_hop_assignment": "orthogonal_grid",
+  "schema_version": "ergt-geometric-long-horizon-study-v1",
+  "shared_raw_input": true,
+  "shared_training_hops": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "source_sha256": {
+    "configs/paper_final_v9.json": "7893d10c9909ad14a877122310e5cd9844dc362cac2571601c95061496d8b204",
+    "configs/repair_pilot_v9.json": "a96640ccf4c12377bc7c48b82f3b4608a26382a0e053bc52bb7b82aa2dcbd0bf",
+    "configs/standalone_smoke.json": "8eda7f3a9fd1fb44b08643bea8da921f2950ea4c01942e4f55a870bc9108b403",
+    "contracts/qualification_source/configs/baseline_qualification_v8.json": "4b769d9db5ef513f81b1479f3ca240ca26600eebf3d2d7ce9101f61218be78fc",
+    "contracts/qualification_source/configs/paper_final_v8.json": "12b1ebc216f5c0497107f5ca619f400291ee225efb836c678837a3c390b1ef5c",
+    "contracts/qualification_source/ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+    "contracts/qualification_source/ergt_reviewer/baseline_qualification_v8.py": "21ece85f77ed8f00159a2ae78995b8d2e6a77cc811110930552ecdb8bce4a74d",
+    "contracts/qualification_source/ergt_reviewer/fair_data.py": "7342002c14edb35be0c504a2228f3e83d65c02dafeb5967f62380207e8975b6b",
+    "contracts/qualification_source/ergt_reviewer/training.py": "0abac04a3ff043d851f306bb7d9683f1e347e0aff0505c46716674701181a8d3",
+    "ergt_reviewer/__init__.py": "a9a12ee1bdc0e0b5962e75529f3336422df9e1283bd812248ff2a97af71ef30c",
+    "ergt_reviewer/artifacts.py": "27e20476a363281f9ee5efefb6128b7e59a9f563e683a8554ba6f4937642d91c",
+    "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+    "ergt_reviewer/baseline_qualification.py": "91e6af2a6a74d5c2a033033611e5987eb6a2f062bf195a37151502fb4e52e27f",
+    "ergt_reviewer/baseline_qualification_v8.py": "f307bb8e2f33d22c680ec070120782e5abf19b01c667de5e9bcd1f6a0cd419cc",
+    "ergt_reviewer/data_schema.py": "e42f16e7284c5b1910c700e3be0a32c5b9f3f43faa9fcb0850508651ace46c2a",
+    "ergt_reviewer/evaluation_v9.py": "7c5b44f36c00cc3e525c82f9d336a76d099b19e211db451efb46879f9055f972",
+    "ergt_reviewer/fair_data_v9.py": "adf81a367b5b5e7e161ad4a85ee2b0a8345a86329d81ee89d8102ed7c034c48d",
+    "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+    "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+    "ergt_reviewer/physics_core.py": "02943066d9b46b6ada5602398ff688cb20ec228f0c9411010ad1e9b2e6bcb3ac",
+    "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+    "ergt_reviewer/reporting_v9.py": "d3c9a06bb8ee16313eda60cbf0812eca659927941be373731f97ecf47d01d6fb",
+    "ergt_reviewer/spectral_runtime.py": "b6f1b44644406f1df74663bb912ba6e3667454a04ddeeb046f29383a4f6a0dbc",
+    "ergt_reviewer/statistics.py": "02151b5ac27dab490e249f0e943f71a0e1a84eecc6e63e87499d7b3827240940",
+    "ergt_reviewer/suite.py": "a63679fdc0043734e7d8965eb64e45b9aae71ea025b9d551901976974882e629",
+    "ergt_reviewer/suite_v9.py": "e2f425aa095512f45f15bd36630ca40f6c8b9603ea97e0dd25ec8869c9910a65",
+    "ergt_reviewer/training_v9.py": "e1b2ac8a1cec7e7bde0947f9651ae2116fdc669ef772e183687b8ee7171700ca",
+    "ergt_reviewer/v7_confirmation.py": "8dec05c0922bddbc6b3ba080eb1530e315327a8deb84efb35ab001f80ce65c66",
+    "ergt_reviewer/v8_confirmation.py": "55adee0bfceeabe1b286b0aa695efa4984f7d65de32d6a1a50e3a5f0d225efd6",
+    "ergt_reviewer/v9_confirmation.py": "5847cae483a07ef615cafc652f0d3d9b497f05287f1ee07e654711f07a4f7325",
+    "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e",
+    "manifests/ergt43_v21_reference.json": "30999740bfa6f0e0d678ed2446e38c843c24d4d76c958872a3978ee6478ace00",
+    "manifests/ergt_stability_capability_catalog.json": "8ac034a5e77ed6cad99a080e5591ab2524fd2d99697a41e405d53e20f04e5005",
+    "manifests/v5_locked_native_core_hashes.json": "26add790426ce2d136fb31ccd82e3b5d65978176090cb5194a0ae5696bc07b0f",
+    "manifests/v6_repair_design.json": "0ebb48a5edba03cb7f8ca8735d1375df66d7c25ac0f0883c8fa59eeeecf5e3dd",
+    "manifests/v8_1_selected_baseline_manifest.json": "0a33cf262885d1ac3d97c934152a08fd9ff8a80819ef935ea36883a28ab49732",
+    "manifests/v9_execution_lock.json": "14a8296c810d606b02701e2b72565b5f3c90d33cd3962359af87cfbc0ad4fab1"
+  },
+  "spectral_observer_failure_is_nonblocking": true,
+  "spectral_observer_numerical_policy": "detached_cpu_float64_symmetric_eigvalsh_fail_open_v1",
+  "spectrum_observer_only": true,
+  "statistics_unit": "counterfactual_pair_nested_in_data_seed",
+  "study_name": "ERGT Attention-Free Geometric Reasoning at Long Relational Horizons",
+  "study_protocol_name": "single_seed_validation",
+  "training_supervision_is_label_matched": true,
+  "training_supervision_policy": "bounded_development_qualification_then_locked_recipe",
+  "transformer_answer_path_remains_direct": true,
+  "transformer_auxiliary_heads_are_training_only": true,
+  "transformer_readout_uses_raw_candidate_identity_attention": true,
+  "v6_repair_design": {
+    "controls": {
+      "R0": {
+        "historical_native_32_hop_accuracy": 0.661,
+        "interpretation": "A valid intermediate mechanism state was overwritten by continued teacher-on optimization.",
+        "status": "historical_v5_failure_diagnostic",
+        "teacher_lock": "v5_field_and_mechanism_coupled",
+        "training_distribution": "one_hop"
+      },
+      "R1": {
+        "evidence_path": "evidence/ergt_reviewer_v4_paper_full_summary.json",
+        "historical_native_32_hop_accuracy": 0.8035714285714286,
+        "interpretation": "Decoupled freezing recovered the earlier checkpoint but one-hop training remained limiting.",
+        "status": "frozen_v4_control",
+        "teacher_lock": "historical_field_only_freeze",
+        "training_distribution": "one_hop"
+      },
+      "R2": {
+        "interpretation": "The fresh run is the only source of the V6 repair verdict.",
+        "mechanism_selection": "two_raw_disjoint_frozen_shards",
+        "one_hop_pair_fraction": 0.25,
+        "status": "current_prospective_repair_pilot",
+        "teacher_lock": "v21_field_only_immediate_freeze",
+        "training_distribution": "scenario_balanced_1_to_8_hops"
+      }
+    },
+    "data_seed": 5209,
+    "historical_controls_are_nonblocking": true,
+    "optimization_seed": 2027,
+    "prospective": true,
+    "schema_version": "ergt-reviewer-v6-repair-design-v1",
+    "scientific_verdict_uses_only_current_run": true
+  },
+  "validation_is_never_used_for_selection": true
+}

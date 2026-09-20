@@ -1,0 +1,19 @@
+[
+  {
+    "compared_forward_tensor_count": 178,
+    "contract_pass": true,
+    "data_seed": 16301,
+    "external_identity_sidecar_used": false,
+    "full_forward_bitwise_equal_to_internal_reference": true,
+    "identity_fibre_bitwise_equal_to_internal_reference": true,
+    "identity_reference_is_audit_only": true,
+    "mismatched_forward_tensor_keys": [],
+    "optimization_seed": 12011,
+    "public_model_input_keys": [
+      "attention_mask",
+      "raw_token_ids"
+    ],
+    "public_raw_token_only": true,
+    "semantic_ids_bitwise_equal_to_internal_reference": true
+  }
+]

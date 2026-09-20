@@ -1,0 +1,18 @@
+claim,gate,scope,status
+attention_free_native_geometric_answer_path,architecture_and_shared_input,Static source and forward-contract audit.,supported
+native_ergt_converges_in_distribution,native_ergt_converged_id,ERGT one-hop train subset and disjoint one-hop validation; baseline-independent.,supported
+qualified_direct_transformer_baseline_with_disclosed_supervision,qualified_baseline_and_disclosed_training_supervision,"A bounded development-only search selected the direct Transformer recipe; no labels, compiler, executor, or geometry enter inference.",supported
+strengthened_direct_transformer_convergence_by_seed,per_seed_convergence_readout,Every seed and both one-hop ID accuracies are reported numerically; this readout does not determine run status or ERGT convergence.,reported
+multihop_exposure_locked_field_freeze_and_mechanism_selection,native_multihop_exposure_locked_checkpoint,Two strict 2--8-hop readiness windows plus minimum exposure precede freeze; no optimizer update follows it.,supported
+cumulative_native_stability_non_regression,native_stability_capability_catalog,Every registered S01--S14 invariant is explicitly evaluated per seed.,supported
+native_ergt_absolute_long_horizon_accuracy_to_32_hops,native_ergt_absolute_32_hop_floor,Absolute ERGT endpoint; independent of baseline convergence.,open
+observed_paired_advantage_over_strengthened_direct_transformer,observed_paired_32_hop_advantage,"Paired effect, hierarchical interval, and exact paired test as observed.",supported
+conditional_matched_convergence_comparison,conditional_matched_convergence_readout,The ID-qualified seed count and its frozen 32-hop endpoint are reported numerically. The registered three-seed criterion controls manuscript wording only and never marks the notebook run as failed.,reported
+causal_dependence_on_registered_geometric_mechanisms,registered_causal_interventions,Same-checkpoint action/cone/transport/boundary/terminal/memory interventions.,supported
+functional_multiworld_dependence,functional_multiworld_dependence,No claim of uniform or independent semantic specialization.,supported
+bounded_unsupported_answer_rejection,unsupported_answer_rejection,"Controlled unsupported candidates, not open-domain hallucination.",supported
+native_ergt_bounded_claim_bundle,native_ergt_claim_bundle,"Native convergence, absolute 32-hop floor, mechanisms, worlds, and rejection.",open
+curvature_and_spectrum_observers,observer_only_source_contract,Descriptive only; no causal claim.,supported
+universal_transformer_superiority,out_of_scope,No universal comparison is asserted.,not_claimed
+language_modeling_or_perplexity_dominance,out_of_scope,This package is not a language-model benchmark.,not_claimed
+compute_efficiency_superiority,resource_disclosure_only,Runtime and memory are disclosed without an efficiency claim.,not_claimed

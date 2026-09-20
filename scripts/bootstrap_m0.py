@@ -1,5 +1,8 @@
 """Create a byte-identical reference and a mechanical, reviewable step extraction."""
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import workspace_path
 import hashlib
 import json
 import shutil
@@ -15,7 +18,7 @@ def digest(path):
 
 
 def create_reference():
-    for directory in ("manifests", "configs", "docs", "ergt_phi", "tests", "runs"):
+    for directory in ("configs", "docs", "ergt_phi", "tests", "runs"):
         (ROOT / directory).mkdir(exist_ok=True)
     records = {}
     for row in (SOURCE / "MANIFEST.sha256").read_text().splitlines():
@@ -34,7 +37,7 @@ def create_reference():
         records[relative] = expected
     shutil.copyfile(SOURCE / "MANIFEST.sha256", REFERENCE / "MANIFEST.sha256")
     records["MANIFEST.sha256"] = digest(REFERENCE / "MANIFEST.sha256")
-    (ROOT / "manifests/reference.json").write_text(json.dumps({
+    (workspace_path(ROOT, "manifests/reference.json")).write_text(json.dumps({
         "original_root": str(SOURCE), "files": records,
         "reference_policy": "byte-identical; no reference edits",
     }, indent=2), encoding="utf-8")

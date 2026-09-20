@@ -1,0 +1,26 @@
+{
+  "schema": "ergt-phi-legacy-inventory-v1",
+  "experiment_id": "LEGACY-M2-INITIAL",
+  "migration_id": "20260920-history-consolidation",
+  "entries": [
+    {
+      "experiment_id": "LEGACY-M2-INITIAL",
+      "old_path": "docs/M2_REPORT_FA.md",
+      "new_path": "research/legacy/LEGACY-M2-INITIAL/reports/M2_REPORT_FA.md",
+      "sha256": "b331bebb2b1bb24d871a5defe559d2704f96350ea75e577cbac25517f1a72060",
+      "bytes": 10907,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-INITIAL/reports/M2_REPORT_FA.md"
+    },
+    {
+      "experiment_id": "LEGACY-M2-INITIAL",
+      "old_path": "docs/M2_ANCHOR_REVISION_FA.md",
+      "new_path": "research/legacy/LEGACY-M2-INITIAL/reports/M2_ANCHOR_REVISION_FA.md",
+      "sha256": "44e2ccd0ea93994224b43538883a5d2cc6906eab6bc9b8ee8f5860702538f177",
+      "bytes": 3608,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-INITIAL/reports/M2_ANCHOR_REVISION_FA.md"
+    }
+  ],
+  "new_execution_claimed": false
+}

@@ -1,0 +1,15 @@
+{
+  "stage": "M2_native_proposal_information_probe",
+  "train_sha256": "e3978bd5688fa0145cc4da581e332d1ee9b67d61aff43fcd8fb0ccec224b6c53",
+  "fit_examples": 382,
+  "monitor_examples": 122,
+  "feature_dim": 11,
+  "epochs": 40,
+  "uses_gold_only_for_post_forward_indexing": true,
+  "native_answer_head_used": false,
+  "source_sha256": {
+    "ergt_phi/proposal_probe.py": "c10cf2e792ca8cf634f1f481207270674a8c6122a08cfcdd57690f8def413e35",
+    "ergt_phi/information_probe.py": "24f233eb2f5967a4acd9d94ef525656290ceb72f5ef947353b7eaa70f9396618",
+    "scripts/run_m2_proposal_probe.py": "6148c5c90234f8c74d54b201815458debc05baece97a274c221ec6a0fceab97f"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "ergt-phi-legacy-inventory-v1",
+  "experiment_id": "LEGACY-M2-Q-SHADOW",
+  "migration_id": "20260920-history-consolidation",
+  "entries": [
+    {
+      "experiment_id": "LEGACY-M2-Q-SHADOW",
+      "old_path": "docs/M2_Q_SHADOW_FA.md",
+      "new_path": "research/legacy/LEGACY-M2-Q-SHADOW/reports/M2_Q_SHADOW_FA.md",
+      "sha256": "35cffaf4137b3f1cd7d70ab63dc971f0716c7a4d33b5c0c6a76d6e7c5232989d",
+      "bytes": 1601,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-Q-SHADOW/reports/M2_Q_SHADOW_FA.md"
+    },
+    {
+      "experiment_id": "LEGACY-M2-Q-SHADOW",
+      "old_path": "manifests/m2_q_shadow.json",
+      "new_path": "research/legacy/LEGACY-M2-Q-SHADOW/manifests/m2_q_shadow.json",
+      "sha256": "f3fdf2d3f27f92603e8488a8db8f299c3893e6a227104cc722917a8062af547c",
+      "bytes": 41073,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-Q-SHADOW/manifests/m2_q_shadow.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-Q-SHADOW",
+      "old_path": "runs/m2_q_shadow/result.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-Q-SHADOW/m2_q_shadow/result.json",
+      "sha256": "f3fdf2d3f27f92603e8488a8db8f299c3893e6a227104cc722917a8062af547c",
+      "bytes": 41073,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-Q-SHADOW/evidence/m2_q_shadow/result.json"
+    }
+  ],
+  "new_execution_claimed": false
+}

@@ -1,0 +1,78 @@
+{
+  "checks": {
+    "final_panels_remained_closed": true,
+    "final_profile_protocol_revision_matches": true,
+    "forbidden_components_complete": true,
+    "fresh_final_profile_registered": true,
+    "manifest_hash_matches": true,
+    "protocol_revision_matches": true,
+    "qualification_passed": true,
+    "qualification_source_is_unchanged": true,
+    "schema_matches": true,
+    "selected_batch_size_registered": true,
+    "selected_candidate_matches_recipe": true,
+    "selected_curriculum_registered": true,
+    "selected_depth_registered": true,
+    "selected_inference_parameters_matched": true,
+    "selected_loss_mode_registered": true,
+    "selected_raw_disjoint_validation_converged": true,
+    "selected_recipe_present": true,
+    "selected_train_id_converged": true,
+    "selected_tuning_converged": true,
+    "selected_warmup_batch_size_registered": true,
+    "selected_warmup_budget_registered": true,
+    "selected_warmup_stream_registered": true,
+    "selection_is_development_only": true
+  },
+  "current_source_sha256": {
+    "configs/baseline_qualification_v8.json": "4b769d9db5ef513f81b1479f3ca240ca26600eebf3d2d7ce9101f61218be78fc",
+    "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+    "ergt_reviewer/baseline_qualification_v8.py": "21ece85f77ed8f00159a2ae78995b8d2e6a77cc811110930552ecdb8bce4a74d",
+    "ergt_reviewer/fair_data.py": "7342002c14edb35be0c504a2228f3e83d65c02dafeb5967f62380207e8975b6b",
+    "ergt_reviewer/training.py": "0abac04a3ff043d851f306bb7d9683f1e347e0aff0505c46716674701181a8d3"
+  },
+  "data_seed": 5209,
+  "observed_manifest_sha256": "2835426c8d317cf4f30d842276870b5cf64c10ace4d1268e27caa4c08244168b",
+  "optimization_seed": 2027,
+  "pass": true,
+  "recomputed_manifest_sha256": "2835426c8d317cf4f30d842276870b5cf64c10ace4d1268e27caa4c08244168b",
+  "registered_source_sha256": {
+    "configs/baseline_qualification_v8.json": "4b769d9db5ef513f81b1479f3ca240ca26600eebf3d2d7ce9101f61218be78fc",
+    "ergt_reviewer/baseline.py": "c09c34379c18ef459cfc38a25c2a8347334d64260286780f95700c8c57a276a9",
+    "ergt_reviewer/baseline_qualification_v8.py": "21ece85f77ed8f00159a2ae78995b8d2e6a77cc811110930552ecdb8bce4a74d",
+    "ergt_reviewer/fair_data.py": "7342002c14edb35be0c504a2228f3e83d65c02dafeb5967f62380207e8975b6b",
+    "ergt_reviewer/training.py": "0abac04a3ff043d851f306bb7d9683f1e347e0aff0505c46716674701181a8d3"
+  },
+  "selected_recipe": {
+    "batch_size": 16,
+    "candidate_id": "t4_aux_staged_a",
+    "curriculum_stages": [
+      {
+        "learning_rate_scale": 0.35,
+        "max_hop": 2,
+        "name": "curriculum_1_2",
+        "steps": 400
+      },
+      {
+        "learning_rate_scale": 0.25,
+        "max_hop": 4,
+        "name": "curriculum_1_4",
+        "steps": 500
+      },
+      {
+        "learning_rate_scale": 0.15,
+        "max_hop": 8,
+        "name": "curriculum_1_8",
+        "steps": 1400
+      }
+    ],
+    "eval_interval": 100,
+    "learning_rate": 0.0007,
+    "loss_mode": "matched_auxiliary",
+    "n_layers": 4,
+    "seed_offset": 0,
+    "warmup_batch_size": 8,
+    "warmup_sampling_seed_offset": 701,
+    "warmup_steps": 1400
+  }
+}

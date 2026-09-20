@@ -1,0 +1,2122 @@
+[
+  {
+    "epoch": 1,
+    "step": 24,
+    "fit": {
+      "ce": 1.385504317009586,
+      "accuracy": 0.32729885057471264,
+      "balanced_accuracy": 0.3302774532598228,
+      "per_class_recall": [
+        0.50625,
+        0.24429967426710097,
+        0.24028268551236748
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          567,
+          289,
+          264
+        ],
+        [
+          624,
+          300,
+          304
+        ],
+        [
+          572,
+          288,
+          272
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 2.076615571975708,
+      "maximum_offset_displacement": 0.010449409484863281,
+      "phase_resultant": 0.3235903595234287,
+      "phase_resultant_per_world": [
+        0.35285823020934837,
+        0.32681320683728615,
+        0.4430515660362446,
+        0.6263346139060334,
+        0.46410471952437327,
+        0.11834677177262024,
+        0.22186565273414416,
+        0.03534811516737922
+      ]
+    },
+    "monitor": {
+      "ce": 1.4018731439920296,
+      "accuracy": 0.34962406015037595,
+      "balanced_accuracy": 0.3482301933963619,
+      "per_class_recall": [
+        0.5224719101123596,
+        0.3016304347826087,
+        0.22058823529411764
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          186,
+          96,
+          74
+        ],
+        [
+          190,
+          111,
+          67
+        ],
+        [
+          174,
+          91,
+          75
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 2.076615571975708,
+      "maximum_offset_displacement": 0.010449409484863281,
+      "phase_resultant": 0.3407370124038973,
+      "phase_resultant_per_world": [
+        0.36645006190846025,
+        0.31990384717536585,
+        0.41479708487853634,
+        0.6241006325950619,
+        0.49418035749920725,
+        0.15230810926588254,
+        0.29197022616227886,
+        0.06218577974638535
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 2,
+    "step": 48,
+    "fit": {
+      "ce": 1.2678839979500607,
+      "accuracy": 0.357183908045977,
+      "balanced_accuracy": 0.35861818519145783,
+      "per_class_recall": [
+        0.42678571428571427,
+        0.31514657980456023,
+        0.3339222614840989
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          478,
+          329,
+          313
+        ],
+        [
+          514,
+          387,
+          327
+        ],
+        [
+          454,
+          300,
+          378
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 2.0639302730560303,
+      "maximum_offset_displacement": 0.017238616943359375,
+      "phase_resultant": 0.2264276068194393,
+      "phase_resultant_per_world": [
+        0.36934867237751867,
+        0.1338254087443557,
+        0.30498055008782216,
+        0.19547449078885487,
+        0.5181461850313527,
+        0.09901106226688097,
+        0.13381661767763206,
+        0.05681786758109732
+      ]
+    },
+    "monitor": {
+      "ce": 1.311556185098519,
+      "accuracy": 0.3383458646616541,
+      "balanced_accuracy": 0.3381162772876616,
+      "per_class_recall": [
+        0.4410112359550562,
+        0.28804347826086957,
+        0.2852941176470588
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          157,
+          96,
+          103
+        ],
+        [
+          158,
+          106,
+          104
+        ],
+        [
+          149,
+          94,
+          97
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 2.0639302730560303,
+      "maximum_offset_displacement": 0.017238616943359375,
+      "phase_resultant": 0.2390054907836695,
+      "phase_resultant_per_world": [
+        0.37989623623477264,
+        0.16024445607037674,
+        0.28628861333950734,
+        0.21879058661442133,
+        0.5335416957404917,
+        0.1288137158109942,
+        0.12639395759183703,
+        0.07807466486695508
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 3,
+    "step": 72,
+    "fit": {
+      "ce": 1.2502738821095434,
+      "accuracy": 0.36551724137931035,
+      "balanced_accuracy": 0.36925233940677477,
+      "per_class_recall": [
+        0.5375,
+        0.254885993485342,
+        0.31537102473498235
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          602,
+          268,
+          250
+        ],
+        [
+          602,
+          313,
+          313
+        ],
+        [
+          558,
+          217,
+          357
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 2.054481267929077,
+      "maximum_offset_displacement": 0.021526336669921875,
+      "phase_resultant": 0.27336848912630674,
+      "phase_resultant_per_world": [
+        0.23084009378813639,
+        0.2902125520983181,
+        0.13575019780431405,
+        0.38941893779881753,
+        0.6760052638212573,
+        0.1340373146189919,
+        0.18314640624348869,
+        0.14753714683712965
+      ]
+    },
+    "monitor": {
+      "ce": 1.3040944508143835,
+      "accuracy": 0.33270676691729323,
+      "balanced_accuracy": 0.33240083527304426,
+      "per_class_recall": [
+        0.5730337078651685,
+        0.20652173913043478,
+        0.21764705882352942
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          204,
+          69,
+          83
+        ],
+        [
+          209,
+          76,
+          83
+        ],
+        [
+          200,
+          66,
+          74
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 2.054481267929077,
+      "maximum_offset_displacement": 0.021526336669921875,
+      "phase_resultant": 0.2776528181635958,
+      "phase_resultant_per_world": [
+        0.2412960309484906,
+        0.31719803824503784,
+        0.09428019220140747,
+        0.36913499785255777,
+        0.6854554562107168,
+        0.1697925214792319,
+        0.2139918564960053,
+        0.13007345187531869
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 4,
+    "step": 96,
+    "fit": {
+      "ce": 1.256271647310805,
+      "accuracy": 0.3660919540229885,
+      "balanced_accuracy": 0.3697511710051132,
+      "per_class_recall": [
+        0.5901785714285714,
+        0.26465798045602607,
+        0.254416961130742
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          661,
+          233,
+          226
+        ],
+        [
+          636,
+          325,
+          267
+        ],
+        [
+          617,
+          227,
+          288
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 2.0439999103546143,
+      "maximum_offset_displacement": 0.026680469512939453,
+      "phase_resultant": 0.321845566623425,
+      "phase_resultant_per_world": [
+        0.4493198733534287,
+        0.26942836253971536,
+        0.1202649868961734,
+        0.11675142886988023,
+        0.8065315759696726,
+        0.20053525859377602,
+        0.2970194527083234,
+        0.31491359405643016
+      ]
+    },
+    "monitor": {
+      "ce": 1.340188671771745,
+      "accuracy": 0.31860902255639095,
+      "balanced_accuracy": 0.31802733795032423,
+      "per_class_recall": [
+        0.5898876404494382,
+        0.18478260869565216,
+        0.17941176470588235
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          210,
+          81,
+          65
+        ],
+        [
+          230,
+          68,
+          70
+        ],
+        [
+          207,
+          72,
+          61
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 2.0439999103546143,
+      "maximum_offset_displacement": 0.026680469512939453,
+      "phase_resultant": 0.3262302401547573,
+      "phase_resultant_per_world": [
+        0.4367179607982861,
+        0.263958327400038,
+        0.10808161063646651,
+        0.13694153866931813,
+        0.803240421783751,
+        0.2117623036845545,
+        0.34416193182234706,
+        0.3049778264432973
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 5,
+    "step": 120,
+    "fit": {
+      "ce": 1.2105773004992255,
+      "accuracy": 0.37270114942528737,
+      "balanced_accuracy": 0.3758334813190018,
+      "per_class_recall": [
+        0.5446428571428571,
+        0.28338762214983715,
+        0.299469964664311
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          610,
+          254,
+          256
+        ],
+        [
+          611,
+          348,
+          269
+        ],
+        [
+          544,
+          249,
+          339
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 2.03415846824646,
+      "maximum_offset_displacement": 0.031943321228027344,
+      "phase_resultant": 0.26757721923257216,
+      "phase_resultant_per_world": [
+        0.3398274535884235,
+        0.20189599872867453,
+        0.14077642863054926,
+        0.2901528100606361,
+        0.7437504828975093,
+        0.0719750854754992,
+        0.28363301688783377,
+        0.06860647759145166
+      ]
+    },
+    "monitor": {
+      "ce": 1.304937111703973,
+      "accuracy": 0.3148496240601504,
+      "balanced_accuracy": 0.31431566520110726,
+      "per_class_recall": [
+        0.5337078651685393,
+        0.20923913043478262,
+        0.2
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          190,
+          94,
+          72
+        ],
+        [
+          191,
+          77,
+          100
+        ],
+        [
+          205,
+          67,
+          68
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 2.03415846824646,
+      "maximum_offset_displacement": 0.031943321228027344,
+      "phase_resultant": 0.27115907369458375,
+      "phase_resultant_per_world": [
+        0.3357599432788929,
+        0.2240094609733551,
+        0.09455809309313466,
+        0.2859611914213014,
+        0.7269372137391965,
+        0.0924786366661559,
+        0.324605840555121,
+        0.08496220982951223
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 6,
+    "step": 144,
+    "fit": {
+      "ce": 1.197873130886034,
+      "accuracy": 0.3732758620689655,
+      "balanced_accuracy": 0.3762536749774322,
+      "per_class_recall": [
+        0.5294642857142857,
+        0.28745928338762217,
+        0.3118374558303887
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          593,
+          261,
+          266
+        ],
+        [
+          605,
+          353,
+          270
+        ],
+        [
+          532,
+          247,
+          353
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 2.024146795272827,
+      "maximum_offset_displacement": 0.03797197341918945,
+      "phase_resultant": 0.2663607709005317,
+      "phase_resultant_per_world": [
+        0.26407427550325446,
+        0.20246822824878927,
+        0.05916796604725446,
+        0.27568428981134074,
+        0.6805327960280458,
+        0.1615971322297497,
+        0.2493437220722219,
+        0.2380177572635969
+      ]
+    },
+    "monitor": {
+      "ce": 1.2816977536767946,
+      "accuracy": 0.34398496240601506,
+      "balanced_accuracy": 0.34359931319865517,
+      "per_class_recall": [
+        0.5758426966292135,
+        0.22554347826086957,
+        0.22941176470588234
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          205,
+          66,
+          85
+        ],
+        [
+          198,
+          83,
+          87
+        ],
+        [
+          192,
+          70,
+          78
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 2.024146795272827,
+      "maximum_offset_displacement": 0.03797197341918945,
+      "phase_resultant": 0.26554908516957776,
+      "phase_resultant_per_world": [
+        0.2767851301198409,
+        0.2261477402680787,
+        0.023116245963652752,
+        0.26250478151043155,
+        0.6408888747564021,
+        0.1685466595895797,
+        0.2932106026853423,
+        0.23319264646329382
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 7,
+    "step": 168,
+    "fit": {
+      "ce": 1.1884172505345838,
+      "accuracy": 0.3847701149425287,
+      "balanced_accuracy": 0.3878954026333776,
+      "per_class_recall": [
+        0.5428571428571428,
+        0.2939739413680782,
+        0.32685512367491165
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          608,
+          246,
+          266
+        ],
+        [
+          602,
+          361,
+          265
+        ],
+        [
+          514,
+          248,
+          370
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 2.0131995677948,
+      "maximum_offset_displacement": 0.04459047317504883,
+      "phase_resultant": 0.27522512351130746,
+      "phase_resultant_per_world": [
+        0.26735911708025556,
+        0.29923913134114916,
+        0.10441962999416386,
+        0.35589274119600744,
+        0.6454413685374536,
+        0.10623336710030488,
+        0.26171445896420364,
+        0.16150117387692117
+      ]
+    },
+    "monitor": {
+      "ce": 1.2931651423748274,
+      "accuracy": 0.3383458646616541,
+      "balanced_accuracy": 0.3386322164430013,
+      "per_class_recall": [
+        0.5365168539325843,
+        0.21467391304347827,
+        0.2647058823529412
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          191,
+          93,
+          72
+        ],
+        [
+          191,
+          79,
+          98
+        ],
+        [
+          174,
+          76,
+          90
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 2.0131995677948,
+      "maximum_offset_displacement": 0.04459047317504883,
+      "phase_resultant": 0.27439401645774686,
+      "phase_resultant_per_world": [
+        0.27031580598171256,
+        0.28454020890883686,
+        0.09414615195962099,
+        0.3474722975566174,
+        0.6021020856938002,
+        0.10031199961140616,
+        0.3101915355793898,
+        0.18607204637059116
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 8,
+    "step": 192,
+    "fit": {
+      "ce": 1.17234220395143,
+      "accuracy": 0.39252873563218393,
+      "balanced_accuracy": 0.39443318337452266,
+      "per_class_recall": [
+        0.5339285714285714,
+        0.34283387622149836,
+        0.30653710247349825
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          598,
+          247,
+          275
+        ],
+        [
+          543,
+          421,
+          264
+        ],
+        [
+          494,
+          291,
+          347
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 2.001136064529419,
+      "maximum_offset_displacement": 0.05209779739379883,
+      "phase_resultant": 0.2671577404606073,
+      "phase_resultant_per_world": [
+        0.3547714012381718,
+        0.18454253694197625,
+        0.18997148459558785,
+        0.31899937549379065,
+        0.5137017340432752,
+        0.08015109168427934,
+        0.34596228875206886,
+        0.1491620109357087
+      ]
+    },
+    "monitor": {
+      "ce": 1.3138326773966165,
+      "accuracy": 0.31954887218045114,
+      "balanced_accuracy": 0.31884117838635206,
+      "per_class_recall": [
+        0.5196629213483146,
+        0.23097826086956522,
+        0.20588235294117646
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          185,
+          81,
+          90
+        ],
+        [
+          186,
+          85,
+          97
+        ],
+        [
+          180,
+          90,
+          70
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 2.001136064529419,
+      "maximum_offset_displacement": 0.05209779739379883,
+      "phase_resultant": 0.2767398674380425,
+      "phase_resultant_per_world": [
+        0.3538238627527896,
+        0.23008687129743896,
+        0.18412093535802354,
+        0.2870385665756178,
+        0.5323250029869675,
+        0.07784227533151118,
+        0.3925679849105738,
+        0.15611344029141758
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 9,
+    "step": 216,
+    "fit": {
+      "ce": 1.1652336909853178,
+      "accuracy": 0.38275862068965516,
+      "balanced_accuracy": 0.3846029955587857,
+      "per_class_recall": [
+        0.5071428571428571,
+        0.3330618892508143,
+        0.3136042402826855
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          568,
+          265,
+          287
+        ],
+        [
+          530,
+          409,
+          289
+        ],
+        [
+          448,
+          329,
+          355
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9899872541427612,
+      "maximum_offset_displacement": 0.05899477005004883,
+      "phase_resultant": 0.2077152293695077,
+      "phase_resultant_per_world": [
+        0.31178185111413786,
+        0.2033484742586256,
+        0.05237570395036866,
+        0.15351414191191726,
+        0.48851200154052765,
+        0.08211895026459891,
+        0.19323935794110247,
+        0.17683135397478325
+      ]
+    },
+    "monitor": {
+      "ce": 1.2893771336490947,
+      "accuracy": 0.3392857142857143,
+      "balanced_accuracy": 0.3391206164928111,
+      "per_class_recall": [
+        0.47752808988764045,
+        0.266304347826087,
+        0.2735294117647059
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          170,
+          86,
+          100
+        ],
+        [
+          176,
+          98,
+          94
+        ],
+        [
+          159,
+          88,
+          93
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9899872541427612,
+      "maximum_offset_displacement": 0.05899477005004883,
+      "phase_resultant": 0.23171398622079606,
+      "phase_resultant_per_world": [
+        0.30831038918714804,
+        0.24862548524672076,
+        0.0961138551153072,
+        0.18601701728998554,
+        0.49988743734374685,
+        0.10400483152005066,
+        0.24715763859253603,
+        0.16359523547087312
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 10,
+    "step": 240,
+    "fit": {
+      "ce": 1.155038132064644,
+      "accuracy": 0.4189655172413793,
+      "balanced_accuracy": 0.42117390248073305,
+      "per_class_recall": [
+        0.5651785714285714,
+        0.35912052117263843,
+        0.3392226148409894
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          633,
+          221,
+          266
+        ],
+        [
+          515,
+          441,
+          272
+        ],
+        [
+          447,
+          301,
+          384
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9799565076828003,
+      "maximum_offset_displacement": 0.06597375869750977,
+      "phase_resultant": 0.27803750291688123,
+      "phase_resultant_per_world": [
+        0.36595488600784054,
+        0.34874329754445005,
+        0.2976652026415758,
+        0.1844167897520777,
+        0.508956562564654,
+        0.14061304788638898,
+        0.1453707474898051,
+        0.23257948944825743
+      ]
+    },
+    "monitor": {
+      "ce": 1.297905513218471,
+      "accuracy": 0.3505639097744361,
+      "balanced_accuracy": 0.3506615372089236,
+      "per_class_recall": [
+        0.47752808988764045,
+        0.27445652173913043,
+        0.3
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          170,
+          84,
+          102
+        ],
+        [
+          177,
+          101,
+          90
+        ],
+        [
+          143,
+          95,
+          102
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9799565076828003,
+      "maximum_offset_displacement": 0.06597375869750977,
+      "phase_resultant": 0.2844622238314326,
+      "phase_resultant_per_world": [
+        0.35843513396348703,
+        0.33216902991442987,
+        0.2888502706214148,
+        0.20279081031998597,
+        0.5395930780996577,
+        0.13957972893241843,
+        0.19750442187873085,
+        0.21677531692133586
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 11,
+    "step": 264,
+    "fit": {
+      "ce": 1.143076311308762,
+      "accuracy": 0.4163793103448276,
+      "balanced_accuracy": 0.41900843025024376,
+      "per_class_recall": [
+        0.5785714285714286,
+        0.34364820846905536,
+        0.33480565371024734
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          648,
+          227,
+          245
+        ],
+        [
+          547,
+          422,
+          259
+        ],
+        [
+          446,
+          307,
+          379
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9717291593551636,
+      "maximum_offset_displacement": 0.07234907150268555,
+      "phase_resultant": 0.2724831212264213,
+      "phase_resultant_per_world": [
+        0.4320395288367086,
+        0.2847342073942346,
+        0.17747798768565795,
+        0.1507815121593661,
+        0.49622311494414945,
+        0.08459739662774436,
+        0.24892746940596094,
+        0.30508375275754845
+      ]
+    },
+    "monitor": {
+      "ce": 1.3049200746349823,
+      "accuracy": 0.33364661654135336,
+      "balanced_accuracy": 0.3338655564815081,
+      "per_class_recall": [
+        0.4803370786516854,
+        0.2418478260869565,
+        0.27941176470588236
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          171,
+          89,
+          96
+        ],
+        [
+          182,
+          89,
+          97
+        ],
+        [
+          160,
+          85,
+          95
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9717291593551636,
+      "maximum_offset_displacement": 0.07234907150268555,
+      "phase_resultant": 0.28114997738300795,
+      "phase_resultant_per_world": [
+        0.42016596238652115,
+        0.28298355159114547,
+        0.19410195613696357,
+        0.16461842570478555,
+        0.5164728511880614,
+        0.09379106471290809,
+        0.3018382718099695,
+        0.27522773553370883
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 12,
+    "step": 288,
+    "fit": {
+      "ce": 1.1302487822784775,
+      "accuracy": 0.43448275862068964,
+      "balanced_accuracy": 0.43665616310980376,
+      "per_class_recall": [
+        0.5508928571428572,
+        0.3721498371335505,
+        0.3869257950530035
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          617,
+          247,
+          256
+        ],
+        [
+          479,
+          457,
+          292
+        ],
+        [
+          390,
+          304,
+          438
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9651826620101929,
+      "maximum_offset_displacement": 0.07812118530273438,
+      "phase_resultant": 0.25767954814987054,
+      "phase_resultant_per_world": [
+        0.33750647482524204,
+        0.3724155849481657,
+        0.10301178429742193,
+        0.2267330826010641,
+        0.4849839194788198,
+        0.17682935895329835,
+        0.12663327582279554,
+        0.23332290427215707
+      ]
+    },
+    "monitor": {
+      "ce": 1.2849812328367305,
+      "accuracy": 0.34962406015037595,
+      "balanced_accuracy": 0.3492571625621426,
+      "per_class_recall": [
+        0.45224719101123595,
+        0.30434782608695654,
+        0.2911764705882353
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          161,
+          99,
+          96
+        ],
+        [
+          170,
+          112,
+          86
+        ],
+        [
+          146,
+          95,
+          99
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9651826620101929,
+      "maximum_offset_displacement": 0.07812118530273438,
+      "phase_resultant": 0.27307895283929084,
+      "phase_resultant_per_world": [
+        0.3254345731733112,
+        0.3387544791327734,
+        0.1423171291407971,
+        0.2225017716955817,
+        0.5316798251378649,
+        0.18082719704548952,
+        0.17005984365900584,
+        0.27305680372950325
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 13,
+    "step": 312,
+    "fit": {
+      "ce": 1.117007275285392,
+      "accuracy": 0.4267241379310345,
+      "balanced_accuracy": 0.4289620079682061,
+      "per_class_recall": [
+        0.5517857142857143,
+        0.36319218241042345,
+        0.37190812720848054
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          618,
+          223,
+          279
+        ],
+        [
+          516,
+          446,
+          266
+        ],
+        [
+          429,
+          282,
+          421
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9592163562774658,
+      "maximum_offset_displacement": 0.08361387252807617,
+      "phase_resultant": 0.25925519411412307,
+      "phase_resultant_per_world": [
+        0.27184867883017794,
+        0.3376868085601099,
+        0.1300322186309407,
+        0.14764268528194707,
+        0.5384771257772056,
+        0.2221270859654429,
+        0.2752343943702836,
+        0.15099255549687682
+      ]
+    },
+    "monitor": {
+      "ce": 1.302375693070261,
+      "accuracy": 0.3176691729323308,
+      "balanced_accuracy": 0.31761245533875493,
+      "per_class_recall": [
+        0.46348314606741575,
+        0.23641304347826086,
+        0.2529411764705882
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          165,
+          100,
+          91
+        ],
+        [
+          186,
+          87,
+          95
+        ],
+        [
+          153,
+          101,
+          86
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9592163562774658,
+      "maximum_offset_displacement": 0.08361387252807617,
+      "phase_resultant": 0.2721203556717652,
+      "phase_resultant_per_world": [
+        0.26366626909729624,
+        0.31782603117453256,
+        0.1524057535115652,
+        0.16755298337909447,
+        0.5077629722280464,
+        0.24505884240462258,
+        0.33134483933310804,
+        0.19134515424585577
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 14,
+    "step": 336,
+    "fit": {
+      "ce": 1.1292454993587802,
+      "accuracy": 0.4218390804597701,
+      "balanced_accuracy": 0.42446010237867776,
+      "per_class_recall": [
+        0.5901785714285714,
+        0.3501628664495114,
+        0.3330388692579505
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          661,
+          230,
+          229
+        ],
+        [
+          559,
+          430,
+          239
+        ],
+        [
+          473,
+          282,
+          377
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9542406797409058,
+      "maximum_offset_displacement": 0.08862066268920898,
+      "phase_resultant": 0.2938273517057923,
+      "phase_resultant_per_world": [
+        0.7031079616343904,
+        0.31045353815399596,
+        0.1830575359515538,
+        0.20836617572633007,
+        0.48516983380444667,
+        0.07232206710531801,
+        0.2266669189138486,
+        0.16147478235645452
+      ]
+    },
+    "monitor": {
+      "ce": 1.3188703149781191,
+      "accuracy": 0.3317669172932331,
+      "balanced_accuracy": 0.33167751467954054,
+      "per_class_recall": [
+        0.46629213483146065,
+        0.25815217391304346,
+        0.27058823529411763
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          166,
+          91,
+          99
+        ],
+        [
+          178,
+          95,
+          95
+        ],
+        [
+          163,
+          85,
+          92
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9542406797409058,
+      "maximum_offset_displacement": 0.08862066268920898,
+      "phase_resultant": 0.3048362861000619,
+      "phase_resultant_per_world": [
+        0.6884302806025673,
+        0.31114773667448553,
+        0.19986607567553624,
+        0.211858615159689,
+        0.5233325378500867,
+        0.05319970764269008,
+        0.26045270368344575,
+        0.19040263151199482
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 15,
+    "step": 360,
+    "fit": {
+      "ce": 1.1566908562320402,
+      "accuracy": 0.4011494252873563,
+      "balanced_accuracy": 0.4048279022593027,
+      "per_class_recall": [
+        0.6303571428571428,
+        0.2996742671009772,
+        0.284452296819788
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          706,
+          205,
+          209
+        ],
+        [
+          623,
+          368,
+          237
+        ],
+        [
+          591,
+          219,
+          322
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9506958723068237,
+      "maximum_offset_displacement": 0.09235858917236328,
+      "phase_resultant": 0.3562305381240957,
+      "phase_resultant_per_world": [
+        0.3943623508320725,
+        0.2899314192987559,
+        0.34693781705889615,
+        0.2030306540563107,
+        0.6880434659944257,
+        0.28464860323931296,
+        0.4889797583200954,
+        0.1539102361928963
+      ]
+    },
+    "monitor": {
+      "ce": 1.3511210563487577,
+      "accuracy": 0.32142857142857145,
+      "balanced_accuracy": 0.3213886653831049,
+      "per_class_recall": [
+        0.5393258426966292,
+        0.1983695652173913,
+        0.22647058823529412
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          192,
+          79,
+          85
+        ],
+        [
+          211,
+          73,
+          84
+        ],
+        [
+          187,
+          76,
+          77
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9506958723068237,
+      "maximum_offset_displacement": 0.09235858917236328,
+      "phase_resultant": 0.35840992983406916,
+      "phase_resultant_per_world": [
+        0.3812881631632466,
+        0.3292260881179709,
+        0.3441864308240383,
+        0.18480682261055245,
+        0.6595250930552775,
+        0.2604121838902828,
+        0.5142275677905638,
+        0.19360708922062067
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 16,
+    "step": 384,
+    "fit": {
+      "ce": 1.100042654454023,
+      "accuracy": 0.4339080459770115,
+      "balanced_accuracy": 0.43673586298390626,
+      "per_class_recall": [
+        0.6098214285714286,
+        0.3558631921824104,
+        0.34452296819787986
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          683,
+          208,
+          229
+        ],
+        [
+          556,
+          437,
+          235
+        ],
+        [
+          480,
+          262,
+          390
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9470471143722534,
+      "maximum_offset_displacement": 0.09679841995239258,
+      "phase_resultant": 0.2909769635284864,
+      "phase_resultant_per_world": [
+        0.333029853060466,
+        0.3671511540305224,
+        0.09098137632231335,
+        0.3533896159383382,
+        0.5385175410546013,
+        0.0728897714197319,
+        0.4229798219705663,
+        0.1488765744313518
+      ]
+    },
+    "monitor": {
+      "ce": 1.3173924854823522,
+      "accuracy": 0.3223684210526316,
+      "balanced_accuracy": 0.3222535130319837,
+      "per_class_recall": [
+        0.4943820224719101,
+        0.22826086956521738,
+        0.24411764705882352
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          176,
+          83,
+          97
+        ],
+        [
+          193,
+          84,
+          91
+        ],
+        [
+          168,
+          89,
+          83
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9470471143722534,
+      "maximum_offset_displacement": 0.09679841995239258,
+      "phase_resultant": 0.3003134166408027,
+      "phase_resultant_per_world": [
+        0.31910358203846684,
+        0.3563950053576438,
+        0.13721885368163417,
+        0.34622145623589673,
+        0.5172924059963168,
+        0.06385984698922251,
+        0.4739422763553977,
+        0.18847390647184314
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 17,
+    "step": 408,
+    "fit": {
+      "ce": 1.0963417754776177,
+      "accuracy": 0.4454022988505747,
+      "balanced_accuracy": 0.4481407313561352,
+      "per_class_recall": [
+        0.6017857142857143,
+        0.36807817589576547,
+        0.3745583038869258
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          674,
+          202,
+          244
+        ],
+        [
+          534,
+          452,
+          242
+        ],
+        [
+          461,
+          247,
+          424
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.943843126296997,
+      "maximum_offset_displacement": 0.10206842422485352,
+      "phase_resultant": 0.27911027758018986,
+      "phase_resultant_per_world": [
+        0.295761844034096,
+        0.48165706638658995,
+        0.10910364198691627,
+        0.2159037593821569,
+        0.5935878592480559,
+        0.06330416670236545,
+        0.25482353332811375,
+        0.2187403495732246
+      ]
+    },
+    "monitor": {
+      "ce": 1.306824827552738,
+      "accuracy": 0.3298872180451128,
+      "balanced_accuracy": 0.3296796124409705,
+      "per_class_recall": [
+        0.49719101123595505,
+        0.2418478260869565,
+        0.25
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          177,
+          94,
+          85
+        ],
+        [
+          193,
+          89,
+          86
+        ],
+        [
+          163,
+          92,
+          85
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.943843126296997,
+      "maximum_offset_displacement": 0.10206842422485352,
+      "phase_resultant": 0.28200293335465954,
+      "phase_resultant_per_world": [
+        0.2882254372658087,
+        0.4290043093320231,
+        0.1456684801133526,
+        0.21467468259574038,
+        0.5617299633904181,
+        0.060646978117292354,
+        0.29839371310118334,
+        0.2576799029214576
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 18,
+    "step": 432,
+    "fit": {
+      "ce": 1.0866015204067887,
+      "accuracy": 0.45,
+      "balanced_accuracy": 0.4524481967946304,
+      "per_class_recall": [
+        0.5982142857142857,
+        0.38192182410423453,
+        0.37720848056537104
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          670,
+          216,
+          234
+        ],
+        [
+          520,
+          469,
+          239
+        ],
+        [
+          413,
+          292,
+          427
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9411227703094482,
+      "maximum_offset_displacement": 0.10624456405639648,
+      "phase_resultant": 0.29303588418920956,
+      "phase_resultant_per_world": [
+        0.456813667211259,
+        0.3102179456976115,
+        0.23038621890293556,
+        0.25054163590947404,
+        0.4929274162591222,
+        0.0544241857800531,
+        0.3536239387926695,
+        0.19535206496055166
+      ]
+    },
+    "monitor": {
+      "ce": 1.3061090555406154,
+      "accuracy": 0.34398496240601506,
+      "balanced_accuracy": 0.3437006092129084,
+      "per_class_recall": [
+        0.5028089887640449,
+        0.26358695652173914,
+        0.2647058823529412
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          179,
+          84,
+          93
+        ],
+        [
+          187,
+          97,
+          84
+        ],
+        [
+          169,
+          81,
+          90
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9411227703094482,
+      "maximum_offset_displacement": 0.10624456405639648,
+      "phase_resultant": 0.3112464418042563,
+      "phase_resultant_per_world": [
+        0.4517726049468229,
+        0.3448253174199273,
+        0.23698480968733154,
+        0.24463058391071205,
+        0.5297374522569382,
+        0.06362134424622674,
+        0.3849475695416962,
+        0.23345185242439548
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 19,
+    "step": 456,
+    "fit": {
+      "ce": 1.0832821703505242,
+      "accuracy": 0.4514367816091954,
+      "balanced_accuracy": 0.45329605875798373,
+      "per_class_recall": [
+        0.5517857142857143,
+        0.3982084690553746,
+        0.4098939929328622
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          618,
+          255,
+          247
+        ],
+        [
+          468,
+          489,
+          271
+        ],
+        [
+          363,
+          305,
+          464
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.936768651008606,
+      "maximum_offset_displacement": 0.10988903045654297,
+      "phase_resultant": 0.22871019124944938,
+      "phase_resultant_per_world": [
+        0.33235370783043944,
+        0.28699023833344967,
+        0.20364498464527114,
+        0.14240674031766015,
+        0.5021977886237158,
+        0.04225470298629487,
+        0.10164552035069277,
+        0.21818784690807147
+      ]
+    },
+    "monitor": {
+      "ce": 1.3038047489367033,
+      "accuracy": 0.33458646616541354,
+      "balanced_accuracy": 0.33439490598388844,
+      "per_class_recall": [
+        0.46629213483146065,
+        0.266304347826087,
+        0.27058823529411763
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          166,
+          92,
+          98
+        ],
+        [
+          173,
+          98,
+          97
+        ],
+        [
+          160,
+          88,
+          92
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.936768651008606,
+      "maximum_offset_displacement": 0.10988903045654297,
+      "phase_resultant": 0.2496010774612057,
+      "phase_resultant_per_world": [
+        0.3280633286959936,
+        0.3215361900852016,
+        0.23422133296829187,
+        0.14438985419756864,
+        0.532335269305273,
+        0.0351596130418855,
+        0.1427158140396467,
+        0.2583872173557848
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  },
+  {
+    "epoch": 20,
+    "step": 480,
+    "fit": {
+      "ce": 1.0643358888297245,
+      "accuracy": 0.4640804597701149,
+      "balanced_accuracy": 0.466507332004751,
+      "per_class_recall": [
+        0.5848214285714286,
+        0.3933224755700326,
+        0.4213780918727915
+      ],
+      "class_counts": [
+        1120,
+        1228,
+        1132
+      ],
+      "confusion_matrix": [
+        [
+          655,
+          227,
+          238
+        ],
+        [
+          477,
+          483,
+          268
+        ],
+        [
+          387,
+          268,
+          477
+        ]
+      ],
+      "events": 3480,
+      "minimum_offset_separation": 1.9312089681625366,
+      "maximum_offset_displacement": 0.11397838592529297,
+      "phase_resultant": 0.24612890808252014,
+      "phase_resultant_per_world": [
+        0.34800111508285786,
+        0.3634171773144332,
+        0.2115478794928389,
+        0.16107089295115115,
+        0.5007922192865623,
+        0.03323476896001941,
+        0.09440828613610387,
+        0.25655892543619463
+      ]
+    },
+    "monitor": {
+      "ce": 1.2991817732502644,
+      "accuracy": 0.3533834586466165,
+      "balanced_accuracy": 0.35229400749063666,
+      "per_class_recall": [
+        0.4943820224719101,
+        0.3125,
+        0.25
+      ],
+      "class_counts": [
+        356,
+        368,
+        340
+      ],
+      "confusion_matrix": [
+        [
+          176,
+          84,
+          96
+        ],
+        [
+          166,
+          115,
+          87
+        ],
+        [
+          167,
+          88,
+          85
+        ]
+      ],
+      "events": 1064,
+      "minimum_offset_separation": 1.9312089681625366,
+      "maximum_offset_displacement": 0.11397838592529297,
+      "phase_resultant": 0.25930611342326365,
+      "phase_resultant_per_world": [
+        0.34841994681579275,
+        0.37919179379792084,
+        0.22196124864086642,
+        0.16212803797858763,
+        0.4933291502578191,
+        0.04207854105213231,
+        0.13801637662451427,
+        0.289323812218476
+      ]
+    },
+    "checks": {
+      "all_relation_classes_present": true,
+      "balanced_accuracy": false,
+      "minimum_class_recall": false,
+      "ce_reduction": true,
+      "offset_separation": true,
+      "phase_not_constant": true
+    },
+    "ready": false,
+    "streak": 0
+  }
+]

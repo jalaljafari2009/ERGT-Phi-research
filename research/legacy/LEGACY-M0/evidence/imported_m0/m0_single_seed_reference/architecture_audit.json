@@ -1,0 +1,47 @@
+[
+  {
+    "data_seed": 16301,
+    "native": {
+      "adaptive_event_capacity": true,
+      "closure_horizon_coupled_to_answer_horizon": true,
+      "conserved_identity_initial_condition": true,
+      "curvature_is_observer_only": true,
+      "event_source_role_world_closure": true,
+      "gauge_fixed_world_action": true,
+      "hard_first_causal_event_fibres": true,
+      "hard_min_plus_target_solver": true,
+      "hard_omission_overflow_gate": true,
+      "identity_derived_inside_ergt": true,
+      "identity_fibre_metric_binding": true,
+      "identity_fibre_quotient_binding": true,
+      "length_balanced_chain_binding_loss": true,
+      "multiscale_causal_backbone": true,
+      "no_direct_answer_head": true,
+      "no_multihead_attention": true,
+      "no_transformer_layer": true,
+      "old_discrete_graph_compiler_disabled": true,
+      "old_generic_graph_executor_disabled": true,
+      "padding_independent_multiscale_support": true,
+      "position_independent_query_boundary_channel": true,
+      "product_manifold_geodesic_closure": true,
+      "raw_token_only_public_input": true,
+      "registered_event_capacity_bound": true,
+      "registered_local_action_cell_before_world_residual": true,
+      "registered_measurement_before_hard_solver": true,
+      "spectrum_is_observer_only": true,
+      "typed_conditions_are_explicit": true,
+      "world_lens_transitions": true,
+      "world_metric_is_active": true,
+      "worst_chain_support_margin": true
+    },
+    "optimization_seed": 12011,
+    "transformer": {
+      "auxiliary_heads_do_not_feed_answer_path": true,
+      "direct_answer_head_present": true,
+      "external_program_or_solver_absent": true,
+      "raw_token_forward_signature": true,
+      "standard_qkv_self_attention_present": true,
+      "training_only_matched_supervision_present": true
+    }
+  }
+]

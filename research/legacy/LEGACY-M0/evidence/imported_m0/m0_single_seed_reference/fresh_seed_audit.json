@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "optimization_and_data_seeds_disjoint": true,
+    "qualification_data_seed_excluded": true,
+    "qualification_optimization_seed_excluded": true
+  },
+  "data_seeds": [
+    16301
+  ],
+  "development_repair_pilot": true,
+  "development_seed_reuse_is_not_confirmatory": true,
+  "optimization_seeds": [
+    12011
+  ],
+  "pass": true
+}

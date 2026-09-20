@@ -1,0 +1,49 @@
+{
+  "schema": "ergt-phi-legacy-git-recovery-v1",
+  "recovered_at": "2026-09-20",
+  "experiment_id": "LEGACY-M0",
+  "source_commit": "330b966bcd55657bca0e0717917df55b61b4b1fe",
+  "reason": "Pre-GPU M0 engineering acceptance; trained reference still pending.",
+  "records": [
+    {
+      "original_path": "manifests/m0_status.json",
+      "recovered_path": "research/legacy/LEGACY-M0/git_evidence/330b966/manifests/m0_status.json",
+      "git_commit": "330b966bcd55657bca0e0717917df55b61b4b1fe",
+      "git_blob": "156fbfe6c17e8748d21e1b0fe8e2df16a549199d",
+      "sha256": "83b8b45abb54846839e7f86c77b25e2738fb5bcc584152b9256ca3ca8cbb20e7",
+      "bytes": 625,
+      "byte_exact_recovery": true
+    },
+    {
+      "original_path": "manifests/reference_training_status.json",
+      "recovered_path": "research/legacy/LEGACY-M0/git_evidence/330b966/manifests/reference_training_status.json",
+      "git_commit": "330b966bcd55657bca0e0717917df55b61b4b1fe",
+      "git_blob": "b601ba2be67c8d841c09e16273a069f9e0d2a52b",
+      "sha256": "a41f78db18de9c934b4e6c9fbf8a94f4b9b5255df66465c2792692cd27488756",
+      "bytes": 163,
+      "byte_exact_recovery": true
+    },
+    {
+      "original_path": "manifests/engineering_fixture.json",
+      "recovered_path": "research/legacy/LEGACY-M0/git_evidence/330b966/manifests/engineering_fixture.json",
+      "git_commit": "330b966bcd55657bca0e0717917df55b61b4b1fe",
+      "git_blob": "1eab43790ac38831d3f67fe245048107f24dfe4f",
+      "sha256": "bd571ff965c6fe32882929266b0887be78b6bb03292af90ab76a9086efe33b7e",
+      "bytes": 529,
+      "byte_exact_recovery": true
+    },
+    {
+      "original_path": "docs/M0_REPORT_FA.md",
+      "recovered_path": "research/legacy/LEGACY-M0/git_evidence/330b966/docs/M0_REPORT_FA.md",
+      "git_commit": "330b966bcd55657bca0e0717917df55b61b4b1fe",
+      "git_blob": "ed3dc243d6cee09f595a53e817b175a865df9ff3",
+      "sha256": "24554e4550a08790d6e4cfc5cadcbdc5ee40df4d18c65f683edaa9d5f63d38ff",
+      "bytes": 7418,
+      "byte_exact_recovery": true
+    }
+  ],
+  "limitations": [
+    "Recovery retains the historical statement and does not rerun or newly authenticate the experiment.",
+    "No original raw output or checkpoint is reconstructed from a manifest."
+  ]
+}

@@ -1,5 +1,8 @@
 """Compare token, contextual-token and pair endpoint shadow representations."""
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import legacy_input, workspace_path
 import sys,json,hashlib,random,time
 from dataclasses import asdict
 ROOT=Path(__file__).resolve().parents[1]; sys.path.insert(0,str(ROOT))
@@ -70,7 +73,7 @@ def run_pair(records,fit,monitor,shuffled):
 
 def main():
     torch.set_num_threads(1); torch.use_deterministic_algorithms(True)
-    out=ROOT/'runs/m2_diagnostic'; out.mkdir(parents=True,exist_ok=True); run=ROOT/'runs/imported_m0/m0_single_seed_reference'
+    out=ROOT/'runs/m2_diagnostic'; out.mkdir(parents=True,exist_ok=True); run=legacy_input(ROOT, "runs/imported_m0/m0_single_seed_reference")
     state=torch.load(run/'opt_12011_data_16301/native_ergt_training.pt',map_location='cpu',weights_only=True); c=dict(state['config']); c['raw_input_contract']=RawTokenInputContract(**c['raw_input_contract'])
     base=SteppedNative(ERGT43Config(**c)).eval(); base.load_state_dict(state['best_state']); base.requires_grad_(False)
     examples,tokenizer,train_hash=training_only(run); fit,monitor=pair_partition(examples,20092026)
@@ -85,7 +88,7 @@ def main():
     protocol={'stage':'M2_representation_diagnostic','data_train_sha256':train_hash,'fit_count':len(fit),'monitor_count':len(monitor),'epochs':20,'batch_size':16,'shuffle_controls':True,'native_integration':False,'answer_claim':False,'source_sha256':{f:digest(ROOT/f) for f in ['ergt_phi/shadow_phase.py','ergt_phi/shadow_data.py','ergt_phi/contextual_shadow.py','ergt_phi/pair_diagnostic.py','scripts/run_m2_diagnostic.py']}}
     (out/'protocol.json').write_text(json.dumps(protocol,indent=2));
     result={'status':'completed_diagnostic','M2_complete':False,'M3_authorized_by_results':False,'results':results,'elapsed_seconds':time.perf_counter()-started,'protocol_sha256':digest(out/'protocol.json'),'interpretation':{'true_pair_vs_context_required':'compare monitor balanced accuracy','shuffled_control':'should remain near chance; it is not a qualification gate','pair_head_is_loss_only':True}}
-    (out/'result.json').write_text(json.dumps(result,indent=2)); (ROOT/'manifests/m2_diagnostic.json').write_text(json.dumps(result,indent=2)); print(json.dumps({k:v['final_monitor']['balanced_accuracy'] for k,v in results.items()},indent=2))
+    (out/'result.json').write_text(json.dumps(result,indent=2)); (workspace_path(ROOT, "manifests/m2_diagnostic.json")).write_text(json.dumps(result,indent=2)); print(json.dumps({k:v['final_monitor']['balanced_accuracy'] for k,v in results.items()},indent=2))
 
 
 if __name__=='__main__': main()

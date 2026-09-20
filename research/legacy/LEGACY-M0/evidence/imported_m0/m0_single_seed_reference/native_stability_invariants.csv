@@ -1,0 +1,15 @@
+data_seed,evidence,invariant,invariant_id,optimization_seed,passed,status
+16301,"strict readiness includes measurement, action MAE, and conservation",registered_measurement_and_action,S01,12011,True,passed
+16301,"[2, 3, 4, 5, 6, 7, 8]",independent_multihop_field_readiness,S02,12011,True,passed
+16301,stable_zero_teacher_windows=2,consecutive_readiness_and_zero_teacher_windows,S03,12011,True,passed
+16301,zero_teacher_optimizer_steps=0,zero_optimizer_updates_after_freeze,S04,12011,True,passed
+16301,"readiness event recall/precision, chain exactness, closure, and overflow",complete_event_chain_closure_overflow_contract,S05,12011,True,passed
+16301,native architecture audit,product_manifold_fixed_point_closure,S06,12011,True,passed
+16301,native architecture audit,valid_domain_multiscale_backbone,S07,12011,True,passed
+16301,batch=True padding=True,batch_and_padding_invariance,S08,12011,True,passed
+16301,architecture plus raw-input identity parity,semantic_identity_factorization,S09,12011,True,passed
+16301,native architecture audit,registered_local_action_cells,S10,12011,True,passed
+16301,evaluable_single_world_rows=8,functional_multiworld_dependence,S11,12011,True,passed
+16301,bitwise public/internal forward audit,internal_raw_input_identity_parity,S12,12011,True,passed
+16301,independent_2_8_hop_readiness+two_frozen_mechanism_shards,same_frozen_checkpoint_and_no_final_selection,S13,12011,True,passed
+16301,detached_cpu_float64_symmetric_eigvalsh_fail_open_v1,detached_fail_open_geometry_observers,S14,12011,True,passed

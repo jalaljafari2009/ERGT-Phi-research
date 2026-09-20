@@ -1,0 +1,215 @@
+{
+  "status": "completed_proposal_probe",
+  "M2_complete": false,
+  "M3_authorized_by_results": false,
+  "results": {
+    "proposal_true": {
+      "initial_monitor": {
+        "accuracy": 0.6804511278195489,
+        "balanced_accuracy": 0.6666666666666666,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            356,
+            0,
+            0
+          ],
+          [
+            0,
+            368,
+            0
+          ],
+          [
+            340,
+            0,
+            0
+          ]
+        ],
+        "ce": 1.096771240234375,
+        "events": 1064
+      },
+      "final_train": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            1120,
+            0,
+            0
+          ],
+          [
+            0,
+            1228,
+            0
+          ],
+          [
+            0,
+            0,
+            1132
+          ]
+        ],
+        "ce": 0.03329864516854286,
+        "events": 3480
+      },
+      "final_monitor": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            356,
+            0,
+            0
+          ],
+          [
+            0,
+            368,
+            0
+          ],
+          [
+            0,
+            0,
+            340
+          ]
+        ],
+        "ce": 0.034150440245866776,
+        "events": 1064
+      },
+      "epochs": 40,
+      "shuffled_labels": false
+    },
+    "proposal_shuffled": {
+      "initial_monitor": {
+        "accuracy": 0.020676691729323307,
+        "balanced_accuracy": 0.020599250936329586,
+        "per_class_recall": [
+          0.06179775280898876,
+          0.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            22,
+            0,
+            334
+          ],
+          [
+            258,
+            0,
+            110
+          ],
+          [
+            340,
+            0,
+            0
+          ]
+        ],
+        "ce": 1.1342705488204956,
+        "events": 1064
+      },
+      "final_train": {
+        "accuracy": 0.35402298850574715,
+        "balanced_accuracy": 0.33460326960631975,
+        "per_class_recall": [
+          0.0,
+          0.996742671009772,
+          0.007067137809187279
+        ],
+        "class_counts": [
+          1120,
+          1228,
+          1132
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            1115,
+            5
+          ],
+          [
+            0,
+            1224,
+            4
+          ],
+          [
+            0,
+            1124,
+            8
+          ]
+        ],
+        "ce": 1.0967909097671509,
+        "events": 3480
+      },
+      "final_monitor": {
+        "accuracy": 0.3458646616541353,
+        "balanced_accuracy": 0.3333333333333333,
+        "per_class_recall": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "class_counts": [
+          356,
+          368,
+          340
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            354,
+            2
+          ],
+          [
+            0,
+            368,
+            0
+          ],
+          [
+            0,
+            340,
+            0
+          ]
+        ],
+        "ce": 1.0982866287231445,
+        "events": 1064
+      },
+      "epochs": 40,
+      "shuffled_labels": true
+    }
+  },
+  "protocol_sha256": "c73b05d0389736faf6b1ad5203505f919d92c78d8cf8a2494948386f45a34925",
+  "interpretation": "label-free native proposals are measured before phase activation"
+}

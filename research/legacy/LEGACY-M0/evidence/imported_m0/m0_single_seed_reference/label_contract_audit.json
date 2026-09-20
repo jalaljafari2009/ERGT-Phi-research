@@ -1,0 +1,261 @@
+[
+  {
+    "aggregate_label_counts": {
+      "abstain": 182,
+      "candidate_a": 707,
+      "candidate_b": 707
+    },
+    "answer_label_mapping": {
+      "abstain": 2,
+      "candidate_a": 0,
+      "candidate_b": 1
+    },
+    "candidate_label_counts_equal": true,
+    "cohorts": [
+      {
+        "abstain_labels": 56,
+        "candidate_a_labels": 224,
+        "candidate_b_labels": 224,
+        "cohort": "train",
+        "counterfactual_flip_exact": true,
+        "examples": 504,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 28,
+        "candidate_a_labels": 49,
+        "candidate_b_labels": 49,
+        "cohort": "tuning",
+        "counterfactual_flip_exact": true,
+        "examples": 126,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 14,
+        "candidate_a_labels": 49,
+        "candidate_b_labels": 49,
+        "cohort": "native_readiness",
+        "counterfactual_flip_exact": true,
+        "examples": 112,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 48,
+        "candidate_b_labels": 48,
+        "cohort": "mechanism_tuning",
+        "counterfactual_flip_exact": true,
+        "examples": 96,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 49,
+        "candidate_b_labels": 49,
+        "cohort": "validation",
+        "counterfactual_flip_exact": true,
+        "examples": 98,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 28,
+        "candidate_b_labels": 28,
+        "cohort": "hop_4",
+        "counterfactual_flip_exact": true,
+        "examples": 56,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 28,
+        "candidate_b_labels": 28,
+        "cohort": "hop_8",
+        "counterfactual_flip_exact": true,
+        "examples": 56,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 28,
+        "candidate_b_labels": 28,
+        "cohort": "hop_12",
+        "counterfactual_flip_exact": true,
+        "examples": 56,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 28,
+        "candidate_b_labels": 28,
+        "cohort": "hop_16",
+        "counterfactual_flip_exact": true,
+        "examples": 56,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 28,
+        "candidate_b_labels": 28,
+        "cohort": "hop_24",
+        "counterfactual_flip_exact": true,
+        "examples": 56,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 28,
+        "candidate_b_labels": 28,
+        "cohort": "hop_32",
+        "counterfactual_flip_exact": true,
+        "examples": 56,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 20,
+        "candidate_b_labels": 20,
+        "cohort": "context_128_hop_4",
+        "counterfactual_flip_exact": true,
+        "examples": 40,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 20,
+        "candidate_b_labels": 20,
+        "cohort": "context_256_hop_4",
+        "counterfactual_flip_exact": true,
+        "examples": 40,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 20,
+        "candidate_b_labels": 20,
+        "cohort": "context_512_hop_4",
+        "counterfactual_flip_exact": true,
+        "examples": 40,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 20,
+        "candidate_b_labels": 20,
+        "cohort": "context_768_hop_4",
+        "counterfactual_flip_exact": true,
+        "examples": 40,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 20,
+        "candidate_b_labels": 20,
+        "cohort": "context_512_hop_24",
+        "counterfactual_flip_exact": true,
+        "examples": 40,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 0,
+        "candidate_a_labels": 20,
+        "candidate_b_labels": 20,
+        "cohort": "context_768_hop_24",
+        "counterfactual_flip_exact": true,
+        "examples": 40,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 28,
+        "candidate_a_labels": 0,
+        "candidate_b_labels": 0,
+        "cohort": "unsupported_hop_4",
+        "counterfactual_flip_exact": true,
+        "examples": 28,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 28,
+        "candidate_a_labels": 0,
+        "candidate_b_labels": 0,
+        "cohort": "unsupported_hop_16",
+        "counterfactual_flip_exact": true,
+        "examples": 28,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      },
+      {
+        "abstain_labels": 28,
+        "candidate_a_labels": 0,
+        "candidate_b_labels": 0,
+        "cohort": "unsupported_hop_32",
+        "counterfactual_flip_exact": true,
+        "examples": 28,
+        "physical_tokens_match_supervision": true,
+        "scenario_hop_label_balance": true,
+        "unsupported_abstain_exact": true
+      }
+    ],
+    "counterfactual_flip_exact": true,
+    "data_seed": 16301,
+    "label_contract_pass": true,
+    "labels_are_training_or_audit_only": true,
+    "labels_enter_primary_model_inputs": false,
+    "optimization_seed": 12011,
+    "physical_tokens_match_supervision": true,
+    "scenario_hop_label_balance": true,
+    "schema_version": "ergt-reviewer-label-contract-v1",
+    "training_label_families": [
+      "answer",
+      "entity",
+      "query_role",
+      "relation_anchor",
+      "event_source",
+      "event_target",
+      "boundary_value",
+      "action",
+      "cone",
+      "transport",
+      "boundary_deficit",
+      "terminal_mass"
+    ],
+    "unsupported_abstain_exact": true
+  }
+]

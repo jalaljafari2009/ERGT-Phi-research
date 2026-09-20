@@ -1,6 +1,8 @@
 """Audit imported selected weights on CPU; never train or overwrite the reference."""
 from pathlib import Path
 import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import legacy_input, workspace_path
 import json
 import hashlib
 import copy
@@ -30,7 +32,7 @@ def main():
     torch.set_num_threads(1)
     torch.use_deterministic_algorithms(True)
     seed_all()
-    run = ROOT / 'runs/imported_m0/m0_single_seed_reference'
+    run = legacy_input(ROOT, "runs/imported_m0/m0_single_seed_reference")
     checkpoint = run / 'opt_12011_data_16301/native_ergt_training.pt'
     state = torch.load(checkpoint, map_location='cpu', weights_only=True)
     field = torch.load(checkpoint.with_name('native_ergt_training_field_step_700.pt'), map_location='cpu', weights_only=True)
@@ -86,7 +88,7 @@ def main():
         source = ROOT/'reference/ergt_four_seed/_locked_runtime'/name
         assert hashlib.sha256(source.read_bytes().replace(b'\r\n',b'\n')).hexdigest() == digest
     result = dict(status='passed', scope='single_seed_development_reference', device='cpu', torch=torch.__version__, selected_step=700, checkpoint_sha256=hashlib.sha256(checkpoint.read_bytes()).hexdigest(), selected_equals_saved_model_and_field=True, canonical_source_hashes_match=True, cases=rows, intervention_cases=10, bypass_configurations=3, gradient_optimizer_rng_exact=True, original_weights_unchanged=True, rtol=0, atol=0, cross_device_bitwise_claim=False, four_seed_reproduction=False, scientific_claim_status='open')
-    (ROOT/'manifests/trained_m0_audit.json').write_text(json.dumps(result,indent=2)+'\n')
+    (workspace_path(ROOT, "manifests/trained_m0_audit.json")).write_text(json.dumps(result,indent=2)+'\n')
     print('TRAINED M0 AUDIT PASSED',flush=True)
 
 if __name__ == '__main__': main()

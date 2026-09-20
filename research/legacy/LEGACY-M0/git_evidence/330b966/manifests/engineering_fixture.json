@@ -1,0 +1,13 @@
+{
+  "status": "untrained_engineering_only",
+  "path": "runs\\m0\\untrained_fixture.pt",
+  "sha256": "619d5e353fa36d88d60415ff9c5d39d13bba0aefd2bcace3c434ebc43923d700",
+  "field_snapshots": 4,
+  "compared_output_fields": 179,
+  "forward_exact": true,
+  "trained_accuracy_claim": false,
+  "test_cpu_threads": 1,
+  "deterministic_algorithms": true,
+  "initial_full_state_path": "runs/m0/untrained_initial_full_state.pt",
+  "initial_full_state_sha256": "86e33a2f4422cb00dcf6213fda25c868efabb0fdfcbca62e8dc418bd0c333322"
+}

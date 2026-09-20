@@ -1,0 +1,104 @@
+[
+  {
+    "claim": "attention_free_native_geometric_answer_path",
+    "gate": "architecture_and_shared_input",
+    "scope": "Static source and forward-contract audit.",
+    "status": "supported"
+  },
+  {
+    "claim": "native_ergt_converges_in_distribution",
+    "gate": "native_ergt_converged_id",
+    "scope": "ERGT one-hop train subset and disjoint one-hop validation; baseline-independent.",
+    "status": "supported"
+  },
+  {
+    "claim": "qualified_direct_transformer_baseline_with_disclosed_supervision",
+    "gate": "qualified_baseline_and_disclosed_training_supervision",
+    "scope": "A bounded development-only search selected the direct Transformer recipe; no labels, compiler, executor, or geometry enter inference.",
+    "status": "supported"
+  },
+  {
+    "claim": "strengthened_direct_transformer_convergence_by_seed",
+    "gate": "per_seed_convergence_readout",
+    "scope": "Every seed and both one-hop ID accuracies are reported numerically; this readout does not determine run status or ERGT convergence.",
+    "status": "reported"
+  },
+  {
+    "claim": "multihop_exposure_locked_field_freeze_and_mechanism_selection",
+    "gate": "native_multihop_exposure_locked_checkpoint",
+    "scope": "Two strict 2--8-hop readiness windows plus minimum exposure precede freeze; no optimizer update follows it.",
+    "status": "supported"
+  },
+  {
+    "claim": "cumulative_native_stability_non_regression",
+    "gate": "native_stability_capability_catalog",
+    "scope": "Every registered S01--S14 invariant is explicitly evaluated per seed.",
+    "status": "supported"
+  },
+  {
+    "claim": "native_ergt_absolute_long_horizon_accuracy_to_32_hops",
+    "gate": "native_ergt_absolute_32_hop_floor",
+    "scope": "Absolute ERGT endpoint; independent of baseline convergence.",
+    "status": "open"
+  },
+  {
+    "claim": "observed_paired_advantage_over_strengthened_direct_transformer",
+    "gate": "observed_paired_32_hop_advantage",
+    "scope": "Paired effect, hierarchical interval, and exact paired test as observed.",
+    "status": "supported"
+  },
+  {
+    "claim": "conditional_matched_convergence_comparison",
+    "gate": "conditional_matched_convergence_readout",
+    "scope": "The ID-qualified seed count and its frozen 32-hop endpoint are reported numerically. The registered three-seed criterion controls manuscript wording only and never marks the notebook run as failed.",
+    "status": "reported"
+  },
+  {
+    "claim": "causal_dependence_on_registered_geometric_mechanisms",
+    "gate": "registered_causal_interventions",
+    "scope": "Same-checkpoint action/cone/transport/boundary/terminal/memory interventions.",
+    "status": "supported"
+  },
+  {
+    "claim": "functional_multiworld_dependence",
+    "gate": "functional_multiworld_dependence",
+    "scope": "No claim of uniform or independent semantic specialization.",
+    "status": "supported"
+  },
+  {
+    "claim": "bounded_unsupported_answer_rejection",
+    "gate": "unsupported_answer_rejection",
+    "scope": "Controlled unsupported candidates, not open-domain hallucination.",
+    "status": "supported"
+  },
+  {
+    "claim": "native_ergt_bounded_claim_bundle",
+    "gate": "native_ergt_claim_bundle",
+    "scope": "Native convergence, absolute 32-hop floor, mechanisms, worlds, and rejection.",
+    "status": "open"
+  },
+  {
+    "claim": "curvature_and_spectrum_observers",
+    "gate": "observer_only_source_contract",
+    "scope": "Descriptive only; no causal claim.",
+    "status": "supported"
+  },
+  {
+    "claim": "universal_transformer_superiority",
+    "gate": "out_of_scope",
+    "scope": "No universal comparison is asserted.",
+    "status": "not_claimed"
+  },
+  {
+    "claim": "language_modeling_or_perplexity_dominance",
+    "gate": "out_of_scope",
+    "scope": "This package is not a language-model benchmark.",
+    "status": "not_claimed"
+  },
+  {
+    "claim": "compute_efficiency_superiority",
+    "gate": "resource_disclosure_only",
+    "scope": "Runtime and memory are disclosed without an efficiency claim.",
+    "status": "not_claimed"
+  }
+]

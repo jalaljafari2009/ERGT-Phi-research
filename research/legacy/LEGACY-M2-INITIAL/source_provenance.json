@@ -1,0 +1,213 @@
+{
+  "schema": "ergt-phi-legacy-source-provenance-v1",
+  "experiment_id": "LEGACY-M2-INITIAL",
+  "audited_at": "2026-09-20",
+  "scanned_git_head": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+  "commits_scanned": 15,
+  "method": "Recorded historical source hashes are resolved against Git blob bytes. Exact bytes are preferred; documented canonical LF normalization is used explicitly where required. Commit fields locate content only and do not identify an execution checkout.",
+  "limitations": [
+    "A matching source blob does not prove execution used a clean checkout or only these files.",
+    "Recorded source inventories can be partial; missing files and run metadata are not reconstructed.",
+    "Current source paths may differ after migration; the Git locator preserves original bytes."
+  ],
+  "records": [
+    {
+      "historical_path": "ergt_phi/checkpoint.py",
+      "recorded_sha256": "417ff310c370b04dc93c960230a4313104e0d4a39e1bd2ddeb602a4a7a713ed0",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_protocol.json",
+          "json_pointer": "/source_sha256/ergt_phi~1checkpoint.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "ergt_phi/checkpoint.py",
+          "git_blob": "092b0b88a9ff8c0397782b9827aea2f2874ab6af",
+          "locator_commit": "0a0672545bcf466caa4d7f347340c1e89a0a33f7",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 14
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "ergt_phi/native_steps.py",
+      "recorded_sha256": "1cea0e9bf4578d8ab6879df1dc9ba82f01ba2ae035ac07b186803d60bf0e715d",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_protocol.json",
+          "json_pointer": "/source_sha256/ergt_phi~1native_steps.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "ergt_phi/native_steps.py",
+          "git_blob": "a5f07eec9aaf4df69e802607c00a2e0b5864c8cd",
+          "locator_commit": "0a0672545bcf466caa4d7f347340c1e89a0a33f7",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 14
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "ergt_phi/shadow_data.py",
+      "recorded_sha256": "b53c529738df8cfd45cb0df2a5089c290439b5ed1d58ba670b4731beace8a0ac",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_protocol.json",
+          "json_pointer": "/source_sha256/ergt_phi~1shadow_data.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "ergt_phi/shadow_data.py",
+          "git_blob": "6a3e7d0492fd109bee0d362a56fe6f40d178bdf7",
+          "locator_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 11
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "ergt_phi/shadow_metrics.py",
+      "recorded_sha256": "afb7ac530d71f3ae161953893be95bed4d58f309ab760aaa9bd77e831d43685d",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_protocol.json",
+          "json_pointer": "/source_sha256/ergt_phi~1shadow_metrics.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "ergt_phi/shadow_metrics.py",
+          "git_blob": "7bcec085a510c45b687e078ace46a2d1250588be",
+          "locator_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 11
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "ergt_phi/shadow_phase.py",
+      "recorded_sha256": "1e8e2831dd18848455e941562769e6e0ae922dbb17938285e9a7084f97388e22",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_protocol.json",
+          "json_pointer": "/source_sha256/ergt_phi~1shadow_phase.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "ergt_phi/shadow_phase.py",
+          "git_blob": "4ca7c7cf34fe41390ebf16d5add51003b1b3c304",
+          "locator_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 11
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "scripts/finalize_m2.py",
+      "recorded_sha256": "f195c839c5b632e452d66df145fd8f36ff61bea180cbf7a487c54671365fc3e2",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_status.json",
+          "json_pointer": "/source_sha256/scripts~1finalize_m2.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "scripts/finalize_m2.py",
+          "git_blob": "1ecde7c469cf455f15e5be4bcad14cf3cc31e71d",
+          "locator_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "last_matching_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "matching_commit_count": 1
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "scripts/run_m2.py",
+      "recorded_sha256": "7ba88d0884e1368f6bc9317137967efb89cd75af4ec3dfccab0e88de2250496b",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_protocol.json",
+          "json_pointer": "/source_sha256/scripts~1run_m2.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "scripts/run_m2.py",
+          "git_blob": "b2cbd6e6ed125c6520acdf5dc24864cc935acaa7",
+          "locator_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "last_matching_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "matching_commit_count": 1
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "scripts/shadow_resume_worker.py",
+      "recorded_sha256": "9dcbd470ba14638ba11ce59f308c463e2b42ea2cca1741599b1bc89a985db898",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_status.json",
+          "json_pointer": "/source_sha256/scripts~1shadow_resume_worker.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "scripts/shadow_resume_worker.py",
+          "git_blob": "b75f35976b29ab4b0616b0bdfb19791a8a920e73",
+          "locator_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 11
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    },
+    {
+      "historical_path": "tests/test_shadow_phase.py",
+      "recorded_sha256": "3e846d09ce6ef75448cf6179d25a07bd37ac5ac4e012c78d8bf49a7be28fd6b5",
+      "recorded_by": [
+        {
+          "evidence_path": "research/legacy/LEGACY-M2-INITIAL/git_evidence/manifests/m2_status.json",
+          "json_pointer": "/source_sha256/tests~1test_shadow_phase.py"
+        }
+      ],
+      "status": "matched_git_bytes",
+      "resolution": "same_or_reference_prefixed_path",
+      "git_locations": [
+        {
+          "git_path": "tests/test_shadow_phase.py",
+          "git_blob": "b29bc324df0f73f8defec05a0f31df7764ef85aa",
+          "locator_commit": "fd82286b6909cd6aa524c00db92622b63b3af979",
+          "last_matching_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+          "matching_commit_count": 11
+        }
+      ],
+      "hash_comparison": "sha256-exact-bytes"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "ergt-phi-legacy-inventory-v1",
+  "experiment_id": "LEGACY-M2-DIAGNOSTIC",
+  "migration_id": "20260920-history-consolidation",
+  "entries": [
+    {
+      "experiment_id": "LEGACY-M2-DIAGNOSTIC",
+      "old_path": "docs/M2_DIAGNOSTIC_FA.md",
+      "new_path": "research/legacy/LEGACY-M2-DIAGNOSTIC/reports/M2_DIAGNOSTIC_FA.md",
+      "sha256": "a2e97a7887f391bc5544a196090fbd290aa8863c1a71b893cb8759cec1e23a76",
+      "bytes": 5004,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-DIAGNOSTIC/reports/M2_DIAGNOSTIC_FA.md"
+    },
+    {
+      "experiment_id": "LEGACY-M2-DIAGNOSTIC",
+      "old_path": "manifests/m2_diagnostic.json",
+      "new_path": "research/legacy/LEGACY-M2-DIAGNOSTIC/manifests/m2_diagnostic.json",
+      "sha256": "d8d69f0f96c85f09fccaccb3074d5abe04043f539b65d4da74d7871c412cafd8",
+      "bytes": 13091,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-DIAGNOSTIC/manifests/m2_diagnostic.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-DIAGNOSTIC",
+      "old_path": "runs/m2_diagnostic/pair-tests.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-DIAGNOSTIC/m2_diagnostic/pair-tests.xml",
+      "sha256": "0f2759b1cc4d5f2119fbe807d2ead55029bd3ab50c598594c90902420baee9e7",
+      "bytes": 603,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-DIAGNOSTIC/evidence/m2_diagnostic/pair-tests.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M2-DIAGNOSTIC",
+      "old_path": "runs/m2_diagnostic/protocol.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-DIAGNOSTIC/m2_diagnostic/protocol.json",
+      "sha256": "a5761baab4249452600aa69e9768330d9314737fb417299c711b1513ed2f7514",
+      "bytes": 853,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-DIAGNOSTIC/evidence/m2_diagnostic/protocol.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-DIAGNOSTIC",
+      "old_path": "runs/m2_diagnostic/result.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-DIAGNOSTIC/m2_diagnostic/result.json",
+      "sha256": "505ef85afc25a2062486de29e4da18ccdcb2178780b1f30c39788118edd8bd7d",
+      "bytes": 12762,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-DIAGNOSTIC/evidence/m2_diagnostic/result.json"
+    }
+  ],
+  "new_execution_claimed": false
+}

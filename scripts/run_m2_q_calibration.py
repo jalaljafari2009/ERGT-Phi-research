@@ -7,10 +7,12 @@ features have been cached, for the existing phase relation loss.
 """
 from dataclasses import asdict
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import legacy_input, workspace_path
 import hashlib
 import json
 import random
-import sys
 import time
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -150,7 +152,7 @@ def main():
     torch.set_num_threads(1)
     torch.use_deterministic_algorithms(True)
     started = time.perf_counter()
-    run = ROOT / 'runs/imported_m0/m0_single_seed_reference'
+    run = legacy_input(ROOT, "runs/imported_m0/m0_single_seed_reference")
     checkpoint = run / 'opt_12011_data_16301/native_ergt_training.pt'
     state = torch.load(checkpoint, map_location='cpu', weights_only=True)
     model_config = dict(state['config'])
@@ -244,7 +246,7 @@ def main():
         'monitor_examples': len(monitor),
     }
     (out / 'result.json').write_text(json.dumps(result, indent=2))
-    (ROOT / 'manifests/m2_q_calibration.json').write_text(json.dumps(result, indent=2))
+    (workspace_path(ROOT, "manifests/m2_q_calibration.json")).write_text(json.dumps(result, indent=2))
     print(json.dumps({
         'status': result['status'],
         'monitor_balanced_accuracy': result['final_monitor']['balanced_accuracy'],

@@ -1,0 +1,6 @@
+{
+  "opt_12011_data_16301": {
+    "direct_transformer": "/content/drive/MyDrive/ERGT_Phi_M0/reference_training/m0_single_seed_reference/opt_12011_data_16301/direct_transformer_training.pt",
+    "native_ergt": "/content/drive/MyDrive/ERGT_Phi_M0/reference_training/m0_single_seed_reference/opt_12011_data_16301/native_ergt_training.pt"
+  }
+}

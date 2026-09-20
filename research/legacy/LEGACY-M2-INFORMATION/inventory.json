@@ -1,0 +1,44 @@
+{
+  "schema": "ergt-phi-legacy-inventory-v1",
+  "experiment_id": "LEGACY-M2-INFORMATION",
+  "migration_id": "20260920-history-consolidation",
+  "entries": [
+    {
+      "experiment_id": "LEGACY-M2-INFORMATION",
+      "old_path": "docs/M2_INFORMATION_PROBE_FA.md",
+      "new_path": "research/legacy/LEGACY-M2-INFORMATION/reports/M2_INFORMATION_PROBE_FA.md",
+      "sha256": "9b3c248f837e962f3bb8fcdc19647bb38a5ebcc9bf8c12cfd41fba7c8d932ecb",
+      "bytes": 3113,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-INFORMATION/reports/M2_INFORMATION_PROBE_FA.md"
+    },
+    {
+      "experiment_id": "LEGACY-M2-INFORMATION",
+      "old_path": "manifests/m2_information.json",
+      "new_path": "research/legacy/LEGACY-M2-INFORMATION/manifests/m2_information.json",
+      "sha256": "79c30a479b352ce2b169d02d6a32189910a63f3f29e4d141965acdca079c8305",
+      "bytes": 13450,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M2-INFORMATION/manifests/m2_information.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-INFORMATION",
+      "old_path": "runs/m2_information/protocol.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-INFORMATION/m2_information/protocol.json",
+      "sha256": "8611fc4a81ad2aa407e1d7677bf124da7324407741d8f08c91d92ffc49604669",
+      "bytes": 722,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-INFORMATION/evidence/m2_information/protocol.json"
+    },
+    {
+      "experiment_id": "LEGACY-M2-INFORMATION",
+      "old_path": "runs/m2_information/result.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M2-INFORMATION/m2_information/result.json",
+      "sha256": "389db95961193760e49fe5d21aee2dbd13477e5faac1c96842f1b94e1622b73a",
+      "bytes": 13100,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M2-INFORMATION/evidence/m2_information/result.json"
+    }
+  ],
+  "new_execution_claimed": false
+}

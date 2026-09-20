@@ -1,5 +1,8 @@
 """Audit the deliverable and derive status from saved acceptance evidence."""
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import legacy_input, current_input, workspace_path
 import ast
 import hashlib
 import json
@@ -11,7 +14,7 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-reference = json.loads((ROOT / "manifests/reference.json").read_text())
+reference = json.loads((legacy_input(ROOT, "manifests/reference.json")).read_text())
 for relative, expected in reference["files"].items():
     for base in (ROOT / "reference", Path(reference["original_root"])):
         if base.exists() and digest(base / relative) != expected:
@@ -24,18 +27,18 @@ for directory in ("ergt_phi", "scripts", "tests"):
 for path in sorted((ROOT / "configs").glob("*.json")):
     json.loads(path.read_text(encoding="utf-8"))
     records[path.relative_to(ROOT).as_posix()] = digest(path)
-notebook = json.loads((ROOT / "notebook/M0_Reference_Training.ipynb").read_text())
+notebook = json.loads((current_input(ROOT, "notebook/M0_Reference_Training.ipynb")).read_text())
 for cell in notebook["cells"]:
     if cell["cell_type"] == "code":
         compile("".join(cell["source"]), "colab_cell", "exec")
 test_summaries = {}
 for name in ("reference", "research"):
-    tree = ET.parse(ROOT / f"runs/m0/{name}-tests.xml")
+    tree = ET.parse(current_input(ROOT, f"runs/m0/{name}-tests.xml"))
     totals = {key: sum(int(s.attrib.get(key, 0)) for s in tree.iter("testsuite")) for key in ("tests", "failures", "errors", "skipped")}
     test_summaries[name] = totals
     if totals["failures"] or totals["errors"] or totals["skipped"]:
         raise RuntimeError(f"Unresolved acceptance tests: {name}: {totals}")
-(ROOT / "manifests/research_source.json").write_text(json.dumps({"files": records}, indent=2), encoding="utf-8")
+(workspace_path(ROOT, "manifests/research_source.json")).write_text(json.dumps({"files": records}, indent=2), encoding="utf-8")
 status = {
     "M0_A": "passed_on_registered_cpu_fixtures", "M0_B": "pending_cuda_training_and_trained_checkpoint_audit",
     "M0_complete": False, "tests": test_summaries,
@@ -44,11 +47,14 @@ status = {
     "untrained_fixture_is_scientific_evidence": False,
     "gpu_training_executed": False,
 }
-trained_path = ROOT / "manifests/trained_m0_audit.json"
-if trained_path.exists():
+try:
+    trained_path = current_input(ROOT, "manifests/trained_m0_audit.json")
+except FileNotFoundError:
+    trained_path = None
+if trained_path is not None:
     trained = json.loads(trained_path.read_text())
-    imported = json.loads((ROOT / "manifests/imported_m0_evidence.json").read_text())
-    run = ROOT / "runs/imported_m0/m0_single_seed_reference"
+    imported = json.loads((legacy_input(ROOT, "manifests/imported_m0_evidence.json")).read_text())
+    run = legacy_input(ROOT, "runs/imported_m0/m0_single_seed_reference")
     for relative, expected in imported["files"].items():
         assert digest(run / relative) == expected, relative
     assert trained["status"] == "passed"
@@ -57,6 +63,6 @@ if trained_path.exists():
                   M0_complete=True, completion_scope="development_reference_only",
                   gpu_training_executed=True, gpu_training_location="user_Colab_T4",
                   scientific_claim_status="open", four_seed_reproduction=False,
-                  trained_parity_evidence="manifests/trained_m0_audit.json")
-(ROOT / "manifests/m0_status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
+                  trained_parity_evidence=trained_path.relative_to(ROOT).as_posix())
+(workspace_path(ROOT, "manifests/m0_status.json")).write_text(json.dumps(status, indent=2), encoding="utf-8")
 print(json.dumps(status, indent=2))

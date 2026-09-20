@@ -1,0 +1,25 @@
+{
+  "schema": "ergt-phi-workspace-snapshot-v1",
+  "source_commit": "10f1bd45562eda19a19c35fb4c1dd613e62be1c6",
+  "files": [
+    {
+      "original_path": "README.md",
+      "archived_path": "research/legacy/workspace_snapshots/10f1bd4/README.original.md.txt",
+      "sha256": "2d50ad597bddef4ebcb3f694074abf065d250c609bab7343fc63497536a5abfd",
+      "git_blob": "08e8bf6e35d43202002c42346f2e0b432e78deea"
+    },
+    {
+      "original_path": "research/INDEX.md",
+      "archived_path": "research/legacy/workspace_snapshots/10f1bd4/INDEX.original.md.txt",
+      "sha256": "e2fc1901316373b9ca32e510d91b3be8c7dd0803c7e377eca6bc1e7aa8d72319",
+      "git_blob": "74cacc866860685f860c87335e38ea1c52703d28"
+    },
+    {
+      "original_path": "research/legacy/index.json",
+      "archived_path": "research/legacy/workspace_snapshots/10f1bd4/legacy-index-v1.json",
+      "sha256": "03c9f3836481d383cdf8bab6049f61d90189c53654d5d8d788fdbaf99da72008",
+      "git_blob": "ac9d3db09f98975c546bb957f3f5fcd8a1731ce5"
+    }
+  ],
+  "scope": "Original pre-consolidation navigation and narrative; superseded by current INDEX and STATE."
+}

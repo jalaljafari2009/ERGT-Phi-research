@@ -1,0 +1,3 @@
+data_seed,evaluation_state_status,model,optimization_seed,optimizer_steps,peak_cuda_allocated_gib,selected_checkpoint_step,steps_completed,training_seconds,zero_teacher_optimizer_steps
+16301,selected_v9_multihop_ready_frozen_checkpoint,ERGT Geometric Model,12011,700,0.004759788513183594,700,702,0.1621415440004057,0
+16301,,Direct Transformer Baseline,12011,1400,0.0033197402954101562,,1400,3.313200022603269e-05,

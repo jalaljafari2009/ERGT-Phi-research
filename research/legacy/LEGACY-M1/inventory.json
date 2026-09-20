@@ -1,0 +1,98 @@
+{
+  "schema": "ergt-phi-legacy-inventory-v1",
+  "experiment_id": "LEGACY-M1",
+  "migration_id": "20260920-history-consolidation",
+  "entries": [
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "docs/M1_REPORT_FA.md",
+      "new_path": "research/legacy/LEGACY-M1/reports/M1_REPORT_FA.md",
+      "sha256": "63853d61095c14b6a58fb5dc2a4a4ff5b45a96ee49fae00d1c2369e23b2c9c50",
+      "bytes": 11263,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M1/reports/M1_REPORT_FA.md"
+    },
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "manifests/m1_status.json",
+      "new_path": "research/legacy/LEGACY-M1/manifests/m1_status.json",
+      "sha256": "865e5d6d7811a2ee4269edc782baa318988d557e92290cec717506d6779872ca",
+      "bytes": 1648,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M1/manifests/m1_status.json"
+    },
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "manifests/m1_example.json",
+      "new_path": "research/legacy/LEGACY-M1/manifests/m1_example.json",
+      "sha256": "3df89a10aeae9abf0f3d3b1f75ee7003f269f3c5d0f9dc5624f41a64558cb7af",
+      "bytes": 1090,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M1/manifests/m1_example.json"
+    },
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "runs/m1/example.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M1/m1/example.json",
+      "sha256": "3df89a10aeae9abf0f3d3b1f75ee7003f269f3c5d0f9dc5624f41a64558cb7af",
+      "bytes": 1090,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M1/evidence/m1/example.json"
+    },
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "runs/m1/kernel-tests.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M1/m1/kernel-tests.xml",
+      "sha256": "a8bded4c8198f257afad0078dc1356e28ee97e91f7da3cd0420d79284bab4008",
+      "bytes": 5175,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M1/evidence/m1/kernel-tests.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "runs/m1/kernel.log",
+      "new_path": "research/artifacts/legacy/LEGACY-M1/m1/kernel.log",
+      "sha256": "4e0dd0da20b5966984af8fca3d0f20aec7d3a6304698963c925f94b8fa40fbec",
+      "bytes": 101,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M1/evidence/m1/kernel.log"
+    },
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "runs/m1/m0_regression-tests.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M1/m1/m0_regression-tests.xml",
+      "sha256": "097ec10c9f9cfca814ccabee17c5aa48309d9551b483d828304bdc162b4f0beb",
+      "bytes": 3603,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M1/evidence/m1/m0_regression-tests.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "runs/m1/m0_regression.log",
+      "new_path": "research/artifacts/legacy/LEGACY-M1/m1/m0_regression.log",
+      "sha256": "9010a53a5c32cfd254464ded0538879e26d20dd61e334c78ba5080bb8f95f35e",
+      "bytes": 112,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M1/evidence/m1/m0_regression.log"
+    },
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "runs/m1/reference-tests.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M1/m1/reference-tests.xml",
+      "sha256": "7071166e7b111426daff389f2079a788a38d2708a66ffb45463f86354c9a87c2",
+      "bytes": 1694,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M1/evidence/m1/reference-tests.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M1",
+      "old_path": "runs/m1/reference.log",
+      "new_path": "research/artifacts/legacy/LEGACY-M1/m1/reference.log",
+      "sha256": "ab204422c2ef4b16624d51e129cdca1881ab386acc8d5a59dd304f5c8af733cc",
+      "bytes": 113,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M1/evidence/m1/reference.log"
+    }
+  ],
+  "new_execution_claimed": false
+}

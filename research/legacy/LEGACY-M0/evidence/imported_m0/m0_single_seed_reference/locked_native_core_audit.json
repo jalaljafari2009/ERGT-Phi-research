@@ -1,0 +1,21 @@
+{
+  "expected_sha256": {
+    "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+    "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+    "ergt_reviewer/physics_core.py": "15fcc716287ea1c051ee800f38cd6b4d827eefdcacaaccb01e0f8b84ddc4249c",
+    "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+    "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e"
+  },
+  "hash_policy": "sha256-canonical-lf-v1",
+  "immutable": true,
+  "locked_native_core_unchanged": true,
+  "mismatched_files": [],
+  "observed_sha256": {
+    "ergt_reviewer/matched_data.py": "b5ffb639650b331ee36dbb270b233c25f93cec00dcfac1a064af3cc24cbb4857",
+    "ergt_reviewer/native_solver.py": "0891d59c8a8bf3a1e3e1016d874a9abc2a1e4588f584f86834a3926e5642a2a7",
+    "ergt_reviewer/physics_core.py": "15fcc716287ea1c051ee800f38cd6b4d827eefdcacaaccb01e0f8b84ddc4249c",
+    "ergt_reviewer/product_geodesic.py": "53f5f814bd144fb8ecbe1894a1d0764980ce2f79f35c2d1fb05ffa1b196f0c5e",
+    "ergt_reviewer/world_contract.py": "5eea76382eb635c3315ad0ef5360c65a7ff914218ff53b25b4fa1a25747d430e"
+  },
+  "schema_version": "ergt-reviewer-v5-locked-native-core-v1"
+}

@@ -1,0 +1,773 @@
+{
+  "schema": "ergt-phi-legacy-inventory-v1",
+  "experiment_id": "LEGACY-M0",
+  "migration_id": "20260920-history-consolidation",
+  "entries": [
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "docs/M0_ACCEPTANCE.md",
+      "new_path": "research/legacy/LEGACY-M0/reports/M0_ACCEPTANCE.md",
+      "sha256": "d73f265b986c27fbbce90ee6e7615a227a0cbd31e0a3d318d79ea75033e378e5",
+      "bytes": 2567,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/reports/M0_ACCEPTANCE.md"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "docs/M0_REPORT_FA.md",
+      "new_path": "research/legacy/LEGACY-M0/reports/M0_REPORT_FA.md",
+      "sha256": "c0f9f77e6e14048acfb0324a127b9ce030afe83f018b3f1a3383d87790d8e89e",
+      "bytes": 7719,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/reports/M0_REPORT_FA.md"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "docs/M0_TRAINED_REPORT_FA.md",
+      "new_path": "research/legacy/LEGACY-M0/reports/M0_TRAINED_REPORT_FA.md",
+      "sha256": "251045ab9ee0eed5432c2b0333b3983849867d0e4bfbf3ceee1f15e658c57e70",
+      "bytes": 4084,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/reports/M0_TRAINED_REPORT_FA.md"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/reference.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/reference.json",
+      "sha256": "96fd7bae5d1c0f5b404c835b455ee799a38c8b2517c10a0c2f5306e9b23969a3",
+      "bytes": 9729,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/reference.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/environment.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/environment.json",
+      "sha256": "29137da1edff3c3e2047788864ec0d6352a6b705fb5db2da0e81fd53a766b86e",
+      "bytes": 3380,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/environment.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/resolved_paper_protocol.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/resolved_paper_protocol.json",
+      "sha256": "7a71c33ff7a5c40ecbc4c0e2e5e08643aa3d3b7c97be759491ce1634e37e8697",
+      "bytes": 5321,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/resolved_paper_protocol.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/version_control.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/version_control.json",
+      "sha256": "3939c78ab60986a2b71b0a30b6b7e299aa8e87e6b98f022051f4a0966fb4b2aa",
+      "bytes": 184,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/version_control.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/research_source.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/research_source.json",
+      "sha256": "3c897d700f9df9fd9b4c92764aef6144bfcf0b7e6e23cfc4a7b85eb7f5271cb9",
+      "bytes": 3424,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/research_source.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/engineering_fixture.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/engineering_fixture.json",
+      "sha256": "5a3b2d21321ccdcb698caee73a14d8dfc310b2a343ec65dfe303010c5a30105c",
+      "bytes": 529,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/engineering_fixture.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/reference_training_status.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/reference_training_status.json",
+      "sha256": "ab1e2946ea45bf2ecbfb71f257d4e422df8ca6b2ce23eb06c4ddc1bc7730eef9",
+      "bytes": 410,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/reference_training_status.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/m0_status.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/m0_status.json",
+      "sha256": "3b51d72edd98b35f71ec973dbcd7f6ad75318bd225ddc546a59ae8045b46f2fa",
+      "bytes": 861,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/m0_status.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/imported_m0_evidence.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/imported_m0_evidence.json",
+      "sha256": "f1abafc50e53701f64ae037f05464271827d81ac99a606400b04ff94badc4a3d",
+      "bytes": 6948,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/imported_m0_evidence.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "manifests/trained_m0_audit.json",
+      "new_path": "research/legacy/LEGACY-M0/manifests/trained_m0_audit.json",
+      "sha256": "242681d3a6e64f5d48ffbe93b170fdac657074878977465f34f237ebbf81cd01",
+      "bytes": 2278,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/manifests/trained_m0_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "notebook/M0_Reference_Training.ipynb",
+      "new_path": "research/legacy/LEGACY-M0/notebooks/M0_Reference_Training.ipynb",
+      "sha256": "1ed0795f27458056be0c853d39c1c572cddaf9a7f05ed02e64e3c5c4efa17502",
+      "bytes": 3933,
+      "action": "move_file",
+      "tracked_evidence": "research/legacy/LEGACY-M0/notebooks/M0_Reference_Training.ipynb"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/architecture_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/architecture_audit.json",
+      "sha256": "acfc9ea72c4ebee123ed4ffd39fa4655dae4177adca7c76ff38b85fb70f76141",
+      "bytes": 1842,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/architecture_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/baseline_qualification_manifest.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/baseline_qualification_manifest.json",
+      "sha256": "311029e0a732cb2b65f01f5bd29982ae994b37e294c778b552b196496c9089f5",
+      "bytes": 3102,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/baseline_qualification_manifest.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/causal_interventions.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/causal_interventions.csv",
+      "sha256": "9fb97276d41788466f5111375ca3f1a218db3f02566794289d49cd060cf1950c",
+      "bytes": 1930,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/causal_interventions.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/checkpoint_manifest.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/checkpoint_manifest.json",
+      "sha256": "773d5a7e3ba24cfe9f79fc99182b5a4f164eef1a8dc56292f0cc5213cb844dfe",
+      "bytes": 340,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/checkpoint_manifest.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/checkpoint_selection_interventions.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/checkpoint_selection_interventions.csv",
+      "sha256": "0c3eac590284663e935fc665463a84f8a655daed433558a715fd99c9f7f9918a",
+      "bytes": 1441,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/checkpoint_selection_interventions.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/claim_matrix.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/claim_matrix.csv",
+      "sha256": "a884a3689af611c2b48528e2e8a882e2662f12ff925666ceed7a80b1ba15175d",
+      "bytes": 2861,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/claim_matrix.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/claim_matrix.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/claim_matrix.json",
+      "sha256": "1387c02de72cc4a615b8be32a2faae0e27aa0ba0e3e5187193b0e1d200dc484b",
+      "bytes": 4037,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/claim_matrix.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/cohort_metrics.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/cohort_metrics.csv",
+      "sha256": "defba5fde237ab03fb9f68a40d2cad698441b74fd5820fb61c315bda21ab82f8",
+      "bytes": 10002,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/cohort_metrics.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/compact_table_manifest.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/compact_table_manifest.json",
+      "sha256": "f88809850709ad46747ea070cae2267050ccec95fc03db7100cae0bec342e6db",
+      "bytes": 950,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/compact_table_manifest.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T01_claim_and_gate_matrix.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T01_claim_and_gate_matrix.csv",
+      "sha256": "b9e13b6ef9c7599ea648a166fa7fd0b544fa6dc595ae9bb2edb4af729b1d23bf",
+      "bytes": 6899,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T01_claim_and_gate_matrix.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T02_checkpoint_and_exposure_audit.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T02_checkpoint_and_exposure_audit.csv",
+      "sha256": "afeba2769df92a6d4483ac6c27b14a6d9e66291ca1cfedc1459b3e68172669a5",
+      "bytes": 450,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T02_checkpoint_and_exposure_audit.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T02b_native_stability_invariants.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T02b_native_stability_invariants.csv",
+      "sha256": "783a2010d462791d16a60971fc416f683d0d02f9756d2ee92d7c29060c0a2e53",
+      "bytes": 1550,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T02b_native_stability_invariants.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T03_independent_convergence.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T03_independent_convergence.csv",
+      "sha256": "e39c95c51a2040e28f5e95caf704697307fe9ad230cd53ab09b6ffc85b2012a5",
+      "bytes": 302,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T03_independent_convergence.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T04_horizon_matrix.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T04_horizon_matrix.csv",
+      "sha256": "34d1e64a4574622a682d7f9fa5099c075935c1a9a0ee8d41c7846bdb10e32354",
+      "bytes": 767,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T04_horizon_matrix.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T05_context_matrix.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T05_context_matrix.csv",
+      "sha256": "47aff2ad6bdf25ae55869e20d7a23a1723eb3a896521dc622169d3bf3d28c2a6",
+      "bytes": 1182,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T05_context_matrix.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T06_unsupported_rejection.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T06_unsupported_rejection.csv",
+      "sha256": "264077310da56b5f62fd2346de75a927d22e21775d12b7555e0ebe6f886c6672",
+      "bytes": 541,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T06_unsupported_rejection.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T07_registered_mechanism_matrix.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T07_registered_mechanism_matrix.csv",
+      "sha256": "8368ef1474cb82933a953da87beabfd7b8d3c8f8f5f92d7b1d672c6dbe82308f",
+      "bytes": 1830,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T07_registered_mechanism_matrix.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T08_geometry_and_world_controls.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T08_geometry_and_world_controls.csv",
+      "sha256": "547203d746bca3a099b5d5b64793dc07479908bf2703ed53c8ef7731c35c4e2b",
+      "bytes": 3916,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T08_geometry_and_world_controls.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T09_chain_and_closure_diagnostics.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T09_chain_and_closure_diagnostics.csv",
+      "sha256": "15288ec07b0dacd1594a3340163efefc96df0072f7b08937f10580b95c6f99d3",
+      "bytes": 907,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T09_chain_and_closure_diagnostics.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T10_identity_and_invariance_audit.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T10_identity_and_invariance_audit.csv",
+      "sha256": "891976020779bf52c5ab753b334ef08e93e9c0b15873d8336ccdc3874c8a4169",
+      "bytes": 377,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T10_identity_and_invariance_audit.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T11_curvature_and_spectrum_observers.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T11_curvature_and_spectrum_observers.csv",
+      "sha256": "6ceb868c19d63be84ca30bbbe142393ce76289ce6d895eb937a9ce3808f713e2",
+      "bytes": 10060,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T11_curvature_and_spectrum_observers.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T12_resource_disclosure.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T12_resource_disclosure.csv",
+      "sha256": "fc5cac61eb660d170167c203571e11209652c74014573db256e496be82d9e407",
+      "bytes": 417,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T12_resource_disclosure.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/compact_tables/T13_paired_statistics.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/compact_tables/T13_paired_statistics.csv",
+      "sha256": "3330edad9330fc688aaa80ec78d3c42cca31d3417fb29d655a3f70189362d72d",
+      "bytes": 3012,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/compact_tables/T13_paired_statistics.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/cross_seed_data_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/cross_seed_data_audit.json",
+      "sha256": "1547c69ce15cd3156513ba9cf5297a38abb5a99d3b39663f9efbad5f4888dd25",
+      "bytes": 148,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/cross_seed_data_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/data_manifest.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/data_manifest.json",
+      "sha256": "127010b44edc93335bcb91dc8ef0d7951d45bee072906cb0356236167c99f26c",
+      "bytes": 16308,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/data_manifest.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/environment.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/environment.json",
+      "sha256": "94a46b443a9ab34a935278ebf4aed959373068b3c4c78573a59b50e40f9a71ab",
+      "bytes": 247,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/environment.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/ergt_geometric_study_evidence_bundle.zip",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/ergt_geometric_study_evidence_bundle.zip",
+      "sha256": "070ca28bb9500e8310366ac507b5ac1710182af6977000643a75d1865a8c5fef",
+      "bytes": 7985435,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/failed_rows.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/failed_rows.csv",
+      "sha256": "42eb3a6daff770b1a99bd868edb63b02a733cc3ea7f92dcdc2d5aceaaf4e375d",
+      "bytes": 37,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/failed_rows.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/figure_causal_interventions.png",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/figure_causal_interventions.png",
+      "sha256": "110455a3e4439213d1d9d1ac78d782b4dbc460b56e0446e818bc732a16869ea5",
+      "bytes": 126846,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/figure_causal_interventions.png"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/figure_convergence.png",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/figure_convergence.png",
+      "sha256": "bb5ad8353009462f796365f647cf20fd0eb6a62b63d89252ff488d5eeec9edf6",
+      "bytes": 48570,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/figure_convergence.png"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/figure_horizon_accuracy.png",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/figure_horizon_accuracy.png",
+      "sha256": "ee6ae4fca8ec29c06cb6831c054ee0406cada136ecbb585c0a222542647be409",
+      "bytes": 51516,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/figure_horizon_accuracy.png"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/final_execution_lock_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/final_execution_lock_audit.json",
+      "sha256": "389d869dca5d06679ad7f75597886eb370c0698bda66af1c1ea015cb5a82a8f2",
+      "bytes": 6453,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/final_execution_lock_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/final_verdict.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/final_verdict.json",
+      "sha256": "12e0657aefbd3d8aa26ade59d60d4eb8249a2ba7cc90901e10a358882c9defc4",
+      "bytes": 14061,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/final_verdict.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/fresh_seed_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/fresh_seed_audit.json",
+      "sha256": "380cc6700bd065801c58930a6d796459ff6dc67cf27770efe1e4715421eee792",
+      "bytes": 350,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/fresh_seed_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/gate_details.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/gate_details.json",
+      "sha256": "256d75486a2313a700c6feed2cad1bf2d14bfee1de95646dc58ed3c222b3556a",
+      "bytes": 4918,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/gate_details.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/gate_results.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/gate_results.csv",
+      "sha256": "ed6a9848cf1f45075156cf79186e780b992e02fcf967c4d6c2ea73755bc99f16",
+      "bytes": 2986,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/gate_results.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/geometry_observers.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/geometry_observers.csv",
+      "sha256": "8002ff215ca4f2a736fa97534a830d4184c306c710cb0e6354e30cdc3e2737b2",
+      "bytes": 137669,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/geometry_observers.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/label_contract_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/label_contract_audit.json",
+      "sha256": "a80503033b7b4c88e51d8bf0809a8469dce20f8ed5b9425a5ec9f3ff64092540",
+      "bytes": 8028,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/label_contract_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/locked_native_core_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/locked_native_core_audit.json",
+      "sha256": "29b88b53a46eb059765d7e801f8376588ce8c58e80d172ea67af4aa3e71b7714",
+      "bytes": 1312,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/locked_native_core_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/native_stability_invariants.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/native_stability_invariants.csv",
+      "sha256": "783a2010d462791d16a60971fc416f683d0d02f9756d2ee92d7c29060c0a2e53",
+      "bytes": 1550,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/native_stability_invariants.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/native_stability_invariants.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/native_stability_invariants.json",
+      "sha256": "ae4b6ba3660ed56aa3ccee70cd0378ca644604afce72a3f1c9533221dd1ca776",
+      "bytes": 3501,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/native_stability_invariants.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/native_training_exposure_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/native_training_exposure_audit.json",
+      "sha256": "1e252c83c67511efe9137c3a970f02dc474241840f72aaf824bc64476a3a688e",
+      "bytes": 13676,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/native_training_exposure_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/open_scientific_rows.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/open_scientific_rows.csv",
+      "sha256": "bd9db2ad72f3a25824e961d9c3707d8d8dde67fc23fc0614ef27ddf3336425fb",
+      "bytes": 737,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/open_scientific_rows.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/opt_12011_data_16301/direct_transformer_training.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/opt_12011_data_16301/direct_transformer_training.pt",
+      "sha256": "1292ad50c898dffae273f10ade6c18c73557f74dd2d909b0aed87c8fd74a0f11",
+      "bytes": 2756711,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/opt_12011_data_16301/native_ergt_training.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/opt_12011_data_16301/native_ergt_training.pt",
+      "sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+      "bytes": 4231927,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/opt_12011_data_16301/native_ergt_training_field_step_600.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/opt_12011_data_16301/native_ergt_training_field_step_600.pt",
+      "sha256": "d5acadf3693fe77a29d9d29c0db156a4d815479919a94136182d8fb4469a2a64",
+      "bytes": 840663,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/opt_12011_data_16301/native_ergt_training_field_step_700.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/opt_12011_data_16301/native_ergt_training_field_step_700.pt",
+      "sha256": "3c3aa62e58ad943f01734f79488313d59000ee74a8c6972eed63debb974d8463",
+      "bytes": 840663,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/paired_predictions.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/paired_predictions.csv",
+      "sha256": "4210cf58e39063687c01a23730b7fc0c7ad14e45b25d11cd97e92de62b4662bc",
+      "bytes": 382552,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/paired_predictions.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/paired_statistics.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/paired_statistics.csv",
+      "sha256": "30b9961a6488e3fa3df80d7ddc7f59da9cca6ed9a2ba7bd739936d2661cc4d87",
+      "bytes": 5621,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/paired_statistics.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/paper_claims_table.tex",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/paper_claims_table.tex",
+      "sha256": "b248a13b20136868da1d31599da14da23defbd6f6b432b9bf136f32a43b9d707",
+      "bytes": 1781,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/paper_readout.md",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/paper_readout.md",
+      "sha256": "adaf235ea5b02ec434502a0712628cd8e7f56976c43986a897972e6de8e54bd2",
+      "bytes": 8854,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/paper_readout.md"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/paper_results_table.tex",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/paper_results_table.tex",
+      "sha256": "26ad574a6995233d15aa07d9e1ea96a76701fd97177d86cb7f1c531b2aee5b08",
+      "bytes": 728,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/parameter_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/parameter_audit.json",
+      "sha256": "42a2685a0359c99593b3ad77394c94ee1f5a75175bbc1917de8317a0030b3c1a",
+      "bytes": 8720,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/parameter_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/protocol.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/protocol.json",
+      "sha256": "11e7692e77291d60c8e73071017eaba1f33993a7e517a4e3b105a1a0bae020ca",
+      "bytes": 37164,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/protocol.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/qualification_manifest_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/qualification_manifest_audit.json",
+      "sha256": "0c7deb3606eae891a0e0044b74b2245a8f6403b372846c1a5481b5878c8a875d",
+      "bytes": 3162,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/qualification_manifest_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/raw_input_internalization_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/raw_input_internalization_audit.json",
+      "sha256": "d6e3c8769c09de9d58f0cd08452ca7cb1168e0df8fc3daca6099c6d1ccab33a3",
+      "bytes": 577,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/raw_input_internalization_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/resource_disclosure.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/resource_disclosure.csv",
+      "sha256": "9cd97076a17dcaec717f90fe9c10481c28f1b380427ec3b2328d9156841d0b41",
+      "bytes": 12240,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/resource_disclosure.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/runtime_invariance_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/runtime_invariance_audit.json",
+      "sha256": "fc879efcccc0e3e41a4b090e3424c6193278065e7113c2806ee8e3ef46b34a75",
+      "bytes": 323,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/runtime_invariance_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/shared_input_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/shared_input_audit.json",
+      "sha256": "064f48ad8412b36878284054c39c35b5955c5ab09e7b2244d11089720f7b5636",
+      "bytes": 1631,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/shared_input_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/spectral_observer_numerical_audit.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/spectral_observer_numerical_audit.json",
+      "sha256": "87cc82f00dbc6e3ae5fe648b8a71742806233393723ecf422a50c9b63334bf58",
+      "bytes": 514,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/spectral_observer_numerical_audit.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/training_curves.csv",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/training_curves.csv",
+      "sha256": "00a5bbb161927660870955475ee36c951d0d70e93ffeeedee4c95d785a642166",
+      "bytes": 19884,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/training_curves.csv"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/imported_m0/m0_single_seed_reference/v6_repair_design.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/imported_m0/m0_single_seed_reference/v6_repair_design.json",
+      "sha256": "cd7511e22073b031d110cde9f32ffcffcd3740b1b9343d1782f10dc64d054cdb",
+      "bytes": 1373,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/v6_repair_design.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/m0/acceptance.json",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/m0/acceptance.json",
+      "sha256": "f4b9200695e7f001e7f75c6f27d9f061a7c11934f4a86171f1a22a5fa3a09cc3",
+      "bytes": 569,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/m0/acceptance.json"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/m0/parity-first.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/m0/parity-first.xml",
+      "sha256": "11d2b7248f7c256abc3df6cc3792312feb3203ff787d854f7ecb20186123abfb",
+      "bytes": 2673,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/m0/parity-first.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/m0/reference-tests.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/m0/reference-tests.xml",
+      "sha256": "67e0ca1e82e01bc437d1724b4f699824e2c18d1b532953601356c51d783743df",
+      "bytes": 1693,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/m0/reference-tests.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/m0/reference_audit.log",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/m0/reference_audit.log",
+      "sha256": "227de3879bba4566fdd5ac42e2f769db8251deb6db5d0627196711e1ff8017af",
+      "bytes": 96,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/m0/reference_audit.log"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/m0/reference_tests.log",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/m0/reference_tests.log",
+      "sha256": "39bfe1ab466ba60c2965e4649df9b37f063658ef8c1c4164bec61514e0b290fa",
+      "bytes": 112,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/m0/reference_tests.log"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/m0/research-tests.xml",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/m0/research-tests.xml",
+      "sha256": "c16f3eb152837d60c41248ec539e5a88bab7745be7f136c8213bf982d3e0a45e",
+      "bytes": 3603,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/m0/research-tests.xml"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/m0/research_tests.log",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/m0/research_tests.log",
+      "sha256": "9863b9d0bb853ae667e33f3b4aa93195d4472d8c89541a6a0ac58aba8802ded7",
+      "bytes": 112,
+      "action": "move_directory_member",
+      "tracked_evidence": "research/legacy/LEGACY-M0/evidence/m0/research_tests.log"
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/m0/untrained_fixture.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/m0/untrained_fixture.pt",
+      "sha256": "619d5e353fa36d88d60415ff9c5d39d13bba0aefd2bcace3c434ebc43923d700",
+      "bytes": 9384475,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    },
+    {
+      "experiment_id": "LEGACY-M0",
+      "old_path": "runs/m0/untrained_initial_full_state.pt",
+      "new_path": "research/artifacts/legacy/LEGACY-M0/m0/untrained_initial_full_state.pt",
+      "sha256": "7674ff8ac2876bed738a9bc44742e5c9cef6825e39e2127248cfdf145f808a91",
+      "bytes": 124917,
+      "action": "move_directory_member",
+      "tracked_evidence": null
+    }
+  ],
+  "new_execution_claimed": false
+}

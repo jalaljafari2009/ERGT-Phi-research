@@ -1,10 +1,12 @@
 """Reproducible isolated-kernel acceptance plus preserved native regressions."""
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import workspace_path
 import hashlib
 import json
 import os
 import subprocess
-import sys
 import time
 import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,7 +19,7 @@ def main():
     env = {**os.environ,'PYTHONDONTWRITEBYTECODE':'1','OMP_NUM_THREADS':'1','MKL_NUM_THREADS':'1'}
     summary = []
     # Invalidate prior success before a new acceptance attempt.
-    status_path = ROOT/'manifests/m1_status.json'
+    status_path = workspace_path(ROOT, "manifests/m1_status.json")
     status_path.write_text(json.dumps({'status':'running','complete':False}))
     suites = [
         ('kernel',ROOT,['tests/test_phase_core.py']),
@@ -62,7 +64,7 @@ def main():
                   native_phase_integration=False,anchor_calibration=False,scientific_validation=False,
                   certificate_scope='fixed_context_analytic_bound_ignoring_roundoff',
                   source_sha256={f:hashlib.sha256((ROOT/f).read_bytes()).hexdigest() for f in files})
-    (ROOT/'manifests/m1_example.json').write_text(json.dumps(demo,indent=2))
+    (workspace_path(ROOT, "manifests/m1_example.json")).write_text(json.dumps(demo,indent=2))
     status_path.write_text(json.dumps(status,indent=2))
     print('M1 ACCEPTANCE PASSED',flush=True)
 

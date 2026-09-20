@@ -1,6 +1,9 @@
 """Generate the M0-B launcher notebook; no cloud execution occurs here."""
 from pathlib import Path
 import json
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ergt_phi.research_paths import workspace_path
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -60,15 +63,14 @@ subprocess.run([sys.executable, '-B', str(ROOT / 'scripts/run_reference_training
                 '--mode', MODE, '--output', str(OUTPUT)], cwd=ROOT, check=True)
 """),
     cell("code", """import json
-status = json.loads((ROOT / 'manifests/reference_training_status.json').read_text())
+status = json.loads((ROOT / 'research/workspace/manifests/reference_training_status.json').read_text())
 print(json.dumps(status, indent=2))
 run_root = Path(status['run_root'])
 print((run_root / 'final_verdict.json').read_text())
 print('Keep the full run directory, checkpoint_manifest, protocol and environment records.')
 """),
 ]
-target = ROOT / "notebook/M0_Reference_Training.ipynb"
-target.parent.mkdir(exist_ok=True)
+target = workspace_path(ROOT, "notebook/M0_Reference_Training.ipynb")
 target.write_text(json.dumps({"cells": cells, "metadata": {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"}}, "nbformat": 4, "nbformat_minor": 4}, indent=2), encoding="utf-8")
 for item in cells:
     if item["cell_type"] == "code":

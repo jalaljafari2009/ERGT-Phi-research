@@ -38,17 +38,21 @@ Q گذر مقدماتی جای Q قبلی حلقهٔ فعال را نمی‌گی
 
 | شناسهٔ تاریخی این دفتر | والد و پرسش | نتیجهٔ ثبت‌شده | وضعیت/درس و مسیر شاهد |
 |---|---|---|---|
-| `LEGACY-M0` | مرجع مقاله قابل تثبیت و اجراست؟ | ممیزی، تست و checkpoint تک‌بذر توسعه موجود | توسعه ممکن؛ بازتولید چهاربذر مستقل هنوز ادعا نشده؛ [گزارش](../docs/M0_TRAINED_REPORT_FA.md) |
-| `LEGACY-M1` | بعد از M0، هستهٔ مستقل پایدار است؟ | ۴۴ تست هسته و ۴۲ تست مرجع/بازگشت در اجرای ثبت‌شده | پذیرش در دامنهٔ هسته؛ [گزارش](../docs/M1_REPORT_FA.md) |
-| anchor اولیه؛ گزارش تکمیلیِ مسیر M2 | anchor مبتنی بر ورودی اولیه رابطه را یاد می‌گیرد؟ | پایش متوازن حدود ۳۳٫۸۶٪ | معیار ۷۰٪ پاس نشد؛ [گزارش](../docs/M2_REPORT_FA.md) |
-| `LEGACY-M2-CONTEXT` | آیا context native به anchor کمک می‌کند؟ | حدود ۳۵٫۲۳٪ | بهبود محدود، معیار پاس نشد؛ [گزارش](../docs/M2_CONTEXTUAL_REVISION_FA.md) |
-| `LEGACY-M2-DIAGNOSTIC` | آیا encoder جفتی مسئله را حل می‌کند؟ | حدود ۳۹٫۲۰٪ monitor | fit بهتر از monitor؛ تعمیم کافی نیست؛ [گزارش](../docs/M2_DIAGNOSTIC_FA.md) |
-| `LEGACY-M2-INFORMATION` | اطلاعات در میدان/تاریخچه موجود است؟ | میدان نهایی حدود ۴۱٫۴۲٪، تاریخچه ۴۲٫۳۱٪ | شاهد اکتشافی اطلاعات محدود؛ [گزارش](../docs/M2_INFORMATION_PROBE_FA.md) |
-| `LEGACY-M2-PROPOSAL` | اطلاعات رابطه در پیشنهاد native چقدر است؟ | ۱۰۰٪ probe؛ کنترل درهم‌ریخته ۳۳٫۳۳٪ | اطلاعات proposal قابل استفاده است؛ دقت پاسخ نهایی نیست؛ [گزارش](../docs/M2_PROPOSAL_PROBE_FA.md) |
-| `LEGACY-M2-Q-SHADOW` | Q detached در حل جدا قابل مصرف است؟ | نرمال‌سازی و حل shadow ثبت شده | آداپتر حقیقی و زمان‌بندی حلقه تأیید نشده؛ [گزارش](../docs/M2_Q_SHADOW_FA.md) |
-| `LEGACY-M2-Q-CALIBRATION` | context Q کالیبراسیون anchor را بهتر می‌کند؟ | monitor حدود ۸۱٫۲۲٪؛ کنترل ۳۲٫۱۹٪ | معیار عددی پاس، checkpoint ذخیره نشده؛ [گزارش](../docs/M2_Q_CALIBRATION_FA.md) و [ممیزی](../docs/OPERATIONAL_ROADMAP_FA.md) |
+| `LEGACY-M0` | مرجع مقاله قابل تثبیت و اجراست؟ | ممیزی، تست و checkpoint تک‌بذر توسعه موجود | توسعه ممکن؛ بازتولید چهاربذر مستقل هنوز ادعا نشده؛ [گزارش](../research/legacy/LEGACY-M0/reports/M0_TRAINED_REPORT_FA.md) |
+| `LEGACY-M1` | بعد از M0، هستهٔ مستقل پایدار است؟ | ۴۴ تست هسته و ۴۲ تست مرجع/بازگشت در اجرای ثبت‌شده | پذیرش در دامنهٔ هسته؛ [گزارش](../research/legacy/LEGACY-M1/reports/M1_REPORT_FA.md) |
+| `LEGACY-M2-INITIAL` | anchor مبتنی بر ورودی اولیه رابطه را یاد می‌گیرد؟ | پایش متوازن حدود ۳۳٫۸۶٪ | معیار ۷۰٪ پاس نشد؛ [پرونده و بازیابی manifest](legacy/LEGACY-M2-INITIAL/README.md) |
+| `LEGACY-M2-CONTEXT` | آیا context native به anchor کمک می‌کند؟ | حدود ۳۵٫۲۳٪ | بهبود محدود، معیار پاس نشد؛ [گزارش](../research/legacy/LEGACY-M2-CONTEXT/reports/M2_CONTEXTUAL_REVISION_FA.md) |
+| `LEGACY-M2-DIAGNOSTIC` | آیا encoder جفتی مسئله را حل می‌کند؟ | حدود ۳۹٫۲۰٪ monitor | fit بهتر از monitor؛ تعمیم کافی نیست؛ [گزارش](../research/legacy/LEGACY-M2-DIAGNOSTIC/reports/M2_DIAGNOSTIC_FA.md) |
+| `LEGACY-M2-INFORMATION` | اطلاعات در میدان/تاریخچه موجود است؟ | میدان نهایی حدود ۴۱٫۴۲٪، تاریخچه ۴۲٫۳۱٪ | شاهد اکتشافی اطلاعات محدود؛ [گزارش](../research/legacy/LEGACY-M2-INFORMATION/reports/M2_INFORMATION_PROBE_FA.md) |
+| `LEGACY-M2-PROPOSAL` | اطلاعات رابطه در پیشنهاد native چقدر است؟ | ۱۰۰٪ probe؛ کنترل درهم‌ریخته ۳۳٫۳۳٪ | اطلاعات proposal قابل استفاده است؛ دقت پاسخ نهایی نیست؛ [گزارش](../research/legacy/LEGACY-M2-PROPOSAL/reports/M2_PROPOSAL_PROBE_FA.md) |
+| `LEGACY-M2-Q-TIMING` | Q گام قبل چگونه نگهداری شود؟ | قرارداد اولیه و آزمون‌های مستقل | هویت یال/گام و اتصال حلقه هنوز کامل نیست؛ [پرونده](legacy/LEGACY-M2-Q-TIMING/README.md) |
+| `LEGACY-M2-Q-SHADOW` | Q detached در حل جدا قابل مصرف است؟ | نرمال‌سازی و حل shadow ثبت شده | آداپتر حقیقی و زمان‌بندی حلقه تأیید نشده؛ [گزارش](../research/legacy/LEGACY-M2-Q-SHADOW/reports/M2_Q_SHADOW_FA.md) |
+| `LEGACY-M2-Q-CALIBRATION` | context Q کالیبراسیون anchor را بهتر می‌کند؟ | monitor حدود ۸۱٫۲۲٪؛ کنترل ۳۲٫۱۹٪ | معیار عددی پاس، checkpoint ذخیره نشده؛ [گزارش](../research/legacy/LEGACY-M2-Q-CALIBRATION/reports/M2_Q_CALIBRATION_FA.md) و [ممیزی](../docs/OPERATIONAL_ROADMAP_FA.md) |
 
-شناسه‌های `LEGACY-*` همان شناسه‌های [legacy/index.json](legacy/index.json) هستند، نه runهای تازه یا نوت‌بوک‌های بازتولیدشده. provenance دقیق هر مورد از manifest اصلی و آن فهرست خوانده شود. ردیف anchor اولیه یک گزارش تکمیلی است و شناسهٔ ساختگی تازه ندارد.
+شناسه‌های `LEGACY-*` همان پرونده‌های [legacy/index.json](legacy/index.json) هستند؛
+ثبت آن‌ها اجرای تازه یا نوت‌بوک بازتولیدشده را ادعا نمی‌کند. پروندهٔ اولیهٔ M2
+اکنون manifest و پروتکل بازیابی‌شده از Git دارد؛ raw مفقود جدا علامت خورده است.
+نسخهٔ کد هر شاهد از `source_provenance.json` همان پرونده قابل بازیابی است.
 
 ## مسیرهای باز و شرط انتخاب
 
