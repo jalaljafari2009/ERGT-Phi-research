@@ -5,7 +5,7 @@
     {
       "id": "GOAL-001",
       "version": 1,
-      "status": "active",
+      "status": "superseded",
       "specification": "docs/MATHEMATICAL_SPEC.md",
       "operational_plan": "docs/OPERATIONAL_ROADMAP_FA.md",
       "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
@@ -13,8 +13,44 @@
       "active_stage": "M2",
       "current_variant": "Q-conditioned anchor: numerical development result exists; explicit architecture addendum and execution handoff still required",
       "phase_review": "research/phase_reviews/M2_CURRENT.md",
-      "decision_history": ["ADR-0001"],
-      "change_policy": "Record a new goal version and ADR before a new run if scope, architecture or primary claim changes; retain all prior versions and negative results."
+      "decision_history": [
+        "ADR-0001"
+      ],
+      "change_policy": "Record a new goal version and ADR before a new run if scope, architecture or primary claim changes; retain all prior versions and negative results.",
+      "superseded_by_version": 2
+    },
+    {
+      "id": "GOAL-001",
+      "version": 2,
+      "status": "active",
+      "specification": "docs/MATHEMATICAL_SPEC.md",
+      "operational_plan": "docs/OPERATIONAL_ROADMAP_FA.md",
+      "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
+      "scientific_hypothesis": "Any improvement in answer quality or compute cost must be established independently against the corresponding native baseline and matched controls.",
+      "active_stage": "M2",
+      "current_variant": "Q-conditioned anchor: numerical development result exists; explicit architecture addendum and execution handoff still required; parallel track B is planned, not yet run",
+      "phase_review": "research/phase_reviews/M2_CURRENT.md",
+      "decision_history": [
+        "ADR-0001",
+        "ADR-0004"
+      ],
+      "change_policy": "Record a new goal version and ADR before a new run if scope, architecture or primary claim changes; retain all prior versions and negative results.",
+      "specification_lock": "research/specification.lock.json",
+      "operational_strategy": "Continue track A under existing M0-M8 gates, alongside bounded track B experiments; choose revisions or integration from separately reviewed evidence.",
+      "research_tracks": {
+        "A": {
+          "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
+          "active_stage": "M2",
+          "state": "handoff_incomplete",
+          "next_action": "Repair checkpoint selection/freeze/reload and confirm on fresh development data before native activation."
+        },
+        "B": {
+          "objective": "Test ambiguity retention, relation-grounded phase transport, boundary readout and adaptive compute against matched classical controls.",
+          "state": "planned_not_executed",
+          "next_action": "Define a small independent analytical and semantic pilot; no M2 trained checkpoint is intrinsically required."
+        }
+      }
     }
-  ]
+  ],
+  "active_goal_version": 2
 }

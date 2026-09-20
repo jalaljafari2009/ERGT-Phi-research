@@ -1,0 +1,36 @@
+{
+  "method": "CreateFileW OPEN_EXISTING only, then CloseHandle; no writes, deletions or renames performed",
+  "checks": {
+    "spec_write": {
+      "access_denied": true,
+      "winerror": 5,
+      "pass": true
+    },
+    "spec_append": {
+      "access_denied": true,
+      "winerror": 5,
+      "pass": true
+    },
+    "spec_attributes": {
+      "access_denied": true,
+      "winerror": 5,
+      "pass": true
+    },
+    "spec_delete": {
+      "access_denied": true,
+      "winerror": 5,
+      "pass": true
+    },
+    "roadmap_write": {
+      "access_denied": false,
+      "winerror": null,
+      "pass": true
+    },
+    "roadmap_delete": {
+      "access_denied": false,
+      "winerror": null,
+      "pass": true
+    }
+  },
+  "sha256": "04ac57cc76395f7b032356bcac38b70b796233ac4aa59ba26a6b2474977c5d90"
+}

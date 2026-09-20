@@ -1,0 +1,13 @@
+{
+  "schema": "ergt-phi-specification-lock-v1",
+  "path": "docs/MATHEMATICAL_SPEC.md",
+  "bytes": 23450,
+  "sha256": "04ac57cc76395f7b032356bcac38b70b796233ac4aa59ba26a6b2474977c5d90",
+  "baseline_commit": "6e89c1e76e8943f51f5cc5138dde5b47a3889253",
+  "recorded_on": "2026-09-20",
+  "decision": "research/decisions/ADR-0004.md",
+  "policy": "Preserve these exact bytes. Record extensions in separate versioned documents; never rewrite the baseline to match results.",
+  "local_protection": "Windows ReadOnly attribute and file-scoped deny ACL for data writes, append, attribute writes and deletion, plus non-inherited deny DeleteChild on docs to prevent parent-right bypass; apply using scripts/protect_spec.ps1.",
+  "portability": "Git preserves the content and this manifest, not Windows attributes or ACLs. Reapply local protection after a fresh checkout.",
+  "limitations": "This is an operational safeguard, not protection against an owner or administrator who deliberately changes permissions or repository history."
+}

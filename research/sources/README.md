@@ -7,6 +7,8 @@
 | فایل | کاربرد |
 |---|---|
 | [register.json](register.json) | شناسه، مسیر اصلی و بایگانی، اندازه، SHA-256 و سطح شاهد هر منبع |
+| [chat/20260920_DUAL_TRACK_DECISION_FA.md](chat/20260920_DUAL_TRACK_DECISION_FA.md) | منشأ موافقت با برنامهٔ دو‌مسیره و درخواست صریح قفل سند ریاضی؛ مرتبط با ADR-0004 |
+| [attachments/R3.docx](attachments/R3.docx) | نسخهٔ بایت‌به‌بایت سند الهام‌بخش R3؛ طرح پژوهشی و گفتگو، نه شاهد تجربی تأییدشده |
 | [CONVERSATION_HISTORY_FA.md](CONVERSATION_HISTORY_FA.md) | ترتیب درخواست‌ها، گزارش‌های اجرا، برداشت مجاز و ابهام‌ها |
 | [RESEARCHER_REQUIREMENTS_FA.md](RESEARCHER_REQUIREMENTS_FA.md) | درخواست‌های پژوهشگر و معنای عملی آن‌ها برای نظم ریپو |
 | [chat/terminal_excerpts.md](chat/terminal_excerpts.md) | قطعه‌های فنی نقل‌شده در چت با حفظ escapeهای قابل مشاهده |

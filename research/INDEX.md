@@ -9,6 +9,8 @@
 | اطلاعات | مسیر ثابت |
 |---|---|
 | هدف ریاضی | [docs/MATHEMATICAL_SPEC.md](../docs/MATHEMATICAL_SPEC.md) |
+| قفل مبنای ریاضی | [specification.lock.json](specification.lock.json)، [بررسی](../scripts/check_spec_lock.py)، [حفاظت ویندوز](../scripts/protect_spec.ps1) |
+| تصمیم برنامهٔ دو‌مسیره | [ADR-0004](decisions/ADR-0004.md)، [منشأ گفتگو](sources/chat/20260920_DUAL_TRACK_DECISION_FA.md) |
 | برنامهٔ فعال | [docs/OPERATIONAL_ROADMAP_FA.md](../docs/OPERATIONAL_ROADMAP_FA.md) |
 | هدف نسخه‌دار و بازبینی فاز | [goals.json](goals.json)، [M2_CURRENT](phase_reviews/M2_CURRENT.md) |
 | بازبینی مسیر با اولویت هدف علمی | [MISSION_REVIEW_20260920](phase_reviews/MISSION_REVIEW_20260920.md)؛ یافته‌های کد و پیشنهاد آزمایش اثرگذاری بر پاسخ، هنوز تصمیم تازهٔ اجرا نیست |

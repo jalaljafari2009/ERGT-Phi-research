@@ -1,0 +1,2 @@
+# Preserve the mathematical baseline byte-for-byte, including line endings.
+/docs/MATHEMATICAL_SPEC.md -text

@@ -14,6 +14,7 @@ from research_tools.runner import safe_path, sha256
 SOURCE_DIRECTORIES = ("ergt_phi", "reference", "scripts", "configs", "research_tools", "tests")
 SOURCE_FILES = (
     "requirements-m0.lock.txt", "README.md", "AGENTS.md",
+    "docs/MATHEMATICAL_SPEC.md", "research/specification.lock.json",
     # Small accepted metadata needed by relocated legacy readers. Raw data and
     # checkpoints remain explicit, hash-pinned protocol inputs.
     "research/legacy/path_map.json",
@@ -73,6 +74,7 @@ def generate_notebook(root: Path, revision_dir: Path) -> Path:
         "hypothesis", "goal_reference", "parent", "command", "inputs", "output_paths",
         "required_artifacts", "gates", "resources", "compute", "prerequisites", "dependencies",
         "scientific_scope", "timeout_seconds",
+        "research_track", "paired_question_id", "related_experiments", "research_questions",
     )}
     gate_rows = "\n".join(
         "| " + " | ".join(str(value).replace("|", "\\|").replace("\n", " ") for value in (

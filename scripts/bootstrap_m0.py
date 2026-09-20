@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from ergt_phi.research_paths import workspace_path
+from scripts.check_spec_lock import verify_spec_lock
 import hashlib
 import json
 import shutil
@@ -18,6 +19,9 @@ def digest(path):
 
 
 def create_reference():
+    # The baseline is now a checked-in, immutable input. Never copy over it,
+    # and fail before any bootstrap mutation if its content is missing/changed.
+    verify_spec_lock(ROOT)
     for directory in ("configs", "docs", "ergt_phi", "tests", "runs"):
         (ROOT / directory).mkdir(exist_ok=True)
     records = {}
@@ -41,7 +45,6 @@ def create_reference():
         "original_root": str(SOURCE), "files": records,
         "reference_policy": "byte-identical; no reference edits",
     }, indent=2), encoding="utf-8")
-    shutil.copyfile(ROOT.parent / "MATHEMATICAL_SPEC (1).md", ROOT / "docs/MATHEMATICAL_SPEC.md")
 
 
 def method(name, arguments, body):

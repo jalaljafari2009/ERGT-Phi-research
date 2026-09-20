@@ -119,6 +119,28 @@
       "evidence_level": "reported_in_chat",
       "bytes": 6717,
       "sha256": "9e520f70d65b1da976e5c42d60a3840706f313db0cf2d966b596cdb25abaedfa"
+    },
+    {
+      "id": "SRC-007",
+      "kind": "user_supplied_research_proposal",
+      "original_locator": "C:\\Users\\novo\\Desktop\\R3.docx",
+      "archived_path": "research/sources/attachments/R3.docx",
+      "preservation": "byte_exact_verified",
+      "evidence_level": "received_file_not_empirical_confirmation",
+      "bytes": 118716,
+      "sha256": "72ba826900cd4a6f7ac64de076a969d2a932cefbac3f108410a17ab92dc08d9c",
+      "decision": "ADR-0004"
+    },
+    {
+      "id": "CHAT-004",
+      "kind": "dual_track_decision_and_spec_lock_authorization",
+      "original_locator": "visible user messages; exact timestamps unavailable",
+      "archived_path": "research/sources/chat/20260920_DUAL_TRACK_DECISION_FA.md",
+      "preservation": "curated_summary_with_exact_user_quotations",
+      "evidence_level": "reported_in_chat",
+      "bytes": 2706,
+      "sha256": "9e940ed3789a0ad29e988d5aec9c4c857907e39f4af28c7c50fd25bbfd3a4202",
+      "decision": "ADR-0004"
     }
   ]
 }
