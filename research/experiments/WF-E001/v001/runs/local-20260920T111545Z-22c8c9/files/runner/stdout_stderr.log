@@ -1,0 +1,1 @@
+{"scope": "infrastructure_smoke_only", "scientific_evidence": false, "checks": {"arithmetic": true, "deterministic": true}, "M2_complete": false, "M3_authorized_by_results": false}

@@ -1,0 +1,31 @@
+{
+  "artifacts": [
+    {
+      "bytes": 463,
+      "local_path": "research/experiments/WF-E001/v001/runs/local-20260920T111545Z-22c8c9/files/runner/environment.json",
+      "path": "runner/environment.json",
+      "sha256": "9bc020b331a2ec6ff23552db84b429578cf1f645115214ba99dc4a567153dae6",
+      "tracked": true
+    },
+    {
+      "bytes": 182,
+      "local_path": "research/experiments/WF-E001/v001/runs/local-20260920T111545Z-22c8c9/files/runner/stdout_stderr.log",
+      "path": "runner/stdout_stderr.log",
+      "sha256": "bcd6a24114f740cef580d0ee92c2a9b777235712ae29e68e45b83254fc1865b1",
+      "tracked": true
+    },
+    {
+      "bytes": 215,
+      "local_path": "research/experiments/WF-E001/v001/runs/local-20260920T111545Z-22c8c9/files/runs/workflow_smoke/metrics.json",
+      "path": "runs/workflow_smoke/metrics.json",
+      "sha256": "371b6dd424c44d64271e3f84d88695f3d25fb11547973cd64f4d48dd30c921e3",
+      "tracked": true
+    }
+  ],
+  "bundle_name": "local-20260920T111545Z-22c8c9.zip",
+  "bundle_sha256": "987bf0082d5db7f06c6225f31ae4ba02cb307b08d724fe6477cfd067de209c27",
+  "imported_at": "2026-09-20T11:16:07+00:00",
+  "run_manifest_sha256": "bf988d6f74f3a3cea1df37fa52fa8589ca83c9f95d16b98a0c11e23fcdc2f5b0",
+  "schema": "ergt-phi-artifacts-v1",
+  "source_uri": ""
+}

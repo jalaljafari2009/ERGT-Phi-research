@@ -1,0 +1,59 @@
+{
+  "artifacts": [
+    {
+      "bytes": 463,
+      "path": "runner/environment.json",
+      "sha256": "9bc020b331a2ec6ff23552db84b429578cf1f645115214ba99dc4a567153dae6"
+    },
+    {
+      "bytes": 182,
+      "path": "runner/stdout_stderr.log",
+      "sha256": "bcd6a24114f740cef580d0ee92c2a9b777235712ae29e68e45b83254fc1865b1"
+    },
+    {
+      "bytes": 215,
+      "path": "runs/workflow_smoke/metrics.json",
+      "sha256": "371b6dd424c44d64271e3f84d88695f3d25fb11547973cd64f4d48dd30c921e3"
+    }
+  ],
+  "command": [
+    "{python}",
+    "-B",
+    "scripts/workflow_smoke.py"
+  ],
+  "environment": {
+    "colab_detected": false,
+    "executable": "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+    "gpu_inventory": null,
+    "machine": "AMD64",
+    "packages": {
+      "nbformat": null,
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "pytest": "9.1.1",
+      "torch": "2.14.0"
+    },
+    "platform": "Windows-2022Server-10.0.20348-SP0",
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]"
+  },
+  "error": null,
+  "executed_command": [
+    "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+    "-B",
+    "scripts/workflow_smoke.py"
+  ],
+  "experiment_id": "WF-E001",
+  "finished_at": "2026-09-20T11:15:50.694874+00:00",
+  "missing_required_artifacts": [],
+  "notebook_sha256": "5aa0970912d8b15f9baeb866fea6cf496e8f1f99bdb1ed87bada92465228864e",
+  "package_sha256": "d7b9cdd66d5a148d77e76fe503377490c0a8951a38f3f4ae0c75d4152f4f4cd5",
+  "protocol_sha256": "44fa6240e1bcbbf27195a8e3015b27b450fa65387b60c585803aced474eb4a27",
+  "returncode": 0,
+  "revision": "v001",
+  "run_id": "local-20260920T111545Z-22c8c9",
+  "schema": "ergt-phi-run-v1",
+  "seconds": 4.062945600016974,
+  "source_commit": "cc94bcdbcb0a41a2e436468e9e22f4e90a2413f9",
+  "started_at": "2026-09-20T11:15:46.631912+00:00",
+  "status": "execution_completed"
+}

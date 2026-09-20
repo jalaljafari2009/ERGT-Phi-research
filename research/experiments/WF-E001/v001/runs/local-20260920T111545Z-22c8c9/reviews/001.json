@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-20T11:19:26+00:00",
+  "decision": "pass",
+  "decision_id": "ADR-0002",
+  "decision_path": "research/decisions/ADR-0002.md",
+  "decision_sha256": "f5997ff391ffbd054d826f7eba74b0163f31a9fe4aa48bea1439d739f47c4e6a",
+  "evaluation": {
+    "all_gates_pass": true,
+    "eligible_for_pass": true,
+    "execution_success": true,
+    "gates": [
+      {
+        "artifact": "runs/workflow_smoke/metrics.json",
+        "explanation": "Threshold comparison",
+        "name": "arithmetic",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/checks/arithmetic",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/workflow_smoke/metrics.json",
+        "explanation": "Threshold comparison",
+        "name": "deterministic",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/checks/deterministic",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/workflow_smoke/metrics.json",
+        "explanation": "Threshold comparison",
+        "name": "scope_is_infrastructure",
+        "observed": false,
+        "op": "eq",
+        "pointer": "/scientific_evidence",
+        "status": "pass",
+        "value": false
+      }
+    ],
+    "kind": "infrastructure",
+    "limitation": "Recorded gates require a linked review; no stage is promoted automatically.",
+    "missing_required_artifacts": [],
+    "required_artifacts_present": true,
+    "schema": "ergt-phi-evaluation-v1",
+    "scientific_phase_pass": false
+  },
+  "experiment_id": "WF-E001",
+  "kind": "infrastructure",
+  "next_action": "Repair M2 checkpoint selection, freeze and load/resume; register Q-anchor design addendum and a separate scientific protocol before Colab training.",
+  "phase_promoted": false,
+  "reason": "All three preregistered infrastructure gates passed, required artifacts and exact source provenance verified; interpretation records Windows-only scope and prior ACL failure. No scientific phase advancement.",
+  "revision": "v001",
+  "run_id": "local-20260920T111545Z-22c8c9",
+  "schema": "ergt-phi-review-v1",
+  "supersedes": null
+}
