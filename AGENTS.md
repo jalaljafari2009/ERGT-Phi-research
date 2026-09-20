@@ -17,6 +17,11 @@
 - برنامه طبق [ADR-0004](research/decisions/ADR-0004.md) دو مسیر دارد: A ادامهٔ مراحل موجود؛
   B آزمایش‌های موازیِ فاز، حفظ ابهام و خوانش مرزی. هیچ مسیر از قبل برنده نیست.
   موفقیت B دروازهٔ شکست‌خوردهٔ A را پاس نمی‌کند؛ ادغام A+B هم آزمایش جدا می‌خواهد.
+- طرح مشخصِ انتشار امکانات از ورودی و قیود از سمت پاسخ در
+  [BIDIRECTIONAL_BOUNDARY_V001_FA](research/plans/BIDIRECTIONAL_BOUNDARY_V001_FA.md)
+  و [ADR-0005](research/decisions/ADR-0005.md) است. B0 صحت ریاضی و B1 سود چهار بازو
+  در بودجهٔ محدود را می‌سنجند؛ فعلاً اجرا‌نشده‌اند. طرح، خروجی و تفسیر این فرضیه از
+  همین مسیر ثابت دنبال شود؛ برابری دقیق یک‌طرفه/دوطرفه با سود علمی اشتباه نشود.
 - ابزار فعلی یک داوری برای هر run دارد. برای پذیرش مستقل A و B، دو experiment مرتبط با
   `paired_question_id` مشترک و run/review مستقل بساز؛ جمع‌بندی دو سؤال در گزارش فاز ثبت شود.
   دو review متوالیِ یک run را داوری دو مسیر معرفی نکن. orchestrator نوت‌بوکِ دو‌اجرا هنوز ساخته نشده است.
@@ -38,6 +43,7 @@
 | `research/specification.lock.json` | هش و اندازهٔ مبنای تغییرناپذیر؛ محتوای سند را دوباره seal نکن |
 | `scripts/check_spec_lock.py` و `scripts/protect_spec.ps1` | بررسی محتوا و اعمال دوبارهٔ حفاظت محلی در ویندوز |
 | `docs/OPERATIONAL_ROADMAP_FA.md` | نقشهٔ فازها، وابستگی‌ها و معیارهای خروج |
+| `research/plans/BIDIRECTIONAL_BOUNDARY_V001_FA.md` | طرح B0/B1، چهار بازو، معیارها و مدارک لازم برای فرضیهٔ دوطرفه؛ هنوز اجرا‌نشده |
 | `research/INDEX.md` | فهرست مسیرهای جاری و شواهد قدیمی |
 | `research/sources/README.md` و `research/sources/register.json` | مقاله، spec اولیه، متن‌های پیوست و منشأ اطلاعات گفتگو با هش |
 | `research/sources/CONVERSATION_HISTORY_FA.md` | مسیر درخواست‌ها و نتایج گزارش‌شدهٔ گفتگو |

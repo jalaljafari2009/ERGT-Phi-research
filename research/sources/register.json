@@ -141,6 +141,17 @@
       "bytes": 2706,
       "sha256": "9e940ed3789a0ad29e988d5aec9c4c857907e39f4af28c7c50fd25bbfd3a4202",
       "decision": "ADR-0004"
+    },
+    {
+      "id": "CHAT-005",
+      "kind": "bidirectional_hypothesis_and_plan_addition_request",
+      "original_locator": "visible user messages; exact timestamps unavailable",
+      "archived_path": "research/sources/chat/20260920_BIDIRECTIONAL_HYPOTHESIS_FA.md",
+      "preservation": "curated_summary_with_exact_user_quotations",
+      "evidence_level": "reported_in_chat_not_empirical_confirmation",
+      "bytes": 1986,
+      "sha256": "3709f4e4ae45fa00f3b30eb4e793348165b66cb4aed1f4db62250643cca8e6f0",
+      "decision": "ADR-0005"
     }
   ]
 }

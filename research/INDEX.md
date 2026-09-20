@@ -12,6 +12,7 @@
 | قفل مبنای ریاضی | [specification.lock.json](specification.lock.json)، [بررسی](../scripts/check_spec_lock.py)، [حفاظت ویندوز](../scripts/protect_spec.ps1) |
 | تصمیم برنامهٔ دو‌مسیره | [ADR-0004](decisions/ADR-0004.md)، [منشأ گفتگو](sources/chat/20260920_DUAL_TRACK_DECISION_FA.md) |
 | برنامهٔ فعال | [docs/OPERATIONAL_ROADMAP_FA.md](../docs/OPERATIONAL_ROADMAP_FA.md) |
+| فرضیهٔ دوطرفه و آزمایش‌های چهار بازو | [طرح B0/B1 نسخهٔ ۰۰۱](plans/BIDIRECTIONAL_BOUNDARY_V001_FA.md)، [ADR-0005](decisions/ADR-0005.md)، [منشأ گفتگو](sources/chat/20260920_BIDIRECTIONAL_HYPOTHESIS_FA.md)؛ طراحی، بدون اجرای علمی |
 | هدف نسخه‌دار و بازبینی فاز | [goals.json](goals.json)، [M2_CURRENT](phase_reviews/M2_CURRENT.md) |
 | بازبینی مسیر با اولویت هدف علمی | [MISSION_REVIEW_20260920](phase_reviews/MISSION_REVIEW_20260920.md)؛ یافته‌های کد و پیشنهاد آزمایش اثرگذاری بر پاسخ، هنوز تصمیم تازهٔ اجرا نیست |
 | وظایف ایجنت و چرخهٔ پژوهش | [AGENTS](../AGENTS.md)، [WORKFLOW](WORKFLOW.md) |
