@@ -11,6 +11,7 @@
 | هدف ریاضی | [docs/MATHEMATICAL_SPEC.md](../docs/MATHEMATICAL_SPEC.md) |
 | برنامهٔ فعال | [docs/OPERATIONAL_ROADMAP_FA.md](../docs/OPERATIONAL_ROADMAP_FA.md) |
 | هدف نسخه‌دار و بازبینی فاز | [goals.json](goals.json)، [M2_CURRENT](phase_reviews/M2_CURRENT.md) |
+| بازبینی مسیر با اولویت هدف علمی | [MISSION_REVIEW_20260920](phase_reviews/MISSION_REVIEW_20260920.md)؛ یافته‌های کد و پیشنهاد آزمایش اثرگذاری بر پاسخ، هنوز تصمیم تازهٔ اجرا نیست |
 | وظایف ایجنت و چرخهٔ پژوهش | [AGENTS](../AGENTS.md)، [WORKFLOW](WORKFLOW.md) |
 | مسیرها و تصمیم‌های آزموده‌شده | [ARCHITECTURE](ARCHITECTURE.md)، [DECISIONS](DECISIONS.md) |
 | ترتیب پیشرفت‌ها | [progress.jsonl](progress.jsonl) |

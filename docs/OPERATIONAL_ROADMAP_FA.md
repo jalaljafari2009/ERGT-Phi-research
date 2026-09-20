@@ -3,7 +3,11 @@
 این سند برنامهٔ اجرای آینده است. در تهیهٔ آن آموزش جدید یا فعال‌سازی هندسه انجام نشده است.
 نام فایل‌هایی که با «پیشنهادی» مشخص شده‌اند خروجی کارهای آینده است، نه فایل موجود.
 مبنای بررسی، نسخهٔ محلی `MATHEMATICAL_SPEC.md`، کد قفل‌شده و مقالهٔ داخل `reference/`،
-اسکریپت‌های پژوهشی و شواهد ثبت‌شده در `manifests/` و `runs/` است.
+اسکریپت‌های پژوهشی و شواهد تاریخیِ اکنون بایگانی‌شده در `research/legacy/` است.
+
+[بازبینی هدف علمی در ۲۰ سپتامبر](../research/phase_reviews/MISSION_REVIEW_20260920.md)
+پیشنهاد می‌کند آزمون اثرگذاری بر پاسخ و کنترل Q بدون phase زودتر انجام شوند.
+آن گزارش پیشنهاد بازبینی ترتیب است؛ دروازه‌ها و ترتیب اجرایی این نسخه را تغییر نمی‌دهد.
 
 **قرارداد اجرایی مشترک همهٔ گام‌ها**
 
@@ -152,8 +156,10 @@ M6 و M7 شاخه‌های اختیاری‌اند و برای فعال‌ساز
 معیار خروج: checkpoint منتخب و freeze‌شده موجود باشد، هش آن ثبت شود، reload نتیجهٔ
 منتخب را بازتولید کند و resume/rollback و کنترل عدم تغییر مرجع پاس شوند.
 
-خروجی پیشنهادی: `research/artifacts/legacy/LEGACY-M2-CONTEXT/m2_q_v2/<run_id>/selected_full_state.pt` و
-`manifests/m2_handoff.json`. این manifest صلاحیت برای آزمایش محدود M3 را ثبت می‌کند.
+خروجی پیشنهادی: checkpoint منتخب در artifactهای اجرای تازه، با هش و locator در
+`research/experiments/<id>/vNNN/runs/<run_id>/artifacts.json`؛ گزارش `m2_handoff.json`
+در `files/` همان run. ابزار import محل دقیق وزن حجیم را زیر `research/artifacts/`
+ثبت می‌کند. آرشیو legacy مقصد خروجی تازه نیست. handoff صلاحیت آزمایش محدود M3 را ثبت می‌کند.
 
 **گام ۳ — تأیید کالیبراسیون روی دادهٔ توسعهٔ تازه**
 
@@ -221,7 +227,7 @@ patch خالی، تغییر ترتیب یال، جدایی batch/world و تغی
 نهایی هنوز نتیجهٔ این مرحله نیست. عدم عبور mask guard سقف همین آزمایش را محدود می‌کند.
 
 خروجی پیشنهادی: `scripts/run_m3_snapshot.py`، `tests/test_phase_adapter.py`،
-`tests/test_m3_snapshot.py` و `manifests/m3_status.json`.
+`tests/test_m3_snapshot.py` و `files/m3_status.json` زیر run نسخه‌دار همان آزمایش.
 
 **گام ۷ — M4: حلقهٔ واقعی و آموزش تدریجی**
 
@@ -261,7 +267,7 @@ patch خالی، تغییر ترتیب یال، جدایی batch/world و تغی
 آستانه‌های ثبت‌شده بررسی شوند. حد افت مجاز باید قبل از اجرا در config تعریف شود.
 
 خروجی پیشنهادی: `ergt_phi/coupled_model.py`، `scripts/run_m4.py`،
-`tests/test_causal_schedule.py` و `manifests/m4_status.json`.
+`tests/test_causal_schedule.py` و `files/m4_status.json` زیر run نسخه‌دار همان آزمایش.
 
 **گام ۸ — M5: فعال‌سازی تدریجی غیرخطی بودن**
 
