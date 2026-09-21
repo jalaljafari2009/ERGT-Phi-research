@@ -28,13 +28,14 @@
       "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
       "scientific_hypothesis": "Any improvement in answer quality or compute cost must be established independently against the corresponding native baseline and matched controls.",
       "active_stage": "M2",
-      "current_variant": "Q-conditioned anchor v2: ADR-0006 contract and M2-E002/v001 runner/notebook implemented; local checkpoint handoff validation passed and a commit-bound release exists; imported Colab run and fresh-development confirmation remain; parallel track B is planned, not yet run",
+      "current_variant": "Q-conditioned anchor v2: M2-E002/v001 package-bound local run passed all 19 operational handoff gates and the frozen checkpoint was imported/reviewed under ADR-0007; fresh-development confirmation remains; parallel track B is planned, not yet run",
       "phase_review": "research/phase_reviews/M2_CURRENT.md",
       "decision_history": [
         "ADR-0001",
         "ADR-0004",
         "ADR-0005",
-        "ADR-0006"
+        "ADR-0006",
+        "ADR-0007"
       ],
       "change_policy": "Record a new goal version and ADR before a new run if scope, architecture or primary claim changes; retain all prior versions and negative results.",
       "specification_lock": "research/specification.lock.json",
@@ -43,8 +44,8 @@
         "A": {
           "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
           "active_stage": "M2",
-          "state": "handoff_incomplete",
-          "next_action": "Execute M2-E002/v001 in Colab from the locked release, import/review the result bundle, then preregister confirmation on fresh development data before native activation."
+          "state": "checkpoint_handoff_passed_fresh_development_pending",
+          "next_action": "Preregister and execute M2-E003/v001 on pair- and raw-text-disjoint fresh development data with two locked windows, Q-only and capacity-matched no-phase controls before native activation."
         },
         "B": {
           "objective": "Test ambiguity retention, relation-grounded phase transport, boundary readout and adaptive compute against matched classical controls.",

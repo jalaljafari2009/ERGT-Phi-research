@@ -6,4 +6,5 @@ Historical results and all branches are in [LEGACY_CATALOG.md](LEGACY_CATALOG.md
 
 | Experiment / run | Kind | Execution | Recorded review | Current evidence check | Reports |
 |---|---|---|---|---|---|
+| M2-E002/v001/20260921T210953Z-48abf488-local | research | execution_completed | pass | verified | [summary](../experiments/M2-E002/v001/runs/20260921T210953Z-48abf488-local/summary.md) · [interpretation](../experiments/M2-E002/v001/runs/20260921T210953Z-48abf488-local/interpretation.md) · [review](../experiments/M2-E002/v001/runs/20260921T210953Z-48abf488-local/reviews/001.json) |
 | WF-E001/v001/local-20260920T111545Z-22c8c9 | infrastructure | execution_completed | pass | verified | [summary](../experiments/WF-E001/v001/runs/local-20260920T111545Z-22c8c9/summary.md) · [interpretation](../experiments/WF-E001/v001/runs/local-20260920T111545Z-22c8c9/interpretation.md) · [review](../experiments/WF-E001/v001/runs/local-20260920T111545Z-22c8c9/reviews/001.json) |

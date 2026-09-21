@@ -1,0 +1,21 @@
+Cached Q-conditioned raw features: 50/504
+Cached Q-conditioned raw features: 100/504
+Cached Q-conditioned raw features: 150/504
+Cached Q-conditioned raw features: 200/504
+Cached Q-conditioned raw features: 250/504
+Cached Q-conditioned raw features: 300/504
+Cached Q-conditioned raw features: 350/504
+Cached Q-conditioned raw features: 400/504
+Cached Q-conditioned raw features: 450/504
+Cached Q-conditioned raw features: 500/504
+{"epoch": 1, "step": 24, "fit_balanced_accuracy": 0.5004244311184264, "monitor_balanced_accuracy": 0.4649427186604979, "ready": false, "streak": 0}
+{"epoch": 2, "step": 48, "fit_balanced_accuracy": 0.7204978648956618, "monitor_balanced_accuracy": 0.7452060404034598, "ready": true, "streak": 1}
+{"epoch": 3, "step": 72, "fit_balanced_accuracy": 0.747537148513484, "monitor_balanced_accuracy": 0.7555267392741171, "ready": true, "streak": 2}
+{
+  "status": "qualified_handoff_ready",
+  "selected_epoch": 3,
+  "selected_monitor_balanced_accuracy": 0.7555267392741171,
+  "shuffled_monitor_balanced_accuracy": 0.3218691629069801,
+  "M2_checkpoint_handoff_complete": true,
+  "M3_authorized_by_results": false
+}

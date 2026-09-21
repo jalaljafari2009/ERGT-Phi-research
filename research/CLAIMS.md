@@ -1,6 +1,6 @@
 # دفتر شواهد برای مقاله
 
-این دفتر مشخص می‌کند چه چیزی با کدام شاهد قابل گفتن است. «مشاهدهٔ اکتشافی»، «پذیرش مهندسی»، «کالیبراسیون کمکی» و «تأیید مستقل پاسخ نهایی» سطوح متفاوت‌اند. CL-001 تا CL-007 شواهد تاریخی‌اند؛ CL-008 اعتبارسنجی زیرساخت است. آزمایش علمی جدیدی اجرا نشده است. مرور محدودیت‌ها در [roadmap](../docs/OPERATIONAL_ROADMAP_FA.md) ثبت شده است.
+این دفتر مشخص می‌کند چه چیزی با کدام شاهد قابل گفتن است. «مشاهدهٔ اکتشافی»، «پذیرش مهندسی»، «کالیبراسیون کمکی» و «تأیید مستقل پاسخ نهایی» سطوح متفاوت‌اند. CL-001 تا CL-007 شواهد تاریخی‌اند؛ CL-008 اعتبارسنجی زیرساخت و CL-009 تحویل مهندسی M2 است. تأیید علمی تازهٔ پاسخ نهایی هنوز وجود ندارد. مرور محدودیت‌ها در [roadmap](../docs/OPERATIONAL_ROADMAP_FA.md) ثبت شده است.
 
 فهرست تولیدشدهٔ runها در [paper/RUN_CATALOG.md](paper/RUN_CATALOG.md) و جدول ماشینی در [paper/evidence.csv](paper/evidence.csv) است. [export_research_catalog.py](../scripts/export_research_catalog.py) آن‌ها را از رکوردهای پژوهش می‌سازد؛ فهرست خودکار جای تفسیر علمی و بررسی استقلال شاهد را نمی‌گیرد.
 
@@ -14,6 +14,7 @@
 | `CL-006` | Q-shadow محاسبات detached و نرمال‌سازی mixture را روی نمونه‌های ثبت‌شده بررسی کرد | [m2_q_shadow](../research/legacy/LEGACY-M2-Q-SHADOW/manifests/m2_q_shadow.json) | مقایسهٔ قبل/بعد native روی مثال محدود و خارج از حلقهٔ coupled است؛ zero-effect و علیت اتصال واقعی تأیید نشده‌اند |
 | `CL-007` | اثر ERGT-Phi بر پاسخ نهایی، تعمیم مستقل و هزینهٔ کامل هنوز نتیجه‌گیری نشده است | [roadmap](../docs/OPERATIONAL_ROADMAP_FA.md)، [STATE](STATE.md) | نیازمند M3/M4 و ارزیابی قفل‌شدهٔ مستقل M8 است |
 | `CL-008` | چرخهٔ ساخت بسته، اجرای محلی، ورود نتیجه و بازبینی نسخه‌دار روی نمونهٔ WF-E001 کار کرده است | [تفسیر run](experiments/WF-E001/v001/runs/local-20260920T111545Z-22c8c9/interpretation.md)، [اعتبارسنجی ۳۶ تست](validation/WORKFLOW_V1.md)، [ADR-0002](decisions/ADR-0002.md) | شاهد مدیریت آزمایش؛ صحت اجرای زندهٔ Colab و هر بهبود علمی مدل هنوز از این نمونه نتیجه نمی‌شود |
+| `CL-009` | release قفل‌شدهٔ M2-E002 در اجرای محلی package-bound چرخهٔ انتخاب نخستین checkpoint، freeze، reload، resume و حفظ مرجع را در هر ۱۹ gate پاس کرد | [خلاصه](experiments/M2-E002/v001/runs/20260921T210953Z-48abf488-local/summary.md)، [تفسیر](experiments/M2-E002/v001/runs/20260921T210953Z-48abf488-local/interpretation.md)، [بازبینی](experiments/M2-E002/v001/runs/20260921T210953Z-48abf488-local/reviews/001.json)، [ADR-0007](decisions/ADR-0007.md) | اجرای Windows/CPU و خارج از Colab؛ monitor دیده‌شده و کالیبراسیون کمکی است؛ توسعهٔ تازه، اثر بر پاسخ و مجوز M3 نتیجه نمی‌شوند |
 
 برای رکوردهای legacy، hashهای موجود در manifest اصلی و فهرست [legacy/index.json](legacy/index.json) منبع‌اند. ادعای وجود رکورد بازبینی جدید، hash بازبینی یا provenance جدید برای این اجراها ساخته نشود.
 

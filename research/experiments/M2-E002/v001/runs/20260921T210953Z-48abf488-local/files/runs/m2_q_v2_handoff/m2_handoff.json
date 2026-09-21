@@ -1,0 +1,33 @@
+{
+  "schema": "ergt-phi-m2-handoff-v1",
+  "experiment_id": "M2-E002",
+  "revision": "v001",
+  "ready": true,
+  "selected_checkpoint": "runs/m2_q_v2_handoff/selected_full_state.pt",
+  "selected_checkpoint_sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234",
+  "selected_epoch": 3,
+  "selected_step": 72,
+  "engineering_checks": {
+    "selected_checkpoint_present": true,
+    "selected_checkpoint_frozen": true,
+    "fresh_process_reload_verified": true,
+    "reload_metric_reproduced_exactly": true,
+    "fresh_process_resume_verified": true,
+    "native_output_exact_before_after_and_reload": true,
+    "native_hard_decision_parity": true,
+    "reference_weights_and_gradients_unchanged": true,
+    "shuffled_label_control_executed": true,
+    "raw_features_completed_before_supervision_attached": true
+  },
+  "calibration_checks": {
+    "all_relation_classes_present": true,
+    "balanced_accuracy": true,
+    "minimum_class_recall": true,
+    "ce_reduction": true,
+    "offset_separation": true,
+    "phase_not_constant": true
+  },
+  "fresh_development_confirmation_complete": false,
+  "next_stage": "M2 fresh-development confirmation (operational step 3)",
+  "M3_authorized": false
+}

@@ -1,0 +1,184 @@
+{
+  "artifacts": [
+    {
+      "bytes": 463,
+      "path": "runner/environment.json",
+      "sha256": "9bc020b331a2ec6ff23552db84b429578cf1f645115214ba99dc4a567153dae6"
+    },
+    {
+      "bytes": 1155,
+      "path": "runner/stdout_stderr.log",
+      "sha256": "3785dc45b9a9ae9e9066b23ade679cf266fffdb8e4ff74e4e40225b35d7d567c"
+    },
+    {
+      "bytes": 2548,
+      "path": "runs/m2_q_v2_handoff/checkpoint_contract.json",
+      "sha256": "7fcfb98232a9521f4e974d2ad504e38f087b5d6778251aa2e88be8cbde7d03f2"
+    },
+    {
+      "bytes": 179813,
+      "path": "runs/m2_q_v2_handoff/feature_cache_manifest.json",
+      "sha256": "2c00122d692cd10d205b7c445d24bad0e544cbbd3ff185a40b7c98dd2c74b426"
+    },
+    {
+      "bytes": 39259,
+      "path": "runs/m2_q_v2_handoff/initial_full_state.pt",
+      "sha256": "6649411b6f6f1955c0845f676502acc539f125fe9a44dc16ba37e4605ad28a8d"
+    },
+    {
+      "bytes": 83549,
+      "path": "runs/m2_q_v2_handoff/latest_full_state.pt",
+      "sha256": "397f0663d70794dc131015def2546657fc174ab460ece34a9153a8fecf0cc688"
+    },
+    {
+      "bytes": 1244,
+      "path": "runs/m2_q_v2_handoff/m2_handoff.json",
+      "sha256": "822840b24b75b19e056aa88b5e908d6bddc41272aa7cb002ec2f5d12519a93e4"
+    },
+    {
+      "bytes": 29279,
+      "path": "runs/m2_q_v2_handoff/native_output_after_reload.pt",
+      "sha256": "5bd7f60c7aeef26fb0d0b854d00bdbab7a6bce3cc56f0c63df3c868c715bcf93"
+    },
+    {
+      "bytes": 29291,
+      "path": "runs/m2_q_v2_handoff/native_output_after_training.pt",
+      "sha256": "ca9ea247bebe74740317eacacb1de3504d91b40ff5397bb7bb650198a0e975e6"
+    },
+    {
+      "bytes": 29179,
+      "path": "runs/m2_q_v2_handoff/native_output_before.pt",
+      "sha256": "6dc1c6e84a82ea67f161c6ef9a6e965e72bf6c8d7a77db66736e3970870b06fb"
+    },
+    {
+      "bytes": 1278,
+      "path": "runs/m2_q_v2_handoff/reload_verification.json",
+      "sha256": "12646b4eb2bfe23b8fe445c62f5e3c568d0f7969ece6ba52fd03663c7066e564"
+    },
+    {
+      "bytes": 0,
+      "path": "runs/m2_q_v2_handoff/reload_worker.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 72566,
+      "path": "runs/m2_q_v2_handoff/result.json",
+      "sha256": "834e8f8f328daa4fefa48f4b9ee73e3a27c95096d4df4488764f95845f52606a"
+    },
+    {
+      "bytes": 83945,
+      "path": "runs/m2_q_v2_handoff/resume_continuous_full_state.pt",
+      "sha256": "10cbd79338b47828821a44740e0adf4057ef9942574c0e5a7a1932df9662843f"
+    },
+    {
+      "bytes": 83629,
+      "path": "runs/m2_q_v2_handoff/resume_cut_full_state.pt",
+      "sha256": "ff0fb6b3686cddc1a419e39215fc766fbba25fb0911102e5968610dcbad84371"
+    },
+    {
+      "bytes": 83837,
+      "path": "runs/m2_q_v2_handoff/resume_resumed_full_state.pt",
+      "sha256": "fc3a631060a93d5c380193d2013d5111deae4f788f44a184104c0a40689878d5"
+    },
+    {
+      "bytes": 444,
+      "path": "runs/m2_q_v2_handoff/resume_verification.json",
+      "sha256": "02db7e0f55b545086ed47399954ab540e63a79b15a10a76b08ccf0e7da664417"
+    },
+    {
+      "bytes": 0,
+      "path": "runs/m2_q_v2_handoff/resume_worker.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 83685,
+      "path": "runs/m2_q_v2_handoff/selected_full_state.pt",
+      "sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234"
+    },
+    {
+      "bytes": 39323,
+      "path": "runs/m2_q_v2_handoff/shuffled_control/initial_full_state.pt",
+      "sha256": "9961bf441e29cc9303a65f9beee9a86ca7dbcdf21d61547510c6528589bb461c"
+    },
+    {
+      "bytes": 83549,
+      "path": "runs/m2_q_v2_handoff/shuffled_control/latest_full_state.pt",
+      "sha256": "f5e79ca9cdb4a6a0deba55531192ea5dad032941c192bbbd6e6da9a3c58157cf"
+    },
+    {
+      "bytes": 83685,
+      "path": "runs/m2_q_v2_handoff/shuffled_control/rejected_full_state.pt",
+      "sha256": "2efed6236106978b145ac91e656225bb6fecf557ff01822546bec4acd6d03f1e"
+    },
+    {
+      "bytes": 39586,
+      "path": "runs/m2_q_v2_handoff/shuffled_control/restored_initial_full_state.pt",
+      "sha256": "2f6ae8113bca00ff8cdeedd93461f43364bd31b17f664504acb6e5235772f86b"
+    },
+    {
+      "bytes": 31974,
+      "path": "runs/m2_q_v2_handoff/split_manifest.json",
+      "sha256": "afedda1fcd104d55c3f9fe2f4ab37236de93a1efb71f5116ff45c4c72c0345bb"
+    }
+  ],
+  "command": [
+    "{python}",
+    "-B",
+    "scripts/run_m2_q_v2.py",
+    "--output",
+    "runs/m2_q_v2_handoff",
+    "--reference-checkpoint",
+    "research/inputs/M2-E002/v001/native_ergt_training.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_q_v2.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E002/v001/protocol.json"
+  ],
+  "environment": {
+    "colab_detected": false,
+    "executable": "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+    "gpu_inventory": null,
+    "machine": "AMD64",
+    "packages": {
+      "nbformat": null,
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "pytest": "9.1.1",
+      "torch": "2.14.0"
+    },
+    "platform": "Windows-2022Server-10.0.20348-SP0",
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]"
+  },
+  "error": null,
+  "executed_command": [
+    "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+    "-B",
+    "scripts/run_m2_q_v2.py",
+    "--output",
+    "runs/m2_q_v2_handoff",
+    "--reference-checkpoint",
+    "research/inputs/M2-E002/v001/native_ergt_training.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_q_v2.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E002/v001/protocol.json"
+  ],
+  "experiment_id": "M2-E002",
+  "finished_at": "2026-09-21T21:17:10.869802+00:00",
+  "missing_required_artifacts": [],
+  "notebook_sha256": "cf08fca8c8d57959c9764dd6b97ac47d3bfc1b01ab22be490aca5ee29813bdba",
+  "package_sha256": "8bc4ef850b4fe02844d93aeea48b83fa44a966a4fe9537390bd202f831864ed7",
+  "protocol_sha256": "73f054d74595f07555c8e4f94074cbdf205f9650fce60d4359d8e397556f01d9",
+  "returncode": 0,
+  "revision": "v001",
+  "run_id": "20260921T210953Z-48abf488-local",
+  "schema": "ergt-phi-run-v1",
+  "seconds": 328.468466899998,
+  "source_commit": "7891db73a05ef2d7b7fcbe4f33f94235b3ca2366",
+  "started_at": "2026-09-21T21:11:42.402717+00:00",
+  "status": "execution_completed"
+}

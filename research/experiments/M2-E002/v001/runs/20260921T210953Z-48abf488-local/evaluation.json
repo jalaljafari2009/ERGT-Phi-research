@@ -1,0 +1,203 @@
+{
+  "all_gates_pass": true,
+  "eligible_for_pass": true,
+  "execution_success": true,
+  "gates": [
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "handoff_complete",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/M2_checkpoint_handoff_complete",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "first_qualified_state_selected",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/first_qualified_checkpoint_policy",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "balanced_accuracy",
+      "observed": 0.7555267392741171,
+      "op": "ge",
+      "pointer": "/selected_monitor/balanced_accuracy",
+      "status": "pass",
+      "value": 0.7
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "relation_0_recall",
+      "observed": 0.8202247191011236,
+      "op": "ge",
+      "pointer": "/selected_monitor/per_class_recall/0",
+      "status": "pass",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "relation_1_recall",
+      "observed": 0.7228260869565217,
+      "op": "ge",
+      "pointer": "/selected_monitor/per_class_recall/1",
+      "status": "pass",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "relation_2_recall",
+      "observed": 0.7235294117647059,
+      "op": "ge",
+      "pointer": "/selected_monitor/per_class_recall/2",
+      "status": "pass",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "ce_reduction",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/selected_checks/ce_reduction",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "offset_separation",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/selected_checks/offset_separation",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "phase_not_constant",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/selected_checks/phase_not_constant",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "two_consecutive_windows",
+      "observed": 2,
+      "op": "ge",
+      "pointer": "/selected_streak",
+      "status": "pass",
+      "value": 2
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "selected_checkpoint_frozen",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/engineering_checks/selected_checkpoint_frozen",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "fresh_process_reload",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/engineering_checks/fresh_process_reload_verified",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "reload_metric_exact",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/engineering_checks/reload_metric_reproduced_exactly",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "fresh_process_resume",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/engineering_checks/fresh_process_resume_verified",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "native_output_exact",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/engineering_checks/native_output_exact_before_after_and_reload",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "native_decision_exact",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/engineering_checks/native_hard_decision_parity",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "reference_unchanged",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/engineering_checks/reference_weights_and_gradients_unchanged",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "shuffled_control_executed",
+      "observed": true,
+      "op": "eq",
+      "pointer": "/engineering_checks/shuffled_label_control_executed",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "explanation": "Threshold comparison",
+      "name": "m3_remains_closed",
+      "observed": false,
+      "op": "eq",
+      "pointer": "/M3_authorized_by_results",
+      "status": "pass",
+      "value": false
+    }
+  ],
+  "kind": "research",
+  "limitation": "Recorded gates require a linked review; no stage is promoted automatically.",
+  "missing_required_artifacts": [],
+  "required_artifacts_present": true,
+  "schema": "ergt-phi-evaluation-v1",
+  "scientific_phase_pass": false
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "ergt-phi-m2-q-checkpoint-contract-v1",
+  "experiment_id": "M2-E002",
+  "revision": "v001",
+  "architecture_contract_sha256": "ad68014af044da8b6ed163db80a83bea8aabfe9d5a466a652142746661c9e1d4",
+  "experiment_protocol_sha256": "73f054d74595f07555c8e4f94074cbdf205f9650fce60d4359d8e397556f01d9",
+  "source_data_config_hashes": {
+    "reference_checkpoint_sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+    "training_cohort_sha256": "e3978bd5688fa0145cc4da581e332d1ee9b67d61aff43fcd8fb0ccec224b6c53",
+    "partition_sha256": "bf0d722767b6fe7934dd9d16b4a6713a8f417ede24a0c07f94410db1025a6fbe",
+    "reference_protocol_sha256": "11e7692e77291d60c8e73071017eaba1f33993a7e517a4e3b105a1a0bae020ca",
+    "reference_data_manifest_sha256": "127010b44edc93335bcb91dc8ef0d7951d45bee072906cb0356236167c99f26c",
+    "source_sha256": {
+      "configs/m2_q_v2.json": "ad68014af044da8b6ed163db80a83bea8aabfe9d5a466a652142746661c9e1d4",
+      "ergt_phi/checkpoint.py": "417ff310c370b04dc93c960230a4313104e0d4a39e1bd2ddeb602a4a7a713ed0",
+      "ergt_phi/lagged_q.py": "a9f1824519c7b6f06ff7bd7a09120f81b2d12d8eb7a51a1b38588b7dd0371f90",
+      "ergt_phi/m2_q_contract.py": "eca230f16e541863670c4ee660de0c532c206cdf70c357274a1d4d91dbd3487b",
+      "ergt_phi/m2_q_training.py": "ba948b0ae53b0a9742d63e4321cbb5fa8e0c6d526f9300a72c44b2a1092fd20b",
+      "ergt_phi/shadow_data.py": "b53c529738df8cfd45cb0df2a5089c290439b5ed1d58ba670b4731beace8a0ac",
+      "ergt_phi/shadow_metrics.py": "afb7ac530d71f3ae161953893be95bed4d58f309ab760aaa9bd77e831d43685d",
+      "ergt_phi/shadow_phase.py": "1e8e2831dd18848455e941562769e6e0ae922dbb17938285e9a7084f97388e22",
+      "scripts/m2_q_checkpoint_worker.py": "88467ae7d47bca3bf47cb0152d256bc0890aad0b9d748fdb544c7be2b7cf977f",
+      "scripts/run_m2_q_v2.py": "3a5a6048c44ef8102c2d4ca495256c2f77a38e757d326c9a03daa5428bf9099c"
+    }
+  },
+  "calibration_config": {
+    "hidden_dim": 64,
+    "temperature": 0.2,
+    "offset_radius": 0.25,
+    "init_seed": 22092026,
+    "shuffle_seed": 23092026,
+    "split_seed": 20092026,
+    "epochs": 20,
+    "batch_size": 16,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "offset_penalty": 0.001,
+    "readiness_balanced_accuracy": 0.7,
+    "readiness_min_recall": 0.5,
+    "readiness_ce_reduction": 0.05,
+    "minimum_offset_separation": 1.0,
+    "maximum_phase_resultant": 0.98,
+    "required_windows": 2
+  },
+  "checkpoint_boundary": "after_complete_optimizer_step_no_gradient_accumulation"
+}

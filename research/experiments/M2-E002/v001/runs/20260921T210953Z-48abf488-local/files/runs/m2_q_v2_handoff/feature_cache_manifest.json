@@ -1,0 +1,4043 @@
+{
+  "schema": "ergt-phi-m2-q-feature-cache-v1",
+  "raw_features_completed_before_supervision_attached": true,
+  "reference_prepass_calls": 504,
+  "proposal_probe_calls": 504,
+  "seed_only_initializations": 504,
+  "examples": 504,
+  "seconds": 219.33220910001546,
+  "rows": [
+    {
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430021_cf1",
+      "pair_id": "train_hop_6_geodesic_action:ergt43_pair_763430021",
+      "feature_sha256": "98546af40fcf75ffa097b1bf5cef6126f38043366789eff7aab8e6f267d19ea2",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.514827728271484
+    },
+    {
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720011_cf0",
+      "pair_id": "train_hop_5_terminal_mass:ergt43_pair_703720011",
+      "feature_sha256": "eb6711dfa07189d8b0e0aed38cb74af2f2ccc6a163b861644da83c715c8e7b0f",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.418412208557129
+    },
+    {
+      "example_id": "train_hop_5_boundary_deficit:ergt43_pair_683540004_cf0",
+      "pair_id": "train_hop_5_boundary_deficit:ergt43_pair_683540004",
+      "feature_sha256": "52c39c94c7470ced9f6d0ace1ab76964cffafb7cdbfadd6c9bb66eae9a423974",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.445262908935547
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840014_cf0",
+      "pair_id": "train_hop_8_payload_transport:ergt43_pair_993840014",
+      "feature_sha256": "670f002959236e862c5aeb3b86a514abe5a89ec0a7f464321d7226168b034fbd",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.662647247314453
+    },
+    {
+      "example_id": "train_hop_3_payload_transport:ergt43_pair_493490014_cf0",
+      "pair_id": "train_hop_3_payload_transport:ergt43_pair_493490014",
+      "feature_sha256": "b2dbc47019dde4b64660219427b9dd19ff4d660b55784dd8512d6a738d7f758e",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.28744649887085
+    },
+    {
+      "example_id": "train_hop_5_geodesic_action:ergt43_pair_663360004_cf0",
+      "pair_id": "train_hop_5_geodesic_action:ergt43_pair_663360004",
+      "feature_sha256": "8ea61393b21db2f37b517a0117d32f928d7eb8a3a09e52951a4f131ae4d65303",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.454288482666016
+    },
+    {
+      "example_id": "train_hop_5_memory_source_condition:ergt43_pair_713810006_cf1",
+      "pair_id": "train_hop_5_memory_source_condition:ergt43_pair_713810006",
+      "feature_sha256": "ebcd778d8512ec04dabb280fbc9936d9ba3dd48474a5fe1ac4e6560332d03765",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.4356689453125
+    },
+    {
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510020_cf0",
+      "pair_id": "train_hop_2_terminal_mass:ergt43_pair_403510020",
+      "feature_sha256": "67b7bd6eac03fadcaaea9a5d39266f5f9f17a69107a796e1f39c5356c6d10386",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.244115829467773
+    },
+    {
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770002_cf0",
+      "pair_id": "train_hop_7_payload_transport:ergt43_pair_893770002",
+      "feature_sha256": "fc74693d5fecb6af3850b700253c28ed6024d02abfb8e18461072a0f43333bbd",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.600504875183105
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840019_cf1",
+      "pair_id": "train_hop_8_payload_transport:ergt43_pair_993840019",
+      "feature_sha256": "77717586f52a9da9ea9f562d41388edb517cb3b905204289fb161ab62ec0f2fc",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.68624496459961
+    },
+    {
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310019_cf1",
+      "pair_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310019",
+      "feature_sha256": "eaeec25cf06455391b582ac5c651a626e9ba468263bf4b4fdbb33ec4f4c71f17",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.286595821380615
+    },
+    {
+      "example_id": "train_hop_2_payload_transport:ergt43_pair_393420014_cf1",
+      "pair_id": "train_hop_2_payload_transport:ergt43_pair_393420014",
+      "feature_sha256": "d6a7e394f4c3b470693d4ba9c563e3d49e93169733513bf78927f8811f57b0a3",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.233949661254883
+    },
+    {
+      "example_id": "train_hop_7_boundary_deficit:ergt43_pair_883680013_cf1",
+      "pair_id": "train_hop_7_boundary_deficit:ergt43_pair_883680013",
+      "feature_sha256": "f6c15d0a58b9def991d4b77d9ac65252addb7b8bf568f4c08d4af7ae5d9504bb",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.58675765991211
+    },
+    {
+      "example_id": "train_hop_7_terminal_mass:ergt43_pair_903860019_cf1",
+      "pair_id": "train_hop_7_terminal_mass:ergt43_pair_903860019",
+      "feature_sha256": "bfe3460ccf12575b0ee404e9bfe4eb8350f06c02bd3f1590d46d31f3cd9b25a9",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.575843811035156
+    },
+    {
+      "example_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110021_cf0",
+      "pair_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110021",
+      "feature_sha256": "349d7ec7fd6d7b9d5c86ddc274678e62f2630faaf35218348cab05a3c033848f",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.711166381835938
+    },
+    {
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170000_cf1",
+      "pair_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170000",
+      "feature_sha256": "dda1a1df7c2a908d7b1bd5a81da60c8d12ee43b3651e151763684c1d9c97a98c",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1721978187561035
+    },
+    {
+      "example_id": "train_hop_2_geodesic_action:ergt43_pair_363150000_cf1",
+      "pair_id": "train_hop_2_geodesic_action:ergt43_pair_363150000",
+      "feature_sha256": "e0a6b9a56ea25bcc6bcc7413ea4219624e327a2779f9b1726c06e671ffaa51b9",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.237198829650879
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220020_cf1",
+      "pair_id": "train_hop_3_geodesic_action:ergt43_pair_463220020",
+      "feature_sha256": "7700afbc6bad4bfd08a8da773e4526dddf5d0348d7e75b7c8f693c17d2975a07",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.297243118286133
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220009_cf0",
+      "pair_id": "train_hop_3_geodesic_action:ergt43_pair_463220009",
+      "feature_sha256": "10859c3bfb887a2ee784500540c83f45669c995eb14b2efc972a4c4b68538143",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.295848846435547
+    },
+    {
+      "example_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520001_cf1",
+      "pair_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520001",
+      "feature_sha256": "15cf5e2abb56a3bfbb2982f29b73051fecdd7272234cb37136c12728f9f2fd8a",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.494932174682617
+    },
+    {
+      "example_id": "train_hop_7_memory_source_condition:ergt43_pair_913950005_cf0",
+      "pair_id": "train_hop_7_memory_source_condition:ergt43_pair_913950005",
+      "feature_sha256": "f010a43fc549f0cdbd03f99a817532d0a305f34ba8186bd2a6b5168817c5c690",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.588077545166016
+    },
+    {
+      "example_id": "train_hop_2_memory_source_condition:ergt43_pair_413600008_cf1",
+      "pair_id": "train_hop_2_memory_source_condition:ergt43_pair_413600008",
+      "feature_sha256": "07a91bec6d67682ca467c3d0c0dd1f926a667b94fad2601d7808119a1bea2735",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.232353687286377
+    },
+    {
+      "example_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760013_cf0",
+      "pair_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760013",
+      "feature_sha256": "6f2aa72b297095b63f853d1cb766574427fa22a3c88696ea80539fa85004b229",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.3050856590271
+    },
+    {
+      "example_id": "train_hop_1_memory_source_condition:ergt43_pair_313530019_cf1",
+      "pair_id": "train_hop_1_memory_source_condition:ergt43_pair_313530019",
+      "feature_sha256": "75e5a3003234d18989bda9b8836c435219f19e9c45e45cc27318e67eb2372897",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1720588207244873
+    },
+    {
+      "example_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590011_cf1",
+      "pair_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590011",
+      "feature_sha256": "c5dbfc2476ef366ed138b3ad2b7a87c85bc3d070eb28f9dbd50a8da05ca6fdb5",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.578672409057617
+    },
+    {
+      "example_id": "train_hop_7_terminal_mass:ergt43_pair_903860021_cf0",
+      "pair_id": "train_hop_7_terminal_mass:ergt43_pair_903860021",
+      "feature_sha256": "2077b5e6b387e7c7540a498a1da4b97b631f9f7e62a54e341d743bd394bd3240",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.606306076049805
+    },
+    {
+      "example_id": "train_hop_8_geodesic_action:ergt43_pair_963570012_cf1",
+      "pair_id": "train_hop_8_geodesic_action:ergt43_pair_963570012",
+      "feature_sha256": "8bd9e0b55b663788cc92748ca90c675baa13810d6094df9e7c1fd427f7564d15",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.69413948059082
+    },
+    {
+      "example_id": "train_hop_6_boundary_deficit:ergt43_pair_783610014_cf1",
+      "pair_id": "train_hop_6_boundary_deficit:ergt43_pair_783610014",
+      "feature_sha256": "788fec21cc1b22373780d00ed2561c34c8c0c704ec048bfb24cf7c16ec0dc041",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.495031356811523
+    },
+    {
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430017_cf0",
+      "pair_id": "train_hop_6_geodesic_action:ergt43_pair_763430017",
+      "feature_sha256": "04aca0cf64b27ba964e6b622a95214c011c22d4ada52e1a05e4700d4eb13c9d5",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.492748260498047
+    },
+    {
+      "example_id": "train_hop_6_boundary_deficit:ergt43_pair_783610011_cf0",
+      "pair_id": "train_hop_6_boundary_deficit:ergt43_pair_783610011",
+      "feature_sha256": "d8ffc64984a6324621d487a5db2fd555cbd903f0b28c1433bdabef7c8b48790c",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.478184700012207
+    },
+    {
+      "example_id": "train_hop_3_boundary_deficit:ergt43_pair_483400020_cf1",
+      "pair_id": "train_hop_3_boundary_deficit:ergt43_pair_483400020",
+      "feature_sha256": "fa329c3a880dd2356cbcac17052b1f9bc6065713ec38c9ddcd88717613a3444c",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.292611598968506
+    },
+    {
+      "example_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020011_cf1",
+      "pair_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020011",
+      "feature_sha256": "f9df9e2bcce5e20e7a5097002cbaee8dfc5aea40deb9ad7b41e303e4312121e5",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.67413902282715
+    },
+    {
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380021_cf1",
+      "pair_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380021",
+      "feature_sha256": "dfa7a4cfef96cda9efbb82f3f0d1dd7bcceb8911053cf3e619843460f0359ed6",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.372509002685547
+    },
+    {
+      "example_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660000_cf1",
+      "pair_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660000",
+      "feature_sha256": "c2da27b3a8610e4ff7dba208fb32e4d77391ac5b0afd764b0c30171e82e75d7b",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.679031372070312
+    },
+    {
+      "example_id": "train_hop_2_boundary_deficit:ergt43_pair_383330010_cf0",
+      "pair_id": "train_hop_2_boundary_deficit:ergt43_pair_383330010",
+      "feature_sha256": "fe3b8fef0ac7f5a159aa9ed92be2ed1ac23c50dd7dd120986868637e83e0f734",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.249019145965576
+    },
+    {
+      "example_id": "train_hop_3_memory_source_condition:ergt43_pair_513670007_cf1",
+      "pair_id": "train_hop_3_memory_source_condition:ergt43_pair_513670007",
+      "feature_sha256": "cfe32f187d1d351eddeb21747c1264629a97f778980860c516b17454dd475a6b",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.295286178588867
+    },
+    {
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510013_cf1",
+      "pair_id": "train_hop_2_terminal_mass:ergt43_pair_403510013",
+      "feature_sha256": "a05b35543a1eaf7f3971cfb465d10e79fc0869d78ed34931988b50fc0bdb5879",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.230757713317871
+    },
+    {
+      "example_id": "train_hop_2_payload_transport:ergt43_pair_393420001_cf0",
+      "pair_id": "train_hop_2_payload_transport:ergt43_pair_393420001",
+      "feature_sha256": "055778d8f9796e6ac14df5b688a6b1a890c0a681221473ddf5a5eeef5680242d",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.224384784698486
+    },
+    {
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380015_cf0",
+      "pair_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380015",
+      "feature_sha256": "dd387e4f56d6c781173f0320ea9cfbc91d501607d5136a9111febd29a4b1df78",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.377565383911133
+    },
+    {
+      "example_id": "train_hop_2_payload_transport:ergt43_pair_393420016_cf1",
+      "pair_id": "train_hop_2_payload_transport:ergt43_pair_393420016",
+      "feature_sha256": "5f3362fc478b439780ca8dd9eb20476c983f5c01587298f7556e8e6774ebc784",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.235624313354492
+    },
+    {
+      "example_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970021_cf0",
+      "pair_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970021",
+      "feature_sha256": "933ab0b7b6092233160d9244a413fa5747974d7db87eaff54b8e4b791439699b",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.530765533447266
+    },
+    {
+      "example_id": "train_hop_3_boundary_deficit:ergt43_pair_483400005_cf1",
+      "pair_id": "train_hop_3_boundary_deficit:ergt43_pair_483400005",
+      "feature_sha256": "2728cc2bda2e5481276a6409337d68d743dbb00d0959a3263e1cf22f65263393",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.298313140869141
+    },
+    {
+      "example_id": "train_hop_4_geodesic_action:ergt43_pair_563290021_cf0",
+      "pair_id": "train_hop_4_geodesic_action:ergt43_pair_563290021",
+      "feature_sha256": "1f9950cc4072fad6b52572aabb6e1d83ee7992ac61d199fa6f2ca2b668d924fb",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.385578155517578
+    },
+    {
+      "example_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660012_cf1",
+      "pair_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660012",
+      "feature_sha256": "a25f16e09ba157317b4045715e04fd8b75550ee6543ad3bce9d3343f77ee3237",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.676916122436523
+    },
+    {
+      "example_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970012_cf0",
+      "pair_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970012",
+      "feature_sha256": "070c9f0d4805442d39bd9a1e54d4a360d732a74c982c8721487c6991333d65b8",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.495333671569824
+    },
+    {
+      "example_id": "train_hop_1_boundary_deficit:ergt43_pair_283260010_cf1",
+      "pair_id": "train_hop_1_boundary_deficit:ergt43_pair_283260010",
+      "feature_sha256": "6a291cbeeff735800019e4cb928cdc638c490de7d9dca1f2cbcc7ff159be34eb",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.20489764213562
+    },
+    {
+      "example_id": "train_hop_8_terminal_mass:ergt43_pair_1003930019_cf0",
+      "pair_id": "train_hop_8_terminal_mass:ergt43_pair_1003930019",
+      "feature_sha256": "51aabf879e611aa05d96a50a62fd3cb41fa0099acc73bf0354482ddea260678a",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.6824951171875
+    },
+    {
+      "example_id": "train_hop_8_geodesic_action:ergt43_pair_963570004_cf0",
+      "pair_id": "train_hop_8_geodesic_action:ergt43_pair_963570004",
+      "feature_sha256": "25893fd4fcf1eea7230219c6f1dafcb15f7dcc14a6976baede6cd67b9beae192",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.71048927307129
+    },
+    {
+      "example_id": "train_hop_4_terminal_mass:ergt43_pair_603650000_cf0",
+      "pair_id": "train_hop_4_terminal_mass:ergt43_pair_603650000",
+      "feature_sha256": "f52af28368e6bc2aa21b49ed295a6d917ab12d4c167cb377a45ed0546ffb5f1b",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.361893653869629
+    },
+    {
+      "example_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020003_cf0",
+      "pair_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020003",
+      "feature_sha256": "f0a77060fb8380c1b48db654b19d557abfc80ec9a9960b247eb54ac953126c36",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.685197830200195
+    },
+    {
+      "example_id": "train_hop_3_boundary_deficit:ergt43_pair_483400015_cf1",
+      "pair_id": "train_hop_3_boundary_deficit:ergt43_pair_483400015",
+      "feature_sha256": "c16d7a459a8c18499e2d72776bfc56a5a433488484225c0be0fdc89c9580a030",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.306995391845703
+    },
+    {
+      "example_id": "train_hop_4_memory_source_condition:ergt43_pair_613740016_cf0",
+      "pair_id": "train_hop_4_memory_source_condition:ergt43_pair_613740016",
+      "feature_sha256": "56831345c9d36de9d519048ba3d89ff359f92d11080820659ce91a0b1928c9d3",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.369423866271973
+    },
+    {
+      "example_id": "train_hop_4_boundary_deficit:ergt43_pair_583470005_cf0",
+      "pair_id": "train_hop_4_boundary_deficit:ergt43_pair_583470005",
+      "feature_sha256": "6d0ef28c0f3e701bc4738347666061f32fedcc99441cd48a1babec45fd3f19cf",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.372142791748047
+    },
+    {
+      "example_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690013_cf1",
+      "pair_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690013",
+      "feature_sha256": "59e5c3015d9eafd22d16c4486448a298fd2d8324bca13806bf6baba383ac75c8",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.233192443847656
+    },
+    {
+      "example_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830008_cf0",
+      "pair_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830008",
+      "feature_sha256": "cb62ee2b1c4359d889ab56e72ecde8bdf0421b9b59e5e92a9fdfdae55de525cc",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.372109413146973
+    },
+    {
+      "example_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110021_cf1",
+      "pair_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110021",
+      "feature_sha256": "6bcfee1d19954c59395998549f7f0accec70e83ce7cacca3568fed4e1f6e66bf",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.714662551879883
+    },
+    {
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510014_cf1",
+      "pair_id": "train_hop_2_terminal_mass:ergt43_pair_403510014",
+      "feature_sha256": "c5f21e1e44941a865d974a0edbecb898d2a90cd1c027dbf19824ad2423de88f4",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.235127925872803
+    },
+    {
+      "example_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240014_cf0",
+      "pair_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240014",
+      "feature_sha256": "4ea4f419f5e94871dde13f970ef577bb9be7b1bcbe43d924bb57d75ab9ab8d3c",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.226916313171387
+    },
+    {
+      "example_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590019_cf0",
+      "pair_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590019",
+      "feature_sha256": "612020610cdde3a10bca96ecc4231fd6ffe5511903d0608b578f721f27b160b2",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.58334732055664
+    },
+    {
+      "example_id": "train_hop_5_payload_transport:ergt43_pair_693630014_cf1",
+      "pair_id": "train_hop_5_payload_transport:ergt43_pair_693630014",
+      "feature_sha256": "289d9fedc2ec81bdd954b2e7da6d5913543249a439c2bdedb3141accf738d304",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.430740356445312
+    },
+    {
+      "example_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040000_cf0",
+      "pair_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040000",
+      "feature_sha256": "d975d81fe1660a396b785c611127fd83371a97d4c4b7e903cd957b9ce8b45d1d",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.597711563110352
+    },
+    {
+      "example_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900014_cf0",
+      "pair_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900014",
+      "feature_sha256": "a4aa7079577bf9089942f07c7a58197237b3760f7160fd7a47b3435efd27cf40",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.439034461975098
+    },
+    {
+      "example_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900016_cf1",
+      "pair_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900016",
+      "feature_sha256": "ada311a86f11a865dde6ac86b447a9aaed8fa28b213d2ebfb8cc85fa5b643208",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.450552940368652
+    },
+    {
+      "example_id": "train_hop_1_memory_source_condition:ergt43_pair_313530010_cf0",
+      "pair_id": "train_hop_1_memory_source_condition:ergt43_pair_313530010",
+      "feature_sha256": "c4bf12824a9a9534821e7890aed8772a6931bf2607d29fe28d32d90af27322be",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.2055509090423584
+    },
+    {
+      "example_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900004_cf1",
+      "pair_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900004",
+      "feature_sha256": "962ad9a31dfee621b41d1e6a96d61ddd8e4de04d62918d3e94bdd826740c7ed1",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.450174331665039
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840007_cf1",
+      "pair_id": "train_hop_8_payload_transport:ergt43_pair_993840007",
+      "feature_sha256": "94c0eccb6703093dc7a593416c2de777dba6b70a0ba7655dc66733bd7ca66d8b",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.675771713256836
+    },
+    {
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430008_cf1",
+      "pair_id": "train_hop_6_geodesic_action:ergt43_pair_763430008",
+      "feature_sha256": "5ac20b44c828c425336e3e9973792ea53fb4e173b187a2f7dfb5376efec0e8f0",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.497830390930176
+    },
+    {
+      "example_id": "train_hop_7_terminal_mass:ergt43_pair_903860001_cf1",
+      "pair_id": "train_hop_7_terminal_mass:ergt43_pair_903860001",
+      "feature_sha256": "8104fb8bcd982cfb0673accc1671b4fbc7cd17b92f129e3843e3b5b7da4009df",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.586601257324219
+    },
+    {
+      "example_id": "train_hop_4_terminal_mass:ergt43_pair_603650000_cf1",
+      "pair_id": "train_hop_4_terminal_mass:ergt43_pair_603650000",
+      "feature_sha256": "8eb35dd788141dafea460e371e589842dc763f3e7c8fb32614633b7b9884acc7",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.364784240722656
+    },
+    {
+      "example_id": "train_hop_1_payload_transport:ergt43_pair_293350023_cf1",
+      "pair_id": "train_hop_1_payload_transport:ergt43_pair_293350023",
+      "feature_sha256": "00124ff5c92d1426387a838207875645f86f8afacf4879cac1724307467fba27",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.166882276535034
+    },
+    {
+      "example_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450010_cf0",
+      "pair_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450010",
+      "feature_sha256": "9b4178c796c0e9cbd478232a00a76fb59c6b6be2a098f8005b5559ce33840488",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.448575973510742
+    },
+    {
+      "example_id": "train_hop_5_payload_transport:ergt43_pair_693630008_cf0",
+      "pair_id": "train_hop_5_payload_transport:ergt43_pair_693630008",
+      "feature_sha256": "6a682e870a20223f166bc48f088c79440206496ab2670588dbc92577011be7f6",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.432734489440918
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220016_cf0",
+      "pair_id": "train_hop_3_geodesic_action:ergt43_pair_463220016",
+      "feature_sha256": "75e03bd24370ffd9027f78529abc1b108830f4cd78dc7c088f237ea17c2ad5e8",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.304203033447266
+    },
+    {
+      "example_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760018_cf0",
+      "pair_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760018",
+      "feature_sha256": "5c52beecdaa1348683641023de428fbf065064476cfd34d9dfd2a466f89300d0",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.303494453430176
+    },
+    {
+      "example_id": "train_hop_7_geodesic_action:ergt43_pair_863500004_cf0",
+      "pair_id": "train_hop_7_geodesic_action:ergt43_pair_863500004",
+      "feature_sha256": "1f86aa1455d37133801221e8ad206c0232a79a036e56f40c7a55c5481a7c806d",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.619407653808594
+    },
+    {
+      "example_id": "train_hop_1_payload_transport:ergt43_pair_293350021_cf1",
+      "pair_id": "train_hop_1_payload_transport:ergt43_pair_293350021",
+      "feature_sha256": "8553e2e1e3b0b37de1e7f2d06eb7127ad7d33fdba4e8c9dac68f27516a7d9445",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.178875684738159
+    },
+    {
+      "example_id": "train_hop_8_boundary_deficit:ergt43_pair_983750020_cf0",
+      "pair_id": "train_hop_8_boundary_deficit:ergt43_pair_983750020",
+      "feature_sha256": "f3ec29bff341548699cac932001ca88f64423a7ae8c12f760aa65ded05939df6",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.674028396606445
+    },
+    {
+      "example_id": "train_hop_4_boundary_deficit:ergt43_pair_583470021_cf0",
+      "pair_id": "train_hop_4_boundary_deficit:ergt43_pair_583470021",
+      "feature_sha256": "79d677f92cb405b83e941b92a9cff799e0c447e4c6b563f26d9c3dccbc418f8a",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.395890235900879
+    },
+    {
+      "example_id": "train_hop_2_geodesic_action:ergt43_pair_363150002_cf1",
+      "pair_id": "train_hop_2_geodesic_action:ergt43_pair_363150002",
+      "feature_sha256": "78318dfc055c80d76ed3ff6feaf12a7178dd610c9eab6b6f5501810c1ab16a8a",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.246480941772461
+    },
+    {
+      "example_id": "train_hop_1_terminal_mass:ergt43_pair_303440008_cf1",
+      "pair_id": "train_hop_1_terminal_mass:ergt43_pair_303440008",
+      "feature_sha256": "31788a202cc6c1ca24f2ab0f6ff0ac13c82c1e4700e880eef019c289e056aa34",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1733665466308594
+    },
+    {
+      "example_id": "train_hop_6_boundary_deficit:ergt43_pair_783610011_cf1",
+      "pair_id": "train_hop_6_boundary_deficit:ergt43_pair_783610011",
+      "feature_sha256": "722936980aad1dbefd0fcd3e537804986a34a52086094a0f9056ec530fb40f0e",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.47805404663086
+    },
+    {
+      "example_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620017_cf0",
+      "pair_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620017",
+      "feature_sha256": "b3490bf198b34c08e6471964838a6c3c9e08c3af4b290b7242fc4c54be432d07",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1670093536376953
+    },
+    {
+      "example_id": "train_hop_2_payload_transport:ergt43_pair_393420014_cf0",
+      "pair_id": "train_hop_2_payload_transport:ergt43_pair_393420014",
+      "feature_sha256": "4649af8aa3afeded5374a22993d1cbdab618d71ffef7327377af9d85ca0ad472",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.233520984649658
+    },
+    {
+      "example_id": "train_hop_4_geodesic_action:ergt43_pair_563290012_cf0",
+      "pair_id": "train_hop_4_geodesic_action:ergt43_pair_563290012",
+      "feature_sha256": "fc6660fbfb8e9e9da99afdc72ff935f9b38a90a6ff389abd504d3f513106c9d6",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.368162155151367
+    },
+    {
+      "example_id": "train_hop_3_memory_source_condition:ergt43_pair_513670002_cf0",
+      "pair_id": "train_hop_3_memory_source_condition:ergt43_pair_513670002",
+      "feature_sha256": "0b87cc5e5b18f5ba1ca78a683510ea48c8890044b7ec6f7b8d0de18a1f9581b6",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.300578594207764
+    },
+    {
+      "example_id": "train_hop_4_terminal_mass:ergt43_pair_603650019_cf1",
+      "pair_id": "train_hop_4_terminal_mass:ergt43_pair_603650019",
+      "feature_sha256": "877716f8d742b40e872029256a96eebfa033cb8a28c73adec304b3309ea43f3e",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.368583679199219
+    },
+    {
+      "example_id": "train_hop_4_geodesic_action:ergt43_pair_563290021_cf1",
+      "pair_id": "train_hop_4_geodesic_action:ergt43_pair_563290021",
+      "feature_sha256": "4bed86a103f93ccf65a2cfede7e3dc15a01586b89da3b15e50829bab6e1697e3",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.382951736450195
+    },
+    {
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770008_cf0",
+      "pair_id": "train_hop_7_payload_transport:ergt43_pair_893770008",
+      "feature_sha256": "6c0f4eda6849b8f77e1e673d33b40cae6bfdb960b415c68f8c841f60f5f0e6aa",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.58366584777832
+    },
+    {
+      "example_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690016_cf0",
+      "pair_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690016",
+      "feature_sha256": "17e8af1f14c800ca4ea8c6459433f9b2e788f33ea6cea474ddd4b7f02d093cb6",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.250513553619385
+    },
+    {
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430017_cf1",
+      "pair_id": "train_hop_6_geodesic_action:ergt43_pair_763430017",
+      "feature_sha256": "54767db7bc286ac93aa7821f674ed33b8c1c7e4395ad3515333d486dc23f4d71",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.493903160095215
+    },
+    {
+      "example_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830008_cf1",
+      "pair_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830008",
+      "feature_sha256": "d4655a3ad55b201dc550ecf8ddcb57ecbb556aac9c98a5ffd8afeafcd0184eae",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.374943733215332
+    },
+    {
+      "example_id": "train_hop_4_geodesic_action:ergt43_pair_563290005_cf0",
+      "pair_id": "train_hop_4_geodesic_action:ergt43_pair_563290005",
+      "feature_sha256": "ff4e13d2c424a7eab711fadc29ba18f1d36faad1c8533e3f5b3a0d3c608e64dc",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.374079704284668
+    },
+    {
+      "example_id": "train_hop_1_payload_transport:ergt43_pair_293350023_cf0",
+      "pair_id": "train_hop_1_payload_transport:ergt43_pair_293350023",
+      "feature_sha256": "ecfda0c82142f23b8db99e3c4aed2017f21fde4fe2af5f810cc48d46be4a1421",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1657447814941406
+    },
+    {
+      "example_id": "train_hop_5_geodesic_action:ergt43_pair_663360013_cf0",
+      "pair_id": "train_hop_5_geodesic_action:ergt43_pair_663360013",
+      "feature_sha256": "e6249be49ada31be4f65d2831edfd896f1157ceb849df51a4c006be448e8b857",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.440069198608398
+    },
+    {
+      "example_id": "train_hop_7_boundary_deficit:ergt43_pair_883680010_cf1",
+      "pair_id": "train_hop_7_boundary_deficit:ergt43_pair_883680010",
+      "feature_sha256": "a35367b2a054c0381ba7bc06a10aa5f9770d2c6bbb36a13f738f8f4fc8554bd5",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.602527618408203
+    },
+    {
+      "example_id": "train_hop_1_payload_transport:ergt43_pair_293350019_cf0",
+      "pair_id": "train_hop_1_payload_transport:ergt43_pair_293350019",
+      "feature_sha256": "1fbec37f675fd4c55e66b2b2a08cf8b5ab8da3ec06d18f25949abe5bad0c7b81",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1730668544769287
+    },
+    {
+      "example_id": "train_hop_4_payload_transport:ergt43_pair_593560014_cf1",
+      "pair_id": "train_hop_4_payload_transport:ergt43_pair_593560014",
+      "feature_sha256": "c10d6849ca1e4d82170838d96691f8f65e8c2b58baf85d152185ada1a2912af9",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.36316204071045
+    },
+    {
+      "example_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690012_cf0",
+      "pair_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690012",
+      "feature_sha256": "e6dcbb8b56612f9d1740b16109e89e280e0ac4e479611f6dd39837370e47cbd8",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.245668411254883
+    },
+    {
+      "example_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590015_cf0",
+      "pair_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590015",
+      "feature_sha256": "775f00a5657f908791263ab054c01be4877bda3ff2483d4122893722a25875a7",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.611104011535645
+    },
+    {
+      "example_id": "train_hop_6_payload_transport:ergt43_pair_793700019_cf1",
+      "pair_id": "train_hop_6_payload_transport:ergt43_pair_793700019",
+      "feature_sha256": "91061f33bb70dce4944abcb94c1f838700206ce836a044af343dd186f48c646f",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.500102996826172
+    },
+    {
+      "example_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830001_cf0",
+      "pair_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830001",
+      "feature_sha256": "8c273cad449a871787184953946f47ccb1f5ff2c40e20ec26bcb80314a6b9479",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.385214805603027
+    },
+    {
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380021_cf0",
+      "pair_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380021",
+      "feature_sha256": "9cb6f3ca3c4fcc0a22b46a6145aa2fc47ac10c1eed381f8e285804a3b45fceda",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.372437477111816
+    },
+    {
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310018_cf0",
+      "pair_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310018",
+      "feature_sha256": "f73a7bda3cfd6942fca8c92915aba765130ec22c00e066fe8c8dc2c5883468eb",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.285106658935547
+    },
+    {
+      "example_id": "train_hop_2_geodesic_action:ergt43_pair_363150010_cf1",
+      "pair_id": "train_hop_2_geodesic_action:ergt43_pair_363150010",
+      "feature_sha256": "0dadcb7a16ed6c733ce8a3a852019f72f24827bff8e07fa8bc71f636b81eee9c",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.26827335357666
+    },
+    {
+      "example_id": "train_hop_6_payload_transport:ergt43_pair_793700009_cf1",
+      "pair_id": "train_hop_6_payload_transport:ergt43_pair_793700009",
+      "feature_sha256": "9e5ffdf226045ea5d03a92fa673f9cd282354263a225646af2da69fc599eb8c8",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.503564834594727
+    },
+    {
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170003_cf1",
+      "pair_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170003",
+      "feature_sha256": "31c593563cef7901202a097aefd38caa8a2822d761cfa91bab4f1f3b9112a3ed",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.173727035522461
+    },
+    {
+      "example_id": "train_hop_6_memory_source_condition:ergt43_pair_813880022_cf1",
+      "pair_id": "train_hop_6_memory_source_condition:ergt43_pair_813880022",
+      "feature_sha256": "ab04f2c146e87ccc28ea1e24b8b291c13fb06f0c59f4265154d7b217cf9156cb",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.496655464172363
+    },
+    {
+      "example_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110000_cf0",
+      "pair_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110000",
+      "feature_sha256": "97e565962af1c2ec5a6a9e962703bc3303783e15b33ef3d6e0a01cc228ab41be",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.681781768798828
+    },
+    {
+      "example_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240001_cf0",
+      "pair_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240001",
+      "feature_sha256": "289edd08bd719f4c9f451a5485f7ecb427ce4a770b28de200b8ef953a1f11801",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.220517158508301
+    },
+    {
+      "example_id": "train_hop_8_terminal_mass:ergt43_pair_1003930000_cf0",
+      "pair_id": "train_hop_8_terminal_mass:ergt43_pair_1003930000",
+      "feature_sha256": "e8a6fc0033b6fdd62c9b2e2254c67182904dce759a28e8f795336f8baae22c8b",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.68465232849121
+    },
+    {
+      "example_id": "train_hop_2_geodesic_action:ergt43_pair_363150001_cf1",
+      "pair_id": "train_hop_2_geodesic_action:ergt43_pair_363150001",
+      "feature_sha256": "02288195bd3e0958ef2060b55148eeb304585343203ac6bfc9484e443c3f1592",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.239614486694336
+    },
+    {
+      "example_id": "train_hop_2_memory_source_condition:ergt43_pair_413600012_cf1",
+      "pair_id": "train_hop_2_memory_source_condition:ergt43_pair_413600012",
+      "feature_sha256": "33d3ac275d1536317ae19b333a29069b979fe1f6b19abf28cd7a5e4d0e7de331",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.2330474853515625
+    },
+    {
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380015_cf1",
+      "pair_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380015",
+      "feature_sha256": "b3276d45e98a0d640aebc45d0c854f636ed5e6d1c193a159d06650043eba7a18",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.377394676208496
+    },
+    {
+      "example_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520006_cf0",
+      "pair_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520006",
+      "feature_sha256": "403dd38d4a29e3bc7d2329980edc8bfac9cafb639aafd5d9a2f8c5622e2cabe7",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.490126609802246
+    },
+    {
+      "example_id": "train_hop_1_boundary_deficit:ergt43_pair_283260008_cf1",
+      "pair_id": "train_hop_1_boundary_deficit:ergt43_pair_283260008",
+      "feature_sha256": "866c4218f9485f38984fb892066b15420802ae272c3961487816754e7ceee479",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1724486351013184
+    },
+    {
+      "example_id": "train_hop_1_memory_source_condition:ergt43_pair_313530000_cf0",
+      "pair_id": "train_hop_1_memory_source_condition:ergt43_pair_313530000",
+      "feature_sha256": "94b351407dc471d2538cce127a12e18d9fd5fe903ba5a7fc44850b82d63bcd99",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.176044225692749
+    },
+    {
+      "example_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830019_cf1",
+      "pair_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830019",
+      "feature_sha256": "b2288023eba7f1639a754833939798208a41da394b02427de23a27f24dab8f21",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.374536514282227
+    },
+    {
+      "example_id": "train_hop_5_memory_source_condition:ergt43_pair_713810002_cf0",
+      "pair_id": "train_hop_5_memory_source_condition:ergt43_pair_713810002",
+      "feature_sha256": "088d851b53ea5070af9e5e0aa8769a846d9ddcd22d8082a8801e37b0f963c6bf",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.427485466003418
+    },
+    {
+      "example_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970002_cf1",
+      "pair_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970002",
+      "feature_sha256": "f4d940968f9d2175d451def3bb9a26c1fc67f59fda0c1859f459bbd2c59770e3",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.497129440307617
+    },
+    {
+      "example_id": "train_hop_2_geodesic_action:ergt43_pair_363150002_cf0",
+      "pair_id": "train_hop_2_geodesic_action:ergt43_pair_363150002",
+      "feature_sha256": "6fdd28310658e435fa222c47103970a8d84471b6334f97990f6ce3a44399a206",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.243277549743652
+    },
+    {
+      "example_id": "train_hop_6_memory_source_condition:ergt43_pair_813880005_cf0",
+      "pair_id": "train_hop_6_memory_source_condition:ergt43_pair_813880005",
+      "feature_sha256": "246660dc2e697e2b729f5b968a47aeedb3a9ccc95861f7b965744da230e01814",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.488471984863281
+    },
+    {
+      "example_id": "train_hop_5_payload_transport:ergt43_pair_693630016_cf1",
+      "pair_id": "train_hop_5_payload_transport:ergt43_pair_693630016",
+      "feature_sha256": "f0cb5dcf708bae2163633e4476d9fe51cf039e63e7058bb19467a65f857e0250",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.441324234008789
+    },
+    {
+      "example_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110015_cf0",
+      "pair_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110015",
+      "feature_sha256": "7af30a1223d1cfdd72c09a39282cfa300128fface7b92631c1bde93a0ba5c1eb",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.722442626953125
+    },
+    {
+      "example_id": "train_hop_1_terminal_mass:ergt43_pair_303440021_cf0",
+      "pair_id": "train_hop_1_terminal_mass:ergt43_pair_303440021",
+      "feature_sha256": "7018e6631eaf8b5e90a7c61200c9e89a3bbc844c78f4b663b1e9bddcf544a665",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.183021306991577
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220011_cf1",
+      "pair_id": "train_hop_3_geodesic_action:ergt43_pair_463220011",
+      "feature_sha256": "6c74f869ba19204f6719d15f41cc469516d523cd8c38a61e3577ce247850f716",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.288435935974121
+    },
+    {
+      "example_id": "train_hop_3_payload_transport:ergt43_pair_493490021_cf1",
+      "pair_id": "train_hop_3_payload_transport:ergt43_pair_493490021",
+      "feature_sha256": "696049434197bf096ffaab06301e212068d607fb6fa5a933b806bec041ec2a2f",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.309349060058594
+    },
+    {
+      "example_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660015_cf0",
+      "pair_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660015",
+      "feature_sha256": "822c84ab8f4b6ee4e350f469c01b1a793b61698a77a555196c332cb2bb574e83",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.70118522644043
+    },
+    {
+      "example_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020003_cf1",
+      "pair_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020003",
+      "feature_sha256": "db6dbf8f3382bab8728412c9f82e8eec19e70922ec4fbca454a6ee2fefdf9af3",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.686052322387695
+    },
+    {
+      "example_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970012_cf1",
+      "pair_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970012",
+      "feature_sha256": "c92dea727325f5ea68e8918de434d42f6b67167dff47b6e1636689571c630a99",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.49791431427002
+    },
+    {
+      "example_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620018_cf0",
+      "pair_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620018",
+      "feature_sha256": "49f829d98cd4ea441e6ce53c3d3ed93f4943682c1ad62de8d64b1e35212c5c22",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1800687313079834
+    },
+    {
+      "example_id": "train_hop_3_memory_source_condition:ergt43_pair_513670002_cf1",
+      "pair_id": "train_hop_3_memory_source_condition:ergt43_pair_513670002",
+      "feature_sha256": "dbf241e3bf255e4d98194bd35327279d8212cf329bd5b4131ac5b60b4bbacc4d",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.299196243286133
+    },
+    {
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720011_cf1",
+      "pair_id": "train_hop_5_terminal_mass:ergt43_pair_703720011",
+      "feature_sha256": "591841c8a2a51f9ca1f43965b8976392523d3ab2f65c0bbdcc2f05cd8d4909a0",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.41759967803955
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220016_cf1",
+      "pair_id": "train_hop_3_geodesic_action:ergt43_pair_463220016",
+      "feature_sha256": "d9bb079335b4fb287bb3d714589a37e60fc7aa4e9c7ce1b2c74ec133659f58a5",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.298221111297607
+    },
+    {
+      "example_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520006_cf1",
+      "pair_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520006",
+      "feature_sha256": "985db7db27eb81c4789f0c9382c68a2afe1bb066b4930786a794cb3c29fc6fa2",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.491632461547852
+    },
+    {
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310021_cf1",
+      "pair_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310021",
+      "feature_sha256": "50ae9af712a8712666a4b9a304ccbd72f04fc0ebbb1162381b017f5acd362567",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.300029277801514
+    },
+    {
+      "example_id": "train_hop_6_memory_source_condition:ergt43_pair_813880003_cf0",
+      "pair_id": "train_hop_6_memory_source_condition:ergt43_pair_813880003",
+      "feature_sha256": "0536988689f448ddd3333fd170d834b365357e90e9cc195fe2cb85d5049f6627",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.497557640075684
+    },
+    {
+      "example_id": "train_hop_4_payload_transport:ergt43_pair_593560009_cf1",
+      "pair_id": "train_hop_4_payload_transport:ergt43_pair_593560009",
+      "feature_sha256": "9f9c5dcf3aa41c004bfe4caf76e72675aa75a56b44e1af8e04ca10ddb03aa9a2",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.358269691467285
+    },
+    {
+      "example_id": "train_hop_3_memory_source_condition:ergt43_pair_513670015_cf0",
+      "pair_id": "train_hop_3_memory_source_condition:ergt43_pair_513670015",
+      "feature_sha256": "1c84faa180d8f0bb7b986dc21f152311cfb5a44df3849ed3088cd23c3a1918f7",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.311030387878418
+    },
+    {
+      "example_id": "train_hop_5_boundary_deficit:ergt43_pair_683540011_cf1",
+      "pair_id": "train_hop_5_boundary_deficit:ergt43_pair_683540011",
+      "feature_sha256": "f74309ee6b0d03f0691a6217db926c4a39b173c98aa1ee99f7640dbd7f0f876f",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.426217079162598
+    },
+    {
+      "example_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020000_cf0",
+      "pair_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020000",
+      "feature_sha256": "7422f12b28fc035df051ef9d188320881a2da7b31fb9c6384ce945e336e5f24e",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.678253173828125
+    },
+    {
+      "example_id": "train_hop_5_boundary_deficit:ergt43_pair_683540011_cf0",
+      "pair_id": "train_hop_5_boundary_deficit:ergt43_pair_683540011",
+      "feature_sha256": "241ce256e9e014b41f7b4a66303487a7a3d9a5e911338fbf771a43be457dc5ae",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.424227714538574
+    },
+    {
+      "example_id": "train_hop_3_terminal_mass:ergt43_pair_503580005_cf1",
+      "pair_id": "train_hop_3_terminal_mass:ergt43_pair_503580005",
+      "feature_sha256": "373a04c89801f4d18226a8d3277469f6388f53b713ef6995baa60b315751eba0",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.310462951660156
+    },
+    {
+      "example_id": "train_hop_1_payload_transport:ergt43_pair_293350021_cf0",
+      "pair_id": "train_hop_1_payload_transport:ergt43_pair_293350021",
+      "feature_sha256": "c45d44bad7fad79833fff24b4bdb1524b33874e892d18f2b126d95b561b9778a",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1790695190429688
+    },
+    {
+      "example_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040021_cf0",
+      "pair_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040021",
+      "feature_sha256": "0c6ca759e17e90ab020e544c160a307705bc076a444abd57aca4b348d5d99772",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.609963417053223
+    },
+    {
+      "example_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590011_cf0",
+      "pair_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590011",
+      "feature_sha256": "ad28253075bcbc197c781f710381bb4f235ba44187a5f16a3f40b36807cc45d1",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.57741928100586
+    },
+    {
+      "example_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240008_cf1",
+      "pair_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240008",
+      "feature_sha256": "0d698b2a7e56dd7fd9555612a447cabb37cac39105d87a2fc784028f8a518311",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.2227654457092285
+    },
+    {
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720014_cf1",
+      "pair_id": "train_hop_5_terminal_mass:ergt43_pair_703720014",
+      "feature_sha256": "57dfd0da959a21b3f5228413b3dbf929e35544762389a4addec1542de3fb9fce",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.428311347961426
+    },
+    {
+      "example_id": "train_hop_8_boundary_deficit:ergt43_pair_983750019_cf0",
+      "pair_id": "train_hop_8_boundary_deficit:ergt43_pair_983750019",
+      "feature_sha256": "0faf035d1dd8224b40d2eb522f4ae586ba25c65ffa2e33aa3201436bd7619614",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.687976837158203
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840014_cf1",
+      "pair_id": "train_hop_8_payload_transport:ergt43_pair_993840014",
+      "feature_sha256": "d739b4ea932f9ac5a9b49526b22cf15b8b28796e8b00de7c765d3d8dee1879a0",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.660856246948242
+    },
+    {
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720004_cf0",
+      "pair_id": "train_hop_5_terminal_mass:ergt43_pair_703720004",
+      "feature_sha256": "1ce77fc2eda4aac573d1d2353996500a48b8ec948aad9e68fbf527c2bc483270",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.442267417907715
+    },
+    {
+      "example_id": "train_hop_3_boundary_deficit:ergt43_pair_483400017_cf0",
+      "pair_id": "train_hop_3_boundary_deficit:ergt43_pair_483400017",
+      "feature_sha256": "5a404766d2644fa02b9d41a466a2a995b0f91c75bb4408f4448141e86dfd7019",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.290966987609863
+    },
+    {
+      "example_id": "train_hop_5_boundary_deficit:ergt43_pair_683540007_cf0",
+      "pair_id": "train_hop_5_boundary_deficit:ergt43_pair_683540007",
+      "feature_sha256": "7b0693aab71e1e380ad448e4d65282d238cb158f36a802624c63d642f574efc4",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.437748908996582
+    },
+    {
+      "example_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690022_cf0",
+      "pair_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690022",
+      "feature_sha256": "3a569b99b0fe74cc008ad5d0ba59791a6fb6084db75aac63174fd71e8b99c6d7",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.246336460113525
+    },
+    {
+      "example_id": "train_hop_7_geodesic_action:ergt43_pair_863500004_cf1",
+      "pair_id": "train_hop_7_geodesic_action:ergt43_pair_863500004",
+      "feature_sha256": "1d4f1048a6c7571c17b94d656d1c68ed2fbe3dc114565544da0e05d7022fc2b3",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.617533683776855
+    },
+    {
+      "example_id": "train_hop_1_boundary_deficit:ergt43_pair_283260017_cf0",
+      "pair_id": "train_hop_1_boundary_deficit:ergt43_pair_283260017",
+      "feature_sha256": "8648f3a3c67b5d67396e4584f40680ce1a12576dc44d81bf2c1d79d59981218c",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1635165214538574
+    },
+    {
+      "example_id": "train_hop_6_memory_source_condition:ergt43_pair_813880011_cf1",
+      "pair_id": "train_hop_6_memory_source_condition:ergt43_pair_813880011",
+      "feature_sha256": "4d536a249112d8bc15541e1de2496a88f6cd10ceef68a59c4cfa24ede0d31203",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.498176574707031
+    },
+    {
+      "example_id": "train_hop_5_boundary_deficit:ergt43_pair_683540007_cf1",
+      "pair_id": "train_hop_5_boundary_deficit:ergt43_pair_683540007",
+      "feature_sha256": "354e20c5a5771f43e9e02f7a9019f7f0d0516a27ea45a4be89e8e2a021df869a",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.434703826904297
+    },
+    {
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170000_cf0",
+      "pair_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170000",
+      "feature_sha256": "c3e9690fbb72694b868c7e926a8e4c698924c1ff7f5963a9b460202d853e0013",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1723339557647705
+    },
+    {
+      "example_id": "train_hop_1_payload_transport:ergt43_pair_293350019_cf1",
+      "pair_id": "train_hop_1_payload_transport:ergt43_pair_293350019",
+      "feature_sha256": "2df0e49904af42c21f7677bbdfbf0c3603d8cf3b6343489e44e60e53ef7547c9",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.171499013900757
+    },
+    {
+      "example_id": "train_hop_3_payload_transport:ergt43_pair_493490014_cf1",
+      "pair_id": "train_hop_3_payload_transport:ergt43_pair_493490014",
+      "feature_sha256": "bd0f40d7133bda11d6fb4aa2696dcf791efaf5904aab50e925cd310cd60cfe03",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.286842346191406
+    },
+    {
+      "example_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240003_cf1",
+      "pair_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240003",
+      "feature_sha256": "d98cbd8853b8ddb5f858a7e7d3c4f7298d78e300c033ffaa7d812cd33b40e03d",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.240103721618652
+    },
+    {
+      "example_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590015_cf1",
+      "pair_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590015",
+      "feature_sha256": "ed1bc5cb1bc86634146417a75bea610e3607fac03e82518328b9a58b33d6b15b",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.61341667175293
+    },
+    {
+      "example_id": "train_hop_5_geodesic_action:ergt43_pair_663360004_cf1",
+      "pair_id": "train_hop_5_geodesic_action:ergt43_pair_663360004",
+      "feature_sha256": "09ac21f328d33115cf8062d35bff4c23deff4972bd1f38c7f8712799b60f73a7",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.455820083618164
+    },
+    {
+      "example_id": "train_hop_8_geodesic_action:ergt43_pair_963570012_cf0",
+      "pair_id": "train_hop_8_geodesic_action:ergt43_pair_963570012",
+      "feature_sha256": "5958d531f73ff8c82c2b29a6afbaacaccf920102ad12f72341129f5b4a57a9f5",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.69255256652832
+    },
+    {
+      "example_id": "train_hop_2_boundary_deficit:ergt43_pair_383330003_cf1",
+      "pair_id": "train_hop_2_boundary_deficit:ergt43_pair_383330003",
+      "feature_sha256": "bb98cd8bb6b9a996f2be482ebc5f93f3bcd895ebac14352fc4b2579f5ad8c8a7",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.2423529624938965
+    },
+    {
+      "example_id": "train_hop_3_memory_source_condition:ergt43_pair_513670014_cf1",
+      "pair_id": "train_hop_3_memory_source_condition:ergt43_pair_513670014",
+      "feature_sha256": "f4e288a6398d8aee97cc4e6e2f20b36088f3277b66a5eadde6f772fe03609c22",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.292084693908691
+    },
+    {
+      "example_id": "train_hop_4_memory_source_condition:ergt43_pair_613740002_cf1",
+      "pair_id": "train_hop_4_memory_source_condition:ergt43_pair_613740002",
+      "feature_sha256": "dd4de86bdc53ccc8bbf1cfeacb1fdd0b5b2aa1ada414dc83f1f076e14adaf30a",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.361103057861328
+    },
+    {
+      "example_id": "train_hop_6_payload_transport:ergt43_pair_793700009_cf0",
+      "pair_id": "train_hop_6_payload_transport:ergt43_pair_793700009",
+      "feature_sha256": "3561fdc137646222235c8b37b1b0a6dba14323ec06f77508761a6936b49ad9a2",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.505706787109375
+    },
+    {
+      "example_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660000_cf0",
+      "pair_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660000",
+      "feature_sha256": "c603c9504c312573ba4ac4f13d9a77aaa4444c45037192e818540d70f465a35d",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.679222106933594
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220020_cf0",
+      "pair_id": "train_hop_3_geodesic_action:ergt43_pair_463220020",
+      "feature_sha256": "f617bf894e9389b670320a07bf184fa31708fcbc13289aefdbd73ed01df9d61f",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.300409317016602
+    },
+    {
+      "example_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660015_cf1",
+      "pair_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660015",
+      "feature_sha256": "7bb7efa38fad352166182cb6640bc102c5387cdbf7c65adb142d86c55ceaaef1",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.702869415283203
+    },
+    {
+      "example_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590008_cf0",
+      "pair_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590008",
+      "feature_sha256": "e2da6fe54bd5d7dea62fb6667298e36c1e18e898d765846961ee4da18ddb9480",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.576624870300293
+    },
+    {
+      "example_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900014_cf1",
+      "pair_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900014",
+      "feature_sha256": "40d41c2be302d722195704c85784a0709a80d5b2ce48a6b533c1a7d1e938c5ba",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.43613052368164
+    },
+    {
+      "example_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620018_cf1",
+      "pair_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620018",
+      "feature_sha256": "2ea0940c0203cc478d86bb9d39c8e5074a0b6b19d04add187e7656c1dfafe882",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1886088848114014
+    },
+    {
+      "example_id": "train_hop_2_boundary_deficit:ergt43_pair_383330013_cf1",
+      "pair_id": "train_hop_2_boundary_deficit:ergt43_pair_383330013",
+      "feature_sha256": "0bff12e756124a5709038442bad0d836954f61eb6139fc518222113b1a0e8e5e",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.2304368019104
+    },
+    {
+      "example_id": "train_hop_1_boundary_deficit:ergt43_pair_283260023_cf0",
+      "pair_id": "train_hop_1_boundary_deficit:ergt43_pair_283260023",
+      "feature_sha256": "7b1ce91ae3cff89d5b4098b01737c9832a53fbc77dee01fd2953e326d1f60c44",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1740667819976807
+    },
+    {
+      "example_id": "train_hop_6_payload_transport:ergt43_pair_793700019_cf0",
+      "pair_id": "train_hop_6_payload_transport:ergt43_pair_793700019",
+      "feature_sha256": "920b3640b109a0cb1db2832d8fa04552610bc2ed0f1d39059dd7cc5d74b2f301",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.500589370727539
+    },
+    {
+      "example_id": "train_hop_4_terminal_mass:ergt43_pair_603650019_cf0",
+      "pair_id": "train_hop_4_terminal_mass:ergt43_pair_603650019",
+      "feature_sha256": "eb3fde1e336edb77266343b6674257c851ee98f6982d5ad2d3079bb3e1a66607",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.367193222045898
+    },
+    {
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380016_cf0",
+      "pair_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380016",
+      "feature_sha256": "991b3897e28d6bc0501a79894ad2829e451da73ad31e07b6d3a36434c42948a6",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.363758087158203
+    },
+    {
+      "example_id": "train_hop_8_boundary_deficit:ergt43_pair_983750019_cf1",
+      "pair_id": "train_hop_8_boundary_deficit:ergt43_pair_983750019",
+      "feature_sha256": "58a3df82953d57951bf83001ef821b7f221dc429c49c8c17cda4fce3672a9d40",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.6879825592041
+    },
+    {
+      "example_id": "train_hop_1_geodesic_action:ergt43_pair_263080014_cf1",
+      "pair_id": "train_hop_1_geodesic_action:ergt43_pair_263080014",
+      "feature_sha256": "291d1d7515ddde9849297329adb9fd8d06e2a048699865a0c8d235cb856f752e",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1770389080047607
+    },
+    {
+      "example_id": "train_hop_7_geodesic_action:ergt43_pair_863500000_cf1",
+      "pair_id": "train_hop_7_geodesic_action:ergt43_pair_863500000",
+      "feature_sha256": "ae62517c59434586710fae8e46e4e4cf7c62d3e183c399760e5ba6a8d36e0d7a",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.600799560546875
+    },
+    {
+      "example_id": "train_hop_4_payload_transport:ergt43_pair_593560000_cf0",
+      "pair_id": "train_hop_4_payload_transport:ergt43_pair_593560000",
+      "feature_sha256": "bfd47073605a78d14b9c7eae206e01268721ff1fdb50e1afa9e49d1c6316f8a9",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.36225700378418
+    },
+    {
+      "example_id": "train_hop_7_terminal_mass:ergt43_pair_903860008_cf1",
+      "pair_id": "train_hop_7_terminal_mass:ergt43_pair_903860008",
+      "feature_sha256": "234a7983c9b819f61b7d087314797f8666ab539bf71f98256ff32dddd6d77563",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.577533721923828
+    },
+    {
+      "example_id": "train_hop_2_memory_source_condition:ergt43_pair_413600015_cf0",
+      "pair_id": "train_hop_2_memory_source_condition:ergt43_pair_413600015",
+      "feature_sha256": "4fc96b835561dc1098b1aa15c775a9a3f2d28ef8dfbd8750e76ce115e27c4843",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.249431133270264
+    },
+    {
+      "example_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970019_cf1",
+      "pair_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970019",
+      "feature_sha256": "0710f161dfd77c62560a900097f9faa358860315d49a0499f8218d71437a34a3",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.505878448486328
+    },
+    {
+      "example_id": "train_hop_2_memory_source_condition:ergt43_pair_413600008_cf0",
+      "pair_id": "train_hop_2_memory_source_condition:ergt43_pair_413600008",
+      "feature_sha256": "5351a0e301077fa3eb648fa21ddcd168bc5d4439c85a806c8e027e186072ae5b",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.233091831207275
+    },
+    {
+      "example_id": "train_hop_5_memory_source_condition:ergt43_pair_713810002_cf1",
+      "pair_id": "train_hop_5_memory_source_condition:ergt43_pair_713810002",
+      "feature_sha256": "327293f12f275c600d81ea52a352f067d055fd72dd3dad5263d087c6147b1605",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.429262161254883
+    },
+    {
+      "example_id": "train_hop_3_boundary_deficit:ergt43_pair_483400015_cf0",
+      "pair_id": "train_hop_3_boundary_deficit:ergt43_pair_483400015",
+      "feature_sha256": "f35eaf47f4dfee79bd9659f4c34fcb7d395f3cf2b91407d5f6411b54da48c0b0",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.308984279632568
+    },
+    {
+      "example_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020011_cf0",
+      "pair_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020011",
+      "feature_sha256": "e28472a2b25dd39b90875328ed1abf8185bc5d952f6f02b4197b0a036a3791cc",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.671798706054688
+    },
+    {
+      "example_id": "train_hop_6_boundary_deficit:ergt43_pair_783610014_cf0",
+      "pair_id": "train_hop_6_boundary_deficit:ergt43_pair_783610014",
+      "feature_sha256": "ebd31ece8102007ed504caf578a023844b384c7330420e8d8f12fa9cef59dcce",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.496384620666504
+    },
+    {
+      "example_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450006_cf1",
+      "pair_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450006",
+      "feature_sha256": "71fbe565d2533b728cabd1df35c8d2aa293d820f17d2c8192ffa780535eb70d8",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.43525505065918
+    },
+    {
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170007_cf1",
+      "pair_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170007",
+      "feature_sha256": "5d729eced072e4f0e2b5251dd111b04c4e02e650a5860fc4f36185f8efee64f6",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.164457321166992
+    },
+    {
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720014_cf0",
+      "pair_id": "train_hop_5_terminal_mass:ergt43_pair_703720014",
+      "feature_sha256": "8c29b3f2de52f6f94fc5439474d752abd531474232c72dd5bc613bf9f0d3521b",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.428807258605957
+    },
+    {
+      "example_id": "train_hop_6_boundary_deficit:ergt43_pair_783610001_cf1",
+      "pair_id": "train_hop_6_boundary_deficit:ergt43_pair_783610001",
+      "feature_sha256": "d9e70f1cf4a7238fea389c1af21304353d4345eff41961b368618b169bdbc55c",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.48809814453125
+    },
+    {
+      "example_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620014_cf0",
+      "pair_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620014",
+      "feature_sha256": "0606b0ef543f19ab67f4b4213c8716e7a5c4acb3d8f560f45d3b0370ae09a277",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.172215700149536
+    },
+    {
+      "example_id": "train_hop_4_payload_transport:ergt43_pair_593560023_cf1",
+      "pair_id": "train_hop_4_payload_transport:ergt43_pair_593560023",
+      "feature_sha256": "4c2030aa40eb42cfac8210dc224bb9b60b676b3d2d8d76dce55b450c407a3568",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.361007690429688
+    },
+    {
+      "example_id": "train_hop_7_geodesic_action:ergt43_pair_863500010_cf1",
+      "pair_id": "train_hop_7_geodesic_action:ergt43_pair_863500010",
+      "feature_sha256": "b213464d763049474f76d3ffe89a34275bb7b4ac00d4b00b92c97801a54be1dd",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.625272750854492
+    },
+    {
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430021_cf0",
+      "pair_id": "train_hop_6_geodesic_action:ergt43_pair_763430021",
+      "feature_sha256": "a1e76a67864845f5c604c2c6e8df728e854609e6fc91440442070ec1637818f3",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.517156600952148
+    },
+    {
+      "example_id": "train_hop_3_payload_transport:ergt43_pair_493490021_cf0",
+      "pair_id": "train_hop_3_payload_transport:ergt43_pair_493490021",
+      "feature_sha256": "70f8716cf1d3a6cbb79f481dae8113d6515240d42e14025b3477aeef0ea52353",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.308957099914551
+    },
+    {
+      "example_id": "train_hop_3_memory_source_condition:ergt43_pair_513670014_cf0",
+      "pair_id": "train_hop_3_memory_source_condition:ergt43_pair_513670014",
+      "feature_sha256": "f0d4e3ff18ea5a2be521b5401d2e8317a7d8d7226fc8a2d088d30448675e00a0",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.290942668914795
+    },
+    {
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310021_cf0",
+      "pair_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310021",
+      "feature_sha256": "4a3153a72f720536940b484895daed5f2fc6198c36d9ee669c9fc547d8567a33",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.299093723297119
+    },
+    {
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170003_cf0",
+      "pair_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170003",
+      "feature_sha256": "4731a3fa44cb0585f6fd849744739f31b281bdbfb53dce0f6a9176490134612b",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.172924280166626
+    },
+    {
+      "example_id": "train_hop_4_boundary_deficit:ergt43_pair_583470001_cf1",
+      "pair_id": "train_hop_4_boundary_deficit:ergt43_pair_583470001",
+      "feature_sha256": "fd7bf7858391f3e1de7af16fe9c5c14e38914e132719af49d574dc7136a6de51",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.367907524108887
+    },
+    {
+      "example_id": "train_hop_4_boundary_deficit:ergt43_pair_583470007_cf1",
+      "pair_id": "train_hop_4_boundary_deficit:ergt43_pair_583470007",
+      "feature_sha256": "f30bd0a604b5600d70ed0bca4edae6d7ce0e6b34c4f1876882b020e24f7f37cf",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.364858627319336
+    },
+    {
+      "example_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020014_cf1",
+      "pair_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020014",
+      "feature_sha256": "15dc0daecfb25ce9c3f410a3a9f6ceb0ef0f288a6632d00c36209dd980629d10",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.670795440673828
+    },
+    {
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770009_cf1",
+      "pair_id": "train_hop_7_payload_transport:ergt43_pair_893770009",
+      "feature_sha256": "e2b1ed87f07a891bfb8aa3fe1a258dc6119ac5084a32abf40a6df63af2921ac5",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.59136962890625
+    },
+    {
+      "example_id": "train_hop_5_payload_transport:ergt43_pair_693630013_cf0",
+      "pair_id": "train_hop_5_payload_transport:ergt43_pair_693630013",
+      "feature_sha256": "55804f185173ce739d3b9c996e05791365bee6a49f3deeeccf51ca127541c417",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.425036430358887
+    },
+    {
+      "example_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450012_cf0",
+      "pair_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450012",
+      "feature_sha256": "aaf002a2fbef3b06bbf6851cc1a099a9884890b52f3a1d66e403aee25ba8e746",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.428797721862793
+    },
+    {
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770015_cf1",
+      "pair_id": "train_hop_7_payload_transport:ergt43_pair_893770015",
+      "feature_sha256": "74706a8076b5e9e326576b4367e51e4adac23822a3c3e0e88241362427ab2d48",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.629921913146973
+    },
+    {
+      "example_id": "train_hop_2_geodesic_action:ergt43_pair_363150001_cf0",
+      "pair_id": "train_hop_2_geodesic_action:ergt43_pair_363150001",
+      "feature_sha256": "25d77aa2effc97f9ccb7a4235dfad58b136fbe78b7839dc56d6b3437a2832d4a",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.233540058135986
+    },
+    {
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770009_cf0",
+      "pair_id": "train_hop_7_payload_transport:ergt43_pair_893770009",
+      "feature_sha256": "e4241f95285d26effedd8dbd0012387e3dc7678a8250e248da6808bdb6de0d16",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.592967987060547
+    },
+    {
+      "example_id": "train_hop_7_terminal_mass:ergt43_pair_903860001_cf0",
+      "pair_id": "train_hop_7_terminal_mass:ergt43_pair_903860001",
+      "feature_sha256": "1b20f66b1e1980d31abde5e603e8de8fe924172e98f54f63ececa9f1fcc662ce",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.585729598999023
+    },
+    {
+      "example_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110015_cf1",
+      "pair_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110015",
+      "feature_sha256": "bfe61cb27a5c222362635d0ed721db73cd661782b4344586515243f00e952c9f",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.725208282470703
+    },
+    {
+      "example_id": "train_hop_5_boundary_deficit:ergt43_pair_683540004_cf1",
+      "pair_id": "train_hop_5_boundary_deficit:ergt43_pair_683540004",
+      "feature_sha256": "ac5dcfdc0f2a9db467dcac3eb445fda519f3edc18e40292c86db66d9452100fd",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.448176383972168
+    },
+    {
+      "example_id": "train_hop_5_geodesic_action:ergt43_pair_663360006_cf1",
+      "pair_id": "train_hop_5_geodesic_action:ergt43_pair_663360006",
+      "feature_sha256": "e26c162d0cfa84ae342febfbcc87142f84c5233e6b445af8540deadd4d81ecbd",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.43978500366211
+    },
+    {
+      "example_id": "train_hop_7_memory_source_condition:ergt43_pair_913950009_cf0",
+      "pair_id": "train_hop_7_memory_source_condition:ergt43_pair_913950009",
+      "feature_sha256": "eca06401fbab216a57610537cafd6547a3597573b671cf6bcd1dd4cf84adab5b",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.603594779968262
+    },
+    {
+      "example_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110014_cf1",
+      "pair_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110014",
+      "feature_sha256": "b06852753ae702aa3415dc24e1c74dd20a5675a162a6c56f2604fbb395660e58",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.681503295898438
+    },
+    {
+      "example_id": "train_hop_8_geodesic_action:ergt43_pair_963570014_cf1",
+      "pair_id": "train_hop_8_geodesic_action:ergt43_pair_963570014",
+      "feature_sha256": "55ce25d93abb7d48707b95b5f98a3229010fb410073629733e65adeb2a478a65",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.69200897216797
+    },
+    {
+      "example_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240014_cf1",
+      "pair_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240014",
+      "feature_sha256": "cd487d6d2b03a7e65faa47ff5f2f8344452c8b076fe6865c6b700f93c3315767",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.228280067443848
+    },
+    {
+      "example_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450012_cf1",
+      "pair_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450012",
+      "feature_sha256": "7477c77f801d22c1ef595c19c0f409ad306db386792350014c895d8c0e98b881",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.429410934448242
+    },
+    {
+      "example_id": "train_hop_6_terminal_mass:ergt43_pair_803790008_cf0",
+      "pair_id": "train_hop_6_terminal_mass:ergt43_pair_803790008",
+      "feature_sha256": "d4eae2d02054147afd70fdd1b1ca45be1b1c6acc5a4087e719ea3b1e374f80f2",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.507368087768555
+    },
+    {
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170011_cf0",
+      "pair_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170011",
+      "feature_sha256": "10ad6b26721228680a22e214f2aaf2f482746bf13952df0d4a969a331797cd02",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.160390615463257
+    },
+    {
+      "example_id": "train_hop_6_memory_source_condition:ergt43_pair_813880022_cf0",
+      "pair_id": "train_hop_6_memory_source_condition:ergt43_pair_813880022",
+      "feature_sha256": "46c111d866279efacd630730ea1303eb52ad21abf2b4e7a3ae3d88722c899d1e",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.495712280273438
+    },
+    {
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770015_cf0",
+      "pair_id": "train_hop_7_payload_transport:ergt43_pair_893770015",
+      "feature_sha256": "6814b79f6b37c3a9675047337d1260c7c4779ef9591afd9ff7b5c16cccf5fb70",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.629903793334961
+    },
+    {
+      "example_id": "train_hop_3_terminal_mass:ergt43_pair_503580006_cf0",
+      "pair_id": "train_hop_3_terminal_mass:ergt43_pair_503580006",
+      "feature_sha256": "b00a7e1edde6cf9383bc8f669fb82105e80491c3f6cab1f25437133ef100fbae",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.2941389083862305
+    },
+    {
+      "example_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020014_cf0",
+      "pair_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020014",
+      "feature_sha256": "c2a9bba775ba64e6f93328317c73588261cfb0453fe22c878ac58b26e1df30e3",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.667797088623047
+    },
+    {
+      "example_id": "train_hop_3_terminal_mass:ergt43_pair_503580005_cf0",
+      "pair_id": "train_hop_3_terminal_mass:ergt43_pair_503580005",
+      "feature_sha256": "1b4e35cbf6440915141136fc7bdac104b9b4147a363225563b774d0a75a45ae7",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.308775901794434
+    },
+    {
+      "example_id": "train_hop_2_geodesic_action:ergt43_pair_363150010_cf0",
+      "pair_id": "train_hop_2_geodesic_action:ergt43_pair_363150010",
+      "feature_sha256": "c77f739a5c46c20f8c5baa5f75f58d373f4cdeda87ae6359209ff05a9143143d",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.265631675720215
+    },
+    {
+      "example_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830019_cf0",
+      "pair_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830019",
+      "feature_sha256": "cce1580aec17e00a4e6a98974455de7d5d65b7e2f846882d33b6397f7b7dafe4",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.370077133178711
+    },
+    {
+      "example_id": "train_hop_1_terminal_mass:ergt43_pair_303440002_cf1",
+      "pair_id": "train_hop_1_terminal_mass:ergt43_pair_303440002",
+      "feature_sha256": "568eb72a9f90959b39431ef000a961f648ee7bf233691d971c2730585fa70d0e",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1709511280059814
+    },
+    {
+      "example_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110014_cf0",
+      "pair_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110014",
+      "feature_sha256": "4fd3e24295ec0cbae6c027f31243cfbacea945797ff9ae3c5ffde9ee9fd6f653",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.68661880493164
+    },
+    {
+      "example_id": "train_hop_8_boundary_deficit:ergt43_pair_983750005_cf1",
+      "pair_id": "train_hop_8_boundary_deficit:ergt43_pair_983750005",
+      "feature_sha256": "921c2a3a1b4e230118ee50db04bfad46b04129baca0fe33fd0ca4b03a43f5d99",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.678958892822266
+    },
+    {
+      "example_id": "train_hop_2_payload_transport:ergt43_pair_393420001_cf1",
+      "pair_id": "train_hop_2_payload_transport:ergt43_pair_393420001",
+      "feature_sha256": "3512cc2a6872de9104ba40b31e9d73d02fd3814625c8e3729417edd8900de536",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.2238993644714355
+    },
+    {
+      "example_id": "train_hop_6_terminal_mass:ergt43_pair_803790008_cf1",
+      "pair_id": "train_hop_6_terminal_mass:ergt43_pair_803790008",
+      "feature_sha256": "23cf50d0430bc9b274ca9465df5fba17eb935c70afd144db64ab6313e75c2c8f",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.50839614868164
+    },
+    {
+      "example_id": "train_hop_7_memory_source_condition:ergt43_pair_913950005_cf1",
+      "pair_id": "train_hop_7_memory_source_condition:ergt43_pair_913950005",
+      "feature_sha256": "91cf508ecf49159d9cea6c3d23b42405796197ecfec0ea08f3d927ce0d8bec48",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.586665153503418
+    },
+    {
+      "example_id": "train_hop_7_boundary_deficit:ergt43_pair_883680013_cf0",
+      "pair_id": "train_hop_7_boundary_deficit:ergt43_pair_883680013",
+      "feature_sha256": "dcd2b7c148db617f5b2123a39f3fa8d897ee7d24c4d5e3891560a077f389fa44",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.588156700134277
+    },
+    {
+      "example_id": "train_hop_7_geodesic_action:ergt43_pair_863500022_cf1",
+      "pair_id": "train_hop_7_geodesic_action:ergt43_pair_863500022",
+      "feature_sha256": "8d4b4175b3f0581e9eca592417b6c7c16d66670167557b22400641a6669112eb",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.590821266174316
+    },
+    {
+      "example_id": "train_hop_7_memory_source_condition:ergt43_pair_913950009_cf1",
+      "pair_id": "train_hop_7_memory_source_condition:ergt43_pair_913950009",
+      "feature_sha256": "58cec8928779ddd53ec4b5cc7a52a5219f016a5e0e4c4acbb8fbb7e4c7206c9f",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.600451469421387
+    },
+    {
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170007_cf0",
+      "pair_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170007",
+      "feature_sha256": "716ef53a8dd21c79348faa31d645586cacf7f4ea19516771a381ed5efbc7a1aa",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1655893325805664
+    },
+    {
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720004_cf1",
+      "pair_id": "train_hop_5_terminal_mass:ergt43_pair_703720004",
+      "feature_sha256": "83700a617981fe7b3fa45ea97c75ca13c296307b9df02472abb4cfed7edaa3f5",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.442981719970703
+    },
+    {
+      "example_id": "train_hop_8_terminal_mass:ergt43_pair_1003930018_cf0",
+      "pair_id": "train_hop_8_terminal_mass:ergt43_pair_1003930018",
+      "feature_sha256": "67d7eca2a3086c681fd4fc7b2e3320228354c281baaa9cd48dfd78f1f14c78d4",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.679645538330078
+    },
+    {
+      "example_id": "train_hop_1_geodesic_action:ergt43_pair_263080022_cf1",
+      "pair_id": "train_hop_1_geodesic_action:ergt43_pair_263080022",
+      "feature_sha256": "5b10b0f613fa309cdfd68f38308cbc18a7ed06a154a52af004a3b83870de01d3",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1716458797454834
+    },
+    {
+      "example_id": "train_hop_1_memory_source_condition:ergt43_pair_313530019_cf0",
+      "pair_id": "train_hop_1_memory_source_condition:ergt43_pair_313530019",
+      "feature_sha256": "bd5642bb343508c3cf2534f7176c9d8beb0ecf82a5fb20dbd78ff84870232160",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.17111873626709
+    },
+    {
+      "example_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590019_cf1",
+      "pair_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590019",
+      "feature_sha256": "0cbcd2c1bbe7e41ec4141a0caf0b3602b4e59a30d98645253d07a4f24844496c",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.583908081054688
+    },
+    {
+      "example_id": "train_hop_5_payload_transport:ergt43_pair_693630008_cf1",
+      "pair_id": "train_hop_5_payload_transport:ergt43_pair_693630008",
+      "feature_sha256": "228defe4f89c3d0b599396e2449163d90d8ce8d708eba698e9bf4301352e6e51",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.432761192321777
+    },
+    {
+      "example_id": "train_hop_4_boundary_deficit:ergt43_pair_583470001_cf0",
+      "pair_id": "train_hop_4_boundary_deficit:ergt43_pair_583470001",
+      "feature_sha256": "fe5dc3bcf0c75a0b0fed93762bbf4c8ab1fc364dff8235ab29e8ebb6c902a64e",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.369589805603027
+    },
+    {
+      "example_id": "train_hop_3_terminal_mass:ergt43_pair_503580000_cf0",
+      "pair_id": "train_hop_3_terminal_mass:ergt43_pair_503580000",
+      "feature_sha256": "c990ac3e98037b71d89dbcc10d60e01405623750d3fbc3fe8bc0e81164324a4c",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.2971882820129395
+    },
+    {
+      "example_id": "train_hop_7_geodesic_action:ergt43_pair_863500000_cf0",
+      "pair_id": "train_hop_7_geodesic_action:ergt43_pair_863500000",
+      "feature_sha256": "0e28a5da8903d334e388f0d97ad2c6a23b7eaf4885794eaca1137fd63158817f",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.606234550476074
+    },
+    {
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510014_cf0",
+      "pair_id": "train_hop_2_terminal_mass:ergt43_pair_403510014",
+      "feature_sha256": "ca6925c6855fe6687f3cd9819f83e5d43e4d19385e6fdf5d46fbd49b49e51916",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.231152534484863
+    },
+    {
+      "example_id": "train_hop_4_geodesic_action:ergt43_pair_563290001_cf1",
+      "pair_id": "train_hop_4_geodesic_action:ergt43_pair_563290001",
+      "feature_sha256": "eb1be7a81b280630c4b8ed120d564597293ea68b1baa40fdb7d14e3a14ff4f06",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.37682056427002
+    },
+    {
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430002_cf0",
+      "pair_id": "train_hop_6_geodesic_action:ergt43_pair_763430002",
+      "feature_sha256": "0361a738f4894bbc988c4865f52735d08fc0890013a31864a9f392c979ac1e8e",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.507368087768555
+    },
+    {
+      "example_id": "train_hop_6_memory_source_condition:ergt43_pair_813880003_cf1",
+      "pair_id": "train_hop_6_memory_source_condition:ergt43_pair_813880003",
+      "feature_sha256": "2ec77bb44da62f3e6cdff3a811a69b40ddc8e1cc1f2410a6561acb73fb650404",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.497326850891113
+    },
+    {
+      "example_id": "train_hop_6_boundary_deficit:ergt43_pair_783610001_cf0",
+      "pair_id": "train_hop_6_boundary_deficit:ergt43_pair_783610001",
+      "feature_sha256": "2af5afdbc2f5d8a06444300e40d1a045c2c5bd6eae067bae5d50a67fb9cc152f",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.489130020141602
+    },
+    {
+      "example_id": "train_hop_6_terminal_mass:ergt43_pair_803790001_cf0",
+      "pair_id": "train_hop_6_terminal_mass:ergt43_pair_803790001",
+      "feature_sha256": "325e27a22ca41f4c87d4af8fba56d7880bffbe0523f427fe3a26e69b7a7b4827",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.495487213134766
+    },
+    {
+      "example_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620003_cf1",
+      "pair_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620003",
+      "feature_sha256": "7e417ff603121597076371bd0853e9803070834c91c051a6c9c0b545fc91430e",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.194957971572876
+    },
+    {
+      "example_id": "train_hop_3_boundary_deficit:ergt43_pair_483400020_cf0",
+      "pair_id": "train_hop_3_boundary_deficit:ergt43_pair_483400020",
+      "feature_sha256": "1ca1511d43128a8f779cfe352e878be24835f2b61fcf04c96814507144b44f16",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.291820049285889
+    },
+    {
+      "example_id": "train_hop_1_geodesic_action:ergt43_pair_263080012_cf0",
+      "pair_id": "train_hop_1_geodesic_action:ergt43_pair_263080012",
+      "feature_sha256": "ecb4da0e47c7023340febac91233e426a07d2c99b58c559b01cb386be0334b64",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1739747524261475
+    },
+    {
+      "example_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760013_cf1",
+      "pair_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760013",
+      "feature_sha256": "f281ce0a291dd84c548602b3b71d3ecb4ac606d1cf2877afbc0d09a43cf24a84",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.301359176635742
+    },
+    {
+      "example_id": "train_hop_3_memory_source_condition:ergt43_pair_513670015_cf1",
+      "pair_id": "train_hop_3_memory_source_condition:ergt43_pair_513670015",
+      "feature_sha256": "0dcdfef7c343ee780fd4cfd64b1272549daa93d6249502b5fbbe1fc0a3b5da05",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.310482025146484
+    },
+    {
+      "example_id": "train_hop_6_memory_source_condition:ergt43_pair_813880005_cf1",
+      "pair_id": "train_hop_6_memory_source_condition:ergt43_pair_813880005",
+      "feature_sha256": "394502951f60bcd36ddebb3e7b4ced8ce61f08f90275dea05d5686da2a969630",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.488626480102539
+    },
+    {
+      "example_id": "train_hop_4_boundary_deficit:ergt43_pair_583470005_cf1",
+      "pair_id": "train_hop_4_boundary_deficit:ergt43_pair_583470005",
+      "feature_sha256": "c27b37354fd6cf2c0b434086408afa0088da43e142175c318e39f77211384e3f",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.36988639831543
+    },
+    {
+      "example_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520019_cf0",
+      "pair_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520019",
+      "feature_sha256": "4c30a8f128b16dca89142c27d834caccf56cb58765638ffc9e372c676bb843e8",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.501153945922852
+    },
+    {
+      "example_id": "train_hop_3_payload_transport:ergt43_pair_493490015_cf1",
+      "pair_id": "train_hop_3_payload_transport:ergt43_pair_493490015",
+      "feature_sha256": "531b5d893e67749e9e1955ab67165a3fdf1971c6484222eab0183352894de31f",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.302791595458984
+    },
+    {
+      "example_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970021_cf1",
+      "pair_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970021",
+      "feature_sha256": "7c43faa029c3f077469bdd3709e6f199d3b138f4f255e620109ef73735dc854b",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.52570915222168
+    },
+    {
+      "example_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590008_cf1",
+      "pair_id": "train_hop_7_finite_speed_cone:ergt43_pair_873590008",
+      "feature_sha256": "d485181ed314c3fa33b4ec4e8b95f5e370af0a868cfea41105d374b5de05fa78",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.576103210449219
+    },
+    {
+      "example_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520019_cf1",
+      "pair_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520019",
+      "feature_sha256": "716aaa834ea323169bfc0a9c024e0fabaf06d977170036f383657cc562a66f55",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.500701904296875
+    },
+    {
+      "example_id": "train_hop_7_boundary_deficit:ergt43_pair_883680016_cf0",
+      "pair_id": "train_hop_7_boundary_deficit:ergt43_pair_883680016",
+      "feature_sha256": "4c24d3f5e840c6e85d44f6fd081a0ea35507e51d9499b5174041e34a40b15f1a",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.60726547241211
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220009_cf1",
+      "pair_id": "train_hop_3_geodesic_action:ergt43_pair_463220009",
+      "feature_sha256": "068364d91149a92b6a95c0e7fd5a1311db8497acd94ca13753aa89b9f87608b4",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.302951812744141
+    },
+    {
+      "example_id": "train_hop_6_memory_source_condition:ergt43_pair_813880011_cf0",
+      "pair_id": "train_hop_6_memory_source_condition:ergt43_pair_813880011",
+      "feature_sha256": "4b882325d32078c9da49195f5e0514fdc08b8d98f62b50c6a07ef1c5022f2b42",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.498636245727539
+    },
+    {
+      "example_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900012_cf1",
+      "pair_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900012",
+      "feature_sha256": "0b94d713cc53d7fa3268710f914fadf7f3d34d5b69bb7aa019f94de89fc73d98",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.432690620422363
+    },
+    {
+      "example_id": "train_hop_3_memory_source_condition:ergt43_pair_513670007_cf0",
+      "pair_id": "train_hop_3_memory_source_condition:ergt43_pair_513670007",
+      "feature_sha256": "7a747c355458d19bd6d163e93785a721222839b31632ca3e7034da67386e31eb",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.2954020500183105
+    },
+    {
+      "example_id": "train_hop_1_geodesic_action:ergt43_pair_263080003_cf1",
+      "pair_id": "train_hop_1_geodesic_action:ergt43_pair_263080003",
+      "feature_sha256": "e1e417042e1ff2ca0a12499231c5d47689f5dd2dab8c4331e6c78c620cfa10ec",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.182575225830078
+    },
+    {
+      "example_id": "train_hop_1_payload_transport:ergt43_pair_293350015_cf1",
+      "pair_id": "train_hop_1_payload_transport:ergt43_pair_293350015",
+      "feature_sha256": "370c0a2696df273b8818ecc6c2f4b5403419cc083c57da1dd56b00847ead5646",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.179072856903076
+    },
+    {
+      "example_id": "train_hop_4_geodesic_action:ergt43_pair_563290012_cf1",
+      "pair_id": "train_hop_4_geodesic_action:ergt43_pair_563290012",
+      "feature_sha256": "280fd280a0005fc0ffee0b9112d01e37198ac2fa3594a378af74bb689423c9a4",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.366106033325195
+    },
+    {
+      "example_id": "train_hop_1_payload_transport:ergt43_pair_293350015_cf0",
+      "pair_id": "train_hop_1_payload_transport:ergt43_pair_293350015",
+      "feature_sha256": "e11b99b023dcf28b5b72ec80d46d3923dbac0a66a727b9b7d8a0abaa6e05a009",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1800291538238525
+    },
+    {
+      "example_id": "train_hop_4_payload_transport:ergt43_pair_593560014_cf0",
+      "pair_id": "train_hop_4_payload_transport:ergt43_pair_593560014",
+      "feature_sha256": "2e812fe9f45a6cb03e5b9e0122850e13e08b40a786c4a9b6c2ece9d4d1db81b7",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.36320686340332
+    },
+    {
+      "example_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240003_cf0",
+      "pair_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240003",
+      "feature_sha256": "f14cf0706d80e68514442acbd8bdd088acfbcdb97139967fb62e38ff3ec576a2",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.239375591278076
+    },
+    {
+      "example_id": "train_hop_5_geodesic_action:ergt43_pair_663360008_cf0",
+      "pair_id": "train_hop_5_geodesic_action:ergt43_pair_663360008",
+      "feature_sha256": "9788a9b310923533ba3a869c082f120c4f5c0dd3ad8335c03bed61422e958376",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.433034896850586
+    },
+    {
+      "example_id": "train_hop_1_memory_source_condition:ergt43_pair_313530011_cf0",
+      "pair_id": "train_hop_1_memory_source_condition:ergt43_pair_313530011",
+      "feature_sha256": "7db53552f1dd2361360b0712d2828486523b330567b7cfc81f8c27e5f8f2b6fe",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.172410726547241
+    },
+    {
+      "example_id": "train_hop_6_payload_transport:ergt43_pair_793700012_cf1",
+      "pair_id": "train_hop_6_payload_transport:ergt43_pair_793700012",
+      "feature_sha256": "5dd6262e3cc4e118cbb3685a451594b415c0342aa752ac0f69f62d1fa7a28569",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.492663383483887
+    },
+    {
+      "example_id": "train_hop_3_payload_transport:ergt43_pair_493490015_cf0",
+      "pair_id": "train_hop_3_payload_transport:ergt43_pair_493490015",
+      "feature_sha256": "10f7ea845c216a97fbcaaff3e660b45e455d8ad36dbf346d050220fbd892744c",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.302577495574951
+    },
+    {
+      "example_id": "train_hop_1_boundary_deficit:ergt43_pair_283260008_cf0",
+      "pair_id": "train_hop_1_boundary_deficit:ergt43_pair_283260008",
+      "feature_sha256": "4987db343e77ef23c301f8e49eb304f3a2170d2c4246bd13181ceee836c0ce0e",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.171051263809204
+    },
+    {
+      "example_id": "train_hop_2_geodesic_action:ergt43_pair_363150000_cf0",
+      "pair_id": "train_hop_2_geodesic_action:ergt43_pair_363150000",
+      "feature_sha256": "065d50369afde7d941232033675cd2e16c7a3bb3a9110021bb10cf89668850a0",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.231654644012451
+    },
+    {
+      "example_id": "train_hop_1_geodesic_action:ergt43_pair_263080022_cf0",
+      "pair_id": "train_hop_1_geodesic_action:ergt43_pair_263080022",
+      "feature_sha256": "aa047292e44f0ca19c35ef3fa33e0024fc6228b78d1eddd828e7f8dc361ff478",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.173370122909546
+    },
+    {
+      "example_id": "train_hop_4_memory_source_condition:ergt43_pair_613740015_cf1",
+      "pair_id": "train_hop_4_memory_source_condition:ergt43_pair_613740015",
+      "feature_sha256": "382dc905304c2fb3407d3c7a1c5e61f423e0847160c402eba7bc9c671d768119",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.37646484375
+    },
+    {
+      "example_id": "train_hop_1_boundary_deficit:ergt43_pair_283260010_cf0",
+      "pair_id": "train_hop_1_boundary_deficit:ergt43_pair_283260010",
+      "feature_sha256": "850b2a869c30fb8d30e28e16b1afaa3dcd37f4c060bbe6e7db792792aadc134a",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.2048258781433105
+    },
+    {
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310023_cf0",
+      "pair_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310023",
+      "feature_sha256": "1aeb0bf8c2fe0e868667f8ce5d9e88e0b6e310067bfa2d3c9cd60031d6a1951d",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.286823749542236
+    },
+    {
+      "example_id": "train_hop_6_terminal_mass:ergt43_pair_803790001_cf1",
+      "pair_id": "train_hop_6_terminal_mass:ergt43_pair_803790001",
+      "feature_sha256": "d1b4c563dbc742f2a8adf82aedbfe1442bfe136f6dcd5d4db9f7118246e11991",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.495302200317383
+    },
+    {
+      "example_id": "train_hop_8_terminal_mass:ergt43_pair_1003930019_cf1",
+      "pair_id": "train_hop_8_terminal_mass:ergt43_pair_1003930019",
+      "feature_sha256": "c4d1c3e7f3ff7232038b3ee562d83fe0ca843e255a685c59727114de6999254f",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.68448829650879
+    },
+    {
+      "example_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020000_cf1",
+      "pair_id": "train_hop_8_memory_source_condition:ergt43_pair_1014020000",
+      "feature_sha256": "8dd40c5d6960b76a1d76a91f2095580b4ca8b3edc74733efc860a711476e678d",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.679105758666992
+    },
+    {
+      "example_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040014_cf1",
+      "pair_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040014",
+      "feature_sha256": "ea2102fa53e48ad62e212c74d125321d5a907d350dcda3fbb6cf9d141cb30b7e",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.601375579833984
+    },
+    {
+      "example_id": "train_hop_7_boundary_deficit:ergt43_pair_883680010_cf0",
+      "pair_id": "train_hop_7_boundary_deficit:ergt43_pair_883680010",
+      "feature_sha256": "3d4891e915e517bb21d45f7d4d0845aee6d7ab552e71397b9fdecd880f7d5ea7",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.604190826416016
+    },
+    {
+      "example_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900012_cf0",
+      "pair_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900012",
+      "feature_sha256": "9b61cb01984951c4ec65f304cfb7d54a1ce084eada007b204b0971d9c333661d",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.43202018737793
+    },
+    {
+      "example_id": "train_hop_4_memory_source_condition:ergt43_pair_613740015_cf0",
+      "pair_id": "train_hop_4_memory_source_condition:ergt43_pair_613740015",
+      "feature_sha256": "d2a313a00432c026f4828257014e17c50c42f9f5ede3fc938a6e889dfaf99846",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.377019882202148
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840006_cf0",
+      "pair_id": "train_hop_8_payload_transport:ergt43_pair_993840006",
+      "feature_sha256": "ce4f3672c81dd7579677d98cda5e1583e79b54fa7e34e0712657b6dafdfd8109",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.680599212646484
+    },
+    {
+      "example_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690022_cf1",
+      "pair_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690022",
+      "feature_sha256": "7a39a43f618fb0d96c3e8518336882292d93cacb96114541e87699e6afa97deb",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.239786148071289
+    },
+    {
+      "example_id": "train_hop_5_payload_transport:ergt43_pair_693630014_cf0",
+      "pair_id": "train_hop_5_payload_transport:ergt43_pair_693630014",
+      "feature_sha256": "d6edf7a1c2776e5ff5fafff0d2726e9da5bc2fea43c5ff0ba8c1d446e0017b68",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.430705070495605
+    },
+    {
+      "example_id": "train_hop_4_terminal_mass:ergt43_pair_603650008_cf1",
+      "pair_id": "train_hop_4_terminal_mass:ergt43_pair_603650008",
+      "feature_sha256": "10bcf5973287bc221e5fd60b783176dfc0c6b436caeb8408e041a635a9cf41c5",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.358320236206055
+    },
+    {
+      "example_id": "train_hop_6_terminal_mass:ergt43_pair_803790019_cf1",
+      "pair_id": "train_hop_6_terminal_mass:ergt43_pair_803790019",
+      "feature_sha256": "22bac9eee1e403de68b18351ce2815bd75fdf43a70ff22c4aa4b9e876f4fba9b",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.487947463989258
+    },
+    {
+      "example_id": "train_hop_8_terminal_mass:ergt43_pair_1003930003_cf1",
+      "pair_id": "train_hop_8_terminal_mass:ergt43_pair_1003930003",
+      "feature_sha256": "878c2c0acce3e7d9aa76dfd30e263810812a4c28e0b3c6da21c5c1ea6973e610",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.689319610595703
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840007_cf0",
+      "pair_id": "train_hop_8_payload_transport:ergt43_pair_993840007",
+      "feature_sha256": "d30983b7c0c02b4f997d778f3db84cca81b864248d038f535eaefc7f05899846",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.674015045166016
+    },
+    {
+      "example_id": "train_hop_8_geodesic_action:ergt43_pair_963570022_cf1",
+      "pair_id": "train_hop_8_geodesic_action:ergt43_pair_963570022",
+      "feature_sha256": "99af7c6c993ff65ce7de311d3b6708402fcdca882fdd29e966f6c2e49ddbef93",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.685958862304688
+    },
+    {
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720016_cf0",
+      "pair_id": "train_hop_5_terminal_mass:ergt43_pair_703720016",
+      "feature_sha256": "d9ac5cbe77345437bd3a253f5f149a835362a9863e305ba5d3db2420bff3fa1a",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.436741828918457
+    },
+    {
+      "example_id": "train_hop_8_geodesic_action:ergt43_pair_963570004_cf1",
+      "pair_id": "train_hop_8_geodesic_action:ergt43_pair_963570004",
+      "feature_sha256": "1484cb34ccf251f188885dcc88bdca91fd09d75e5d2bf8dc43d2f58ef2fb9875",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.71010971069336
+    },
+    {
+      "example_id": "train_hop_4_terminal_mass:ergt43_pair_603650010_cf0",
+      "pair_id": "train_hop_4_terminal_mass:ergt43_pair_603650010",
+      "feature_sha256": "2966100406e1d1ade3fa90cf7f2d5af36628c3431c93a121f9d919dbbf8e1a66",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.369799613952637
+    },
+    {
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380020_cf1",
+      "pair_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380020",
+      "feature_sha256": "637d725a74fcfc3869923b7f9585173c75959b90085bff48fb14d68b3c289eb2",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.355374336242676
+    },
+    {
+      "example_id": "train_hop_3_terminal_mass:ergt43_pair_503580000_cf1",
+      "pair_id": "train_hop_3_terminal_mass:ergt43_pair_503580000",
+      "feature_sha256": "d6628e95aa9080a1a5df4f892bc18b88f34423da6e99384285e96249ae3ce02a",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.297475337982178
+    },
+    {
+      "example_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660005_cf1",
+      "pair_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660005",
+      "feature_sha256": "6b23fabd9f6cdd0d880353d86aea4e521e2e080d0265a2298c9623441a51ef44",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.6790771484375
+    },
+    {
+      "example_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660012_cf0",
+      "pair_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660012",
+      "feature_sha256": "4318c34764f6f82a0e7164309798e0d444028f66ca3b30028fecee0c174a2183",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.677814483642578
+    },
+    {
+      "example_id": "train_hop_3_geodesic_action:ergt43_pair_463220011_cf0",
+      "pair_id": "train_hop_3_geodesic_action:ergt43_pair_463220011",
+      "feature_sha256": "068f3335fde4b9a63dc9ae34369cc80f87de4b62eb3daa0fffb1771953924767",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.29115629196167
+    },
+    {
+      "example_id": "train_hop_2_boundary_deficit:ergt43_pair_383330010_cf1",
+      "pair_id": "train_hop_2_boundary_deficit:ergt43_pair_383330010",
+      "feature_sha256": "7a36797f235e05f8d593e3ddbf2d71c80f99d3231c965f8651ce4c9dded3f2d0",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.2479567527771
+    },
+    {
+      "example_id": "train_hop_6_payload_transport:ergt43_pair_793700017_cf0",
+      "pair_id": "train_hop_6_payload_transport:ergt43_pair_793700017",
+      "feature_sha256": "b5df8728da02a5e793d91f20bec17451acd89e3795ce1d7cacebf6ccb8b56201",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.485865592956543
+    },
+    {
+      "example_id": "train_hop_5_memory_source_condition:ergt43_pair_713810000_cf0",
+      "pair_id": "train_hop_5_memory_source_condition:ergt43_pair_713810000",
+      "feature_sha256": "5bcda9523bc920d3fe43b91cd704df36c47448eddcdbf47b5baa069ff90b7149",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.429550170898438
+    },
+    {
+      "example_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830005_cf0",
+      "pair_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830005",
+      "feature_sha256": "d5e33fda5ec3d90fbefb875ade1eb54db707bbe8324c23ca50e689c808ec25b3",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.375925064086914
+    },
+    {
+      "example_id": "train_hop_2_boundary_deficit:ergt43_pair_383330003_cf0",
+      "pair_id": "train_hop_2_boundary_deficit:ergt43_pair_383330003",
+      "feature_sha256": "3f66276b321e7dfb07685a91b8714f81eaecbedb55f2d1d71e2e9eb448fe8c14",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.240932941436768
+    },
+    {
+      "example_id": "train_hop_2_payload_transport:ergt43_pair_393420016_cf0",
+      "pair_id": "train_hop_2_payload_transport:ergt43_pair_393420016",
+      "feature_sha256": "a95b331711d9b19f6703c99a64b0a8a1cd5503f8684ff22b44589f482ea94335",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.2337164878845215
+    },
+    {
+      "example_id": "train_hop_7_memory_source_condition:ergt43_pair_913950016_cf0",
+      "pair_id": "train_hop_7_memory_source_condition:ergt43_pair_913950016",
+      "feature_sha256": "a7c8d4656628a2ab072a77c1eed1bf058d46a99b6c37646b86ebd6b3ac7d9219",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.59799861907959
+    },
+    {
+      "example_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450015_cf0",
+      "pair_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450015",
+      "feature_sha256": "a25c989553bc058965a65363fdd1c4e963b3d70b7728e1bf14809d70bb2d066c",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.433774948120117
+    },
+    {
+      "example_id": "train_hop_1_geodesic_action:ergt43_pair_263080014_cf0",
+      "pair_id": "train_hop_1_geodesic_action:ergt43_pair_263080014",
+      "feature_sha256": "b09dcfaaa3575c99bbc6db0bffe224fb32745a291e80e4ecc48b4ec733121556",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.173922538757324
+    },
+    {
+      "example_id": "train_hop_8_terminal_mass:ergt43_pair_1003930003_cf0",
+      "pair_id": "train_hop_8_terminal_mass:ergt43_pair_1003930003",
+      "feature_sha256": "65b5f4e1f8ef4118aa646af71a5e57ac5310dbccf11f11379ca6c20816b40989",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.686304092407227
+    },
+    {
+      "example_id": "train_hop_2_memory_source_condition:ergt43_pair_413600015_cf1",
+      "pair_id": "train_hop_2_memory_source_condition:ergt43_pair_413600015",
+      "feature_sha256": "ee59cfc02b430c26cc2eabc5f94db9e26c5699dd1bf524902dc9118ed9db036d",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.248779773712158
+    },
+    {
+      "example_id": "train_hop_6_payload_transport:ergt43_pair_793700017_cf1",
+      "pair_id": "train_hop_6_payload_transport:ergt43_pair_793700017",
+      "feature_sha256": "c9dd9d005a6fc247c12f33985f8149db7b409867cec1472260c80babc6ecddf3",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.488216400146484
+    },
+    {
+      "example_id": "train_hop_2_payload_transport:ergt43_pair_393420013_cf0",
+      "pair_id": "train_hop_2_payload_transport:ergt43_pair_393420013",
+      "feature_sha256": "ce162102d583eaf815f23290b9dd3cfe1789022d312991866488f439e232c0eb",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.226590156555176
+    },
+    {
+      "example_id": "train_hop_8_boundary_deficit:ergt43_pair_983750005_cf0",
+      "pair_id": "train_hop_8_boundary_deficit:ergt43_pair_983750005",
+      "feature_sha256": "89fc852ca2512858e12a7d9b1a305719cba1955506afd2e0ba1e73f6eb5a37a6",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.675405502319336
+    },
+    {
+      "example_id": "train_hop_7_terminal_mass:ergt43_pair_903860008_cf0",
+      "pair_id": "train_hop_7_terminal_mass:ergt43_pair_903860008",
+      "feature_sha256": "12708b8ea34f4bf371481bbe3b44d875d987ef6b2ceb7c87d21c5aba7ba5273b",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.578542709350586
+    },
+    {
+      "example_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830001_cf1",
+      "pair_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830001",
+      "feature_sha256": "ec17512b0dd2732300b9b5d6f2a1d8ea6f4e879b2d449a3b4ea10afe68914131",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.379018783569336
+    },
+    {
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430008_cf0",
+      "pair_id": "train_hop_6_geodesic_action:ergt43_pair_763430008",
+      "feature_sha256": "20a52cdab6dda56ce569c2a31cb2be16c318ba1ee0d4bb6864d2db0d9dee1af3",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.499578475952148
+    },
+    {
+      "example_id": "train_hop_7_terminal_mass:ergt43_pair_903860021_cf1",
+      "pair_id": "train_hop_7_terminal_mass:ergt43_pair_903860021",
+      "feature_sha256": "d19bcca78498089fe714e832b9866a590c9be3b23cdf97ebce2d344e60c47596",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.608612060546875
+    },
+    {
+      "example_id": "train_hop_6_geodesic_action:ergt43_pair_763430002_cf1",
+      "pair_id": "train_hop_6_geodesic_action:ergt43_pair_763430002",
+      "feature_sha256": "91ec64b1dc4b4e9491f512f780280c12a402053898f8858bcda718ad8689f88a",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.509602546691895
+    },
+    {
+      "example_id": "train_hop_5_geodesic_action:ergt43_pair_663360013_cf1",
+      "pair_id": "train_hop_5_geodesic_action:ergt43_pair_663360013",
+      "feature_sha256": "48d563ce604ada34be5c88bbfc780f19379fce751c2bbb5e3517c0528b854ee7",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.439419746398926
+    },
+    {
+      "example_id": "train_hop_1_terminal_mass:ergt43_pair_303440011_cf0",
+      "pair_id": "train_hop_1_terminal_mass:ergt43_pair_303440011",
+      "feature_sha256": "f55d299c1fdc69b9143d247c6f67ea164e7f29d80a61f20c301a939bf27f09a5",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1766388416290283
+    },
+    {
+      "example_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970002_cf0",
+      "pair_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970002",
+      "feature_sha256": "684c3030d1a1dc3d748f391636ee835cf0c0ab46f1ec782d5f84aa81e540c659",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.499107360839844
+    },
+    {
+      "example_id": "train_hop_4_payload_transport:ergt43_pair_593560023_cf0",
+      "pair_id": "train_hop_4_payload_transport:ergt43_pair_593560023",
+      "feature_sha256": "66ad35d9a98dd6b1a5de35d725d98ec76c6e6a3feacf8ddecb06e2195b8119a0",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.359973907470703
+    },
+    {
+      "example_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520001_cf0",
+      "pair_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520001",
+      "feature_sha256": "ce4c9d3a859aac8f323d834b18e85dc464f9043a8901aab0dbbcbe1c69523ce4",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.494234085083008
+    },
+    {
+      "example_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900004_cf0",
+      "pair_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900004",
+      "feature_sha256": "d41fdfb6f7351ccf2a04df148c85dc38ff887c9907e1a0490eedc6235379c897",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.449724197387695
+    },
+    {
+      "example_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830005_cf1",
+      "pair_id": "train_hop_4_combined_long_horizon:ergt43_pair_623830005",
+      "feature_sha256": "77f2bb9734360a36c9d797da2ff037e10d440dbb4d8d1ca87a2eca4521c7aa28",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.3848295211792
+    },
+    {
+      "example_id": "train_hop_5_payload_transport:ergt43_pair_693630013_cf1",
+      "pair_id": "train_hop_5_payload_transport:ergt43_pair_693630013",
+      "feature_sha256": "a8d0b4d9a2c6dd8555d62a33f330a7ce7162af817fab95f035420e6e843573b3",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.425394058227539
+    },
+    {
+      "example_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620003_cf0",
+      "pair_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620003",
+      "feature_sha256": "02240d00ff307be83025687a7b446ad563f5e68c007200c63132cf8614402909",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1875860691070557
+    },
+    {
+      "example_id": "train_hop_3_payload_transport:ergt43_pair_493490012_cf1",
+      "pair_id": "train_hop_3_payload_transport:ergt43_pair_493490012",
+      "feature_sha256": "596fd260da01f93b07a820e19fefc1f5c2ccbab9bc55b110b1555cae9b575bbb",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.299004077911377
+    },
+    {
+      "example_id": "train_hop_2_boundary_deficit:ergt43_pair_383330009_cf1",
+      "pair_id": "train_hop_2_boundary_deficit:ergt43_pair_383330009",
+      "feature_sha256": "d2b30a287ffe3320955495fc2dfc23868a65d4d21ec70e947045b1aea5c593a3",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.231078624725342
+    },
+    {
+      "example_id": "train_hop_5_memory_source_condition:ergt43_pair_713810000_cf1",
+      "pair_id": "train_hop_5_memory_source_condition:ergt43_pair_713810000",
+      "feature_sha256": "9d6916cde002c499d5498ab537c72a59fdb05628cc27e257e81e54167f19af9e",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.428118705749512
+    },
+    {
+      "example_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040021_cf1",
+      "pair_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040021",
+      "feature_sha256": "01e8117296a075e5acc2e7dfb077d99bd16e99bafe00259d6f54987b1da438d0",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.619636535644531
+    },
+    {
+      "example_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970019_cf0",
+      "pair_id": "train_hop_6_combined_long_horizon:ergt43_pair_823970019",
+      "feature_sha256": "684d1cfd99e42d9d7f80b0d0785318bd3dbb1f04982776457c2618498ec064c7",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.507486343383789
+    },
+    {
+      "example_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900016_cf0",
+      "pair_id": "train_hop_5_combined_long_horizon:ergt43_pair_723900016",
+      "feature_sha256": "a0493c40ff968d0a585ec2e5b17143a7bde51c95190d314d0d1eb90f3d009b7e",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.452960968017578
+    },
+    {
+      "example_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240008_cf0",
+      "pair_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240008",
+      "feature_sha256": "9b59b13a7a537086661910360613a461fd1342b72d65d8f5f5ece6cb9c6c05d1",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.22285270690918
+    },
+    {
+      "example_id": "train_hop_4_boundary_deficit:ergt43_pair_583470021_cf1",
+      "pair_id": "train_hop_4_boundary_deficit:ergt43_pair_583470021",
+      "feature_sha256": "72bf3a2532978487d569a1059f1c73da7b3fe70c558d30097fd725e5e9ab6a2a",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.396356582641602
+    },
+    {
+      "example_id": "train_hop_5_boundary_deficit:ergt43_pair_683540001_cf0",
+      "pair_id": "train_hop_5_boundary_deficit:ergt43_pair_683540001",
+      "feature_sha256": "0f07d707877d6e99c9bce469eba1357bdafce37e171acfb631a6d41d82667a84",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.426905632019043
+    },
+    {
+      "example_id": "train_hop_4_terminal_mass:ergt43_pair_603650008_cf0",
+      "pair_id": "train_hop_4_terminal_mass:ergt43_pair_603650008",
+      "feature_sha256": "9505bb816ef742314eabd99d71ce3bd256d032276dd32ab11f6ed52365e38fb8",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.359808921813965
+    },
+    {
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510000_cf0",
+      "pair_id": "train_hop_2_terminal_mass:ergt43_pair_403510000",
+      "feature_sha256": "c2cc9e5f54e3b0716f81fa866f0b4a7b3ff53a78e5aaf0f7656d80227ef212ea",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.238895416259766
+    },
+    {
+      "example_id": "train_hop_4_memory_source_condition:ergt43_pair_613740002_cf0",
+      "pair_id": "train_hop_4_memory_source_condition:ergt43_pair_613740002",
+      "feature_sha256": "0a24538d354b7eade4eb41f3747d272537b689e9a264d62787f0716a17226676",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.359967231750488
+    },
+    {
+      "example_id": "train_hop_1_memory_source_condition:ergt43_pair_313530000_cf1",
+      "pair_id": "train_hop_1_memory_source_condition:ergt43_pair_313530000",
+      "feature_sha256": "0ee6a5a7021f99f7e83df80236afe891ba42ca1e567e08ec0c5a73b1b1527454",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.177088499069214
+    },
+    {
+      "example_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620014_cf1",
+      "pair_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620014",
+      "feature_sha256": "e2b58e5036c121eab5ba4cbbd7ba420fbecec1ad911382ca8b4c840f2b130cf5",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1799685955047607
+    },
+    {
+      "example_id": "train_hop_1_boundary_deficit:ergt43_pair_283260023_cf1",
+      "pair_id": "train_hop_1_boundary_deficit:ergt43_pair_283260023",
+      "feature_sha256": "2a95f8e126f512084a34791ba830f14ee68279f6bbac425d3c00032173142c69",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1761224269866943
+    },
+    {
+      "example_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170011_cf1",
+      "pair_id": "train_hop_1_finite_speed_cone:ergt43_pair_273170011",
+      "feature_sha256": "d6b986062e33166600440a9a6a97b615f90c6d44d319af673a39575fae6f78a2",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1624269485473633
+    },
+    {
+      "example_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620017_cf1",
+      "pair_id": "train_hop_1_combined_long_horizon:ergt43_pair_323620017",
+      "feature_sha256": "835485036498d294658d76c5eeb84a6526d3d0d80f99b6462fcdf575e10510c7",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.174818754196167
+    },
+    {
+      "example_id": "train_hop_8_boundary_deficit:ergt43_pair_983750020_cf1",
+      "pair_id": "train_hop_8_boundary_deficit:ergt43_pair_983750020",
+      "feature_sha256": "69f86a519a1c58822298da534f5f7e8fc06a58672a5330ae861c78f875a82940",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.67691993713379
+    },
+    {
+      "example_id": "train_hop_1_terminal_mass:ergt43_pair_303440011_cf1",
+      "pair_id": "train_hop_1_terminal_mass:ergt43_pair_303440011",
+      "feature_sha256": "edb1986f2af7703627f948fe4880d86311390b725ca33949c3274df77f1f2ab5",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.171541690826416
+    },
+    {
+      "example_id": "train_hop_2_memory_source_condition:ergt43_pair_413600007_cf0",
+      "pair_id": "train_hop_2_memory_source_condition:ergt43_pair_413600007",
+      "feature_sha256": "a9b26ef6220e60292860671376aa36ab0207a0b3b1b2cd732058ffc93e219a21",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.242990493774414
+    },
+    {
+      "example_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040000_cf1",
+      "pair_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040000",
+      "feature_sha256": "fef7a6f2487728afffcc4e1ab50958b2f44c5bb613ed452f2b6ed32dec9354a8",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.597390174865723
+    },
+    {
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310018_cf1",
+      "pair_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310018",
+      "feature_sha256": "59ef36cc1d6239f226b0cef5ca5a98be633d4374b241fbc421d2e56d1a8c4e31",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.284817218780518
+    },
+    {
+      "example_id": "train_hop_2_boundary_deficit:ergt43_pair_383330009_cf0",
+      "pair_id": "train_hop_2_boundary_deficit:ergt43_pair_383330009",
+      "feature_sha256": "69e6b00299c370a893b0143c5e94493cc0666af69a29a83be363d0b3cfb410cb",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.2286553382873535
+    },
+    {
+      "example_id": "train_hop_5_geodesic_action:ergt43_pair_663360006_cf0",
+      "pair_id": "train_hop_5_geodesic_action:ergt43_pair_663360006",
+      "feature_sha256": "d72e39cfc297f6e89d0decbb24f97e3db19460aa15615821518b20f7280f5478",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.443949699401855
+    },
+    {
+      "example_id": "train_hop_4_payload_transport:ergt43_pair_593560000_cf1",
+      "pair_id": "train_hop_4_payload_transport:ergt43_pair_593560000",
+      "feature_sha256": "405a2739b516bc73094916bdec7a6a2ebfae765a8757fe5e314aaa94389ee096",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.364034652709961
+    },
+    {
+      "example_id": "train_hop_4_boundary_deficit:ergt43_pair_583470007_cf0",
+      "pair_id": "train_hop_4_boundary_deficit:ergt43_pair_583470007",
+      "feature_sha256": "6123d3f1df06ae3d7ee0fbd1b586fbf930f24552a9e397e40123835468c2c6ef",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.368230819702148
+    },
+    {
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310023_cf1",
+      "pair_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310023",
+      "feature_sha256": "fa5ebae7cb861bdcff02391916cd1751ca8d2b2cec8533850d0dce5832cd01c1",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.2872467041015625
+    },
+    {
+      "example_id": "train_hop_3_terminal_mass:ergt43_pair_503580008_cf1",
+      "pair_id": "train_hop_3_terminal_mass:ergt43_pair_503580008",
+      "feature_sha256": "79c03a33982e259ecfc0408e54750be164c32a4834c7a88973c517b83a4c01cf",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.288822174072266
+    },
+    {
+      "example_id": "train_hop_6_boundary_deficit:ergt43_pair_783610022_cf0",
+      "pair_id": "train_hop_6_boundary_deficit:ergt43_pair_783610022",
+      "feature_sha256": "6236f5c183885ba1b8db6e0135ac7bed55bbc06caa299636fe44e0709ebae8f6",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.51054573059082
+    },
+    {
+      "example_id": "train_hop_5_memory_source_condition:ergt43_pair_713810012_cf1",
+      "pair_id": "train_hop_5_memory_source_condition:ergt43_pair_713810012",
+      "feature_sha256": "b3df591b6e9279bf213126cdaa2d26ea099d4538b6a842f78cc33e5c98c89c76",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.430444717407227
+    },
+    {
+      "example_id": "train_hop_8_terminal_mass:ergt43_pair_1003930018_cf1",
+      "pair_id": "train_hop_8_terminal_mass:ergt43_pair_1003930018",
+      "feature_sha256": "3b7657ec9c6347928a699bd0ab10c62d4bfeaa3b6a4caf9230efba38bddc32d8",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.680326461791992
+    },
+    {
+      "example_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760005_cf0",
+      "pair_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760005",
+      "feature_sha256": "f75a2973c5e8776be7a8230f0e05c92197e25f6f3dc54dab257e6b7008b193c3",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.307118892669678
+    },
+    {
+      "example_id": "train_hop_1_boundary_deficit:ergt43_pair_283260017_cf1",
+      "pair_id": "train_hop_1_boundary_deficit:ergt43_pair_283260017",
+      "feature_sha256": "e84cc928d172b9ef0b13661d518b74a60d193c059018365e73864079b75f5aed",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1643898487091064
+    },
+    {
+      "example_id": "train_hop_7_memory_source_condition:ergt43_pair_913950020_cf1",
+      "pair_id": "train_hop_7_memory_source_condition:ergt43_pair_913950020",
+      "feature_sha256": "eceac7105e4f02c553abb83d4c293c07d0ab3e4fd1c32577397aabdcde781a8a",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.57490348815918
+    },
+    {
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380016_cf1",
+      "pair_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380016",
+      "feature_sha256": "125f0b256591203791e8ca8b48e7d832d2833fc505565a17426b2484f5cc9ee5",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.362777709960938
+    },
+    {
+      "example_id": "train_hop_3_terminal_mass:ergt43_pair_503580006_cf1",
+      "pair_id": "train_hop_3_terminal_mass:ergt43_pair_503580006",
+      "feature_sha256": "9e174259f040a107702e3742e33eaf6a1adcd43fe3e2ea7b9de4d9626f2e90a4",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.294196128845215
+    },
+    {
+      "example_id": "train_hop_3_terminal_mass:ergt43_pair_503580008_cf0",
+      "pair_id": "train_hop_3_terminal_mass:ergt43_pair_503580008",
+      "feature_sha256": "9d1c667f852f57b04009c9f0b999eae0f0470edb5b20eb965faa2d2873e24bc0",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.290797710418701
+    },
+    {
+      "example_id": "train_hop_7_terminal_mass:ergt43_pair_903860019_cf0",
+      "pair_id": "train_hop_7_terminal_mass:ergt43_pair_903860019",
+      "feature_sha256": "53d5e287f70c67970095dc853a6fa0fcbe90db7dd6d4c1940105d56040c80869",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.576704025268555
+    },
+    {
+      "example_id": "train_hop_8_boundary_deficit:ergt43_pair_983750018_cf0",
+      "pair_id": "train_hop_8_boundary_deficit:ergt43_pair_983750018",
+      "feature_sha256": "97a4fa9f8b93610d6fb95d5873609cb0a9a6f93bac8c30eb947972196d191a61",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.68117904663086
+    },
+    {
+      "example_id": "train_hop_5_boundary_deficit:ergt43_pair_683540001_cf1",
+      "pair_id": "train_hop_5_boundary_deficit:ergt43_pair_683540001",
+      "feature_sha256": "5eadc05a7e81ee8c05dc8015ecf47c8b07969afae64284d76f2f05d6789eb9f4",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.428365707397461
+    },
+    {
+      "example_id": "train_hop_5_memory_source_condition:ergt43_pair_713810006_cf0",
+      "pair_id": "train_hop_5_memory_source_condition:ergt43_pair_713810006",
+      "feature_sha256": "737cd9ec413c91768873f2f6e811898f4c59d3e167ec067901f0c82edac58a53",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.43560791015625
+    },
+    {
+      "example_id": "train_hop_7_memory_source_condition:ergt43_pair_913950016_cf1",
+      "pair_id": "train_hop_7_memory_source_condition:ergt43_pair_913950016",
+      "feature_sha256": "f15e825a01bf4450fd37b35d5b3641bc9d19a2eafb84f35969be6b890d4a859f",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.60094928741455
+    },
+    {
+      "example_id": "train_hop_7_geodesic_action:ergt43_pair_863500010_cf0",
+      "pair_id": "train_hop_7_geodesic_action:ergt43_pair_863500010",
+      "feature_sha256": "e3fa1032a5f02cd3952f53bd132878f9b0d9e21957904fc8a959207170a74278",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.625146865844727
+    },
+    {
+      "example_id": "train_hop_6_terminal_mass:ergt43_pair_803790019_cf0",
+      "pair_id": "train_hop_6_terminal_mass:ergt43_pair_803790019",
+      "feature_sha256": "d986a90015fa10b270ff5ff1a0a3b0e6188ec18b9a624f00d22acf2b60edf49d",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.488468170166016
+    },
+    {
+      "example_id": "train_hop_3_payload_transport:ergt43_pair_493490012_cf0",
+      "pair_id": "train_hop_3_payload_transport:ergt43_pair_493490012",
+      "feature_sha256": "79fb5ceeae6d162a7cbc861aecc243dc2fcc7c0c89f12ee2b34214ec6d8a3581",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.298592567443848
+    },
+    {
+      "example_id": "train_hop_1_geodesic_action:ergt43_pair_263080012_cf1",
+      "pair_id": "train_hop_1_geodesic_action:ergt43_pair_263080012",
+      "feature_sha256": "58f1337089f19cebd5f3669525c6524c487047d6f54ee1e2c93550a5e852d83a",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1705760955810547
+    },
+    {
+      "example_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450006_cf0",
+      "pair_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450006",
+      "feature_sha256": "bdaf4d8f233ebd85f64006ba0fabf3f0911bcd162d717b351a6affa0fa1323f5",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.436345100402832
+    },
+    {
+      "example_id": "train_hop_1_memory_source_condition:ergt43_pair_313530010_cf1",
+      "pair_id": "train_hop_1_memory_source_condition:ergt43_pair_313530010",
+      "feature_sha256": "8983443bb1bf7f863d59381fecb274d8519dc83198803b69f07fec0aec3a7f67",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.205031633377075
+    },
+    {
+      "example_id": "train_hop_3_boundary_deficit:ergt43_pair_483400005_cf0",
+      "pair_id": "train_hop_3_boundary_deficit:ergt43_pair_483400005",
+      "feature_sha256": "4de0e3209c0b722267904965a5d27ab798faca8f78db3a38effe0119ac12f6dd",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.301261901855469
+    },
+    {
+      "example_id": "train_hop_1_terminal_mass:ergt43_pair_303440002_cf0",
+      "pair_id": "train_hop_1_terminal_mass:ergt43_pair_303440002",
+      "feature_sha256": "9e988295c63df14b0a90f009ddd61acfb81e26cb688ee3aa2fce05dc25c6feb4",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.175074815750122
+    },
+    {
+      "example_id": "train_hop_1_geodesic_action:ergt43_pair_263080003_cf0",
+      "pair_id": "train_hop_1_geodesic_action:ergt43_pair_263080003",
+      "feature_sha256": "72bd5062dc1272e905a2563665568de4fc2ec790cc6fadbfd328d2ddba51047e",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1802968978881836
+    },
+    {
+      "example_id": "train_hop_2_memory_source_condition:ergt43_pair_413600007_cf1",
+      "pair_id": "train_hop_2_memory_source_condition:ergt43_pair_413600007",
+      "feature_sha256": "16b491bbc458138d74a9bc06bbe92c0aa6cf1e87924003d643c7471a51a24a1a",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.2437968254089355
+    },
+    {
+      "example_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450010_cf1",
+      "pair_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450010",
+      "feature_sha256": "0b434983ac37f2bbd1bebb4558f367e6b22448a8b7f7453c7e711cba26b4d872",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.447168350219727
+    },
+    {
+      "example_id": "train_hop_4_payload_transport:ergt43_pair_593560009_cf0",
+      "pair_id": "train_hop_4_payload_transport:ergt43_pair_593560009",
+      "feature_sha256": "0e87ff609ea91f585eeac9bbe140635d243e74623b480b8073d274a7bb0a7c02",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.357070922851562
+    },
+    {
+      "example_id": "train_hop_4_geodesic_action:ergt43_pair_563290001_cf0",
+      "pair_id": "train_hop_4_geodesic_action:ergt43_pair_563290001",
+      "feature_sha256": "d06cd63938955d8c36f6b35b6e3c0d6b7d00a134076f7d30da3f3f8db2ff9200",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.380784034729004
+    },
+    {
+      "example_id": "train_hop_7_geodesic_action:ergt43_pair_863500022_cf0",
+      "pair_id": "train_hop_7_geodesic_action:ergt43_pair_863500022",
+      "feature_sha256": "149dc8f34159cf717afc51e20f3248439c1b0ce0ac9d073845e7d717bdc8727d",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.58632755279541
+    },
+    {
+      "example_id": "train_hop_5_payload_transport:ergt43_pair_693630016_cf0",
+      "pair_id": "train_hop_5_payload_transport:ergt43_pair_693630016",
+      "feature_sha256": "49c680a66473bf11cc256d5f287602e5c1373aee73c0db67c7637c976b33778f",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.441010475158691
+    },
+    {
+      "example_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380020_cf0",
+      "pair_id": "train_hop_4_finite_speed_cone:ergt43_pair_573380020",
+      "feature_sha256": "b9f68f577c7fec3a9f0df21cd5fb26d46632ae1752405bf004a39b55e75c9fa1",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.355180740356445
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840019_cf0",
+      "pair_id": "train_hop_8_payload_transport:ergt43_pair_993840019",
+      "feature_sha256": "0dae9557d99172332c4c9307577c0d67b5ecde333475d47ae3a75e3cc32bd3b7",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.686981201171875
+    },
+    {
+      "example_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040023_cf1",
+      "pair_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040023",
+      "feature_sha256": "3c2e9b59d8e0a520be6bba4ec269b5e9d7b88542ca56272e13880cb105f46e24",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.604879379272461
+    },
+    {
+      "example_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240001_cf1",
+      "pair_id": "train_hop_2_finite_speed_cone:ergt43_pair_373240001",
+      "feature_sha256": "f70698425d66d8e39a12850d2be2ab2ebcf05e2cfc5742efb9161d9aab5a613e",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.221859455108643
+    },
+    {
+      "example_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040023_cf0",
+      "pair_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040023",
+      "feature_sha256": "7a49fdbbf43e4eaac64d0cd71eb612561feec616a8571e8c9ffeee5648d05a83",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.606876373291016
+    },
+    {
+      "example_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690016_cf1",
+      "pair_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690016",
+      "feature_sha256": "009c41335d6172bb6058046c617026a3e94e06cbd92f365a7ad84641dce9ccae",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.252999782562256
+    },
+    {
+      "example_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450015_cf1",
+      "pair_id": "train_hop_5_finite_speed_cone:ergt43_pair_673450015",
+      "feature_sha256": "eb5726320b48ad7a487bbdb44aaccef8f2c0004d4304be7ed4eda0e4c8c5bc3e",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.434741973876953
+    },
+    {
+      "example_id": "train_hop_2_payload_transport:ergt43_pair_393420013_cf1",
+      "pair_id": "train_hop_2_payload_transport:ergt43_pair_393420013",
+      "feature_sha256": "2f45d8cb73f65f9de498d1e44c80eb6c59dd8195abdbc7b274327814142ef730",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.226264953613281
+    },
+    {
+      "example_id": "train_hop_5_terminal_mass:ergt43_pair_703720016_cf1",
+      "pair_id": "train_hop_5_terminal_mass:ergt43_pair_703720016",
+      "feature_sha256": "cc1e91a9aad5c172537a2dd0ce4faf71f13e78e39769562f2dca8fea7e09fd02",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.436491966247559
+    },
+    {
+      "example_id": "train_hop_7_boundary_deficit:ergt43_pair_883680016_cf1",
+      "pair_id": "train_hop_7_boundary_deficit:ergt43_pair_883680016",
+      "feature_sha256": "a433ac46bae577d3bbd61f358b4135ca981ee2ad8d82af2563edc142a7f7f22d",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.60822868347168
+    },
+    {
+      "example_id": "train_hop_6_boundary_deficit:ergt43_pair_783610022_cf1",
+      "pair_id": "train_hop_6_boundary_deficit:ergt43_pair_783610022",
+      "feature_sha256": "7b50a81f8ba4bfde4a5d880ccd6d7ddae0dd3521032780b080a1636910f85eb8",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.512908935546875
+    },
+    {
+      "example_id": "train_hop_6_terminal_mass:ergt43_pair_803790017_cf1",
+      "pair_id": "train_hop_6_terminal_mass:ergt43_pair_803790017",
+      "feature_sha256": "16c4cffba1561172a97a053201e5e6f234cee9cd3c04616a5b494fb18cbb955f",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.501033782958984
+    },
+    {
+      "example_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520018_cf1",
+      "pair_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520018",
+      "feature_sha256": "88123468abc53d2edf98613c3ea2eab6233ca35daefb5eda91ee39e613cb216b",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.49909782409668
+    },
+    {
+      "example_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760018_cf1",
+      "pair_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760018",
+      "feature_sha256": "3b6900ef82fd176b8e62cf324b72aba0936df2ce56a6a227b3c11da597b02b7e",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.299025535583496
+    },
+    {
+      "example_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760005_cf1",
+      "pair_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760005",
+      "feature_sha256": "b6244d941be73dbd765a6c896c4cc8bd3197f1746052c7a82d2c325c7eaa7ad1",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.305167198181152
+    },
+    {
+      "example_id": "train_hop_1_terminal_mass:ergt43_pair_303440008_cf0",
+      "pair_id": "train_hop_1_terminal_mass:ergt43_pair_303440008",
+      "feature_sha256": "17f503094940db7c99b964f4585b0eddc30cf237fb882faecabec2090eb1453f",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.178422689437866
+    },
+    {
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770008_cf1",
+      "pair_id": "train_hop_7_payload_transport:ergt43_pair_893770008",
+      "feature_sha256": "c56cb13d664ddbc6520a7eea96fb8e3812988489c9fa9b736ade607478901b12",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.586383819580078
+    },
+    {
+      "example_id": "train_hop_4_memory_source_condition:ergt43_pair_613740023_cf0",
+      "pair_id": "train_hop_4_memory_source_condition:ergt43_pair_613740023",
+      "feature_sha256": "5b340106e88437c56a731606fb26b1f89aa529fa5a880002dc931cd4c1d66b36",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.35925579071045
+    },
+    {
+      "example_id": "train_hop_1_terminal_mass:ergt43_pair_303440021_cf1",
+      "pair_id": "train_hop_1_terminal_mass:ergt43_pair_303440021",
+      "feature_sha256": "39ac26a25b8a76efed115ccf023fc0cb3b2aa34b369017ebffe2dadaddeae119",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.177833080291748
+    },
+    {
+      "example_id": "train_hop_8_geodesic_action:ergt43_pair_963570014_cf0",
+      "pair_id": "train_hop_8_geodesic_action:ergt43_pair_963570014",
+      "feature_sha256": "96d58ac0c2a696b78d7db6d9c7ac6bc107fb53fc960916b22014013889223d4d",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.69425392150879
+    },
+    {
+      "example_id": "train_hop_7_memory_source_condition:ergt43_pair_913950020_cf0",
+      "pair_id": "train_hop_7_memory_source_condition:ergt43_pair_913950020",
+      "feature_sha256": "f52c5e93359f7904245a7dd70d8f8e8bbaaee09c0fad440fb6640271f9c3ff3f",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.574867248535156
+    },
+    {
+      "example_id": "train_hop_8_geodesic_action:ergt43_pair_963570022_cf0",
+      "pair_id": "train_hop_8_geodesic_action:ergt43_pair_963570022",
+      "feature_sha256": "85184a59348418693071641553eda37894c9bf71e979dc01352f33ed84be0df5",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.68553924560547
+    },
+    {
+      "example_id": "train_hop_4_terminal_mass:ergt43_pair_603650010_cf1",
+      "pair_id": "train_hop_4_terminal_mass:ergt43_pair_603650010",
+      "feature_sha256": "498eb9888f5fbd8fc5cb137103df53c13463e248849d3fed68423c0a0c7ae37d",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.372004508972168
+    },
+    {
+      "example_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760016_cf0",
+      "pair_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760016",
+      "feature_sha256": "4f20107070e699b76b9afb0a2749d3ffdd41a43ece314dd2c3205747c738896a",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.315253734588623
+    },
+    {
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510000_cf1",
+      "pair_id": "train_hop_2_terminal_mass:ergt43_pair_403510000",
+      "feature_sha256": "aa6aaa79d8cdf445e641578753c9e7dc2dab4c121d9aeb08e0026c33ce42ee6f",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.242726802825928
+    },
+    {
+      "example_id": "train_hop_6_payload_transport:ergt43_pair_793700012_cf0",
+      "pair_id": "train_hop_6_payload_transport:ergt43_pair_793700012",
+      "feature_sha256": "c69d2e03e543966a6cf2b12939bdbe87c29126facb996df6d14dd13bbc0b4da1",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.495050430297852
+    },
+    {
+      "example_id": "train_hop_3_boundary_deficit:ergt43_pair_483400017_cf1",
+      "pair_id": "train_hop_3_boundary_deficit:ergt43_pair_483400017",
+      "feature_sha256": "fcc35ba0f4aca45926d0884a2283963fb84da1ad27e05a49331d39baf8f93528",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.290890693664551
+    },
+    {
+      "example_id": "train_hop_4_geodesic_action:ergt43_pair_563290005_cf1",
+      "pair_id": "train_hop_4_geodesic_action:ergt43_pair_563290005",
+      "feature_sha256": "68a957a723efc4868eb1449f5f024b529e98f791e50dcbd373041736cf49f316",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.373913764953613
+    },
+    {
+      "example_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110000_cf1",
+      "pair_id": "train_hop_8_combined_long_horizon:ergt43_pair_1024110000",
+      "feature_sha256": "2e531b8075f251b3b4a88b2ba45e5a59f56e97094b14ca20fcc02f74d823f9e5",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.681560516357422
+    },
+    {
+      "example_id": "train_hop_2_boundary_deficit:ergt43_pair_383330013_cf0",
+      "pair_id": "train_hop_2_boundary_deficit:ergt43_pair_383330013",
+      "feature_sha256": "74fe7a28c475454380542c548f3f66af0d219f43289776f09d69f35504414f2e",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.228036403656006
+    },
+    {
+      "example_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310019_cf0",
+      "pair_id": "train_hop_3_finite_speed_cone:ergt43_pair_473310019",
+      "feature_sha256": "5f020083319401e8da4436256c88afb48e770c50cfa4cee61ef5f5aa946c92b1",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.287018299102783
+    },
+    {
+      "example_id": "train_hop_7_payload_transport:ergt43_pair_893770002_cf1",
+      "pair_id": "train_hop_7_payload_transport:ergt43_pair_893770002",
+      "feature_sha256": "aca24c65699bb1a94749ae48bb0272ab30e335668e98e316d799048f6735e081",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.597299575805664
+    },
+    {
+      "example_id": "train_hop_7_boundary_deficit:ergt43_pair_883680023_cf0",
+      "pair_id": "train_hop_7_boundary_deficit:ergt43_pair_883680023",
+      "feature_sha256": "8ad3f234fe245c37c1e0afa513af754ab02cfa16be5ca703e0eaa8ffc8e8886e",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.588374137878418
+    },
+    {
+      "example_id": "train_hop_6_terminal_mass:ergt43_pair_803790017_cf0",
+      "pair_id": "train_hop_6_terminal_mass:ergt43_pair_803790017",
+      "feature_sha256": "114df00207e0519d9110a1c5bf8ff66f243f5c3d12efb5203ceea71870255fb3",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.501063346862793
+    },
+    {
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510013_cf0",
+      "pair_id": "train_hop_2_terminal_mass:ergt43_pair_403510013",
+      "feature_sha256": "02b9de38261fe9a06b808b0ca895b9dc203ea68fddd2766463cc38d4953dc5ac",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.226504325866699
+    },
+    {
+      "example_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760016_cf1",
+      "pair_id": "train_hop_3_combined_long_horizon:ergt43_pair_523760016",
+      "feature_sha256": "9960019f48f5a58030ef2e2b418427df7313b6d7df01916d2313a1e8b8762f62",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.312305927276611
+    },
+    {
+      "example_id": "train_hop_2_memory_source_condition:ergt43_pair_413600012_cf0",
+      "pair_id": "train_hop_2_memory_source_condition:ergt43_pair_413600012",
+      "feature_sha256": "5675a19031fa185291426683cab008b1eb160e5b838b9a3df24316c6b612e12a",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.233330726623535
+    },
+    {
+      "example_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520018_cf0",
+      "pair_id": "train_hop_6_finite_speed_cone:ergt43_pair_773520018",
+      "feature_sha256": "bb0511ab9a3c89bd0741a04cc0440cc78af6587b51f33dcb6facd1681e26ab2a",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.499856948852539
+    },
+    {
+      "example_id": "train_hop_1_memory_source_condition:ergt43_pair_313530011_cf1",
+      "pair_id": "train_hop_1_memory_source_condition:ergt43_pair_313530011",
+      "feature_sha256": "b6fa4b860940732a54ec7771021162c31e30834e47d12e42b11a6169dc640fa9",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.174867868423462
+    },
+    {
+      "example_id": "train_hop_8_payload_transport:ergt43_pair_993840006_cf1",
+      "pair_id": "train_hop_8_payload_transport:ergt43_pair_993840006",
+      "feature_sha256": "b5e17b78f2b6102debf132086355615980f0f50a69e287a1dc6f4d8b7a80f911",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.683195114135742
+    },
+    {
+      "example_id": "train_hop_5_geodesic_action:ergt43_pair_663360008_cf1",
+      "pair_id": "train_hop_5_geodesic_action:ergt43_pair_663360008",
+      "feature_sha256": "e31b341c3a157ecadc783ae580ba0f1ad5e0cb8c8cb34e014b7f882f0647a816",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.431556701660156
+    },
+    {
+      "example_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690012_cf1",
+      "pair_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690012",
+      "feature_sha256": "95272b533d4d2c7ae2703b3748e00c7a47c435171bceec50d0a41ba0e3825bc7",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.241575241088867
+    },
+    {
+      "example_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040014_cf0",
+      "pair_id": "train_hop_7_combined_long_horizon:ergt43_pair_924040014",
+      "feature_sha256": "7a84757fd15cf7829ff71a2854ae55fca05a5f481927fe62564b925f797e014a",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.599366188049316
+    },
+    {
+      "example_id": "train_hop_7_boundary_deficit:ergt43_pair_883680023_cf1",
+      "pair_id": "train_hop_7_boundary_deficit:ergt43_pair_883680023",
+      "feature_sha256": "7564924746db1e2ae1d12c300b5e1d6deee13bea4dd96cf7793f70b167073989",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.587348937988281
+    },
+    {
+      "example_id": "train_hop_8_terminal_mass:ergt43_pair_1003930000_cf1",
+      "pair_id": "train_hop_8_terminal_mass:ergt43_pair_1003930000",
+      "feature_sha256": "8d8f66b3635a07e461fa1fff2a4a98c91dbaefa0ba76957cf6bd0aab496c711b",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.68488883972168
+    },
+    {
+      "example_id": "train_hop_5_memory_source_condition:ergt43_pair_713810012_cf0",
+      "pair_id": "train_hop_5_memory_source_condition:ergt43_pair_713810012",
+      "feature_sha256": "afcec0214025cfacb2f4fab461697e11f9ca1058d0fb7d4499e9df6d7869974c",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.430286407470703
+    },
+    {
+      "example_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690013_cf0",
+      "pair_id": "train_hop_2_combined_long_horizon:ergt43_pair_423690013",
+      "feature_sha256": "fa3e6d9c2bd189f0e18b1fed1cba452e85aa715adff2100510a46b3548b0e5f9",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.235124588012695
+    },
+    {
+      "example_id": "train_hop_4_memory_source_condition:ergt43_pair_613740016_cf1",
+      "pair_id": "train_hop_4_memory_source_condition:ergt43_pair_613740016",
+      "feature_sha256": "c322fe4995f74afd7e605aafa9a961234d4e95af9db24146e27cc08126c91add",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.370224952697754
+    },
+    {
+      "example_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660005_cf0",
+      "pair_id": "train_hop_8_finite_speed_cone:ergt43_pair_973660005",
+      "feature_sha256": "2e0de9afd057dba5c7616f9a87892133e690dfbb91eb133c5a3308aa99f8d1bd",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.679279327392578
+    },
+    {
+      "example_id": "train_hop_2_terminal_mass:ergt43_pair_403510020_cf1",
+      "pair_id": "train_hop_2_terminal_mass:ergt43_pair_403510020",
+      "feature_sha256": "25b732230cb542275bef10e5006de3344e113673933c1b0d0c1f3117cd854645",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.244700908660889
+    },
+    {
+      "example_id": "train_hop_4_memory_source_condition:ergt43_pair_613740023_cf1",
+      "pair_id": "train_hop_4_memory_source_condition:ergt43_pair_613740023",
+      "feature_sha256": "c932e77b7b4b609c3da5d9f864e6e02fc7e9b940181b9f34c0e5f604260dc2e7",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.359549522399902
+    },
+    {
+      "example_id": "train_hop_8_boundary_deficit:ergt43_pair_983750018_cf1",
+      "pair_id": "train_hop_8_boundary_deficit:ergt43_pair_983750018",
+      "feature_sha256": "d1b18e5bc0c3162de0741edd54979d25d321c2617a070fd7c7dcf6c44702c46b",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.687938690185547
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040017_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040017_unsupported",
+      "feature_sha256": "4061bf8e93ef31fda275e3abae1cf0153cdb4aa60a786c278839cc667285f1e9",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.30094051361084
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040017_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040017_unsupported",
+      "feature_sha256": "69339d7420ff392ec5f623399b35d32c59f6ef0bc4ac45f3586125ab417addf8",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.2992024421691895
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040005_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040005_unsupported",
+      "feature_sha256": "7668bb2f5a740a3c4e879f7c97d3bf7a745f1903d2599211d5a7fc00e67aed5d",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.18707275390625
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040005_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040005_unsupported",
+      "feature_sha256": "f062c850929a30cf89527ff54e410f9607ecd87f24431ff393c0987df9fbfa22",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1879844665527344
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040054_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040054_unsupported",
+      "feature_sha256": "ac392f37a517cdbc2be520b001216149eacede2425a9e161c1ace36422a09437",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.680912017822266
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040054_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040054_unsupported",
+      "feature_sha256": "e214e3e9f4353127a2b80da3b5326991c0324111b892f0bfba75400ca744bdf4",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.681251525878906
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040048_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040048_unsupported",
+      "feature_sha256": "7446cd9648a0e6f10c6bb99d158f52b6ead33f2cf6fc3243f3524bcf9220338f",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.595523834228516
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040048_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040048_unsupported",
+      "feature_sha256": "0f1bed5b3adb6fb7b7f27615f712a6e2a2ea824b3c15532fc83289b3e81c0682",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.595629692077637
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040018_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040018_unsupported",
+      "feature_sha256": "be1e63fbd4d3e07a4f7c6cdf677869ac6a43218f83a8d132c1a43463ef459d10",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.292844772338867
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040018_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040018_unsupported",
+      "feature_sha256": "8a838e468b3e604b2d9596ffbb4ee2ba76d13e0a955e7094c6a47b19fc9bc237",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.292956352233887
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040027_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040027_unsupported",
+      "feature_sha256": "a16ca3c9658aea7ce80e9a0abf181c3b0a6d5c04cb86fcc04d87e2a5c56cb683",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.382224082946777
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040027_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040027_unsupported",
+      "feature_sha256": "e119b46c2370638ffb3ec905f54536876e4d1054c352077349247e629d001f77",
+      "valid_tokens": 111,
+      "candidate_edges": 12210,
+      "q_mass": 8.385415077209473
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040006_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040006_unsupported",
+      "feature_sha256": "be523e2210ff955cf65fdfcd6b12ddbafe5c032046608ae1e692e680e70e3780",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.195422649383545
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040006_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040006_unsupported",
+      "feature_sha256": "0882817dace40725ef5e8a97e1c1810e92c5781508f70b0bee79a51cb8763f32",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.191944122314453
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040030_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040030_unsupported",
+      "feature_sha256": "4ae7bdfe1ab5404fe8baf37684a0b7f0ed76dfa55bc5436d62d8ae4a0cbaeec2",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.430898666381836
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040030_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040030_unsupported",
+      "feature_sha256": "edd2c5c4daf9c82bbbf68c53c25131b8d75b827c44d42796b49b9990fc5a7049",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.434391975402832
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040037_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040037_unsupported",
+      "feature_sha256": "be8d01fc89379202d7e4907f8eade4899d03203aa568b6ae692c2a3b0bcb1a9f",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.508173942565918
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040037_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040037_unsupported",
+      "feature_sha256": "96504bdfae172bd6d65ad7884d8f7afed478962a311765e00b787062b01bbc59",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.506965637207031
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040038_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040038_unsupported",
+      "feature_sha256": "7675d32ab656e044ce3377e70decf7c538e811a80b6a7c14e01608f3a989333c",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.533374786376953
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040038_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040038_unsupported",
+      "feature_sha256": "1a37c74a0e1a1369130b4638b50c209f76be14cc7bdde59410d1530fb45abfeb",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.533212661743164
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040013_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040013_unsupported",
+      "feature_sha256": "d6b192c9078367a090fc30956664ec8bb0a7680d4e783887a3f467f099ab87a5",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.254907131195068
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040013_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040013_unsupported",
+      "feature_sha256": "0fa88a82c3e2556f307ed4495eb9a492566f2ef5e69b21bc89f845715e209ee0",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.250747203826904
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040046_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040046_unsupported",
+      "feature_sha256": "0b95fab1e785db2cb577e3b41a0c769a0ed795eb79932a012b2a9eacb6bbc35c",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.581668853759766
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040046_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040046_unsupported",
+      "feature_sha256": "eee3e82a499670059aef75677d6ea5fa13f19b4d8c24fa1807666ddae6dda946",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.58195686340332
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040034_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040034_unsupported",
+      "feature_sha256": "2dde07bf065c969fa2c740062b584848b14f67d678922918d691ceff617e87f0",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.437698364257812
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040034_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040034_unsupported",
+      "feature_sha256": "69750ae2f686ef6d6f2225171f0da00747977a73a62c08b740d05455b9cb9114",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.436275482177734
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040045_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040045_unsupported",
+      "feature_sha256": "b6d6f8a45b9bb8e7f6177a422aca73b36dd19067ac5b1dd38b14002d38968ec4",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.58494758605957
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040045_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040045_unsupported",
+      "feature_sha256": "dfe9e4ec41cd370c12fd84f6d93c24bc6fae23a54ef0785ca0ddc1b422512774",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.583944320678711
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040016_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040016_unsupported",
+      "feature_sha256": "c273ba1ef7bce6c76f2acc76af72b9cba78a88d997698b730bc2d06a57900d38",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.309711933135986
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040016_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040016_unsupported",
+      "feature_sha256": "9f17212d29ceb86b90b911c68fb95851826f43c1a29b5dd4a2c4e50d4cadf2b4",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.308210849761963
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040033_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040033_unsupported",
+      "feature_sha256": "d5d54db4ab4b4f0b89703fc6c0069cc7fed33e7634536a218f1ae7acd3269afc",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.444056510925293
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040033_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040033_unsupported",
+      "feature_sha256": "75b120078aac7dc0fd69e9d1bf98beef51e3d7125a657caf3f5c731291d96254",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.444786071777344
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040014_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040014_unsupported",
+      "feature_sha256": "441c49a46571ed3f9099c44c47758d43893bb6a874ff6f86eb1f20b128a6c98c",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.302191257476807
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040014_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040014_unsupported",
+      "feature_sha256": "87386fc7bfdd7849c67ea8faddb8fc1befb62679d0ac3a1dd612f0dabafccfba",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.299383640289307
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040040_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040040_unsupported",
+      "feature_sha256": "007bcf60ad49f83114a6376325b6228c5443a268ea4c07981d85273d1b7020b2",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.499128341674805
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040040_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040040_unsupported",
+      "feature_sha256": "ce1a62a30037b203c0218b5dedbc29008186a56fdc37204cc05e4e763d0eeead",
+      "valid_tokens": 151,
+      "candidate_edges": 22650,
+      "q_mass": 12.497663497924805
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040028_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040028_unsupported",
+      "feature_sha256": "3386d5b7327be5842ad7ca9b65fd97ba8fbae003e2ee6a482894dd207e42ed28",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.433241844177246
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040028_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040028_unsupported",
+      "feature_sha256": "cd88ad85e57e6c10349de03ea36e9afc9bee1bf7de4988e1772cd2b9637cc439",
+      "valid_tokens": 131,
+      "candidate_edges": 17030,
+      "q_mass": 10.43181037902832
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040043_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040043_unsupported",
+      "feature_sha256": "36768a596e22b7f48922fcf99d6497a3908f88c428ab1a8df5a5008cec80e2be",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.6006441116333
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040043_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040043_unsupported",
+      "feature_sha256": "5673afe5bced7cbd71788fba764f0bc6b5720a6f60be54230875d61a09b53fd8",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.600798606872559
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040020_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040020_unsupported",
+      "feature_sha256": "a8cc5ba3ae645a4ef08c672796977f26dd539223f4a8ed4a039eb5376e563db1",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.312129974365234
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040020_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040020_unsupported",
+      "feature_sha256": "a8b92eb3aa106ac92f5c7b97775ba4a1bdc43bffe767f5477e51d35d01f14ea7",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.310805320739746
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040047_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040047_unsupported",
+      "feature_sha256": "2f8876a0a5f8a9a39df7ff9266d069ccb17e8d72aa61c9eda97baa7f6606a320",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.589157104492188
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040047_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040047_unsupported",
+      "feature_sha256": "ebaaef77a578a2961c3d604fddd55bfc08c19b60c8061a9e9eaa6a2f8ab22781",
+      "valid_tokens": 171,
+      "candidate_edges": 29070,
+      "q_mass": 14.588289260864258
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040049_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040049_unsupported",
+      "feature_sha256": "b59ffdba732d12353391fe8098d21d11f3731ae8918a49b70b85672355bc194a",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.717721939086914
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040049_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040049_unsupported",
+      "feature_sha256": "64a751edd7649f1ce9357a5bced5d3e1a7c84f8fed917042b431d16362e06bb5",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.714160919189453
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040004_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040004_unsupported",
+      "feature_sha256": "5f2450714f27e3f300c9eba07ac04070faabe1c5318f3546a510bfa739cb1939",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1777260303497314
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040004_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040004_unsupported",
+      "feature_sha256": "c8f7f4dbd36855cc33665fc8aef06469b7693d00662a28a9f145138ba02cc7f9",
+      "valid_tokens": 51,
+      "candidate_edges": 2550,
+      "q_mass": 2.1778581142425537
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040015_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040015_unsupported",
+      "feature_sha256": "28458ba79a7313622d16c737522a2d5c47bdaacd59afa1c629e015721591403e",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.309889793395996
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040015_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040015_unsupported",
+      "feature_sha256": "ec5750ea38b391d6031083eafa6d6388a32769d01f88a599692ae255f7b58f2f",
+      "valid_tokens": 91,
+      "candidate_edges": 8190,
+      "q_mass": 6.309023857116699
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040053_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040053_unsupported",
+      "feature_sha256": "9ae060514129ac348133a3de8daf94b0b37a7db11cccf6a33dfd6ec5aceddbe2",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.682405471801758
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040053_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040053_unsupported",
+      "feature_sha256": "2a9b4d52d536718e69fc8672e23fa2e3d908a73ea20f38eb31d8a48c7bb9562d",
+      "valid_tokens": 191,
+      "candidate_edges": 36290,
+      "q_mass": 16.685087203979492
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040009_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040009_unsupported",
+      "feature_sha256": "680b27f9fca30fca5cac7af3922d2441becc3c5bf324e2185c950879b0be95a7",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.242209434509277
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040009_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040009_unsupported",
+      "feature_sha256": "e2dac31f3a8b638327facebdeac4946e0160e906f71e6be840372dd452b5bc1d",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.241452693939209
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040008_cf1",
+      "pair_id": "train_unsupported:ergt43_pair_163040008_unsupported",
+      "feature_sha256": "6b060acfb70abe751f76e22fc5ef45d4debfe54141cf2a8a8ea3abc20a64cab7",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.237087249755859
+    },
+    {
+      "example_id": "train_unsupported:ergt43_pair_163040008_cf0",
+      "pair_id": "train_unsupported:ergt43_pair_163040008_unsupported",
+      "feature_sha256": "0e1e130b65752acd870a7492ce13ff23dcec81fad109b83262c02af824a6d4f6",
+      "valid_tokens": 71,
+      "candidate_edges": 4970,
+      "q_mass": 4.237360000610352
+    }
+  ]
+}

@@ -1,26 +1,26 @@
 # M2 — وضعیت شروع workflow نسخه‌دار
 
-- وضعیت: handoff ناقص؛ ورود به M3 هنوز مجاز نشده است.
+- وضعیت: handoff مهندسی گام ۲ پذیرفته؛ تأیید توسعهٔ تازه ناقص و ورود به M3 هنوز مجاز نشده است.
 - هدف: `GOAL-001` در `research/goals.json`.
 - شواهد: `research/legacy/index.json`، رکورد `LEGACY-M2-Q-CALIBRATION`.
 - برنامهٔ مبنا: `docs/OPERATIONAL_ROADMAP_FA.md`، گام‌های ۱ تا ۵.
 
 کالیبراسیون Q-conditioned عدد ۸۱٫۲۱۶٪ دقت متوازن پایش و ۳۲٫۱۸۷٪ کنترل برچسب تصادفی
 را ثبت کرده است. monitor از cohort آموزش مدل مرجع است؛ شاهد تأییدی مستقل نیست.
-checkpoint منتخب phase ذخیره نشده و freeze/resume آن runner تأیید نشده است.
+checkpoint منتخب phase اکنون ذخیره شده و freeze/reload/resume آن در run واردشده تأیید شده است.
 Q-shadow از مدل جدا بوده؛ نسبت‌دادن آن به قبولی حلقهٔ lagged یا اتصال واقعی صحیح نیست.
 
 کارهای لازم قبل از phase review بعدی:
 
 1. **انجام شد — ۲۱ سپتامبر ۲۰۲۶:** افزونهٔ معماری anchor، زمان‌بندی گذر مقدماتی،
    config ماشین‌خوان و validator در `ADR-0006` ثبت شدند؛ این تکمیل قرارداد است، نه run.
-2. **پیاده‌سازی و محلی تأیید شد — ۲۱ سپتامبر ۲۰۲۶:** runner `M2-E002/v001`
-   checkpoint کامل را ذخیره می‌کند و اولین state واجد دو پنجره را فوری freeze می‌کند.
-3. **پیاده‌سازی و محلی تأیید شد:** reload metric و resume کامل در فرایند تازه، منع
-   update پس از freeze و parity خروجی native پاس شدند؛ اجرای محلی phase pass نیست.
-4. نوت‌بوک و release نسخه‌دار از commit `7891db7` ساخته شده‌اند؛ اجرای Colab و سپس
-   import نتیجه و checkpoint با هش و محل Drive هنوز لازم است.
-5. تأیید توسعهٔ مستقل و اصلاح آداپتر `phi`/preview و حافظهٔ Q.
+2. **پذیرفته شد — ۲۲ سپتامبر ۲۰۲۶:** run واردشدهٔ `M2-E002/v001`
+   checkpoint کامل را در epoch ۳/step ۷۲ freeze کرد و هر ۱۹ gate را پاس کرد.
+3. **پذیرفته شد در دامنهٔ مهندسی:** reload metric و resume کامل در فرایند تازه، منع
+   update پس از freeze و parity خروجی native پاس شدند؛ [ADR-0007](../decisions/ADR-0007.md).
+4. **در حال شروع:** `M2-E003/v001` باید checkpoint منجمد را بدون تنظیم مجدد روی دو
+   پنجرهٔ توسعهٔ تازه، pair/text-disjoint و در برابر Q-only و no-phase هم‌ظرفیت بسنجد.
+5. پس از داوری گام ۳، اصلاح آداپتر `phi`/preview و حافظهٔ Q بررسی می‌شود.
 
 این فایل مرور انتقالی تاریخچه است. تصمیم بعدی باید فایل phase review تازه با پیوند به
 runهای نسخه‌دار و ADR بسازد. `M2_complete=true` در manifest قدیمی معنای قبولی عددی

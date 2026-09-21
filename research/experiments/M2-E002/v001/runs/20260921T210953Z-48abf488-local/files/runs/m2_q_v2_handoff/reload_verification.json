@@ -1,0 +1,57 @@
+{
+  "pass": true,
+  "fresh_process": true,
+  "progress_frozen": true,
+  "parameters_frozen": true,
+  "modules_eval": true,
+  "selected_epoch": 3,
+  "selected_step": 72,
+  "monitor": {
+    "ce": 0.6121000598247787,
+    "accuracy": 0.7556390977443609,
+    "balanced_accuracy": 0.7555267392741171,
+    "per_class_recall": [
+      0.8202247191011236,
+      0.7228260869565217,
+      0.7235294117647059
+    ],
+    "class_counts": [
+      356,
+      368,
+      340
+    ],
+    "confusion_matrix": [
+      [
+        292,
+        28,
+        36
+      ],
+      [
+        102,
+        266,
+        0
+      ],
+      [
+        94,
+        0,
+        246
+      ]
+    ],
+    "events": 1064,
+    "minimum_offset_separation": 2.0460855960845947,
+    "maximum_offset_displacement": 0.026874065399169922,
+    "phase_resultant": 0.5421227513126258,
+    "phase_resultant_per_world": [
+      0.7058431121639508,
+      0.18812553161601892,
+      0.6604256592215778,
+      0.7372071383825762,
+      0.6705173860537541,
+      0.6550917313797329,
+      0.1999226400417049,
+      0.5198488116416902
+    ]
+  },
+  "metric_reproduced_exactly": true,
+  "selected_checkpoint_sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234"
+}
