@@ -1,0 +1,227 @@
+{
+  "command": [
+    "{python}",
+    "-B",
+    "scripts/run_m2_q_v2.py",
+    "--output",
+    "runs/m2_q_v2_handoff",
+    "--reference-checkpoint",
+    "research/inputs/M2-E002/v001/native_ergt_training.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_q_v2.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E002/v001/protocol.json"
+  ],
+  "compute": {
+    "expected_runtime_basis": "Historical local M2-Q calibration plus fresh-process checkpoint verification; actual wall time is recorded by the runner.",
+    "gpu_required": false
+  },
+  "controls": [
+    "Deterministic within-batch shuffled-label calibration",
+    "Exact native output and hard-decision parity before training, after training and after selected reload",
+    "Fresh-process two-step continuous-versus-resumed equality",
+    "Frozen selected checkpoint rejects further optimizer updates",
+    "Reference checkpoint parameters remain frozen and gradient-free"
+  ],
+  "created_at": "2026-09-21T19:11:52+00:00",
+  "dependencies": [
+    "Python >= 3.10",
+    "PyTorch >= 2.0",
+    "NumPy",
+    "The source package generated from the committed M2-E002/v001 revision"
+  ],
+  "experiment_id": "M2-E002",
+  "gates": [
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "handoff_complete",
+      "op": "eq",
+      "pointer": "/M2_checkpoint_handoff_complete",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "first_qualified_state_selected",
+      "op": "eq",
+      "pointer": "/first_qualified_checkpoint_policy",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "balanced_accuracy",
+      "op": "ge",
+      "pointer": "/selected_monitor/balanced_accuracy",
+      "value": 0.7
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "relation_0_recall",
+      "op": "ge",
+      "pointer": "/selected_monitor/per_class_recall/0",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "relation_1_recall",
+      "op": "ge",
+      "pointer": "/selected_monitor/per_class_recall/1",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "relation_2_recall",
+      "op": "ge",
+      "pointer": "/selected_monitor/per_class_recall/2",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "ce_reduction",
+      "op": "eq",
+      "pointer": "/selected_checks/ce_reduction",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "offset_separation",
+      "op": "eq",
+      "pointer": "/selected_checks/offset_separation",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "phase_not_constant",
+      "op": "eq",
+      "pointer": "/selected_checks/phase_not_constant",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "two_consecutive_windows",
+      "op": "ge",
+      "pointer": "/selected_streak",
+      "value": 2
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "selected_checkpoint_frozen",
+      "op": "eq",
+      "pointer": "/engineering_checks/selected_checkpoint_frozen",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "fresh_process_reload",
+      "op": "eq",
+      "pointer": "/engineering_checks/fresh_process_reload_verified",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "reload_metric_exact",
+      "op": "eq",
+      "pointer": "/engineering_checks/reload_metric_reproduced_exactly",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "fresh_process_resume",
+      "op": "eq",
+      "pointer": "/engineering_checks/fresh_process_resume_verified",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "native_output_exact",
+      "op": "eq",
+      "pointer": "/engineering_checks/native_output_exact_before_after_and_reload",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "native_decision_exact",
+      "op": "eq",
+      "pointer": "/engineering_checks/native_hard_decision_parity",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "reference_unchanged",
+      "op": "eq",
+      "pointer": "/engineering_checks/reference_weights_and_gradients_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "shuffled_control_executed",
+      "op": "eq",
+      "pointer": "/engineering_checks/shuffled_label_control_executed",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_q_v2_handoff/result.json",
+      "name": "m3_remains_closed",
+      "op": "eq",
+      "pointer": "/M3_authorized_by_results",
+      "value": false
+    }
+  ],
+  "goal_reference": "docs/MATHEMATICAL_SPEC.md sections 5, 14, 15 and 17; docs/SPEC_Q_ANCHOR_ADDENDUM.md; docs/OPERATIONAL_ROADMAP_FA.md step 2; ADR-0006",
+  "hypothesis": "Under the frozen Q-conditioned anchor contract, the first two-window qualifying state can be saved immediately, reloaded with identical monitor metrics, and resumed exactly in a fresh process while the native reference remains unchanged.",
+  "inputs": [
+    {
+      "path": "research/inputs/M2-E002/v001/native_ergt_training.pt",
+      "sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+      "uri": "manual-upload://m0_single_seed_reference/opt_12011_data_16301/native_ergt_training.pt"
+    }
+  ],
+  "kind": "research",
+  "output_paths": [
+    "runs/m2_q_v2_handoff"
+  ],
+  "parent": null,
+  "prerequisites": [
+    "The reference checkpoint must match the accepted M0 SHA-256.",
+    "The mathematical specification lock and M2-Q v2 contract validator must pass.",
+    "The output directory must not already exist."
+  ],
+  "required_artifacts": [
+    "runs/m2_q_v2_handoff/result.json",
+    "runs/m2_q_v2_handoff/m2_handoff.json",
+    "runs/m2_q_v2_handoff/checkpoint_contract.json",
+    "runs/m2_q_v2_handoff/feature_cache_manifest.json",
+    "runs/m2_q_v2_handoff/initial_full_state.pt",
+    "runs/m2_q_v2_handoff/latest_full_state.pt",
+    "runs/m2_q_v2_handoff/selected_full_state.pt",
+    "runs/m2_q_v2_handoff/reload_verification.json",
+    "runs/m2_q_v2_handoff/resume_verification.json",
+    "runs/m2_q_v2_handoff/native_output_before.pt",
+    "runs/m2_q_v2_handoff/native_output_after_training.pt",
+    "runs/m2_q_v2_handoff/native_output_after_reload.pt"
+  ],
+  "resources": {
+    "cost_includes_prepass_and_probe": true,
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "dtype": "float32",
+    "maximum_runtime_minutes": 45,
+    "proposal_probes_per_prepass": 1,
+    "reference_prepasses_per_example": 1,
+    "threads": 1
+  },
+  "revision": "v001",
+  "schema": "ergt-phi-protocol-v1",
+  "scientific_scope": "Operational step 2 checkpoint handoff on the previously used M0 training cohort. Passing does not confirm fresh-development generalization, improve native answers, complete M3 integration, or authorize M3.",
+  "seed_and_split": {
+    "initialization_seed": 22092026,
+    "pair_partition_seed": 20092026,
+    "partition_policy": "pair-disjoint stratified 80/20 split of the accepted M0 training cohort",
+    "selection_data_status": "monitor is reused for checkpoint selection; independent fresh-development confirmation is deferred to operational step 3",
+    "shuffle_seed": 23092026
+  },
+  "stage": "M2",
+  "timeout_seconds": 3000,
+  "title": "Freeze and verify the first qualifying M2-Q v2 calibration checkpoint"
+}

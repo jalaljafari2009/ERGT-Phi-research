@@ -337,6 +337,12 @@ M6 و M7 در مسیر A اختیاری‌اند و برای فعال‌سازی
 
 **گام ۲ — بستن M2 با checkpoint واقعی و قابل ادامه**
 
+**وضعیت پیاده‌سازی در ۲۱ سپتامبر ۲۰۲۶:** runner، worker فرایند تازه، پروتکل و
+نوت‌بوک در `M2-E002/v001` ساخته شدند. اجرای مهندسی محلی روی دادهٔ واقعی اولین state
+واجد دو پنجره را در epoch ۳/step ۷۲ انتخاب کرد و هر ۱۹ gate را پاس کرد. این شاهد صحت
+اجرای کد است؛ معیار خروج گام پس از release قفل‌شده، اجرای Colab، import checkpoint و
+review run داوری می‌شود. گام ۳ و M3 با این نتیجهٔ محلی باز نمی‌شوند.
+
 - runner موجود با ابزارهای `checkpoint.py` تکمیل شود: initial، latest، selected و
   rejected checkpoint شامل مدل، optimizer، scheduler/scaler در صورت وجود، RNG،
   cursor داده، پارامترهای فعال و هش سورس/داده/نسخه.
@@ -356,7 +362,8 @@ M6 و M7 در مسیر A اختیاری‌اند و برای فعال‌سازی
 معیار خروج: checkpoint منتخب و freeze‌شده موجود باشد، هش آن ثبت شود، reload نتیجهٔ
 منتخب را بازتولید کند و resume/rollback و کنترل عدم تغییر مرجع پاس شوند.
 
-خروجی پیشنهادی: checkpoint منتخب در artifactهای اجرای تازه، با هش و locator در
+خروجی ثبت‌شده برای اجرا: [M2-E002/v001](../research/experiments/M2-E002/v001/README.md).
+checkpoint منتخب پس از import اجرای تازه، با هش و locator در
 `research/experiments/<id>/vNNN/runs/<run_id>/artifacts.json`؛ گزارش `m2_handoff.json`
 در `files/` همان run. ابزار import محل دقیق وزن حجیم را زیر `research/artifacts/`
 ثبت می‌کند. آرشیو legacy مقصد خروجی تازه نیست. handoff صلاحیت آزمایش محدود M3 را ثبت می‌کند.

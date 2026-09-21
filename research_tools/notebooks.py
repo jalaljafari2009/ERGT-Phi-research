@@ -21,6 +21,8 @@ SOURCE_FILES = (
     "research/legacy/path_map.json",
     "research/legacy/LEGACY-M0/manifests/reference.json",
     "research/legacy/LEGACY-M0/manifests/trained_m0_audit.json",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/protocol.json",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference/data_manifest.json",
 )
 EXCLUDED_PARTS = {".git", ".venv", "__pycache__", ".pytest_cache", "node_modules", "runs", "secrets", "credentials"}
 EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".pt", ".pth", ".ckpt", ".safetensors", ".pem", ".key", ".p12", ".bin", ".onnx", ".h5", ".hdf5", ".zip", ".exe", ".dll", ".so"}

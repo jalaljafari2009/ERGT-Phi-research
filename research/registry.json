@@ -1,5 +1,10 @@
 {
   "experiments": {
+    "M2-E002": {
+      "revisions": {
+        "v001": "experiments/M2-E002/v001"
+      }
+    },
     "WF-E001": {
       "revisions": {
         "v001": "experiments/WF-E001/v001"
