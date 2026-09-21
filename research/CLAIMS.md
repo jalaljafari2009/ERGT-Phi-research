@@ -1,6 +1,6 @@
 # دفتر شواهد برای مقاله
 
-این دفتر مشخص می‌کند چه چیزی با کدام شاهد قابل گفتن است. «مشاهدهٔ اکتشافی»، «پذیرش مهندسی»، «کالیبراسیون کمکی» و «تأیید مستقل پاسخ نهایی» سطوح متفاوت‌اند. CL-001 تا CL-007 شواهد تاریخی‌اند؛ CL-008 اعتبارسنجی زیرساخت و CL-009 تحویل مهندسی M2 است. تأیید علمی تازهٔ پاسخ نهایی هنوز وجود ندارد. مرور محدودیت‌ها در [roadmap](../docs/OPERATIONAL_ROADMAP_FA.md) ثبت شده است.
+این دفتر مشخص می‌کند چه چیزی با کدام شاهد قابل گفتن است. «مشاهدهٔ اکتشافی»، «پذیرش مهندسی»، «کالیبراسیون کمکی» و «تأیید مستقل پاسخ نهایی» سطوح متفاوت‌اند. CL-001 تا CL-007 شواهد تاریخی‌اند؛ CL-008 اعتبارسنجی زیرساخت، CL-009 تحویل مهندسی M2 و CL-010 تأیید توسعه‌ایِ همراه با نتیجهٔ منفی کنترل‌هاست. تأیید علمی تازهٔ پاسخ نهایی هنوز وجود ندارد. مرور محدودیت‌ها در [roadmap](../docs/OPERATIONAL_ROADMAP_FA.md) ثبت شده است.
 
 فهرست تولیدشدهٔ runها در [paper/RUN_CATALOG.md](paper/RUN_CATALOG.md) و جدول ماشینی در [paper/evidence.csv](paper/evidence.csv) است. [export_research_catalog.py](../scripts/export_research_catalog.py) آن‌ها را از رکوردهای پژوهش می‌سازد؛ فهرست خودکار جای تفسیر علمی و بررسی استقلال شاهد را نمی‌گیرد.
 
@@ -15,6 +15,7 @@
 | `CL-007` | اثر ERGT-Phi بر پاسخ نهایی، تعمیم مستقل و هزینهٔ کامل هنوز نتیجه‌گیری نشده است | [roadmap](../docs/OPERATIONAL_ROADMAP_FA.md)، [STATE](STATE.md) | نیازمند M3/M4 و ارزیابی قفل‌شدهٔ مستقل M8 است |
 | `CL-008` | چرخهٔ ساخت بسته، اجرای محلی، ورود نتیجه و بازبینی نسخه‌دار روی نمونهٔ WF-E001 کار کرده است | [تفسیر run](experiments/WF-E001/v001/runs/local-20260920T111545Z-22c8c9/interpretation.md)، [اعتبارسنجی ۳۶ تست](validation/WORKFLOW_V1.md)، [ADR-0002](decisions/ADR-0002.md) | شاهد مدیریت آزمایش؛ صحت اجرای زندهٔ Colab و هر بهبود علمی مدل هنوز از این نمونه نتیجه نمی‌شود |
 | `CL-009` | release قفل‌شدهٔ M2-E002 در اجرای محلی package-bound چرخهٔ انتخاب نخستین checkpoint، freeze، reload، resume و حفظ مرجع را در هر ۱۹ gate پاس کرد | [خلاصه](experiments/M2-E002/v001/runs/20260921T210953Z-48abf488-local/summary.md)، [تفسیر](experiments/M2-E002/v001/runs/20260921T210953Z-48abf488-local/interpretation.md)، [بازبینی](experiments/M2-E002/v001/runs/20260921T210953Z-48abf488-local/reviews/001.json)، [ADR-0007](decisions/ADR-0007.md) | اجرای Windows/CPU و خارج از Colab؛ monitor دیده‌شده و کالیبراسیون کمکی است؛ توسعهٔ تازه، اثر بر پاسخ و مجوز M3 نتیجه نمی‌شوند |
+| `CL-010` | checkpoint منجمد phase روی دو پنجرهٔ تازه دقت متوازن ۰٫۷۸۰ و ۰٫۷۷۱ داشت و هر ۲۲ gate را پاس کرد؛ Q-only و no-phase هم‌ظرفیت در هر دو پنجره ۱٫۰ بودند، پس سود اختصاصی phase روی target relation تأیید نشد | [خلاصه](experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/summary.md)، [تفسیر](experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/interpretation.md)، [بازبینی](experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/reviews/001.json)، [ADR-0011](decisions/ADR-0011.md) | توسعهٔ تازه و pair/text-disjoint است، اما target کمکی است؛ پاسخ native، علیت فاز، افق نهایی و مجوز M3 نتیجه نمی‌شوند |
 
 برای رکوردهای legacy، hashهای موجود در manifest اصلی و فهرست [legacy/index.json](legacy/index.json) منبع‌اند. ادعای وجود رکورد بازبینی جدید، hash بازبینی یا provenance جدید برای این اجراها ساخته نشود.
 

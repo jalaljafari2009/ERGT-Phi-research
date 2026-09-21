@@ -1,0 +1,30 @@
+Caching historical fit features for controls
+Cached confirmation features: 50/504
+Cached confirmation features: 100/504
+Cached confirmation features: 150/504
+Cached confirmation features: 200/504
+Cached confirmation features: 250/504
+Cached confirmation features: 300/504
+Cached confirmation features: 350/504
+Cached confirmation features: 400/504
+Cached confirmation features: 450/504
+Cached confirmation features: 500/504
+Caching preregistered fresh-development features
+Cached confirmation features: 50/504
+Cached confirmation features: 100/504
+Cached confirmation features: 150/504
+Cached confirmation features: 200/504
+Cached confirmation features: 250/504
+Cached confirmation features: 300/504
+Cached confirmation features: 350/504
+Cached confirmation features: 400/504
+Cached confirmation features: 450/504
+Cached confirmation features: 500/504
+{
+  "status": "fresh_development_confirmed",
+  "fresh_cohort_sha256": "15aa78ddc70c19409efc9cc58071aace4693f59cbc50650b4c12f3a9e933b659",
+  "window_1_phase_balanced_accuracy": 0.780028253661042,
+  "window_2_phase_balanced_accuracy": 0.7711597113342311,
+  "phase_specific_signal_descriptive": false,
+  "M3_authorized_by_results": false
+}

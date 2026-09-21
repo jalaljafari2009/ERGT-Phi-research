@@ -1,0 +1,112 @@
+{
+  "artifacts": [
+    {
+      "bytes": 463,
+      "path": "runner/environment.json",
+      "sha256": "9bc020b331a2ec6ff23552db84b429578cf1f645115214ba99dc4a567153dae6"
+    },
+    {
+      "bytes": 1219,
+      "path": "runner/stdout_stderr.log",
+      "sha256": "8f950c96933e380d9f5be28c91d099a39557800a12fbbc34844c99466e54b0d7"
+    },
+    {
+      "bytes": 25111,
+      "path": "runs/m2_fresh_confirmation/control_checkpoints.pt",
+      "sha256": "8abde0c33fc7dfd6c87a2a963870479c7316b7c9212ceaf7054a19809c060878"
+    },
+    {
+      "bytes": 1490934,
+      "path": "runs/m2_fresh_confirmation/event_predictions.jsonl",
+      "sha256": "c13cd71dc1b3cadf350ac5e9fd76689a63da81f0fee043bc87abd33432dbe620"
+    },
+    {
+      "bytes": 310704,
+      "path": "runs/m2_fresh_confirmation/fresh_development_audit.json",
+      "sha256": "779056a5b1093725954cbec1c3773b61a0f0ded39eca28324ed0b93de76112dc"
+    },
+    {
+      "bytes": 197861,
+      "path": "runs/m2_fresh_confirmation/fresh_feature_cache_manifest.json",
+      "sha256": "9eead67e3657cca637dd63b80309186c7ccdaaed8c7f2d3cdac0ef5c7efd046f"
+    },
+    {
+      "bytes": 783,
+      "path": "runs/m2_fresh_confirmation/m2_fresh_handoff.json",
+      "sha256": "ebd4f7f8de8419fc7c441682dc9f4566801deee00368062a394ef58b7d486b0f"
+    },
+    {
+      "bytes": 8093,
+      "path": "runs/m2_fresh_confirmation/result.json",
+      "sha256": "ea3fdacbef522f24a33c784e826549a86d70a7e89116b8cbc3b31c5b8faa431f"
+    }
+  ],
+  "command": [
+    "{python}",
+    "-B",
+    "scripts/run_m2_fresh_confirmation.py",
+    "--output",
+    "runs/m2_fresh_confirmation",
+    "--reference-checkpoint",
+    "research/inputs/M2-E003/v001/native_ergt_training.pt",
+    "--phase-checkpoint",
+    "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_fresh_v2.json",
+    "--fresh-lock",
+    "configs/m2_e003_fresh_development_lock.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E003/v004/protocol.json"
+  ],
+  "environment": {
+    "colab_detected": false,
+    "executable": "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+    "gpu_inventory": null,
+    "machine": "AMD64",
+    "packages": {
+      "nbformat": null,
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "pytest": "9.1.1",
+      "torch": "2.14.0"
+    },
+    "platform": "Windows-2022Server-10.0.20348-SP0",
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]"
+  },
+  "error": null,
+  "executed_command": [
+    "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+    "-B",
+    "scripts/run_m2_fresh_confirmation.py",
+    "--output",
+    "runs/m2_fresh_confirmation",
+    "--reference-checkpoint",
+    "research/inputs/M2-E003/v001/native_ergt_training.pt",
+    "--phase-checkpoint",
+    "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_fresh_v2.json",
+    "--fresh-lock",
+    "configs/m2_e003_fresh_development_lock.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E003/v004/protocol.json"
+  ],
+  "experiment_id": "M2-E003",
+  "finished_at": "2026-09-21T22:49:57.195127+00:00",
+  "missing_required_artifacts": [],
+  "notebook_sha256": "8a9ce7628280807419304a8428da29a7bf9a13fa365df9f7e0078912748237a1",
+  "package_sha256": "70a2e98e502724790e6d605e9cb59bc22278259a1a0570bc089a2b56e3e3ff56",
+  "protocol_sha256": "672a2b94c4f6a81637aee51c57f9d8f58f4d8cd5b1fe5de96c5f7759b5864e8b",
+  "returncode": 0,
+  "revision": "v004",
+  "run_id": "20260921T224500Z-m2e003-v004-local",
+  "schema": "ergt-phi-run-v1",
+  "seconds": 405.6255124999443,
+  "source_commit": "fdf4128eb98209fb8a56f79ff25dfc2f12a95b1d",
+  "started_at": "2026-09-21T22:43:11.569065+00:00",
+  "status": "execution_completed"
+}

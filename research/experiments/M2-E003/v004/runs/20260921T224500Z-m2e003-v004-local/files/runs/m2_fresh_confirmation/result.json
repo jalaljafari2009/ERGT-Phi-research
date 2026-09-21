@@ -1,0 +1,316 @@
+{
+  "M2_fresh_development_confirmed": true,
+  "M3_authorized_by_results": false,
+  "confirmation_windows_pair_disjoint": true,
+  "contract_sha256": "603120fcbeff5c796a1f04df68d81b75804633695b008c6eb9b8378474f9176d",
+  "controls": {
+    "fixed_training_epochs": 3,
+    "no_phase_capacity_relative_difference": 0.006595744680851064,
+    "no_phase_training": {
+      "epochs": 3,
+      "examples": 382,
+      "fresh_labels_used": false,
+      "hidden_dim": 35,
+      "node_dim": 62,
+      "parameters": 4731,
+      "steps": 72
+    },
+    "phase_parameters": 4700,
+    "q_only_training": {
+      "epochs": 3,
+      "examples": 382,
+      "fresh_labels_used": false,
+      "hidden_dim": 16,
+      "node_dim": 6,
+      "parameters": 283,
+      "steps": 72
+    },
+    "selection_on_fresh_data": false
+  },
+  "controls_executed": true,
+  "cost": {
+    "device": "cpu",
+    "elapsed_seconds": 388.6109763000859,
+    "fresh_cache_seconds": 188.82093970000278,
+    "historical_cache_seconds": 191.76106839999557,
+    "threads": 1
+  },
+  "counterfactual_pair_disjoint_from_m0_training": true,
+  "experiment_id": "M2-E003",
+  "experiment_protocol_sha256": "672a2b94c4f6a81637aee51c57f9d8f58f4d8cd5b1fe5de96c5f7759b5864e8b",
+  "fresh_cohort_sha256": "15aa78ddc70c19409efc9cc58071aace4693f59cbc50650b4c12f3a9e933b659",
+  "fresh_development_confirmation_pass": true,
+  "fresh_labels_used_for_training_or_selection": false,
+  "fresh_lock_match": true,
+  "fresh_lock_sha256": "3bf9865f8a1edfedc50113251ef7175dcd28fe075b1502be5d9fce7e4a0b4adb",
+  "historical_training_cohort_sha256": "e3978bd5688fa0145cc4da581e332d1ee9b67d61aff43fcd8fb0ccec224b6c53",
+  "m8_final_horizons_exposed": false,
+  "native_answer_improvement_claimed": false,
+  "phase_specific_causal_claim_confirmed": false,
+  "phase_specific_signal_descriptive": false,
+  "raw_text_disjoint_from_m0_training": true,
+  "reference_checkpoint_sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+  "reference_checkpoint_unchanged": true,
+  "revision": "v004",
+  "schema": "ergt-phi-m2-fresh-confirmation-result-v1",
+  "selected_checkpoint_frozen": true,
+  "selected_checkpoint_sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234",
+  "selected_checkpoint_unchanged": true,
+  "status": "fresh_development_confirmed",
+  "windows": {
+    "window_1": {
+      "examples": 252,
+      "no_phase": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "ce": 0.21763160605179635,
+        "class_counts": [
+          672,
+          764,
+          844
+        ],
+        "confusion_matrix": [
+          [
+            672,
+            0,
+            0
+          ],
+          [
+            0,
+            764,
+            0
+          ],
+          [
+            0,
+            0,
+            844
+          ]
+        ],
+        "events": 2280,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "pairs": 126,
+      "phase": {
+        "accuracy": 0.7767543859649123,
+        "balanced_accuracy": 0.780028253661042,
+        "ce": 0.5709654590539764,
+        "class_counts": [
+          672,
+          764,
+          844
+        ],
+        "confusion_matrix": [
+          [
+            548,
+            84,
+            40
+          ],
+          [
+            151,
+            609,
+            4
+          ],
+          [
+            214,
+            16,
+            614
+          ]
+        ],
+        "events": 2280,
+        "maximum_offset_displacement": 0.026874065399169922,
+        "minimum_offset_separation": 2.0460855960845947,
+        "per_class_recall": [
+          0.8154761904761905,
+          0.7971204188481675,
+          0.7274881516587678
+        ],
+        "phase_resultant": 0.509013362034163,
+        "phase_resultant_per_world": [
+          0.6606016946875041,
+          0.1821216496415844,
+          0.6135895360396861,
+          0.699847640523582,
+          0.613265714234912,
+          0.5925891999961838,
+          0.18715880439039853,
+          0.5229326567594543
+        ]
+      },
+      "phase_all_checks": true,
+      "phase_checks": {
+        "all_relation_classes_present": true,
+        "balanced_accuracy": true,
+        "ce_below_uniform_by_five_percent": true,
+        "minimum_class_recall": true,
+        "offset_separation": true,
+        "phase_not_constant": true
+      },
+      "phase_minus_no_phase_balanced_accuracy": -0.219971746338958,
+      "phase_minus_q_only_balanced_accuracy": -0.219971746338958,
+      "q_only": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "ce": 0.3391558145221911,
+        "class_counts": [
+          672,
+          764,
+          844
+        ],
+        "confusion_matrix": [
+          [
+            672,
+            0,
+            0
+          ],
+          [
+            0,
+            764,
+            0
+          ],
+          [
+            0,
+            0,
+            844
+          ]
+        ],
+        "events": 2280,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "window_2": {
+      "examples": 252,
+      "no_phase": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "ce": 0.210197539150395,
+        "class_counts": [
+          644,
+          824,
+          768
+        ],
+        "confusion_matrix": [
+          [
+            644,
+            0,
+            0
+          ],
+          [
+            0,
+            824,
+            0
+          ],
+          [
+            0,
+            0,
+            768
+          ]
+        ],
+        "events": 2236,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "pairs": 126,
+      "phase": {
+        "accuracy": 0.7674418604651163,
+        "balanced_accuracy": 0.7711597113342311,
+        "ce": 0.5786106010669033,
+        "class_counts": [
+          644,
+          824,
+          768
+        ],
+        "confusion_matrix": [
+          [
+            528,
+            56,
+            60
+          ],
+          [
+            216,
+            602,
+            6
+          ],
+          [
+            168,
+            14,
+            586
+          ]
+        ],
+        "events": 2236,
+        "maximum_offset_displacement": 0.026874065399169922,
+        "minimum_offset_separation": 2.0460855960845947,
+        "per_class_recall": [
+          0.8198757763975155,
+          0.7305825242718447,
+          0.7630208333333334
+        ],
+        "phase_resultant": 0.5113479541847459,
+        "phase_resultant_per_world": [
+          0.6611457861859116,
+          0.1943299624797747,
+          0.598527331655458,
+          0.6980623335468833,
+          0.6069685473535547,
+          0.5926437311416377,
+          0.19842987976951235,
+          0.5406760613452352
+        ]
+      },
+      "phase_all_checks": true,
+      "phase_checks": {
+        "all_relation_classes_present": true,
+        "balanced_accuracy": true,
+        "ce_below_uniform_by_five_percent": true,
+        "minimum_class_recall": true,
+        "offset_separation": true,
+        "phase_not_constant": true
+      },
+      "phase_minus_no_phase_balanced_accuracy": -0.2288402886657689,
+      "phase_minus_q_only_balanced_accuracy": -0.2288402886657689,
+      "q_only": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "ce": 0.3489027193919064,
+        "class_counts": [
+          644,
+          824,
+          768
+        ],
+        "confusion_matrix": [
+          [
+            644,
+            0,
+            0
+          ],
+          [
+            0,
+            824,
+            0
+          ],
+          [
+            0,
+            0,
+            768
+          ]
+        ],
+        "events": 2236,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  }
+}

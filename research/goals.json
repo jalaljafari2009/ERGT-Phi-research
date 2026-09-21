@@ -28,7 +28,7 @@
       "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
       "scientific_hypothesis": "Any improvement in answer quality or compute cost must be established independently against the corresponding native baseline and matched controls.",
       "active_stage": "M2",
-      "current_variant": "Q-conditioned anchor v2: M2-E002/v001 handoff passed; M2-E003/v001 and v002 exposed packaging defects, v003 passed data/checkpoint/cache steps but stopped before metrics on a capacity-count mismatch, and v004 corrects only no-phase width to 35 under ADR-0010; execution remains; parallel track B is planned, not yet run",
+      "current_variant": "Q-conditioned anchor v2: M2-E002 handoff and M2-E003/v004 fresh calibration passed; frozen phase scored about 0.77-0.78 balanced accuracy while Q-only and capacity-matched no-phase controls scored 1.0 in both windows, so phase-specific benefit is unsupported under ADR-0011; target/shortcut audit is next; parallel track B is planned, not yet run",
       "phase_review": "research/phase_reviews/M2_CURRENT.md",
       "decision_history": [
         "ADR-0001",
@@ -38,7 +38,8 @@
         "ADR-0007",
         "ADR-0008",
         "ADR-0009",
-        "ADR-0010"
+        "ADR-0010",
+        "ADR-0011"
       ],
       "change_policy": "Record a new goal version and ADR before a new run if scope, architecture or primary claim changes; retain all prior versions and negative results.",
       "specification_lock": "research/specification.lock.json",
@@ -47,8 +48,8 @@
         "A": {
           "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
           "active_stage": "M2",
-          "state": "fresh_development_preregistered_execution_pending",
-          "next_action": "Freeze and execute M2-E003/v004 with the corrected capacity-matched no-phase width, then import and review both locked fresh-development windows before native activation."
+          "state": "fresh_development_passed_phase_specific_signal_not_supported",
+          "next_action": "Before governing native activation, preregister a target/shortcut audit with fixed checkpoints: Q relation-channel zeroing/permutation, raw-only control and a target closer to answer/path errors; keep M8 and M3 closed."
         },
         "B": {
           "objective": "Test ambiguity retention, relation-grounded phase transport, boundary readout and adaptive compute against matched classical controls.",

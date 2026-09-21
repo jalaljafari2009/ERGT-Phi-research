@@ -1,0 +1,66 @@
+{
+  "artifacts": [
+    {
+      "bytes": 463,
+      "local_path": "research/experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/files/runner/environment.json",
+      "path": "runner/environment.json",
+      "sha256": "9bc020b331a2ec6ff23552db84b429578cf1f645115214ba99dc4a567153dae6",
+      "tracked": true
+    },
+    {
+      "bytes": 1219,
+      "local_path": "research/experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/files/runner/stdout_stderr.log",
+      "path": "runner/stdout_stderr.log",
+      "sha256": "8f950c96933e380d9f5be28c91d099a39557800a12fbbc34844c99466e54b0d7",
+      "tracked": true
+    },
+    {
+      "bytes": 25111,
+      "local_path": "research/artifacts/M2-E003/v004/20260921T224500Z-m2e003-v004-local/runs/m2_fresh_confirmation/control_checkpoints.pt",
+      "path": "runs/m2_fresh_confirmation/control_checkpoints.pt",
+      "sha256": "8abde0c33fc7dfd6c87a2a963870479c7316b7c9212ceaf7054a19809c060878",
+      "tracked": false
+    },
+    {
+      "bytes": 1490934,
+      "local_path": "research/experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/files/runs/m2_fresh_confirmation/event_predictions.jsonl",
+      "path": "runs/m2_fresh_confirmation/event_predictions.jsonl",
+      "sha256": "c13cd71dc1b3cadf350ac5e9fd76689a63da81f0fee043bc87abd33432dbe620",
+      "tracked": true
+    },
+    {
+      "bytes": 310704,
+      "local_path": "research/experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/files/runs/m2_fresh_confirmation/fresh_development_audit.json",
+      "path": "runs/m2_fresh_confirmation/fresh_development_audit.json",
+      "sha256": "779056a5b1093725954cbec1c3773b61a0f0ded39eca28324ed0b93de76112dc",
+      "tracked": true
+    },
+    {
+      "bytes": 197861,
+      "local_path": "research/experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/files/runs/m2_fresh_confirmation/fresh_feature_cache_manifest.json",
+      "path": "runs/m2_fresh_confirmation/fresh_feature_cache_manifest.json",
+      "sha256": "9eead67e3657cca637dd63b80309186c7ccdaaed8c7f2d3cdac0ef5c7efd046f",
+      "tracked": true
+    },
+    {
+      "bytes": 783,
+      "local_path": "research/experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/files/runs/m2_fresh_confirmation/m2_fresh_handoff.json",
+      "path": "runs/m2_fresh_confirmation/m2_fresh_handoff.json",
+      "sha256": "ebd4f7f8de8419fc7c441682dc9f4566801deee00368062a394ef58b7d486b0f",
+      "tracked": true
+    },
+    {
+      "bytes": 8093,
+      "local_path": "research/experiments/M2-E003/v004/runs/20260921T224500Z-m2e003-v004-local/files/runs/m2_fresh_confirmation/result.json",
+      "path": "runs/m2_fresh_confirmation/result.json",
+      "sha256": "ea3fdacbef522f24a33c784e826549a86d70a7e89116b8cbc3b31c5b8faa431f",
+      "tracked": true
+    }
+  ],
+  "bundle_name": "20260921T224500Z-m2e003-v004-local.zip",
+  "bundle_sha256": "009d9de473ce0dbec69db646980bb02d0038cad139761bd5b19620357f13e35c",
+  "imported_at": "2026-09-21T22:50:18+00:00",
+  "run_manifest_sha256": "268d3b34a38b04be261ed8c0ecd427c5826bcb9cd8678f4642c0669a3763eb1e",
+  "schema": "ergt-phi-artifacts-v1",
+  "source_uri": "repo-local://research/inbox/20260921T224500Z-m2e003-v004-local.zip"
+}

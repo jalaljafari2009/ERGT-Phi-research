@@ -1,0 +1,249 @@
+{
+  "created_at": "2026-09-21T22:53:26+00:00",
+  "decision": "pass",
+  "decision_id": "ADR-0011",
+  "decision_path": "research/decisions/ADR-0011.md",
+  "decision_sha256": "d2453ec07b7482c9cf96ba1057cf59d67f00c8c6ded4c325f3a5a62cad796df5",
+  "evaluation": {
+    "all_gates_pass": true,
+    "eligible_for_pass": true,
+    "execution_success": true,
+    "gates": [
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "fresh_confirmation_complete",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/fresh_development_confirmation_pass",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "fresh_lock_match",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/fresh_lock_match",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "raw_text_disjoint",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/raw_text_disjoint_from_m0_training",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "counterfactual_pair_disjoint",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/counterfactual_pair_disjoint_from_m0_training",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "confirmation_windows_pair_disjoint",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/confirmation_windows_pair_disjoint",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_1_all_phase_checks",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/windows/window_1/phase_all_checks",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_1_balanced_accuracy",
+        "observed": 0.780028253661042,
+        "op": "ge",
+        "pointer": "/windows/window_1/phase/balanced_accuracy",
+        "status": "pass",
+        "value": 0.7
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_1_relation_0_recall",
+        "observed": 0.8154761904761905,
+        "op": "ge",
+        "pointer": "/windows/window_1/phase/per_class_recall/0",
+        "status": "pass",
+        "value": 0.5
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_1_relation_1_recall",
+        "observed": 0.7971204188481675,
+        "op": "ge",
+        "pointer": "/windows/window_1/phase/per_class_recall/1",
+        "status": "pass",
+        "value": 0.5
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_1_relation_2_recall",
+        "observed": 0.7274881516587678,
+        "op": "ge",
+        "pointer": "/windows/window_1/phase/per_class_recall/2",
+        "status": "pass",
+        "value": 0.5
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_2_all_phase_checks",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/windows/window_2/phase_all_checks",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_2_balanced_accuracy",
+        "observed": 0.7711597113342311,
+        "op": "ge",
+        "pointer": "/windows/window_2/phase/balanced_accuracy",
+        "status": "pass",
+        "value": 0.7
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_2_relation_0_recall",
+        "observed": 0.8198757763975155,
+        "op": "ge",
+        "pointer": "/windows/window_2/phase/per_class_recall/0",
+        "status": "pass",
+        "value": 0.5
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_2_relation_1_recall",
+        "observed": 0.7305825242718447,
+        "op": "ge",
+        "pointer": "/windows/window_2/phase/per_class_recall/1",
+        "status": "pass",
+        "value": 0.5
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "window_2_relation_2_recall",
+        "observed": 0.7630208333333334,
+        "op": "ge",
+        "pointer": "/windows/window_2/phase/per_class_recall/2",
+        "status": "pass",
+        "value": 0.5
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "controls_executed",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/controls_executed",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "fresh_labels_not_used",
+        "observed": false,
+        "op": "eq",
+        "pointer": "/fresh_labels_used_for_training_or_selection",
+        "status": "pass",
+        "value": false
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "selected_checkpoint_frozen",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/selected_checkpoint_frozen",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "selected_checkpoint_unchanged",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/selected_checkpoint_unchanged",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "reference_checkpoint_unchanged",
+        "observed": true,
+        "op": "eq",
+        "pointer": "/reference_checkpoint_unchanged",
+        "status": "pass",
+        "value": true
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "m8_final_horizons_closed",
+        "observed": false,
+        "op": "eq",
+        "pointer": "/m8_final_horizons_exposed",
+        "status": "pass",
+        "value": false
+      },
+      {
+        "artifact": "runs/m2_fresh_confirmation/result.json",
+        "explanation": "Threshold comparison",
+        "name": "m3_remains_closed",
+        "observed": false,
+        "op": "eq",
+        "pointer": "/M3_authorized_by_results",
+        "status": "pass",
+        "value": false
+      }
+    ],
+    "kind": "research",
+    "limitation": "Recorded gates require a linked review; no stage is promoted automatically.",
+    "missing_required_artifacts": [],
+    "required_artifacts_present": true,
+    "schema": "ergt-phi-evaluation-v1",
+    "scientific_phase_pass": false
+  },
+  "experiment_id": "M2-E003",
+  "kind": "research",
+  "next_action": "Before governing native activation, preregister a target/shortcut audit with fixed checkpoints: Q relation-channel zeroing and permutation, raw-only control, and a target closer to answer/path errors. Preserve the negative phase-specific result and keep M8 and M3 closed.",
+  "phase_promoted": false,
+  "reason": "All 22 preregistered gates passed on 504 raw-text- and pair-disjoint fresh-development examples: frozen phase balanced accuracy was 0.7800 and 0.7712 across the two locked windows with all per-class and geometry checks passing. Q-only and capacity-matched no-phase controls both achieved 1.0 balanced accuracy in both windows, so fresh calibration generalizes but phase-specific benefit is not supported; native answer improvement and M3 authorization remain false.",
+  "revision": "v004",
+  "run_id": "20260921T224500Z-m2e003-v004-local",
+  "schema": "ergt-phi-review-v1",
+  "supersedes": null
+}

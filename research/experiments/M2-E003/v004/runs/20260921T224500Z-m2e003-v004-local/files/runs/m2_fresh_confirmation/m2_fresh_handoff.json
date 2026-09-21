@@ -1,0 +1,18 @@
+{
+  "M3_authorized": false,
+  "controls_completed": true,
+  "experiment_id": "M2-E003",
+  "fresh_cohort_sha256": "15aa78ddc70c19409efc9cc58071aace4693f59cbc50650b4c12f3a9e933b659",
+  "limitations": [
+    "This is confirmatory development, not the untouched M8 final panel.",
+    "The target is auxiliary relation calibration, not native answer quality.",
+    "Control comparisons are descriptive in one development cohort."
+  ],
+  "next_stage": "M2 operational step 4 native/phase adapter design",
+  "phase_specific_signal_descriptive": false,
+  "ready": true,
+  "revision": "v004",
+  "schema": "ergt-phi-m2-fresh-handoff-v1",
+  "selected_checkpoint_sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234",
+  "two_locked_windows_passed": true
+}
