@@ -86,7 +86,8 @@ def test_package_excludes_weights_secrets_and_other_experiments(tmp_path, monkey
         path.write_text("private")
     metadata = ("research/legacy/path_map.json", "research/legacy/LEGACY-M0/manifests/reference.json",
                 "research/legacy/LEGACY-M0/manifests/trained_m0_audit.json",
-                "docs/MATHEMATICAL_SPEC.md", "research/specification.lock.json")
+                "docs/MATHEMATICAL_SPEC.md", "docs/SPEC_Q_ANCHOR_ADDENDUM.md",
+                "research/specification.lock.json")
     for name in metadata:
         path = root / name
         path.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,149 @@
+{
+  "schema": "ergt-phi-m2-q-anchor-config-v1",
+  "revision": "m2-q-v2",
+  "stage": "M2",
+  "research_track": "A",
+  "status": "contract_frozen_implementation_pending",
+  "specification": {
+    "baseline": "docs/MATHEMATICAL_SPEC.md",
+    "baseline_lock": "research/specification.lock.json",
+    "addendum": "docs/SPEC_Q_ANCHOR_ADDENDUM.md",
+    "decision": "research/decisions/ADR-0006.md",
+    "deviation": "Section 5 anchor input is extended from Psi0 to concat(Psi0, detached frozen-prepass Q node marginals); all other baseline contracts remain inherited unless explicitly stated."
+  },
+  "public_input_contract": {
+    "inputs": [
+      "raw_token_ids",
+      "attention_mask"
+    ],
+    "gold_or_answer_inputs_allowed": false
+  },
+  "disabled_bypass": {
+    "condition": "phase_mode == disabled or coupling == 0",
+    "applies_to": [
+      "public_forward",
+      "integrated_active_forward"
+    ],
+    "checked_before_prepass": true,
+    "reference_prepass_calls": 0,
+    "proposal_probe_calls": 0,
+    "extra_rng_consumption": false,
+    "target": "original_native_forward"
+  },
+  "reference_prepass": {
+    "model_role": "independent_frozen_context_provider",
+    "checkpoint_source": "research/legacy/LEGACY-M0/manifests/trained_m0_audit.json",
+    "load_strict": true,
+    "evaluation_mode": true,
+    "parameters_require_grad": false,
+    "optimizer_present": false,
+    "maximum_calls_per_forward": 1,
+    "proposal_probe_calls_per_prepass": 1,
+    "stops_before_candidate_answer_solving": true,
+    "raw_inputs_only": true,
+    "proposal_tensors_detached": true,
+    "cache_key_fields": [
+      "raw_input_sha256",
+      "attention_mask_sha256",
+      "reference_checkpoint_sha256",
+      "config_sha256"
+    ]
+  },
+  "anchor": {
+    "q_source": "reference_prepass_completed_snapshot_probe",
+    "q_event_presence_consumed_once": true,
+    "q_padding_and_self_edges_excluded": true,
+    "node_context": "concat(log1p(source_Q_marginal), log1p(target_Q_marginal))",
+    "network_input": "concat(Psi0, node_context)",
+    "formula": "pi*tanh(W2*SiLU(W1*LN(network_input)))",
+    "builds_per_forward": 1,
+    "fixed_across_outer_steps": true,
+    "rebuild_from_active_q_forbidden": true,
+    "gold_used_only_for_loss_after_raw_feature_cache": true
+  },
+  "active_path": {
+    "starts_from_fresh_native_state": true,
+    "initial_lagged_q": "empty",
+    "prepass_q_written_to_lagged_memory": false,
+    "first_outer_step_is_native": true,
+    "active_step_proposal_consumed_at": "next_outer_step",
+    "active_model_and_reference_model_share_mutable_state": false
+  },
+  "m2_shadow_scope": {
+    "entrypoint": "explicit_offline_calibration_runner_not_public_forward",
+    "may_observe_prepass_features_while_coupling_is_zero": true,
+    "native_return_value_replaced_or_modified": false,
+    "phase_mode": "shadow",
+    "coupling": 0.0,
+    "nu": 0.0,
+    "native_geometry_activated": false,
+    "native_answer_head_used": false,
+    "trainable_parameter_groups": [
+      "phase.network",
+      "phase.offset_raw"
+    ],
+    "frozen_parameter_groups": [
+      "reference_native_all",
+      "active_native_all"
+    ]
+  },
+  "calibration": {
+    "init_seed": 22092026,
+    "shuffle_seed": 23092026,
+    "split_seed": 20092026,
+    "epochs": 20,
+    "batch_size": 16,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "offset_penalty": 0.001,
+    "readiness": {
+      "balanced_accuracy_min": 0.7,
+      "per_class_recall_min": 0.5,
+      "ce_reduction_min": 0.05,
+      "offset_separation_radians_min": 1.0,
+      "phase_resultant_max": 0.98,
+      "consecutive_windows": 2
+    },
+    "selection": "freeze_first_checkpoint_reaching_all_readiness_gates_for_required_consecutive_windows",
+    "shuffled_label_control_required": true
+  },
+  "checkpoint": {
+    "required_roles": [
+      "initial",
+      "latest",
+      "selected_or_rejected"
+    ],
+    "full_state_fields": [
+      "model",
+      "optimizer",
+      "scheduler_or_null",
+      "scaler_or_null",
+      "python_numpy_torch_rng",
+      "data_cursor_and_order",
+      "requires_grad",
+      "module_training",
+      "contract_sha256",
+      "source_data_config_hashes"
+    ],
+    "fresh_process_reload_required": true,
+    "resume_required": true,
+    "freeze_after_selection_required": true
+  },
+  "resources": {
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 1,
+    "deterministic_algorithms": true,
+    "reference_prepasses_per_forward": 1,
+    "proposal_probes_per_prepass": 1,
+    "include_prepass_cache_and_probe_in_reported_cost": true,
+    "maximum_runtime_minutes": null,
+    "maximum_runtime_must_be_pinned_in_experiment_protocol": true
+  },
+  "claims": {
+    "scientific_result_created_by_this_contract": false,
+    "m2_handoff_complete": false,
+    "m3_authorized": false,
+    "answer_improvement_claimed": false
+  }
+}

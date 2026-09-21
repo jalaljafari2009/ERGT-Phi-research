@@ -43,6 +43,7 @@
 | `research/specification.lock.json` | هش و اندازهٔ مبنای تغییرناپذیر؛ محتوای سند را دوباره seal نکن |
 | `scripts/check_spec_lock.py` و `scripts/protect_spec.ps1` | بررسی محتوا و اعمال دوبارهٔ حفاظت محلی در ویندوز |
 | `docs/OPERATIONAL_ROADMAP_FA.md` | نقشهٔ فازها، وابستگی‌ها و معیارهای خروج |
+| `docs/SPEC_Q_ANCHOR_ADDENDUM.md` و `configs/m2_q_v2.json` | قرارداد پذیرفته‌شدهٔ Q-anchor مسیر A؛ پیش‌گذر frozen، جدایی Q مقدماتی/تأخیری و تنظیمات M2-Q v2 |
 | `research/plans/BIDIRECTIONAL_BOUNDARY_V001_FA.md` | طرح B0/B1، چهار بازو، معیارها و مدارک لازم برای فرضیهٔ دوطرفه؛ هنوز اجرا‌نشده |
 | `research/INDEX.md` | فهرست مسیرهای جاری و شواهد قدیمی |
 | `research/sources/README.md` و `research/sources/register.json` | مقاله، spec اولیه، متن‌های پیوست و منشأ اطلاعات گفتگو با هش |
@@ -129,4 +130,9 @@
 
 ## نقطهٔ فعلی که نباید فراموش شود
 
-M0 مرجع توسعه و M1 هستهٔ مستقل شواهد پذیرش دارند. M2-Q معیار عددی پایش کمکی را گذرانده، اما checkpoint منتخب و frozen تحویل نشده است؛ این شاخه افزونهٔ معماری اولیهٔ anchor است. M3 تا تکمیل تحویل M2، نسخه‌بندی این تفاوت و آزمون اتصال واقعی بسته می‌ماند. مقدار قدیمی `M2_complete=true` در `research/legacy/LEGACY-M2-Q-CALIBRATION/manifests/m2_q_calibration.json` را به تکمیل فاز یا مجوز M3 تعمیم نده. آخرین وضعیت معتبر را همیشه از `research/STATE.md` و مدارک پیوندشده بخوان.
+M0 مرجع توسعه و M1 هستهٔ مستقل شواهد پذیرش دارند. قرارداد معماری M2-Q v2 طبق
+`ADR-0006` تثبیت شده، اما checkpoint منتخب و frozen تحویل نشده است. گام بعد اصلاح runner
+برای انتخاب فوری، freeze و load/resume است. M3 تا تکمیل تحویل M2 و آزمون اتصال واقعی
+بسته می‌ماند. مقدار قدیمی `M2_complete=true` در
+`research/legacy/LEGACY-M2-Q-CALIBRATION/manifests/m2_q_calibration.json` را به تکمیل فاز
+یا مجوز M3 تعمیم نده. آخرین وضعیت معتبر را همیشه از `research/STATE.md` و مدارک پیوندشده بخوان.
