@@ -36,6 +36,15 @@ checkpoint نخست در epoch ۳ و step ۷۲ انتخاب شد، balanced accu
 
 ## اجرای Colab و بازگشت نتیجه
 
+release قفل‌شده از commit `7891db73a05ef2d7b7fcbe4f33f94235b3ca2366` ساخته شد:
+
+- ZIP: `research/packages/M2-E002-v001-59d6406911ac-source.zip`
+- SHA-256 بسته: `8bc4ef850b4fe02844d93aeea48b83fa44a966a4fe9537390bd202f831864ed7`
+- lock قابل حمل: [package.json](package.json)
+- موجودی ۱۷۰ فایل: [source_manifest.json](source_manifest.json)
+- پوشهٔ آمادهٔ انتخاب فایل در این checkout:
+  `research/packages/M2-E002-v001-upload/`
+
 در Colab، `experiment.ipynb` را Run all کنید. ابتدا ZIP سورس و `package.json` همین
 نسخه و سپس فایل checkpoint مرجع M0 را بارگذاری کنید. نوت‌بوک hash هر سه ورودی را
 پیش از اجرا کنترل می‌کند. ZIP نتیجه را بدون تغییر در `research/inbox/` قرار دهید.

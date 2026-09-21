@@ -28,7 +28,7 @@
       "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
       "scientific_hypothesis": "Any improvement in answer quality or compute cost must be established independently against the corresponding native baseline and matched controls.",
       "active_stage": "M2",
-      "current_variant": "Q-conditioned anchor v2: ADR-0006 contract and M2-E002/v001 runner/notebook implemented; local checkpoint handoff validation passed; committed release, imported Colab run and fresh-development confirmation remain; parallel track B is planned, not yet run",
+      "current_variant": "Q-conditioned anchor v2: ADR-0006 contract and M2-E002/v001 runner/notebook implemented; local checkpoint handoff validation passed and a commit-bound release exists; imported Colab run and fresh-development confirmation remain; parallel track B is planned, not yet run",
       "phase_review": "research/phase_reviews/M2_CURRENT.md",
       "decision_history": [
         "ADR-0001",
@@ -44,7 +44,7 @@
           "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
           "active_stage": "M2",
           "state": "handoff_incomplete",
-          "next_action": "Release M2-E002/v001 from its committed source, execute/import/review the Colab bundle, then preregister confirmation on fresh development data before native activation."
+          "next_action": "Execute M2-E002/v001 in Colab from the locked release, import/review the result bundle, then preregister confirmation on fresh development data before native activation."
         },
         "B": {
           "objective": "Test ambiguity retention, relation-grounded phase transport, boundary readout and adaptive compute against matched classical controls.",

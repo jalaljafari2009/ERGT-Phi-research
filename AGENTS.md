@@ -132,9 +132,9 @@
 
 M0 مرجع توسعه و M1 هستهٔ مستقل شواهد پذیرش دارند. قرارداد معماری M2-Q v2 طبق
 `ADR-0006` تثبیت و runner/protocol/notebook در `M2-E002/v001` پیاده‌سازی شده است.
-انتخاب فوری، freeze و fresh-process load/resume در اجرای مهندسی محلی پاس شده‌اند؛
-این scratch محلی جای release و run واردشده را نمی‌گیرد. گام بعد ساخت بسته از commit،
-اجرای Colab و import/review نتیجه است. M3 تا تکمیل تحویل M2 و آزمون اتصال واقعی
+انتخاب فوری، freeze و fresh-process load/resume در اجرای مهندسی محلی پاس شده‌اند و
+release از commit `7891db7` قفل شده است؛ این scratch محلی جای run واردشده را نمی‌گیرد.
+گام بعد اجرای Colab آزمایش M2-E002/v001 و import/review نتیجه است. M3 تا تکمیل تحویل M2 و آزمون اتصال واقعی
 بسته می‌ماند. مقدار قدیمی `M2_complete=true` در
 `research/legacy/LEGACY-M2-Q-CALIBRATION/manifests/m2_q_calibration.json` را به تکمیل فاز
 یا مجوز M3 تعمیم نده. آخرین وضعیت معتبر را همیشه از `research/STATE.md` و مدارک پیوندشده بخوان.

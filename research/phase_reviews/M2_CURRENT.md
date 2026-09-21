@@ -18,8 +18,8 @@ Q-shadow از مدل جدا بوده؛ نسبت‌دادن آن به قبولی 
    checkpoint کامل را ذخیره می‌کند و اولین state واجد دو پنجره را فوری freeze می‌کند.
 3. **پیاده‌سازی و محلی تأیید شد:** reload metric و resume کامل در فرایند تازه، منع
    update پس از freeze و parity خروجی native پاس شدند؛ اجرای محلی phase pass نیست.
-4. نوت‌بوک نسخه‌دار ساخته شده؛ release از commit و اجرای Colab و سپس import نتیجه
-   و checkpoint با هش و محل Drive هنوز لازم است.
+4. نوت‌بوک و release نسخه‌دار از commit `7891db7` ساخته شده‌اند؛ اجرای Colab و سپس
+   import نتیجه و checkpoint با هش و محل Drive هنوز لازم است.
 5. تأیید توسعهٔ مستقل و اصلاح آداپتر `phi`/preview و حافظهٔ Q.
 
 این فایل مرور انتقالی تاریخچه است. تصمیم بعدی باید فایل phase review تازه با پیوند به

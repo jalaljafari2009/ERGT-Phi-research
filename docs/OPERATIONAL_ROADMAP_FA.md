@@ -343,6 +343,10 @@ M6 و M7 در مسیر A اختیاری‌اند و برای فعال‌سازی
 اجرای کد است؛ معیار خروج گام پس از release قفل‌شده، اجرای Colab، import checkpoint و
 review run داوری می‌شود. گام ۳ و M3 با این نتیجهٔ محلی باز نمی‌شوند.
 
+release از commit `7891db73a05ef2d7b7fcbe4f33f94235b3ca2366` ساخته و با
+`package.json` و `source_manifest.json` قفل شده است. اکنون اجرای Colab و بازگشت bundle
+تنها بخش اجرایی باقیماندهٔ این آزمایش است.
+
 - runner موجود با ابزارهای `checkpoint.py` تکمیل شود: initial، latest، selected و
   rejected checkpoint شامل مدل، optimizer، scheduler/scaler در صورت وجود، RNG،
   cursor داده، پارامترهای فعال و هش سورس/داده/نسخه.
