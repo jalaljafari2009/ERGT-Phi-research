@@ -28,14 +28,15 @@
       "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
       "scientific_hypothesis": "Any improvement in answer quality or compute cost must be established independently against the corresponding native baseline and matched controls.",
       "active_stage": "M2",
-      "current_variant": "Q-conditioned anchor v2: M2-E002/v001 handoff passed under ADR-0007; M2-E003/v001 fresh-development confirmation with Q-only and capacity-matched no-phase controls is preregistered and implemented but not yet executed; parallel track B is planned, not yet run",
+      "current_variant": "Q-conditioned anchor v2: M2-E002/v001 handoff passed under ADR-0007; M2-E003/v001 failed before evaluation from a missing packaged lock and v002 preserves the scientific design with a packaging-only correction under ADR-0008; execution remains; parallel track B is planned, not yet run",
       "phase_review": "research/phase_reviews/M2_CURRENT.md",
       "decision_history": [
         "ADR-0001",
         "ADR-0004",
         "ADR-0005",
         "ADR-0006",
-        "ADR-0007"
+        "ADR-0007",
+        "ADR-0008"
       ],
       "change_policy": "Record a new goal version and ADR before a new run if scope, architecture or primary claim changes; retain all prior versions and negative results.",
       "specification_lock": "research/specification.lock.json",
@@ -45,7 +46,7 @@
           "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
           "active_stage": "M2",
           "state": "fresh_development_preregistered_execution_pending",
-          "next_action": "Freeze a source release for M2-E003/v001, execute both locked fresh-development windows with Q-only and capacity-matched no-phase controls, then import and review the bundle before native activation."
+          "next_action": "Freeze a source release for M2-E003/v002, execute both locked fresh-development windows with Q-only and capacity-matched no-phase controls, then import and review the bundle before native activation."
         },
         "B": {
           "objective": "Test ambiguity retention, relation-grounded phase transport, boundary readout and adaptive compute against matched classical controls.",

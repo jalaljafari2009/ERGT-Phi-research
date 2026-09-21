@@ -1,0 +1,15 @@
+{
+  "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+  "executable": "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-2022Server-10.0.20348-SP0",
+  "machine": "AMD64",
+  "colab_detected": false,
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "torch": "2.14.0",
+    "pytest": "9.1.1",
+    "nbformat": null
+  },
+  "gpu_inventory": null
+}
