@@ -1,0 +1,38 @@
+{
+  "artifacts": [
+    {
+      "bytes": 463,
+      "local_path": "research/experiments/M2-E003/v003/runs/20260921T222500Z-m2e003-v003-local/files/runner/environment.json",
+      "path": "runner/environment.json",
+      "sha256": "9bc020b331a2ec6ff23552db84b429578cf1f645115214ba99dc4a567153dae6",
+      "tracked": true
+    },
+    {
+      "bytes": 1470,
+      "local_path": "research/experiments/M2-E003/v003/runs/20260921T222500Z-m2e003-v003-local/files/runner/stdout_stderr.log",
+      "path": "runner/stdout_stderr.log",
+      "sha256": "f27a7aab1fa41f001494a6acb805a1999dc8bcb157c3019098bc42b5a5c454bf",
+      "tracked": true
+    },
+    {
+      "bytes": 310704,
+      "local_path": "research/experiments/M2-E003/v003/runs/20260921T222500Z-m2e003-v003-local/files/runs/m2_fresh_confirmation/fresh_development_audit.json",
+      "path": "runs/m2_fresh_confirmation/fresh_development_audit.json",
+      "sha256": "779056a5b1093725954cbec1c3773b61a0f0ded39eca28324ed0b93de76112dc",
+      "tracked": true
+    },
+    {
+      "bytes": 197861,
+      "local_path": "research/experiments/M2-E003/v003/runs/20260921T222500Z-m2e003-v003-local/files/runs/m2_fresh_confirmation/fresh_feature_cache_manifest.json",
+      "path": "runs/m2_fresh_confirmation/fresh_feature_cache_manifest.json",
+      "sha256": "f2b093243e56a8d72cbc51d4f27c60925b3e4631a63d938b8019dfd9f0f9f407",
+      "tracked": true
+    }
+  ],
+  "bundle_name": "20260921T222500Z-m2e003-v003-local.zip",
+  "bundle_sha256": "c7c4c33a2a7fce41aea9be2a4543519ed9a4927aab33b8f5e95623333142b86d",
+  "imported_at": "2026-09-21T22:34:16+00:00",
+  "run_manifest_sha256": "94ccb0fdfb19d6f93e8831703e6558b010ed53aef264a41d4cf839077c5dd3a9",
+  "schema": "ergt-phi-artifacts-v1",
+  "source_uri": "repo-local://research/inbox/20260921T222500Z-m2e003-v003-local.zip"
+}

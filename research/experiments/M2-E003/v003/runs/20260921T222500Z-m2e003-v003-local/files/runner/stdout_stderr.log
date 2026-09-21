@@ -1,0 +1,29 @@
+Caching historical fit features for controls
+Cached confirmation features: 50/504
+Cached confirmation features: 100/504
+Cached confirmation features: 150/504
+Cached confirmation features: 200/504
+Cached confirmation features: 250/504
+Cached confirmation features: 300/504
+Cached confirmation features: 350/504
+Cached confirmation features: 400/504
+Cached confirmation features: 450/504
+Cached confirmation features: 500/504
+Caching preregistered fresh-development features
+Cached confirmation features: 50/504
+Cached confirmation features: 100/504
+Cached confirmation features: 150/504
+Cached confirmation features: 200/504
+Cached confirmation features: 250/504
+Cached confirmation features: 300/504
+Cached confirmation features: 350/504
+Cached confirmation features: 400/504
+Cached confirmation features: 450/504
+Cached confirmation features: 500/504
+Traceback (most recent call last):
+  File "C:\Users\novo\Desktop\ERGT-Phi-research\research\workspace\local_release_execution\20260921T222500Z-m2e003-v003-local\source\scripts\run_m2_fresh_confirmation.py", line 367, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\novo\Desktop\ERGT-Phi-research\research\workspace\local_release_execution\20260921T222500Z-m2e003-v003-local\source\scripts\run_m2_fresh_confirmation.py", line 200, in main
+    raise ValueError("registered no-phase width is not nearest capacity match")
+ValueError: registered no-phase width is not nearest capacity match

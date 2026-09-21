@@ -1,0 +1,53 @@
+{
+  "schema": "ergt-phi-m2-fresh-confirmation-contract-v2",
+  "parent_experiment": "M2-E002/v001",
+  "selected_checkpoint_sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234",
+  "reference_checkpoint_sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+  "fresh_development": {
+    "data_seed": 27092026,
+    "window_seed": 28092026,
+    "pair_counts_by_hop": {
+      "1": 28,
+      "2": 28,
+      "3": 28,
+      "4": 28,
+      "5": 28,
+      "6": 28,
+      "7": 28,
+      "8": 28
+    },
+    "unsupported_pairs": 28,
+    "expected_examples": 504,
+    "expected_pairs": 252,
+    "role": "confirmatory_development",
+    "m8_final_horizons_exposed": false
+  },
+  "phase_gates_per_window": {
+    "balanced_accuracy_min": 0.7,
+    "per_class_recall_min": 0.5,
+    "ce_reduction_from_uniform_min": 0.05,
+    "offset_separation_radians_min": 1.0,
+    "phase_resultant_max": 0.98
+  },
+  "controls": {
+    "training_source": "M0 historical fit partition only",
+    "fixed_epochs": 3,
+    "batch_size": 16,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "q_feature_width": 6,
+    "q_only_hidden_dim": 16,
+    "q_only_seed": 29092026,
+    "no_phase_hidden_dim": 35,
+    "no_phase_seed": 30092026,
+    "capacity_relative_difference_max": 0.01,
+    "fresh_labels_may_train_or_select": false
+  },
+  "decision_policy": {
+    "confirmation_pass": "the frozen phase checkpoint passes every registered gate in both disjoint windows",
+    "phase_specific_signal": "descriptive only: phase balanced accuracy exceeds both controls in both windows",
+    "control_noninferiority": "if a control equals or exceeds phase, proposal access or ordinary classification remains an alternative explanation",
+    "m3_authorized_by_this_experiment": false
+  },
+  "revision_reason": "Correct the capacity-matched no-phase hidden width from 36 to the nearest parameter-count match 35 before any model metric was observed."
+}

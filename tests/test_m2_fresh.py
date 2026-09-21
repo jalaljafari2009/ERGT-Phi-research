@@ -11,6 +11,7 @@ from ergt_phi.m2_fresh import (
     phase_window_checks,
     train_control,
 )
+from ergt_phi.shadow_phase import CalibrationConfig, PhaseAnchorNetwork
 
 
 def _examples():
@@ -60,6 +61,15 @@ def test_matched_hidden_dim_minimizes_parameter_gap():
         for candidate in {max(1, hidden - 1), hidden, hidden + 1}
     ]
     assert abs(selected - target) == min(abs(value - target) for value in neighbours)
+
+
+def test_registered_shape_needs_no_phase_width_35():
+    phase = PhaseAnchorNetwork(62, 8, 3, CalibrationConfig())
+    assert parameter_count(phase) == 4700
+    assert matched_hidden_dim(62, 3, parameter_count(phase)) == 35
+    control = EndpointClassifier(62, 35, 3, seed=1)
+    assert parameter_count(control) == 4731
+    assert abs(parameter_count(control) - parameter_count(phase)) / parameter_count(phase) < 0.01
 
 
 def test_controls_train_on_supplied_historical_indices_and_evaluate_elsewhere():

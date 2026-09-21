@@ -1,0 +1,238 @@
+{
+  "all_gates_pass": false,
+  "eligible_for_pass": false,
+  "execution_success": false,
+  "gates": [
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "fresh_confirmation_complete",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/fresh_development_confirmation_pass",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "fresh_lock_match",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/fresh_lock_match",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "raw_text_disjoint",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/raw_text_disjoint_from_m0_training",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "counterfactual_pair_disjoint",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/counterfactual_pair_disjoint_from_m0_training",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "confirmation_windows_pair_disjoint",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/confirmation_windows_pair_disjoint",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_1_all_phase_checks",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/windows/window_1/phase_all_checks",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_1_balanced_accuracy",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_1/phase/balanced_accuracy",
+      "status": "missing",
+      "value": 0.7
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_1_relation_0_recall",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_1/phase/per_class_recall/0",
+      "status": "missing",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_1_relation_1_recall",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_1/phase/per_class_recall/1",
+      "status": "missing",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_1_relation_2_recall",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_1/phase/per_class_recall/2",
+      "status": "missing",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_2_all_phase_checks",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/windows/window_2/phase_all_checks",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_2_balanced_accuracy",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_2/phase/balanced_accuracy",
+      "status": "missing",
+      "value": 0.7
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_2_relation_0_recall",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_2/phase/per_class_recall/0",
+      "status": "missing",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_2_relation_1_recall",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_2/phase/per_class_recall/1",
+      "status": "missing",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_2_relation_2_recall",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_2/phase/per_class_recall/2",
+      "status": "missing",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "controls_executed",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/controls_executed",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "fresh_labels_not_used",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/fresh_labels_used_for_training_or_selection",
+      "status": "missing",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "selected_checkpoint_frozen",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/selected_checkpoint_frozen",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "selected_checkpoint_unchanged",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/selected_checkpoint_unchanged",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "reference_checkpoint_unchanged",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/reference_checkpoint_unchanged",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "m8_final_horizons_closed",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/m8_final_horizons_exposed",
+      "status": "missing",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "m3_remains_closed",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/M3_authorized_by_results",
+      "status": "missing",
+      "value": false
+    }
+  ],
+  "kind": "research",
+  "limitation": "Recorded gates require a linked review; no stage is promoted automatically.",
+  "missing_required_artifacts": [
+    "runs/m2_fresh_confirmation/control_checkpoints.pt",
+    "runs/m2_fresh_confirmation/event_predictions.jsonl",
+    "runs/m2_fresh_confirmation/m2_fresh_handoff.json",
+    "runs/m2_fresh_confirmation/result.json"
+  ],
+  "required_artifacts_present": false,
+  "schema": "ergt-phi-evaluation-v1",
+  "scientific_phase_pass": false
+}

@@ -1,0 +1,4042 @@
+{
+  "examples": 504,
+  "proposal_probe_calls": 504,
+  "raw_features_completed_before_supervision_attached": true,
+  "reference_prepass_calls": 504,
+  "rows": [
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790021_cf1",
+      "feature_sha256": "75d9cc5bc73006b7035992d78e16703566b0cf0771c4516231cfd8f3e7ba74c4",
+      "pair_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790021",
+      "q_mass": 10.446050643920898,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950018_cf0",
+      "feature_sha256": "737f06f3b98749689f8b127974eeae8f93c16788c103f5dd601e745db9e013d7",
+      "pair_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950018",
+      "q_mass": 12.492236137390137,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900003_cf1",
+      "feature_sha256": "f937684ff309ccc52e013d0c45fe8e76a91af116a638b20d89579f3d0a3d0fcf",
+      "pair_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900003",
+      "q_mass": 8.365245819091797,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560012_cf0",
+      "feature_sha256": "14db6c784a3f84e2cc7bec217d0988cffc950ac88282d0089290844e11ea1605",
+      "pair_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560012",
+      "q_mass": 6.290431976318359,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220021_cf0",
+      "feature_sha256": "065ec50e9a41f2e77517f130c357fb09b23b1d520883bd0c96e23dbabc7dd418",
+      "pair_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220021",
+      "q_mass": 12.52837085723877,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490014_cf1",
+      "feature_sha256": "444f7133555713e2cfd40b0d5701488404a64bd96addfa865a7fca28d94f5547",
+      "pair_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490014",
+      "q_mass": 4.227021217346191,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470022_cf0",
+      "feature_sha256": "b8dce7f7a2dda4e7f81bd2c005c31e1baf656ef947878a5099aa81cd5206398a",
+      "pair_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470022",
+      "q_mass": 6.3022565841674805,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750017_cf0",
+      "feature_sha256": "87174abe46fc1055bbbafe8ed343bbbada66eb634e47ea9ea587ce9562616d97",
+      "pair_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750017",
+      "q_mass": 14.588578224182129,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360016_cf1",
+      "feature_sha256": "442b24b1ee30072032a390464c8ee99a1a9f89ac047219d454d3527c23caecb4",
+      "pair_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360016",
+      "q_mass": 16.7061767578125,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130021_cf0",
+      "feature_sha256": "e28fe4c5189de78b494739e0608284b79e1a76c64fae3fbcd413f297762cba81",
+      "pair_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130021",
+      "q_mass": 12.523603439331055,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060017_cf1",
+      "feature_sha256": "adb7c600df8abb3d1edae3cca5c868c0647cbb49c633cc70074056c7c348dfe7",
+      "pair_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060017",
+      "q_mass": 10.429986953735352,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910001_cf0",
+      "feature_sha256": "c27337045f0c88f5db5903d2e04565c6e96818c368f691b66be97931fd17f15e",
+      "pair_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910001",
+      "q_mass": 16.673749923706055,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930001_cf0",
+      "feature_sha256": "551894210cf4fcb8176e4a24a86fb53659a9331091c28193cfe0080237c44955",
+      "pair_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930001",
+      "q_mass": 14.590039253234863,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930000_cf1",
+      "feature_sha256": "9ba585348dd3e91a39f13427aca3a6fe27388143aa5595336db2e154138cb7df",
+      "pair_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930000",
+      "q_mass": 14.590625762939453,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600020_cf0",
+      "feature_sha256": "2181f6e38e91608a4709afb29bf1383833c81b618a80fa4206a19990a512ac6b",
+      "pair_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600020",
+      "q_mass": 2.180105447769165,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670018_cf0",
+      "feature_sha256": "85345c84997a04cc6ebad483278187c73a5ef14f64e728625cc855c975f74213",
+      "pair_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670018",
+      "q_mass": 4.2298126220703125,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840022_cf0",
+      "feature_sha256": "87b1f979d3b760ea4c772046239ee0b41d43355215d807179eeaa748a59a1bdb",
+      "pair_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840022",
+      "q_mass": 14.577470779418945,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700020_cf1",
+      "feature_sha256": "8ad3bbd823f2f3f34a58fad9bf17344b2d2667b39cefffd6512bcde4cb6c96c3",
+      "pair_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700020",
+      "q_mass": 10.417842864990234,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850010_cf0",
+      "feature_sha256": "ed746585acdbb2c1272f975e8f077f54de01db9b15007332053330659a0c78dd",
+      "pair_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850010",
+      "q_mass": 4.24289608001709,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790005_cf0",
+      "feature_sha256": "ecec5d46070a1a74fde90a17710f56d8af1dd188cfd26bee26422fd430e17707",
+      "pair_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790005",
+      "q_mass": 10.428216934204102,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420003_cf1",
+      "feature_sha256": "8769ee96e11d0e30bd19ddd4436240944f99ce95a14d18f1fc66d0c8811f3b04",
+      "pair_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420003",
+      "q_mass": 2.180302143096924,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820009_cf1",
+      "feature_sha256": "5be805c557cd332967ea329725f30b1a87e6fb2a966a73bb394736f2dc100b8b",
+      "pair_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820009",
+      "q_mass": 16.714244842529297,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090015_cf0",
+      "feature_sha256": "d5179fe4bdaa7fda0ef5321f798035b3330dbf3343d3d10ef7b68203f6782623",
+      "pair_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090015",
+      "q_mass": 16.71699333190918,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580018_cf1",
+      "feature_sha256": "d647159f60ad45801eb4df773a14d52926a5d8d08b5d2f1d230dbf4dc14e00d4",
+      "pair_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580018",
+      "q_mass": 4.234060764312744,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080003_cf0",
+      "feature_sha256": "4dcb2e26bac86f1196ab3203620d0378aa0ceac3487c350f08b636342182342c",
+      "pair_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080003",
+      "q_mass": 8.372048377990723,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420018_cf0",
+      "feature_sha256": "b8e1b92374a37fecf6f9e2d3874d9d50d84c3c969e12bae44827dce57c6c81e1",
+      "pair_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420018",
+      "q_mass": 2.161133050918579,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090015_cf1",
+      "feature_sha256": "60d58586d01a432c45477f617db6026cd1ad15906c616786cb7f7006217ff5d4",
+      "pair_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090015",
+      "q_mass": 16.717388153076172,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810019_cf0",
+      "feature_sha256": "630dc4635cd32e467bb57eba357e0453f6c6435ee69fe2bb00e41153341f899f",
+      "pair_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810019",
+      "q_mass": 8.367989540100098,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360004_cf1",
+      "feature_sha256": "8654d59b05b5c94d40a67f21749e9fd91a19df22a95097574c8e10efdd190ab4",
+      "pair_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360004",
+      "q_mass": 16.70282745361328,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910015_cf1",
+      "feature_sha256": "f578ae2439f608bd1f820500b6593bce81a73efc98aad4a491d6386a9cda9500",
+      "pair_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910015",
+      "q_mass": 16.697629928588867,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630020_cf1",
+      "feature_sha256": "327b0fecb6d6f992136cc1a0465f6a3af62b88dc61e64f6fd6af6153e717d122",
+      "pair_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630020",
+      "q_mass": 8.354458808898926,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910001_cf1",
+      "feature_sha256": "1b5717831a728e3206af8d2e81373969e0ac51b360b11ebb216704b96146b72e",
+      "pair_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910001",
+      "q_mass": 16.67530632019043,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900015_cf1",
+      "feature_sha256": "5ac908614d17c7baef3a4be87feae209ad306165a419d1bbb3cfe580383e3748",
+      "pair_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900015",
+      "q_mass": 8.375627517700195,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200004_cf0",
+      "feature_sha256": "1e2aa833280a821871767f7ee5e12a53df354afbd3a0ab3712d45eb3e5476fe3",
+      "pair_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200004",
+      "q_mass": 14.62498950958252,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940013_cf0",
+      "feature_sha256": "df50ba8675abfdad7e4f7407d12e1697343a32e6e1337cee215b8ffc4e9050b4",
+      "pair_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940013",
+      "q_mass": 4.232696056365967,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270021_cf1",
+      "feature_sha256": "f547df8a388688ebbaef33ecee9edc9ae923b942498cc2aff0430d5f37a88962",
+      "pair_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270021",
+      "q_mass": 16.70165252685547,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330013_cf1",
+      "feature_sha256": "4f1ee927567d030b32f2d85ed10eb61ca752f6547ec6487df65796ebe9464d58",
+      "pair_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330013",
+      "q_mass": 2.165860176086426,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330001_cf0",
+      "feature_sha256": "e315c7329c339cae712cd36c3134eb8e6bc3824e4786321130203ba438530b8d",
+      "pair_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330001",
+      "q_mass": 2.174044609069824,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780014_cf0",
+      "feature_sha256": "3a4b2e328efa6ae36dd88120942e986ace628b0429dd9632572d02a930f8fe77",
+      "pair_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780014",
+      "q_mass": 2.1735503673553467,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270002_cf1",
+      "feature_sha256": "24d902b919c588b8a0e79a483ded677adb78fcfe908d52ffd693ed8e272079f2",
+      "pair_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270002",
+      "q_mass": 16.678613662719727,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740021_cf1",
+      "feature_sha256": "af450595afad64ba7951ff46a9e94c96848c282e9f14bda1a94cb92f18834dae",
+      "pair_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740021",
+      "q_mass": 6.30371618270874,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740023_cf0",
+      "feature_sha256": "a42ba7d360833b37ff712b94e3546061f2a92947953076395fe4a550696dfe8d",
+      "pair_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740023",
+      "q_mass": 6.297844409942627,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920001_cf1",
+      "feature_sha256": "4c7bf36c237c9c69f1ad998798d76926554f4661f3e2131de76f53255a18d2cf",
+      "pair_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920001",
+      "q_mass": 6.29081916809082,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820014_cf0",
+      "feature_sha256": "d8775a261701103cdf45e6444af6036bf4319d447b95ede09ba49a2bfbad5e4e",
+      "pair_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820014",
+      "q_mass": 16.682626724243164,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830014_cf1",
+      "feature_sha256": "8e459b8725ce3eb27d75655b236d8a5cb706b4adddf5284645622ed83b47eb1f",
+      "pair_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830014",
+      "q_mass": 6.2976884841918945,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970016_cf1",
+      "feature_sha256": "ae1043c7a86ddf9402044933259d4b276870787726aacb314de5fbff05ef612a",
+      "pair_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970016",
+      "q_mass": 10.439474105834961,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820020_cf1",
+      "feature_sha256": "d4f11c748608c27c11623ab939a5e9779b71fb90ccc6dc2d20cf908bf136f631",
+      "pair_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820020",
+      "q_mass": 16.70490264892578,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790005_cf1",
+      "feature_sha256": "8c4cd4bfb20781c24c2c135f7e2b4df1b7be2a26fbaf73df62b5df73c77fbb0a",
+      "pair_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790005",
+      "q_mass": 10.427423477172852,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540000_cf1",
+      "feature_sha256": "0004af4a0f8bed4d76deb7eca9558b529d503f98ac5e93b360f336b6bcbc582d",
+      "pair_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540000",
+      "q_mass": 8.369359970092773,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650008_cf0",
+      "feature_sha256": "fd27be1edb982afa9fbc45d89c7d17a5e9b4c51ec8583cec26c646234c32e6c9",
+      "pair_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650008",
+      "q_mass": 6.291171073913574,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540006_cf0",
+      "feature_sha256": "d5d11e5766e14871fc7fad0288933dae254e426cffcab2f36400900998d08535",
+      "pair_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540006",
+      "q_mass": 8.3670015335083,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860015_cf1",
+      "feature_sha256": "5d650a11b31144aac067adaacba2165fc7b4a08f6b3fab0300ba843de3ded77e",
+      "pair_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860015",
+      "q_mass": 12.509407043457031,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940017_cf0",
+      "feature_sha256": "2ce34983505605ce558a7d7a479cf1890b36c69090a749c22c364ef3713cf32a",
+      "pair_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940017",
+      "q_mass": 4.234724044799805,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080009_cf1",
+      "feature_sha256": "56594f2ed05f106aab61a2fdfccaae263e3746992b474fa23a94aeace7299914",
+      "pair_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080009",
+      "q_mass": 8.373553276062012,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470017_cf0",
+      "feature_sha256": "7e02cf7134cef80e9680ec41ca4d34a2b0d6fabfe9823e59b1cb6b610b0cc99e",
+      "pair_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470017",
+      "q_mass": 6.296798229217529,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270006_cf1",
+      "feature_sha256": "1873492b3c87ee06ba07d18362d4a2a75978ac2afd301740426cbe0f20a1f6e4",
+      "pair_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270006",
+      "q_mass": 16.68310546875,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020019_cf1",
+      "feature_sha256": "f9c46222a5fd1e3ac53d1977291e6d898d52fad6c55c8d3a04f1903eae84e5b8",
+      "pair_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020019",
+      "q_mass": 14.587185859680176,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060023_cf0",
+      "feature_sha256": "6aadd3b25fcecb9e0ae5cd96fac8232fbb9147b356757d8db29888ab652d4940",
+      "pair_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060023",
+      "q_mass": 10.428747177124023,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810017_cf1",
+      "feature_sha256": "e189c723d42ee7fe61265443f6155b348dd899f1c4dc5fee905196a2c491b175",
+      "pair_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810017",
+      "q_mass": 8.354402542114258,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740017_cf0",
+      "feature_sha256": "87e53b3c08e466701bd7d0a46ecd9e0e962ff0f9ba7d510d1712d8bc979428e9",
+      "pair_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740017",
+      "q_mass": 6.287043571472168,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760006_cf0",
+      "feature_sha256": "a451b9fa680df510ed66db1482721f08acf94d72a25342b4d20422aaf6266d93",
+      "pair_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760006",
+      "q_mass": 4.228740215301514,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760015_cf0",
+      "feature_sha256": "3666fcbc2d74786ac664018e90025766f10908cd6d59cad4cea99f94ffe620b2",
+      "pair_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760015",
+      "q_mass": 4.250329494476318,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290021_cf0",
+      "feature_sha256": "a2923d77c99c0f327cc84cbc88e89796e7adf07e1be40c0d8272b28b61dcb259",
+      "pair_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290021",
+      "q_mass": 14.605952262878418,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950004_cf1",
+      "feature_sha256": "288a90b6b6d20c01b25c856430dc5b41fe7d8dc2a4f6df4a156a86eb7044b06e",
+      "pair_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950004",
+      "q_mass": 12.517574310302734,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000009_cf1",
+      "feature_sha256": "bd67378b18a4193bfb6b5c424d7fa13ec8d1a5f422b278f369f3dbe04c046674",
+      "pair_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000009",
+      "q_mass": 16.70215606689453,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700009_cf0",
+      "feature_sha256": "b4bdd6b5789f0c079188a7f8d73198ded1969cd7f89a0853bc4c339a96c4c169",
+      "pair_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700009",
+      "q_mass": 10.431476593017578,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580015_cf1",
+      "feature_sha256": "2f9cee61e91f1d9b8adf7802b88f002292862cc6d6352ef1d563a1bd403b5c5a",
+      "pair_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580015",
+      "q_mass": 4.237596035003662,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020019_cf0",
+      "feature_sha256": "771d7eb2c534251cb61444e540c9bb534b3c4576af42d5969ecf122a6ba71975",
+      "pair_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020019",
+      "q_mass": 14.586973190307617,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000022_cf0",
+      "feature_sha256": "1aca6203435fbc388b31df50c5bc37f4fe7471df3d194ced85cd4d69159128eb",
+      "pair_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000022",
+      "q_mass": 16.68366050720215,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860017_cf0",
+      "feature_sha256": "204262ff22a59ab2626015a224e3034147883976b3486299fe076a17b65252bb",
+      "pair_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860017",
+      "q_mass": 12.49659252166748,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900005_cf1",
+      "feature_sha256": "043c7d6abf43046cfbf19775d0e2f0cf2985ab626f2aa6f92924fa2b6281532f",
+      "pair_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900005",
+      "q_mass": 8.369426727294922,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920011_cf0",
+      "feature_sha256": "fd6194b3b2234318ec97534f9b7494fda30bef7cbcbc337789fbe97d28980843",
+      "pair_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920011",
+      "q_mass": 6.284518241882324,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060021_cf1",
+      "feature_sha256": "fd03722292f8729d125440da93f8f08743fddeef9ab7b2db75a940c124553262",
+      "pair_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060021",
+      "q_mass": 10.458166122436523,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930013_cf0",
+      "feature_sha256": "935e872424bfb2f7ad318ecd5dc2f0d31e0cef58085fbd1d30c4073f626b594c",
+      "pair_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930013",
+      "q_mass": 14.587882041931152,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580015_cf0",
+      "feature_sha256": "2c9cfacbddfc40a87ded6efd222056a09d97393b3f309d818895fcf3ebb0cefd",
+      "pair_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580015",
+      "q_mass": 4.2398810386657715,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110011_cf0",
+      "feature_sha256": "eb86e41422b914847e2ab82c2f3d51adb2fcfab9f113100fbaef3fbc023ba4d2",
+      "pair_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110011",
+      "q_mass": 14.571548461914062,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680002_cf1",
+      "feature_sha256": "ae036126422935b0265e913b856ad0682a53de33f3580d31649f26a2f6e4c744",
+      "pair_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680002",
+      "q_mass": 12.512157440185547,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600000_cf0",
+      "feature_sha256": "cc128f832bde0895187066d3ec468cdd03b725034696972fcf33c2ad514fe9a0",
+      "pair_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600000",
+      "q_mass": 2.176776170730591,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020015_cf1",
+      "feature_sha256": "8e44e440ed74fcc95fedf788c83485235c7def84f82f14fcb25dc126dd5703e3",
+      "pair_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020015",
+      "q_mass": 14.611601829528809,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880010_cf1",
+      "feature_sha256": "a838e92372581a94d951f32a8d457dc9abe73cc0d8851998b7ff9fded0c429a9",
+      "pair_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880010",
+      "q_mass": 10.437904357910156,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470009_cf1",
+      "feature_sha256": "1eb52ad110e87f715dab77e35d83ea6ec940efd225eb2eb34ee6ef15c45d48e6",
+      "pair_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470009",
+      "q_mass": 6.292257785797119,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060005_cf0",
+      "feature_sha256": "8b354169bd8ca123b7b3a7821fceb32e897e52ad008a059c3ded60630f210460",
+      "pair_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060005",
+      "q_mass": 10.440592765808105,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090011_cf0",
+      "feature_sha256": "ced338f65859488f32c89b9b2e041cca1036234fc29b8601de8355faefa2a1cd",
+      "pair_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090011",
+      "q_mass": 16.66716194152832,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600001_cf1",
+      "feature_sha256": "d2ad20bb0148a4614fc5001a2f1b985e66d95e7996bafabcce4b43e7eeecb1b1",
+      "pair_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600001",
+      "q_mass": 2.172762393951416,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750006_cf1",
+      "feature_sha256": "a95ae710cb4937afc73d9edfc35723d462888f9494dc2f2defa948283d5b710a",
+      "pair_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750006",
+      "q_mass": 14.592812538146973,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510023_cf1",
+      "feature_sha256": "a29dfb6de2119607d7cfa38137da5ec861aa0ff99a5687f84a47a245839ee9fa",
+      "pair_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510023",
+      "q_mass": 2.1752095222473145,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690017_cf1",
+      "feature_sha256": "9d3d162463e1eb2ab7bf02282e9eb8e1758247757f73a3686332dc8045f48779",
+      "pair_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690017",
+      "q_mass": 2.1706020832061768,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990005_cf0",
+      "feature_sha256": "4fc196ad7425150023c88237274b840697355b2f5fa08780408399ac0ef552f5",
+      "pair_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990005",
+      "q_mass": 8.364951133728027,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130019_cf1",
+      "feature_sha256": "0be5d0a8e4fa581b8a24c931a576619f6a05e05b940ce9d61766756437a9ccac",
+      "pair_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130019",
+      "q_mass": 12.498640060424805,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270021_cf0",
+      "feature_sha256": "3576e93e80b0d851ed0b8cbd743703f35c76a5e0277d878d401a863acfce11f0",
+      "pair_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270021",
+      "q_mass": 16.69835090637207,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760019_cf1",
+      "feature_sha256": "7a0e84907bb8672500f6649a6ff4487e8f57f393d7807d80c8839fa798533353",
+      "pair_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760019",
+      "q_mass": 4.23377799987793,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220003_cf1",
+      "feature_sha256": "9e0b776b37d22b438e8e983e0c90c967506a18c66e69d27e3495ed7635edaa86",
+      "pair_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220003",
+      "q_mass": 12.503999710083008,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130021_cf1",
+      "feature_sha256": "ec3195e514ededd4db6832b2269711b196159ffa3a5e8db42f387dd1a361da81",
+      "pair_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130021",
+      "q_mass": 12.521690368652344,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180003_cf0",
+      "feature_sha256": "412e8a6647520288b25e92a41bcbfa2e081a863852156b9ebdbd15e6d55b8961",
+      "pair_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180003",
+      "q_mass": 16.684772491455078,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830018_cf1",
+      "feature_sha256": "4bd5b2384b366860e084de2c6df368461a7ed6ce7695a0c4b071dd47fdee2f40",
+      "pair_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830018",
+      "q_mass": 6.287905216217041,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360020_cf1",
+      "feature_sha256": "210f41a9658d318a2a25593cbaa5f2855fe23728b6e9a8bd82641e777180e0d5",
+      "pair_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360020",
+      "q_mass": 16.697036743164062,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650009_cf1",
+      "feature_sha256": "883f835a163d46111f649b0e0e3a0c01779141a6a47ec467a59378750231441a",
+      "pair_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650009",
+      "q_mass": 6.294032096862793,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740010_cf1",
+      "feature_sha256": "437df81520240baae041350370b96a2804ff990a6b252bdc0d45534f04f24538",
+      "pair_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740010",
+      "q_mass": 6.3004350662231445,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130003_cf1",
+      "feature_sha256": "79de38bf0b374756599a756ac5f6b71fb5a35706d1cd7e464954293f7ff1ead6",
+      "pair_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130003",
+      "q_mass": 12.509831428527832,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490002_cf1",
+      "feature_sha256": "0343910951c566a731f31f61835dbce5327de2edbd10f39667934f73e11e781d",
+      "pair_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490002",
+      "q_mass": 4.2319793701171875,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510008_cf1",
+      "feature_sha256": "42b937c47f5a87ec3b28507ca23efd916a19ba23f8409ded7366a1189d7b2e61",
+      "pair_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510008",
+      "q_mass": 2.169140100479126,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670011_cf0",
+      "feature_sha256": "8655127fcdd5e2ad726048c3630c4664c80ce16a19e8068b4b57b1fc40fc02a4",
+      "pair_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670011",
+      "q_mass": 4.232424736022949,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130012_cf0",
+      "feature_sha256": "d02ca51992e70618f1700ad6f84017552686a53b76214219d356163e7ba42046",
+      "pair_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130012",
+      "q_mass": 12.486112594604492,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220004_cf0",
+      "feature_sha256": "5d7274d0208ac980d46db126a4edf7520542f526af5bba8abe46d477d6d58b21",
+      "pair_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220004",
+      "q_mass": 12.532552719116211,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000009_cf0",
+      "feature_sha256": "e620cc41a84c587e2bee1e7cdbf1f986cbef75b44572236374bb52cdc89f38b9",
+      "pair_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000009",
+      "q_mass": 16.702285766601562,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180012_cf0",
+      "feature_sha256": "5fd5cc3362dcddefa552035c5bfd7bcd7ded7f79bd3bf008d0b07198593c835c",
+      "pair_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180012",
+      "q_mass": 16.68301010131836,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040016_cf1",
+      "feature_sha256": "18895076ef2c54496396733c83288397431ea25db7bfd6072dbd06ad33ea5131",
+      "pair_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040016",
+      "q_mass": 12.496335983276367,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680016_cf1",
+      "feature_sha256": "d5be233268a18c2986914c751fbbc4dbf284cb126c392dc163a6359c5ec377e7",
+      "pair_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680016",
+      "q_mass": 12.507441520690918,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880023_cf0",
+      "feature_sha256": "252ef63a63a6b46f3bfec82588b519e815c2d29d6ce090b5af857d814256b79b",
+      "pair_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880023",
+      "q_mass": 10.427154541015625,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010017_cf1",
+      "feature_sha256": "c293f7a360d5bdd02aaf90373c0269df499e0251382b6d6e4a27e166a470447a",
+      "pair_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010017",
+      "q_mass": 6.3052802085876465,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770000_cf1",
+      "feature_sha256": "5bffa6697bc86bfd52fa18f9ec58ab213621dae7ebec1fcf96457f166f7ec43e",
+      "pair_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770000",
+      "q_mass": 12.491990089416504,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180007_cf0",
+      "feature_sha256": "6c8568402778778c4e01e99d952663f8a7b5094117090b4f1fda6f9f4e4bd48e",
+      "pair_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180007",
+      "q_mass": 16.691564559936523,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150014_cf0",
+      "feature_sha256": "533eac398fe8d0382ba561ef7f0c8c0e45dc35c53962db268f6eb0bf3e52981a",
+      "pair_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150014",
+      "q_mass": 10.440208435058594,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900005_cf0",
+      "feature_sha256": "95b683d0d42ae52e65235cdae202c2f2965474c0fa6531840e1ae81be2ff73b4",
+      "pair_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900005",
+      "q_mass": 8.369234085083008,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780003_cf0",
+      "feature_sha256": "cb63c70097128b9b86f08cb7cbc62b12b0bb06314b35808b1f779f3f36b0f044",
+      "pair_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780003",
+      "q_mass": 2.188647508621216,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110023_cf1",
+      "feature_sha256": "c96f48308e102aae66fd10289f7efa3e57c61a53ceb956696126d15679dfc634",
+      "pair_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110023",
+      "q_mass": 14.58381175994873,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910008_cf1",
+      "feature_sha256": "a82421e539b94916aeb6b3b3d054f832a9b09602987389cc48e2627a8abefd1c",
+      "pair_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910008",
+      "q_mass": 16.66754150390625,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780014_cf1",
+      "feature_sha256": "6476c15cd99d7ef63778465d461d2f8b7ec049d8302d59ec227ed429931f14e4",
+      "pair_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780014",
+      "q_mass": 2.171518087387085,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400015_cf0",
+      "feature_sha256": "5cd03f0a931abc962cbe9b341deb0056dcfc70c55a5fd45abdc35d42e718fd92",
+      "pair_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400015",
+      "q_mass": 4.241182327270508,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940023_cf1",
+      "feature_sha256": "4efae7ec9c2acace40f995184ee2658270c141613c6d7a144d98045e0e815574",
+      "pair_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940023",
+      "q_mass": 4.241689205169678,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580001_cf1",
+      "feature_sha256": "cae50095395d8c9d745bd01e1b1054945902a1d8730fa47ff60bd31439808c18",
+      "pair_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580001",
+      "q_mass": 4.23592472076416,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040004_cf0",
+      "feature_sha256": "cb84cc043413860d6175f2f6b76777132df8f668c69164fccbcbf8384d186d13",
+      "pair_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040004",
+      "q_mass": 12.513484954833984,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720017_cf0",
+      "feature_sha256": "f1aca93bac53559ec2a62cec0c951db74ed748090cbae03157c05f37cd2dfef2",
+      "pair_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720017",
+      "q_mass": 8.350842475891113,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950004_cf0",
+      "feature_sha256": "d65f0e279afe22335ad1fea82fd4efbf118910147ccfdf1399a541dc2e24393c",
+      "pair_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950004",
+      "q_mass": 12.517667770385742,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820009_cf0",
+      "feature_sha256": "e293c292bdc972d4a013582553e47c2ca5d173be60c77e023f20efef7cfe0006",
+      "pair_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820009",
+      "q_mass": 16.713298797607422,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860015_cf0",
+      "feature_sha256": "532d1c34b1e1ff08b24aa548642823b3319c123a33428a5a8fcfb2f3672830a7",
+      "pair_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860015",
+      "q_mass": 12.51115608215332,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870018_cf0",
+      "feature_sha256": "4d9f0f766aafdf4abea1745e22babc5a7e458b7d072cd22812b906ca3ab4276a",
+      "pair_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870018",
+      "q_mass": 2.1702868938446045,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400020_cf1",
+      "feature_sha256": "4eaa2c80a8df686e2fb37781c89a6953fb25dd92c4245229de9c292d04e89647",
+      "pair_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400020",
+      "q_mass": 4.239557266235352,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670011_cf1",
+      "feature_sha256": "44e84e69622b740855b3351754c378f69b76bf91cb519d48fe8d91d8a1f17862",
+      "pair_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670011",
+      "q_mass": 4.234132289886475,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750012_cf1",
+      "feature_sha256": "e6e5ab90174de43a62814debb3f91c64269916ceb4a241e2f1b81c93a5a2b226",
+      "pair_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750012",
+      "q_mass": 14.595586776733398,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360013_cf1",
+      "feature_sha256": "093a0a726e64aa975e7e009755f61c21a21ed2f06fda9c799fb0e53652427bbd",
+      "pair_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360013",
+      "q_mass": 16.692655563354492,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110010_cf1",
+      "feature_sha256": "f0aafaf55c638ef8e08a8e383fc360e29ebb46c4d3c702da7c3550e53e3a18f7",
+      "pair_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110010",
+      "q_mass": 14.604310989379883,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130019_cf0",
+      "feature_sha256": "66e653ad99bf9d37104d188cfde980211341b11a5a134e8c96d792c908682ce5",
+      "pair_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130019",
+      "q_mass": 12.498246192932129,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330015_cf0",
+      "feature_sha256": "e3fc2ba999277d009a318cf8765f54114c0e0925431c69ae6404484fcb0d6e5d",
+      "pair_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330015",
+      "q_mass": 2.1732113361358643,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610021_cf1",
+      "feature_sha256": "efe4c316dcbd97e95ed94e075e2f55950e84bc22393d79d39b1e1349352aa134",
+      "pair_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610021",
+      "q_mass": 10.454391479492188,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970008_cf1",
+      "feature_sha256": "2c0b14102e7b7ac2de9e540f6d82b776536856c43dfd55871839c3b307a5db33",
+      "pair_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970008",
+      "q_mass": 10.432064056396484,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580001_cf0",
+      "feature_sha256": "591f8bb8ec1d2503d539f6d3d7949ae04c7359f9ae802b67dab22b6d77e1b062",
+      "pair_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580001",
+      "q_mass": 4.237880706787109,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870000_cf0",
+      "feature_sha256": "a7f4d289c39c4294fbb76be5d3d5d1f89a880f2ab32940264e0b2bfa68243feb",
+      "pair_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870000",
+      "q_mass": 2.192457675933838,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930000_cf0",
+      "feature_sha256": "e74fe4a4f7d8e1b4c513c7934272f61b0dbe17b5016f30b88799e8c3b94509aa",
+      "pair_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930000",
+      "q_mass": 14.58998966217041,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420016_cf1",
+      "feature_sha256": "389dea6e07b4bbb023f0520bdc48e0113b892602fe5c383051be651bdf936da0",
+      "pair_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420016",
+      "q_mass": 2.1636962890625,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010008_cf1",
+      "feature_sha256": "ec2e13d94c4ce8d789f44dc1bd1883984e43ca7ca4780a5ec930ad0b638abd75",
+      "pair_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010008",
+      "q_mass": 6.303836345672607,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090017_cf1",
+      "feature_sha256": "683154c92d68c5d1f53e35993e0ec13f7ecc4c1283588ebd2b056c46363ab6b0",
+      "pair_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090017",
+      "q_mass": 16.684066772460938,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560003_cf0",
+      "feature_sha256": "c2cc1ee57030f9b5c854edb8677c3acc07d9f7fd75e48becfcd1f94c126824c6",
+      "pair_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560003",
+      "q_mass": 6.288795471191406,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110016_cf0",
+      "feature_sha256": "f52426bf25655adcc8b7cff322a320fd33bf718b64e815688f7eae14085bbc05",
+      "pair_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110016",
+      "q_mass": 14.598102569580078,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790009_cf0",
+      "feature_sha256": "06151894f927d5edaf17f90a93d19a81f9b474109b5dfec9ab852a522033240c",
+      "pair_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790009",
+      "q_mass": 10.443461418151855,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600023_cf1",
+      "feature_sha256": "6d28bddb498df373380b8cb6e609bfb2784460fa48a315aab77a30812298b294",
+      "pair_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600023",
+      "q_mass": 2.1673266887664795,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400022_cf0",
+      "feature_sha256": "955d483f3a06bb2b4a27b32b99c68b734e55aca3b6faceb200a44ea1f4d142f0",
+      "pair_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400022",
+      "q_mass": 4.236546516418457,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290000_cf1",
+      "feature_sha256": "094d89e986eba9559d289d19ec740e79694c1763c4e3212645fd3bf9e8dfeefe",
+      "pair_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290000",
+      "q_mass": 14.595529556274414,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330001_cf1",
+      "feature_sha256": "9246a187d1739b141e37e158f273402a3ca3cf04b24e9d5aca1d6caeabe4f4c1",
+      "pair_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330001",
+      "q_mass": 2.1772005558013916,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810000_cf0",
+      "feature_sha256": "5254f489a8bb846f1f7619cf52b1b2fe06f7aefb3ff1c536ff98fb6b88d399db",
+      "pair_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810000",
+      "q_mass": 8.368298530578613,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880023_cf1",
+      "feature_sha256": "cdade833b13070df1c2f1891d91f485d22e5413a0bfa1de241e2145fa59d097d",
+      "pair_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880023",
+      "q_mass": 10.426884651184082,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690010_cf0",
+      "feature_sha256": "7b86df8e94d84f77db74f78a9fe6148b65afa88511411cbab8d4f28d03819c2b",
+      "pair_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690010",
+      "q_mass": 2.190732479095459,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150015_cf1",
+      "feature_sha256": "270f8b04d58bd5b3f49b3fb952e2b94429e20217f6dfe08eb184bde0ea16d385",
+      "pair_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150015",
+      "q_mass": 10.44801139831543,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560007_cf0",
+      "feature_sha256": "85fa40d78cd2ff4f2dad135fd53509dcef2f71e7ea4380989549bee418bd11b8",
+      "pair_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560007",
+      "q_mass": 6.289438247680664,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670000_cf0",
+      "feature_sha256": "3d9908a741ffa5749f34576fe9d7901b3ac6cffe8106f97713418bb4e658a434",
+      "pair_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670000",
+      "q_mass": 4.239843368530273,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870007_cf1",
+      "feature_sha256": "857617695af4ccef9c0eca1db42aee744ff5f88b9045d74642f611fab7b68dfc",
+      "pair_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870007",
+      "q_mass": 2.1852810382843018,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220017_cf0",
+      "feature_sha256": "97b9c786f1d40a401cc0ee8e7ed0a5df801a4d3cb0638076367fabd3b5c72789",
+      "pair_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220017",
+      "q_mass": 12.507438659667969,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970012_cf0",
+      "feature_sha256": "b1a606e6a9e27621a33788d2acfad6085e1a11a93218df87ba1409d6108e52bd",
+      "pair_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970012",
+      "q_mass": 10.419461250305176,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670018_cf1",
+      "feature_sha256": "db78a02cca3f794e91e434f3b90a325a05c1b235a49eb65b49cc28b6b3bbba32",
+      "pair_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670018",
+      "q_mass": 4.229559421539307,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270013_cf0",
+      "feature_sha256": "314d571298a9365b94159adf791ae4e6dee05fee29f403cc48b1685aed30e177",
+      "pair_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270013",
+      "q_mass": 16.686447143554688,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720004_cf1",
+      "feature_sha256": "d4698bdaa4bf38a8cc676a9f8f1a10b3cc30c191bef7804bb75cf5830d08dceb",
+      "pair_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720004",
+      "q_mass": 8.396684646606445,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560020_cf1",
+      "feature_sha256": "7e0ecf61ae906b5587c13a33ebb0af5e1088ab0d4a186c1514714d398d2c67bc",
+      "pair_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560020",
+      "q_mass": 6.290175437927246,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600000_cf1",
+      "feature_sha256": "fd53fcaa1942da678c134272d8536bb7855556d7abd040c782ecf38d7813f97d",
+      "pair_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600000",
+      "q_mass": 2.1780049800872803,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110023_cf0",
+      "feature_sha256": "96de63251f2470c8ee2093c9549bd879bc092d88cc1c1c6a1fe52c00dc26797f",
+      "pair_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110023",
+      "q_mass": 14.584798812866211,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740010_cf0",
+      "feature_sha256": "048b53e30923e89cf3da0a3b91847ec37e69c2d0d6b1b8910822643be4c93ca9",
+      "pair_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740010",
+      "q_mass": 6.300642013549805,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420006_cf0",
+      "feature_sha256": "324c014b86658349240e5dcb6c0de6fba54a5a509d8e7f47667304bc0c28b23a",
+      "pair_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420006",
+      "q_mass": 2.169985055923462,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840022_cf1",
+      "feature_sha256": "f28ba71dd19d481c8bf8fcf2606fe5ba13ef63693376379a5e87796f9a88d5f7",
+      "pair_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840022",
+      "q_mass": 14.576613426208496,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610022_cf0",
+      "feature_sha256": "585fb2e0377763c3bdee4515c373114bca34ae13e687a590280f1dd81ce4fe88",
+      "pair_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610022",
+      "q_mass": 10.447867393493652,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900003_cf0",
+      "feature_sha256": "2d4aee04fc1814c7be3625df1b80491dbcb3112f143a9296f718cfe39f68a6d5",
+      "pair_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900003",
+      "q_mass": 8.362815856933594,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020008_cf1",
+      "feature_sha256": "6274d60bff0c191551ca3bd8f4e509628ebe0ef33a5b8f8a15d5fbc71fff682f",
+      "pair_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020008",
+      "q_mass": 14.580721855163574,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740017_cf1",
+      "feature_sha256": "b6fd41b148f7de1b262ca24de63cf90f5dc1714408a05476447a55601f371391",
+      "pair_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740017",
+      "q_mass": 6.286561012268066,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540016_cf0",
+      "feature_sha256": "981830679b0863379525097e5fff524091bc645d82b4ac9191c27aef5f6411dc",
+      "pair_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540016",
+      "q_mass": 8.371355056762695,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000022_cf1",
+      "feature_sha256": "ef0c05de2f14b1cb19dd1c4f67df270111b2e398c7226fda06af8fca4615090f",
+      "pair_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000022",
+      "q_mass": 16.688365936279297,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510010_cf1",
+      "feature_sha256": "b3cda3a88d908b689821dba6a5bacc6329d06536a178d213875c7872438f5be9",
+      "pair_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510010",
+      "q_mass": 2.2011539936065674,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580018_cf0",
+      "feature_sha256": "a22f9a0ac8f222e05c642d26330c14e0999759969d595bd1538e30fc966f7c3b",
+      "pair_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580018",
+      "q_mass": 4.231756210327148,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180003_cf1",
+      "feature_sha256": "6d7e64268eaef6721957dc29513b80ebe4a09c29ed43cd2d9cead9cc80991624",
+      "pair_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180003",
+      "q_mass": 16.685544967651367,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540000_cf0",
+      "feature_sha256": "5e65bdb6199cb79ae8aea010f9b845ab3653796efacb2586a3be8d1aab920813",
+      "pair_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540000",
+      "q_mass": 8.370281219482422,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680001_cf1",
+      "feature_sha256": "5fa2db436f1c7af52a42b1ef57913f1aa772c62f80ec3662b8c73cf40fdc61a7",
+      "pair_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680001",
+      "q_mass": 12.496658325195312,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750017_cf1",
+      "feature_sha256": "6d99ad83ef1bbb9c197720dc50fe09a9b7f37ba6fe8344bcb198898259fae991",
+      "pair_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750017",
+      "q_mass": 14.58840560913086,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970008_cf0",
+      "feature_sha256": "793433f8a9bafd16140040702f4d1f238d40a163185d72757b2ede3ab3e6fd95",
+      "pair_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970008",
+      "q_mass": 10.432068824768066,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200005_cf1",
+      "feature_sha256": "9b42bde674b7a94d5950e253da1f0c05474021b3ddf245848edc05486bb95422",
+      "pair_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200005",
+      "q_mass": 14.586376190185547,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970016_cf0",
+      "feature_sha256": "9e5ffc403fcefb6354f23e52fb051b0c82c6b1c19099b0a3b0f8b41367617f6f",
+      "pair_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970016",
+      "q_mass": 10.438409805297852,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000008_cf1",
+      "feature_sha256": "53706ced381850a8a19d9eb6e9ce18d1ffd355e03755c68b574f3e1f112fe7e7",
+      "pair_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000008",
+      "q_mass": 16.67879295349121,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850021_cf1",
+      "feature_sha256": "441b72b7901acb989f11e02c525624c3da197f66924b4289a70e1677433dee10",
+      "pair_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850021",
+      "q_mass": 4.238544940948486,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080006_cf1",
+      "feature_sha256": "3b6e9ab747ff81eb68145105fc415f42ded4b03283234c3eef6bec39e0110e83",
+      "pair_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080006",
+      "q_mass": 8.369232177734375,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490010_cf0",
+      "feature_sha256": "c3793cd56b33cc1d7af06ff5c48445edb6aabb92b429801f988ca33b4fdede4b",
+      "pair_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490010",
+      "q_mass": 4.238718032836914,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750012_cf0",
+      "feature_sha256": "61b50f8b44f52b6fcbf30ef4b0b6439c79235e0dc92058c51680568e55c4cb68",
+      "pair_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750012",
+      "q_mass": 14.593687057495117,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810019_cf1",
+      "feature_sha256": "79318f70dd20aae3feb71ae8fbcb4f92c27d39b629dadd575b9cf3cff4af819d",
+      "pair_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810019",
+      "q_mass": 8.367749214172363,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010008_cf0",
+      "feature_sha256": "ed0467cab22491733c93d47bb10658cbd3c14a04d3ab29d6b567338e654b41da",
+      "pair_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010008",
+      "q_mass": 6.297269821166992,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880022_cf0",
+      "feature_sha256": "8f1383e34156e18fc7d5660756bc9863544ac5e8f2a53b242062d5cee4d1d93e",
+      "pair_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880022",
+      "q_mass": 10.435185432434082,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040023_cf0",
+      "feature_sha256": "15b34185e80876a1ba56b2e830cc470083f121362d1bd5e75ab0cc480ee98d8e",
+      "pair_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040023",
+      "q_mass": 12.496696472167969,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910008_cf0",
+      "feature_sha256": "c64f2d17dc6dbfe2a5723806e9feadb9d211379ee8153ad0466beed48a17700c",
+      "pair_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910008",
+      "q_mass": 16.668670654296875,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220003_cf0",
+      "feature_sha256": "9877f8244442cc20f6931252391ea7ab5e35e29458323775fe07d0c7d047d561",
+      "pair_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220003",
+      "q_mass": 12.503758430480957,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060017_cf0",
+      "feature_sha256": "e203944103669b2f5a07dfc553efb798da16f0cfb14512fb14236fb14f9abf0c",
+      "pair_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060017",
+      "q_mass": 10.430227279663086,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920012_cf1",
+      "feature_sha256": "c6fc8bf9e9096eadbdcfbad4bdc324693c09b73104154964b191bc9d10d8ffdd",
+      "pair_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920012",
+      "q_mass": 6.292320251464844,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150022_cf1",
+      "feature_sha256": "29d2cc78154c0110497b9ea100542f83844ca427995c295b1d20c13a07faca7f",
+      "pair_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150022",
+      "q_mass": 10.44246768951416,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910011_cf0",
+      "feature_sha256": "87b678a44e02a4007a2452d780b46fba89c9727bc48fb1919b2fdcee3cd3c47e",
+      "pair_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910011",
+      "q_mass": 16.670955657958984,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630022_cf1",
+      "feature_sha256": "5476aef843f413a71d5c251a9eb490403fb746c5d43b0456fbc3a04f87c37473",
+      "pair_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630022",
+      "q_mass": 8.37047004699707,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010017_cf0",
+      "feature_sha256": "6673a93d643302c229dd71e082124fa8b44e2b94ec6bda4a1a163e733a56300f",
+      "pair_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010017",
+      "q_mass": 6.303168773651123,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830018_cf0",
+      "feature_sha256": "29798105ffb145e96f7869c4b9dc4b8d17bff4506cc7eb2e5b6643ba8d070bf7",
+      "pair_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830018",
+      "q_mass": 6.288412094116211,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770013_cf1",
+      "feature_sha256": "3762b2b834894696fac7edc6caddbb00173004f1479d5a7716867556162e782a",
+      "pair_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770013",
+      "q_mass": 12.490876197814941,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650005_cf0",
+      "feature_sha256": "566d18103b345a9bc95ec64a0c652e632c80712cf0f5056d8dc912504fb016bd",
+      "pair_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650005",
+      "q_mass": 6.307158470153809,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790013_cf1",
+      "feature_sha256": "4771bf757dc74240f33345773185f6d56f1d62be7a6afb4b1dbbb45708997c64",
+      "pair_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790013",
+      "q_mass": 10.427305221557617,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720004_cf0",
+      "feature_sha256": "40078e11c7f409fc23b81a58ee0ca3e1f07daa80f016dc65f0c4e8ac38ed097b",
+      "pair_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720004",
+      "q_mass": 8.397957801818848,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150022_cf0",
+      "feature_sha256": "5f2ca68a14a912082182ce80d214535c072e581fd2ca3935011cb53fa5dc6a21",
+      "pair_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150022",
+      "q_mass": 10.442573547363281,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110010_cf0",
+      "feature_sha256": "03daff80165c9913cc03c0cb5674aa1b4825e36f6ede60b7a960f83f03467ef7",
+      "pair_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110010",
+      "q_mass": 14.601385116577148,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060005_cf1",
+      "feature_sha256": "d20125cacb6faa389ef4dda91b7cf7af5b1b746546f081e350379920450afe5c",
+      "pair_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060005",
+      "q_mass": 10.438802719116211,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850021_cf0",
+      "feature_sha256": "755f85a4c6410f350759b3b606d0c1d251843a3ba56e2c5837c0fd340eed3460",
+      "pair_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850021",
+      "q_mass": 4.237729072570801,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880000_cf0",
+      "feature_sha256": "0f196aa76cb4a77f1296674a343266b5e834257023bb057d5cb00ba8fcc36179",
+      "pair_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880000",
+      "q_mass": 10.438593864440918,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770001_cf1",
+      "feature_sha256": "8a040f9fd736a0007eb3bdce4d8888af14a0b8144f7b958dc9d19c069f3ad115",
+      "pair_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770001",
+      "q_mass": 12.486140251159668,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420003_cf0",
+      "feature_sha256": "47eb8c4be9d169b21ad5c9cb214fb2077daddc1c250c55a16be7b7e57fb69bdf",
+      "pair_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420003",
+      "q_mass": 2.1814732551574707,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920003_cf0",
+      "feature_sha256": "eb113cd65b551180ece32cb1d796eb9f93d79032cd6b9cb39933764a31f0be7b",
+      "pair_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920003",
+      "q_mass": 6.291553497314453,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870000_cf1",
+      "feature_sha256": "798cad8f4c69bcce6591367cb0691d0be5e5cf2b3e1aca72a7a1b37e28587b5c",
+      "pair_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870000",
+      "q_mass": 2.184384346008301,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610023_cf1",
+      "feature_sha256": "17ad2211df38070c475376c9a521f7f5f0c301dc0664e9545d3a0e477efda848",
+      "pair_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610023",
+      "q_mass": 10.439810752868652,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290023_cf1",
+      "feature_sha256": "d2fbf8a5017858c03959646f7f4afc282902f5d5f14f7d230697c42c7752113c",
+      "pair_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290023",
+      "q_mass": 14.601682662963867,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220021_cf1",
+      "feature_sha256": "56647cc15b769718ef9ffe09b5eceece86b3657eb7fc863f72a122e458cb777a",
+      "pair_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220021",
+      "q_mass": 12.527287483215332,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770007_cf1",
+      "feature_sha256": "86327e73962434f9633c867bd52ab3eb7c75cde3dfa7d1e9b768550fc5c73e1c",
+      "pair_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770007",
+      "q_mass": 12.490077018737793,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790009_cf1",
+      "feature_sha256": "695a372bdc267a3a690b2b0ca37e468a7150d3ef61d90e8c4af241c83cc97bf6",
+      "pair_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790009",
+      "q_mass": 10.442909240722656,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940017_cf1",
+      "feature_sha256": "f2cbd4364ef82f35c7d0b1cfee40045f18b14f677b3ad59c66e06dc5e51ef153",
+      "pair_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940017",
+      "q_mass": 4.2377543449401855,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360020_cf0",
+      "feature_sha256": "21a9468a1963d6a39853c6d8d901c19f46678071693157c66ea67fec548423c9",
+      "pair_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360020",
+      "q_mass": 16.69403076171875,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680013_cf1",
+      "feature_sha256": "17b6107c57782a17c59bbd1c61be54559fef85721cb92059aa1087e4ef3f049e",
+      "pair_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680013",
+      "q_mass": 12.508795738220215,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080012_cf1",
+      "feature_sha256": "d1cf97fb07b10d3d982c9460310417c531330fa9c207b9a695d210abfc95b1b8",
+      "pair_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080012",
+      "q_mass": 8.370970726013184,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940004_cf1",
+      "feature_sha256": "5df2bd76cf9b93246e42b74818525a24f907c1c5bca938dae0843eb073e46584",
+      "pair_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940004",
+      "q_mass": 4.24542236328125,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560007_cf1",
+      "feature_sha256": "5e9e3a90c69690520af357ea32777f80a6bdba44c71ee5570f485e6b5f91c3d5",
+      "pair_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560007",
+      "q_mass": 6.29010009765625,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510023_cf0",
+      "feature_sha256": "ca88fa413a307fcd09a2ec18ab93fb9a74b673657d06fe89134035631af5a428",
+      "pair_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510023",
+      "q_mass": 2.173922300338745,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780023_cf1",
+      "feature_sha256": "7bbac90480629d42969b361c3777ac65ad7cde27a01c1cc20b89b38a2eb58e84",
+      "pair_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780023",
+      "q_mass": 2.1676809787750244,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840018_cf1",
+      "feature_sha256": "3fa54d4311792e20065b485bc0adc93ecbbd7eb3135500166cdc86def6c1e0ba",
+      "pair_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840018",
+      "q_mass": 14.577558517456055,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000003_cf1",
+      "feature_sha256": "3bb561db8ae7a4609d1b33d43534717d0c440d409ab924895b0f54a797300717",
+      "pair_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000003",
+      "q_mass": 16.7064208984375,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360016_cf0",
+      "feature_sha256": "0adb20f70bf26f786f888356ed3325cc2da0cbb537ed998bf8a9dcdfcfed19a0",
+      "pair_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360016",
+      "q_mass": 16.700965881347656,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600023_cf0",
+      "feature_sha256": "9fcc6617a29bf597d57a504af3539c2dc8690086cff2eba72595240573b05804",
+      "pair_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600023",
+      "q_mass": 2.164977788925171,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490010_cf1",
+      "feature_sha256": "7b27935994dec5860e47c73e3c278f062b558d0fe8d602633af5d6ffdbff65d7",
+      "pair_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490010",
+      "q_mass": 4.239107608795166,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270006_cf0",
+      "feature_sha256": "cb8b88977dc1aae0d71d7bb39039e70429a99aa0a59e0cec9d5c1f71a3212bf6",
+      "pair_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270006",
+      "q_mass": 16.684019088745117,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880000_cf1",
+      "feature_sha256": "e0880a825c0220bad171fc7ee4f9dfbbcee8c2c02dc718e45bd32407b0f8bf53",
+      "pair_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880000",
+      "q_mass": 10.440281867980957,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900015_cf0",
+      "feature_sha256": "bcb80ca8a540639c9b3ca699489b0142b7aca046321d55b05a77dd527f5b7c19",
+      "pair_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900015",
+      "q_mass": 8.376602172851562,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650020_cf0",
+      "feature_sha256": "84add5dd66aa0827e26429561674c02491da3e1af59faa57e7fe95423965dc94",
+      "pair_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650020",
+      "q_mass": 6.300206184387207,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330015_cf1",
+      "feature_sha256": "227912eb73bae58860df0f1019c3554220cfba064f1d35cf989ad0027df396ed",
+      "pair_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330015",
+      "q_mass": 2.171980142593384,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920011_cf1",
+      "feature_sha256": "9d3c59416db4574726c297fb5620f205e8d56b5d8e395cb3c6cbe89ba5630294",
+      "pair_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920011",
+      "q_mass": 6.284846782684326,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510008_cf0",
+      "feature_sha256": "a44c528c99a33e5e52814b2709d6df701080f39acdd880e4092543f60a288998",
+      "pair_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510008",
+      "q_mass": 2.168346405029297,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470022_cf1",
+      "feature_sha256": "61529593a002dc6f603ff6e6680dd8eb2579cb1eb3a91f32f58ef706b765b765",
+      "pair_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470022",
+      "q_mass": 6.309049606323242,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680002_cf0",
+      "feature_sha256": "a5dc5e55d8b25940f13871b508059feb0bba48a0ee6d688d51736165927cf528",
+      "pair_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680002",
+      "q_mass": 12.507328987121582,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540016_cf1",
+      "feature_sha256": "c391aa43e63877bf1d916f337dfedc831b933b7f44a6dcbc1d4877393e694ba4",
+      "pair_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540016",
+      "q_mass": 8.37292194366455,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990006_cf0",
+      "feature_sha256": "9b8e52466933aec25ba996508604caeb8a24ec73d18e7842ad7c6030ee2a5eda",
+      "pair_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990006",
+      "q_mass": 8.357372283935547,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010011_cf0",
+      "feature_sha256": "550bf591254504c4761b81edae9036f7ce9593107695a24695ab5be1d854b865",
+      "pair_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010011",
+      "q_mass": 6.300558567047119,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040023_cf1",
+      "feature_sha256": "b33e24234c904516811ac1e3ee9a8816ef8afec62e26e4ff87e49962cb2fb11f",
+      "pair_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040023",
+      "q_mass": 12.497039794921875,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830019_cf1",
+      "feature_sha256": "17524c211be9cf4531958a53175df3788a48e24609d33bf4856260edb5b96513",
+      "pair_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830019",
+      "q_mass": 6.295261383056641,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060023_cf1",
+      "feature_sha256": "2a99f8b309afbc06180da268ab3ec8e42b14fd5c9f405829350595800fe5c0df",
+      "pair_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060023",
+      "q_mass": 10.426932334899902,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760015_cf1",
+      "feature_sha256": "57ab59a1086125f6247e24f1184daba0aeacbe2198487b957c33ae9d77c5c9d2",
+      "pair_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760015",
+      "q_mass": 4.2509660720825195,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690000_cf0",
+      "feature_sha256": "01d34a3260102c4babd095ce2d6f33651b4e90491e1b2ee8dee0d8354250d719",
+      "pair_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690000",
+      "q_mass": 2.1754825115203857,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040004_cf1",
+      "feature_sha256": "7975fe05b8fb96fe4cd7da5996b1b9e5100ffbe9199733279ddd6cfb11007f05",
+      "pair_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040004",
+      "q_mass": 12.510990142822266,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860000_cf0",
+      "feature_sha256": "d027147e9fa368cf67020b975b05ee63b68ea0d9f9b00d09ee76376cbcde20aa",
+      "pair_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860000",
+      "q_mass": 12.49966812133789,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870007_cf0",
+      "feature_sha256": "4825f6bf8ca0c7e2a3921d59adc9428d4c820986814463ae6e84960be49bd115",
+      "pair_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870007",
+      "q_mass": 2.193162441253662,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400023_cf1",
+      "feature_sha256": "b789b94ea9b81f5cf2e78a4ce3d9fc9b0c93f54c129a54afcd1f8a7d69172091",
+      "pair_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400023",
+      "q_mass": 4.251652240753174,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740021_cf0",
+      "feature_sha256": "3273ecbcb4d20fc1b08ef9013a6fc0aa8a88aefdfb04cebe8a97b9a58f7e64c1",
+      "pair_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740021",
+      "q_mass": 6.30385684967041,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080003_cf1",
+      "feature_sha256": "70934e0f5072ced3afa733170195085acdc19b28d0a52946421406ff5146fdc5",
+      "pair_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080003",
+      "q_mass": 8.372057914733887,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950018_cf1",
+      "feature_sha256": "61d27fefcc2e334c13c21c3eef50bc31a87788ca2ce9f196d0e36ea6b430e5ba",
+      "pair_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950018",
+      "q_mass": 12.492927551269531,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150015_cf0",
+      "feature_sha256": "902222e30c8a5d9caf8fa055e076249a7861f893eb128084e2338023ea2bec26",
+      "pair_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150015",
+      "q_mass": 10.448413848876953,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830007_cf1",
+      "feature_sha256": "cb0f30c59759dc990920afa3965f67492327035f41a4b2122759a9beaf08df95",
+      "pair_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830007",
+      "q_mass": 6.294741630554199,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130012_cf1",
+      "feature_sha256": "da1cc0fcdb9ea7761a5eb40697ad215a448a8bfd29972d546994fbb6c2e4f33c",
+      "pair_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130012",
+      "q_mass": 12.485514640808105,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830014_cf0",
+      "feature_sha256": "63f9b8e98be6d01ecfae2507294d5398374a7c875ceeef5fe353efb5acc5065b",
+      "pair_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830014",
+      "q_mass": 6.29985237121582,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150007_cf1",
+      "feature_sha256": "991b2f8516e05bfa59cf3d3de91556559b1d4ccc7d01fff7fd15d36f80bd285f",
+      "pair_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150007",
+      "q_mass": 10.437479972839355,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400020_cf0",
+      "feature_sha256": "217cc1b237821cd29b92011826f3ba194e4450d1706e7eed02fd55c41d1c9863",
+      "pair_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400020",
+      "q_mass": 4.246382236480713,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790013_cf0",
+      "feature_sha256": "1622493aa3d9bc55a15c4a01f46419fe1e9a1bfd5973742bd208d7feeb8115bd",
+      "pair_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790013",
+      "q_mass": 10.42665958404541,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990008_cf0",
+      "feature_sha256": "4130d01f602dbeabfc683d3949923edb715a2cfa99dc5ad757f95f836e502607",
+      "pair_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990008",
+      "q_mass": 8.3585205078125,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900008_cf1",
+      "feature_sha256": "d2855fc6d5afb87e942931614f643ae00e9d415411f41e7a6404390791d54202",
+      "pair_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900008",
+      "q_mass": 8.365001678466797,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950002_cf0",
+      "feature_sha256": "aed7356455a63e528eccae6794ef8e57e338c69503ffa8138a2f0611d5951cf2",
+      "pair_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950002",
+      "q_mass": 12.492056846618652,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010013_cf0",
+      "feature_sha256": "6a1c9352e2b4496235455da96bb1080adff486677fd54d5a4fe73fea255eafc4",
+      "pair_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010013",
+      "q_mass": 6.296933174133301,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770007_cf0",
+      "feature_sha256": "0df26a23492d44c7617598bc2c6bb551246710d285eebb9134f90425c3f4cbc7",
+      "pair_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770007",
+      "q_mass": 12.490713119506836,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680013_cf0",
+      "feature_sha256": "7e5739eab8ed370bd3353a82d74d48a39230d2f162289e448ac8fa41799bfe3f",
+      "pair_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680013",
+      "q_mass": 12.5111722946167,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150014_cf1",
+      "feature_sha256": "8929cb38029bba90ee8b453ca4cc4d3a4507da583310aa317df7658cd6e3ceab",
+      "pair_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150014",
+      "q_mass": 10.437768936157227,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000003_cf0",
+      "feature_sha256": "793ec5fb0a8e94ba3eb8dce736d781d5964f4bbb255ab68a4e4a4c5720ca38b7",
+      "pair_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000003",
+      "q_mass": 16.705856323242188,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220004_cf1",
+      "feature_sha256": "f84c9b1935cc3eee9083fcbb7b5eed235deb36ae4d6f184cf404c7e3d4eb726d",
+      "pair_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220004",
+      "q_mass": 12.530913352966309,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510011_cf0",
+      "feature_sha256": "cde9987cb015740396ae5d99d12b5da91da6c22231205f9aa4f10844f5dad4ea",
+      "pair_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510011",
+      "q_mass": 2.1760716438293457,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700019_cf0",
+      "feature_sha256": "e25932786e44911091c2324c260c98c88bc2b88f79c4da5bde9fbe6b5ce7bbed",
+      "pair_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700019",
+      "q_mass": 10.425780296325684,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110011_cf1",
+      "feature_sha256": "0a1e53c93f6f452f93648a9300dd87db77e5491b4862e61f2d4955ce03573fdb",
+      "pair_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110011",
+      "q_mass": 14.57192611694336,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770013_cf0",
+      "feature_sha256": "94df310c43c61bd0d5d39283284723be85574af98706f15522a4ed0b935c631b",
+      "pair_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770013",
+      "q_mass": 12.49270248413086,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910015_cf0",
+      "feature_sha256": "7682f6c0aa36af86e50a228671429c09c820cb69dc3e8405814194221ef6f028",
+      "pair_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910015",
+      "q_mass": 16.698537826538086,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930001_cf1",
+      "feature_sha256": "6dc377bc412e62d69b0fa3d6df4b549f2c6b2f3aefbc747edbcc3ae60128d2d2",
+      "pair_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930001",
+      "q_mass": 14.59029769897461,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930013_cf1",
+      "feature_sha256": "6d0fb6e32b95c92f55f1880ae1928fe9306772527cdee9b0645d781895861308",
+      "pair_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930013",
+      "q_mass": 14.590242385864258,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290021_cf1",
+      "feature_sha256": "8312efe1dac59171c811fee2f08f9192d7bab92b891924b735c00281000133e3",
+      "pair_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290021",
+      "q_mass": 14.606903076171875,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010013_cf1",
+      "feature_sha256": "8bb12fdbdded3080abbd1ac93109261181ca84a77674e3b1cc71a8c8bf14d5de",
+      "pair_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010013",
+      "q_mass": 6.296210289001465,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630012_cf1",
+      "feature_sha256": "65510518c32ef4bfc70a15b66fd8533ad5d41c9ed62323c153ba473f0e2bb3e2",
+      "pair_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630012",
+      "q_mass": 8.356560707092285,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690017_cf0",
+      "feature_sha256": "41009f2b2e9c1f12ae3c5ad0e597db2568d67662683cfeba4953a63e1adde642",
+      "pair_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690017",
+      "q_mass": 2.1666183471679688,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470009_cf0",
+      "feature_sha256": "8fae2039d730bbfc01ca914d8c16edc9065b08e72f2e8d4dbd55b450434e0e95",
+      "pair_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470009",
+      "q_mass": 6.2953386306762695,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560012_cf1",
+      "feature_sha256": "5078b4a000b1fed9bf0d6e2f6c1a6390a1a9b67fc4b4e8c16123009ba687da17",
+      "pair_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560012",
+      "q_mass": 6.290260314941406,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810023_cf1",
+      "feature_sha256": "0cd7385507ed23aaf1bc3fef91625e34f1319db50f29ca9fb022d14bfca7d61f",
+      "pair_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810023",
+      "q_mass": 8.36116886138916,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810017_cf0",
+      "feature_sha256": "da2ff412bbe728ceb85b9708c0056980665c074cae86fc2de314303c5c3b3413",
+      "pair_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810017",
+      "q_mass": 8.354122161865234,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470014_cf0",
+      "feature_sha256": "3e714ee53f95448199f85ec8733f04a6d4ca67c470bb186d7af08116be119f4f",
+      "pair_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470014",
+      "q_mass": 6.296942234039307,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560003_cf1",
+      "feature_sha256": "d51a0dc1831ff12bc59a9bef78ab179fb9ef8a55ce81b6c35b4b1fc893be0cf6",
+      "pair_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560003",
+      "q_mass": 6.288052082061768,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490012_cf0",
+      "feature_sha256": "2cde1919ab9a024511d20293440caa11454b8b6a333f4fd7883869d485a66854",
+      "pair_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490012",
+      "q_mass": 4.235000133514404,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720017_cf1",
+      "feature_sha256": "dedd5cb3a4be5f254290d70de17e8dd1da4a224662294a7f598d4df62d051a7d",
+      "pair_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720017",
+      "q_mass": 8.353582382202148,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400023_cf0",
+      "feature_sha256": "f78c6675d8ca03baf462dd2abe5408670498c9957c325724db4e43904313e012",
+      "pair_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400023",
+      "q_mass": 4.245233058929443,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000008_cf0",
+      "feature_sha256": "8379ed0e2f5c6531329f9e361ecccb789806997ea4735e6b6cc7e8466f7a2a93",
+      "pair_id": "m2_fresh_development_hop_8_boundary_deficit:ergt43_pair_271741000008",
+      "q_mass": 16.6766414642334,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020008_cf0",
+      "feature_sha256": "addd6ec8fbf6ae8d7368c54d88423d6d65955edc93f8eb1198094f0aebfdce59",
+      "pair_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020008",
+      "q_mass": 14.582777976989746,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420006_cf1",
+      "feature_sha256": "d7dfe2b51f14a53823e538fff8d93bdfb33233fb057c6c60bcf4ba5c8c1274f5",
+      "pair_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420006",
+      "q_mass": 2.168997287750244,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740023_cf1",
+      "feature_sha256": "ac559810cc9cbfc615d43ff06f20e8925f78303b5ba68156bd01a601c8a74ca1",
+      "pair_id": "m2_fresh_development_hop_3_payload_transport:ergt43_pair_271250740023",
+      "q_mass": 6.298448085784912,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820002_cf1",
+      "feature_sha256": "461429970c0bb5bbe449ad701bfc4f548d3c52a8779206ec6180df5637cd59ba",
+      "pair_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820002",
+      "q_mass": 16.701557159423828,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490012_cf1",
+      "feature_sha256": "c0093ee31a6b1d65fb271123b963b76d902b7e4eff411bcc38d099df1db17f63",
+      "pair_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490012",
+      "q_mass": 4.235217094421387,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870012_cf0",
+      "feature_sha256": "56e305242ac89351529e3c76a645ceb4c306e1de1405767aa931c0467096f71b",
+      "pair_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870012",
+      "q_mass": 2.188478946685791,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200001_cf0",
+      "feature_sha256": "3d79f0ff6245c6734d195ecce164c9f14b8a41bbc95bbebe5fe7faf97bd479c8",
+      "pair_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200001",
+      "q_mass": 14.58841323852539,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290011_cf0",
+      "feature_sha256": "99e49d7e04f317c5ea9664b0fefd274f2c4614ce5bc8ff58c3c446e9b4de2a1d",
+      "pair_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290011",
+      "q_mass": 14.595848083496094,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080012_cf0",
+      "feature_sha256": "57d09fc76e0043da427125ce1c4c473ee3575895f530e43cd4029533cce3e9e5",
+      "pair_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080012",
+      "q_mass": 8.377693176269531,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850000_cf0",
+      "feature_sha256": "424de18d38813100b040bfbd967eb5c872c650a0526b9fec42269c9bcf0d525f",
+      "pair_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850000",
+      "q_mass": 4.231450080871582,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860008_cf0",
+      "feature_sha256": "794f62873c5ae5f6926e848b0ce4ad719fbacc07805e246d01ac84554ec8647c",
+      "pair_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860008",
+      "q_mass": 12.489566802978516,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970009_cf1",
+      "feature_sha256": "44f08095a2b6dd004c28f119878a2477fe09cbeb3cb180b5303751217d9c0c2b",
+      "pair_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970009",
+      "q_mass": 10.429808616638184,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090009_cf1",
+      "feature_sha256": "791106d26dbf8b8a95768a2adafee7ec55571b586a6a4cb120cd5b41cb06bef8",
+      "pair_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090009",
+      "q_mass": 16.69371223449707,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330009_cf0",
+      "feature_sha256": "a2f7460c50bcc4243302692a3839c67b7303c3c2f8dc8e277c2f9a15173ad7aa",
+      "pair_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330009",
+      "q_mass": 2.167889356613159,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360004_cf0",
+      "feature_sha256": "1ada49a4acb695aebf28a424b69df465babcaf8c8e8cb024bc4a95595d723d91",
+      "pair_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360004",
+      "q_mass": 16.698501586914062,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470014_cf1",
+      "feature_sha256": "55ad887669cebb0a511f876037f3f9095d7c3aef5d0d32442283e757d4aee328",
+      "pair_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470014",
+      "q_mass": 6.29337215423584,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750019_cf0",
+      "feature_sha256": "588232076c3c33c303015609b3f60ff2fbe4ae203e96697ba10b3ff5e61121f7",
+      "pair_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750019",
+      "q_mass": 14.5931396484375,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770000_cf0",
+      "feature_sha256": "3228f92af595cd925f4ee600d207dbbea621ce313638c523876c1af05a1f4e64",
+      "pair_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770000",
+      "q_mass": 12.492838859558105,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510010_cf0",
+      "feature_sha256": "e04c0cda23bcb0fe742df6c7ddc4476f1208047a03ce54a5a5ffbd015dca1028",
+      "pair_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510010",
+      "q_mass": 2.1994025707244873,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650020_cf1",
+      "feature_sha256": "38f05183f0ca9985f41532fba08020073104759e6c9c7c66267755995bb232c7",
+      "pair_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650020",
+      "q_mass": 6.302676677703857,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820002_cf0",
+      "feature_sha256": "1e621e0fa8494ec72064a78be3de2ab5158cd3432ec2ae91d4f98df7407a7ee3",
+      "pair_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820002",
+      "q_mass": 16.700105667114258,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630020_cf0",
+      "feature_sha256": "6111b103f5ae63c04ff460daeac11865daf54fa369be0212df765bf0f8156111",
+      "pair_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630020",
+      "q_mass": 8.354328155517578,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540006_cf1",
+      "feature_sha256": "cf30d820124441d224da439a89987d76c9fd42a1f1e89d2c9e33eddc0d8f5bd3",
+      "pair_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540006",
+      "q_mass": 8.363025665283203,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020000_cf1",
+      "feature_sha256": "75a1901fce85e51c3ffb7a6d1a0608ab9395febd0c75dbe8a1bd6c5a00041129",
+      "pair_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020000",
+      "q_mass": 14.588166236877441,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630022_cf0",
+      "feature_sha256": "b80b3e50cc7578e1827c7fee2356957c283c19baea8322fcf37a89b20f7135a5",
+      "pair_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630022",
+      "q_mass": 8.370759010314941,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610023_cf0",
+      "feature_sha256": "f0b88e50c95ec289dc0ac675d8cb6aaa5c3561bab0808ce33d33e79ee88a7367",
+      "pair_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610023",
+      "q_mass": 10.446062088012695,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400015_cf1",
+      "feature_sha256": "0056e6103bb9f95b12829860d0fe0507e7b15409c411c25914d24999a15cc37b",
+      "pair_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400015",
+      "q_mass": 4.247274398803711,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920012_cf0",
+      "feature_sha256": "0e33127202e9a3b5503651cdad96153a2c5c8dc4c3a7636a956fc495f8c92765",
+      "pair_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920012",
+      "q_mass": 6.2927374839782715,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840000_cf0",
+      "feature_sha256": "eebc34285a42c72ffadbdd1a0eeead5e063dff62450245d6e04ede5499505e31",
+      "pair_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840000",
+      "q_mass": 14.579353332519531,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110016_cf1",
+      "feature_sha256": "8f7c7ac6c43349e3036c7c3d862b77f2c977f251527287f2b27f1f5467609e01",
+      "pair_id": "m2_fresh_development_hop_7_terminal_mass:ergt43_pair_271661110016",
+      "q_mass": 14.597827911376953,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820014_cf1",
+      "feature_sha256": "ac867d718778bfde2affe1c3e7f3f4d9f7c8d3d6fb760c4f84fe87d75dbf06d3",
+      "pair_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820014",
+      "q_mass": 16.68659782409668,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180019_cf0",
+      "feature_sha256": "0e64ef8a2a8f841d498053562cde358f486c29bceacd354fa18dd2c104af4fe2",
+      "pair_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180019",
+      "q_mass": 16.6830997467041,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130003_cf0",
+      "feature_sha256": "2d25a0a1b45feedba4f9553f426ad27d86d888f7ad09b69a686cbd1751f85dce",
+      "pair_id": "m2_fresh_development_hop_6_memory_source_condition:ergt43_pair_271571130003",
+      "q_mass": 12.509445190429688,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870018_cf1",
+      "feature_sha256": "83a8008a4f4e864cd3c63438e58f7dfec6b5904ed2fb996395163c935d6d0b82",
+      "pair_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870018",
+      "q_mass": 2.1786673069000244,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970012_cf1",
+      "feature_sha256": "d8195f04b80d1ec0396d77ff3738eb85701fa4a31fa809690e3d95497cf3ea5e",
+      "pair_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970012",
+      "q_mass": 10.420270919799805,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880022_cf1",
+      "feature_sha256": "596d42687dd5702caa2119533e41fefff9bced16dfd747f7d17fdb7a0ce07b20",
+      "pair_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880022",
+      "q_mass": 10.434897422790527,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700019_cf1",
+      "feature_sha256": "5f245925ed09407d33f94ebdd714eae73a187c02ec8d762cd180f77582e13e6d",
+      "pair_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700019",
+      "q_mass": 10.42645263671875,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040007_cf1",
+      "feature_sha256": "821e17c690230cc2a45135e2d3accded2427616af63652133343116b7ee22a4d",
+      "pair_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040007",
+      "q_mass": 12.49321460723877,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600001_cf0",
+      "feature_sha256": "637e014baa4164983759c4f17b70a6ca025ec7d2c763ba3c29d2b7232350e477",
+      "pair_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600001",
+      "q_mass": 2.174509286880493,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680001_cf0",
+      "feature_sha256": "a83c8a12aa1d2f6ec48e8ea88daedd16b987c73fd800b5c1f3d0e58d6a6768a1",
+      "pair_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680001",
+      "q_mass": 12.493374824523926,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810023_cf0",
+      "feature_sha256": "6bb586874f13a72a9c6a79e2de63b1efe45652b1122e1972dee9066a3c09f06a",
+      "pair_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810023",
+      "q_mass": 8.360594749450684,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700020_cf0",
+      "feature_sha256": "e38206cd6996f34001572f065d3ff505e823ffc83cb818785dee8c8d2bc25aa9",
+      "pair_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700020",
+      "q_mass": 10.416898727416992,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560020_cf0",
+      "feature_sha256": "6a8c45ea4eb32afd442d7b9bc3d28f29663fcbcebc2bf43ece5092c30d198238",
+      "pair_id": "m2_fresh_development_hop_3_finite_speed_cone:ergt43_pair_271230560020",
+      "q_mass": 6.291812419891357,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990007_cf1",
+      "feature_sha256": "9dee6ccbbf5e08973ee2795fe20172003c126784282a06c03195c51f73dd6595",
+      "pair_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990007",
+      "q_mass": 8.358940124511719,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840014_cf1",
+      "feature_sha256": "ff1f80f2b1592d89e5e9f3f2d9fbe9b97d8eacdce0f366d28a8a822fa3178567",
+      "pair_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840014",
+      "q_mass": 14.577657699584961,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690010_cf1",
+      "feature_sha256": "ee121356ec2f3650462f5c89a0cb21c5249629d8df934e641197886c62da4dff",
+      "pair_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690010",
+      "q_mass": 2.1877622604370117,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990007_cf0",
+      "feature_sha256": "6033c1b07e6680e51b83a52041be8d78380c42b9004ede86c62e5d4a5736d97c",
+      "pair_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990007",
+      "q_mass": 8.359262466430664,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090017_cf0",
+      "feature_sha256": "32867dfde1d830bcff1e861ad2a9cfb7a2622db21357836a0e5fba2023fd4f60",
+      "pair_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090017",
+      "q_mass": 16.683612823486328,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290011_cf1",
+      "feature_sha256": "017a517d0d9d8f6d3a2f231941b97a299ae5f3593a6a3fa6a74f7854b810c4c0",
+      "pair_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290011",
+      "q_mass": 14.602434158325195,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770001_cf0",
+      "feature_sha256": "f9bd0396cbbe7e651c76fee5394d209a1747652f6f18a2e5e7fbe441a30644d8",
+      "pair_id": "m2_fresh_development_hop_6_finite_speed_cone:ergt43_pair_271530770001",
+      "q_mass": 12.486210823059082,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950001_cf1",
+      "feature_sha256": "03c907eccbb655e188cf62454e74b94d08266da615c0ce84f370114f1019d670",
+      "pair_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950001",
+      "q_mass": 12.486477851867676,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930017_cf0",
+      "feature_sha256": "ccbf618510431ca29937b81cee029a1fb832c460fbe37fdbd34692a29257d682",
+      "pair_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930017",
+      "q_mass": 14.57454776763916,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150007_cf0",
+      "feature_sha256": "9bba05f2b147ced3bc3f31bcd9151d5b4f45b0abca20d65ada8c0aba8bf99239",
+      "pair_id": "m2_fresh_development_hop_5_combined_long_horizon:ergt43_pair_271481150007",
+      "q_mass": 10.433433532714844,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840000_cf1",
+      "feature_sha256": "87cc8d51e101e0b6b9b8369f0f1ef1922b8e1fd5ac9e98524102c0937011b8fb",
+      "pair_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840000",
+      "q_mass": 14.577880859375,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080006_cf0",
+      "feature_sha256": "05373baca0e07d6f5f11628993cffc1a39d92ee80513a861dfcc1ed60d2f1623",
+      "pair_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080006",
+      "q_mass": 8.372339248657227,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630012_cf0",
+      "feature_sha256": "00e9383b62cec5234bb582062c7fe0c7b15532b5f16140387e9521e9e30db4ae",
+      "pair_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630012",
+      "q_mass": 8.358720779418945,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490002_cf0",
+      "feature_sha256": "cd3bcbf43731a327dc1a8d586173fdc6bb2e3ef944ad8ef223265eebd3dbb258",
+      "pair_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490002",
+      "q_mass": 4.231913089752197,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290023_cf0",
+      "feature_sha256": "afeea2c0b95622c85a499fba136076298c83210dd88fb633d3191bf942b2ef3b",
+      "pair_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290023",
+      "q_mass": 14.6007719039917,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610022_cf1",
+      "feature_sha256": "e8f1335df25839bad3daa720218cc90dd0ca93c23c27dbec188fd7db4479de5b",
+      "pair_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610022",
+      "q_mass": 10.44599437713623,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990006_cf1",
+      "feature_sha256": "7dd486eca10b35c98f04bfacebefe37fe3cdda1b9359a1cd741e39d7b96315ee",
+      "pair_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990006",
+      "q_mass": 8.357524871826172,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850023_cf0",
+      "feature_sha256": "9e302e9b3ede7044f123650bc7b26cf70aa9dd1e759f2980ac1bb3888b17d5cc",
+      "pair_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850023",
+      "q_mass": 4.2367963790893555,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860008_cf1",
+      "feature_sha256": "ac3e5a5cc0a31ee810b136c1e8d5059b6ffd9828b335fcfed0d1039b9a4582e7",
+      "pair_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860008",
+      "q_mass": 12.488213539123535,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670000_cf1",
+      "feature_sha256": "e8a1c5a1ab5d100da7a0db48625db5628bd8c6521f4baaf935f91b72b4021866",
+      "pair_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670000",
+      "q_mass": 4.239559173583984,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060021_cf0",
+      "feature_sha256": "d0ca14c0756bbeeadda7d9dc3a947898ea857526baefa76bb767b200ba722144",
+      "pair_id": "m2_fresh_development_hop_5_memory_source_condition:ergt43_pair_271471060021",
+      "q_mass": 10.457331657409668,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200001_cf1",
+      "feature_sha256": "92733e40ec385f89f27eceea4545cdaf03d98cc83a2f5ab901a16f759c42c576",
+      "pair_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200001",
+      "q_mass": 14.58846664428711,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690016_cf1",
+      "feature_sha256": "34b9e9bce2a0b328b3117d40810e53918b3973e4cdb08de145ad04800e970f4d",
+      "pair_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690016",
+      "q_mass": 2.1676766872406006,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180012_cf1",
+      "feature_sha256": "4acc9344a8814e46440ea7e0b494870cd3275c499d8b92c683cc3f103f737762",
+      "pair_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180012",
+      "q_mass": 16.68675422668457,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630009_cf0",
+      "feature_sha256": "d9a1bd04a515adb253798bf56a7d6ac5d10b649188088b49d7e35ab57c84a5be",
+      "pair_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630009",
+      "q_mass": 8.355685234069824,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180007_cf1",
+      "feature_sha256": "a6c2ae9c1a3b5cd09c7ed910dbee80bab25a8d58ba5a837fa647d132df998e5e",
+      "pair_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180007",
+      "q_mass": 16.690078735351562,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090011_cf1",
+      "feature_sha256": "ab77edfe7951617ecbc5d9bc9c97263424e5d1f04fc59c5f46f0d8b977969059",
+      "pair_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090011",
+      "q_mass": 16.668054580688477,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950001_cf0",
+      "feature_sha256": "20e4c08eea53ddf30dd604e7ca6da7995ff4cb056e90a8c175349537cd5477c6",
+      "pair_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950001",
+      "q_mass": 12.48703384399414,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420018_cf1",
+      "feature_sha256": "52cb58dc201ffd0a6f7b7bad1135658f8b6ef83b2ca644a6b2b1c0694ec041e8",
+      "pair_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420018",
+      "q_mass": 2.160738229751587,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950002_cf1",
+      "feature_sha256": "1f1187ba22597566666db734ed0e20dca41f6d7a4b8eab014d5c77fcb91ee0a5",
+      "pair_id": "m2_fresh_development_hop_6_payload_transport:ergt43_pair_271550950002",
+      "q_mass": 12.493645668029785,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750006_cf0",
+      "feature_sha256": "4eb8291f63e83111de02dbfd96b46482385bc4cac94d49b2c98790f4ce14a345",
+      "pair_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750006",
+      "q_mass": 14.597724914550781,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610020_cf0",
+      "feature_sha256": "d99a949d9035f052fe0d304eff54e549b1eb49a18c254004d118c4e2a45ebd26",
+      "pair_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610020",
+      "q_mass": 10.434123992919922,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290000_cf0",
+      "feature_sha256": "e4335e97de5048134f9902c725a4347648bb7ceecb05cb280afeaad31a9999c0",
+      "pair_id": "m2_fresh_development_hop_7_combined_long_horizon:ergt43_pair_271681290000",
+      "q_mass": 14.594449043273926,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270002_cf0",
+      "feature_sha256": "aa40c7fe74542e785fec77950f6f15b49b6ca5da8ca67dceff1d23c0a96dae07",
+      "pair_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270002",
+      "q_mass": 16.67990493774414,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700010_cf1",
+      "feature_sha256": "9f50311ed11f0af13e9ec18fa3c708621c1cb180b6487b5b8de9969709598a91",
+      "pair_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700010",
+      "q_mass": 10.431713104248047,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700009_cf1",
+      "feature_sha256": "780bfd7a292a6e042558555817e34233195c2156469501e9013579b1924f27f8",
+      "pair_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700009",
+      "q_mass": 10.429595947265625,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680016_cf0",
+      "feature_sha256": "df6350c084f06c702f75dd21693a7709a1881259a145510b57bcd6e899714b03",
+      "pair_id": "m2_fresh_development_hop_6_geodesic_action:ergt43_pair_271520680016",
+      "q_mass": 12.51164436340332,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040016_cf0",
+      "feature_sha256": "9eaaa2760fa02f567dfeb83f3c9b32251ecf0fd14246e3b34aea3137848f6e6e",
+      "pair_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040016",
+      "q_mass": 12.496448516845703,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850000_cf1",
+      "feature_sha256": "f42272e268230aeff4ed9d75071bcdbbee5b8e1ed53ce68c79d053611f849cb9",
+      "pair_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850000",
+      "q_mass": 4.230957508087158,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990008_cf1",
+      "feature_sha256": "d452d6c78485106c35a8cd873e57423dddd96082d58599e25645edcd706d4427",
+      "pair_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990008",
+      "q_mass": 8.359094619750977,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940004_cf0",
+      "feature_sha256": "b33da10ce20cad0d739bddd24664bae1cd37540761f11a97745da76a586f34a2",
+      "pair_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940004",
+      "q_mass": 4.2427215576171875,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650008_cf1",
+      "feature_sha256": "6b19747709dfca44e660ead3a28a1b540ff7432f16b8a64c283f7031348a6003",
+      "pair_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650008",
+      "q_mass": 6.291646957397461,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690016_cf0",
+      "feature_sha256": "8348841cf7a669ebffab18c27c979715947c1eca4f53b87e4ba647675419fe1a",
+      "pair_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690016",
+      "q_mass": 2.172180652618408,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580004_cf1",
+      "feature_sha256": "b36330ff04fc97fac497da6e9918b6caf68dbc17245685cda08f2d3210faa5df",
+      "pair_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580004",
+      "q_mass": 4.240033149719238,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330013_cf0",
+      "feature_sha256": "4159105de4ce2dd1fa247a3248435f7a74dd7ce99c78679f49bab25f1a6ff584",
+      "pair_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330013",
+      "q_mass": 2.168619155883789,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020000_cf0",
+      "feature_sha256": "1683795fc1d9b1cc507180a5e4a4ec848ee90ab1f9edfc323b6541a9b57a2d2e",
+      "pair_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020000",
+      "q_mass": 14.588968276977539,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940013_cf1",
+      "feature_sha256": "8591f6289efb37bb1078e7ffba65968b33bf9d359d951902e3ae0994f10134c9",
+      "pair_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940013",
+      "q_mass": 4.233353137969971,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780015_cf1",
+      "feature_sha256": "de6ab1f09e14e4f2b869308569a1085c7c4d39ce26286d9d6cfc5ef722c649b8",
+      "pair_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780015",
+      "q_mass": 2.1792593002319336,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930017_cf1",
+      "feature_sha256": "948c62701df395156c45382aee2ff80d5bbc91d62e51cfa54ca30116bd3cb23e",
+      "pair_id": "m2_fresh_development_hop_7_boundary_deficit:ergt43_pair_271640930017",
+      "q_mass": 14.577409744262695,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700010_cf0",
+      "feature_sha256": "3788da271ee27fb3bbb41ce006fbae53e6c19af0a326a798ea872973e3756c9d",
+      "pair_id": "m2_fresh_development_hop_5_finite_speed_cone:ergt43_pair_271430700010",
+      "q_mass": 10.430893898010254,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870012_cf1",
+      "feature_sha256": "b9653982fcf624e6820bee05ae0e9269bdb6fb51e6743a09f31923509b175f2f",
+      "pair_id": "m2_fresh_development_hop_1_combined_long_horizon:ergt43_pair_271080870012",
+      "q_mass": 2.180544137954712,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970009_cf0",
+      "feature_sha256": "3fcdf785bd5055267bd890c5d7c8b6b6f233b0a0e793536361f0ca7015091db5",
+      "pair_id": "m2_fresh_development_hop_5_terminal_mass:ergt43_pair_271460970009",
+      "q_mass": 10.430317878723145,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470017_cf1",
+      "feature_sha256": "bf48da8f89d20f89ba0eb992944e4eb3d019ab22ddc2eeaf32008aa94aa32d94",
+      "pair_id": "m2_fresh_development_hop_3_geodesic_action:ergt43_pair_271220470017",
+      "q_mass": 6.2928466796875,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850010_cf1",
+      "feature_sha256": "9520f246db3b7d835955419a300572436ac709d3e334bea8a40e6f59a041e4f8",
+      "pair_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850010",
+      "q_mass": 4.243924617767334,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720015_cf1",
+      "feature_sha256": "1835182d573d7d783f74bdc7ea985f4858932b9ebb4a3b2ab0e3fdc8ef77181b",
+      "pair_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720015",
+      "q_mass": 8.375236511230469,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720022_cf0",
+      "feature_sha256": "fcc885577d5439e7832dc1fb5ea1d6c6e28745a3289c89e4d08ec20153b63049",
+      "pair_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720022",
+      "q_mass": 8.364898681640625,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690000_cf1",
+      "feature_sha256": "035ed38b53148a3eb57445ffb324033dacc0a4305eba2c19616532754c86dda0",
+      "pair_id": "m2_fresh_development_hop_1_terminal_mass:ergt43_pair_271060690000",
+      "q_mass": 2.1794283390045166,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720022_cf1",
+      "feature_sha256": "e1464811966c133dc05e68e5c86cc4beb53123faff6f4c5077a283c48e183ad8",
+      "pair_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720022",
+      "q_mass": 8.365601539611816,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840018_cf0",
+      "feature_sha256": "0ed7b6d6354fd0212f003cd7ce22c18a8dbda2fb02cae6dc2354424c4e8eb1f9",
+      "pair_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840018",
+      "q_mass": 14.578133583068848,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830019_cf0",
+      "feature_sha256": "867dbb8dd8351d7749357d06eb0a5c60d093d2c825c0193ab7327d19eb2d2740",
+      "pair_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830019",
+      "q_mass": 6.293904781341553,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270013_cf1",
+      "feature_sha256": "01f52b0d825834cd60ac1f4de72cb4576816f16c1bd9fc350fdbcdbaf38efd92",
+      "pair_id": "m2_fresh_development_hop_8_memory_source_condition:ergt43_pair_271771270013",
+      "q_mass": 16.6823673248291,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200016_cf1",
+      "feature_sha256": "c3c6668982381d93c34957d806e1c06aadb51a5cf4b33f1f79ae5af1d3394915",
+      "pair_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200016",
+      "q_mass": 14.593428611755371,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010011_cf1",
+      "feature_sha256": "21506acae52728aefe396548a7967428cefd638e273d895bb5069a3414d3463f",
+      "pair_id": "m2_fresh_development_hop_3_combined_long_horizon:ergt43_pair_271281010011",
+      "q_mass": 6.298022270202637,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670007_cf0",
+      "feature_sha256": "6a3d9df2b4068c5c07f2223e5675117272151fe4f74e6ce7191b549f7acb3041",
+      "pair_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670007",
+      "q_mass": 4.24463415145874,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860017_cf1",
+      "feature_sha256": "fbbadd60ec818079ecc212390ff77272a16558fa063ee0d3bec8d5276ec5d4c4",
+      "pair_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860017",
+      "q_mass": 12.496049880981445,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910011_cf1",
+      "feature_sha256": "b18cd2504d5497b530a66dffdaa4085694dd2095443ea52d63fec1ea3f3b5bcc",
+      "pair_id": "m2_fresh_development_hop_8_finite_speed_cone:ergt43_pair_271730910011",
+      "q_mass": 16.669509887695312,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420016_cf0",
+      "feature_sha256": "6cadfde18127e97b332145a1132b5530e98e31f157778fb3432d5f957309b9cf",
+      "pair_id": "m2_fresh_development_hop_1_finite_speed_cone:ergt43_pair_271030420016",
+      "q_mass": 2.164445400238037,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080009_cf0",
+      "feature_sha256": "3ab5fcdb3ad5772f43659eca3ca35c3324a6fffacf12b1854d56d4076579d28b",
+      "pair_id": "m2_fresh_development_hop_4_combined_long_horizon:ergt43_pair_271381080009",
+      "q_mass": 8.378667831420898,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900008_cf0",
+      "feature_sha256": "19b60c7dc423bcc5b0635ad751cf0b1df52091a1617b96805abc53d93a1dacb1",
+      "pair_id": "m2_fresh_development_hop_4_terminal_mass:ergt43_pair_271360900008",
+      "q_mass": 8.362955093383789,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860000_cf1",
+      "feature_sha256": "fa8f861ff03f0339c7670ec895f71e835d07e172d9f346fb30dd77bd80fca716",
+      "pair_id": "m2_fresh_development_hop_6_boundary_deficit:ergt43_pair_271540860000",
+      "q_mass": 12.496091842651367,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200004_cf1",
+      "feature_sha256": "7447cad4b65f902edc115bc8c1b51950feffa28443e076d57557ae8223c355f9",
+      "pair_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200004",
+      "q_mass": 14.624187469482422,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180019_cf1",
+      "feature_sha256": "2ba48117b7986d22d9b56270b619bbd0d559ddbe21e2493779db3898d94d470e",
+      "pair_id": "m2_fresh_development_hop_8_terminal_mass:ergt43_pair_271761180019",
+      "q_mass": 16.684778213500977,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600020_cf1",
+      "feature_sha256": "8c652768318769bca9d0c7bd3aa8d217eb54aa9cbf33dd1158f6e027458f1585",
+      "pair_id": "m2_fresh_development_hop_1_payload_transport:ergt43_pair_271050600020",
+      "q_mass": 2.178696632385254,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850023_cf1",
+      "feature_sha256": "eee2b81227c53e3f3585999aa235b8a3423c0c3dfb801cfbdfe5411c52a42e83",
+      "pair_id": "m2_fresh_development_hop_2_memory_source_condition:ergt43_pair_271170850023",
+      "q_mass": 4.237939357757568,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810000_cf1",
+      "feature_sha256": "a666cb3a0b6edbde8ce9be2244d72316d702fa11c95fd1057405eb13d64d0282",
+      "pair_id": "m2_fresh_development_hop_4_payload_transport:ergt43_pair_271350810000",
+      "q_mass": 8.367988586425781,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720015_cf0",
+      "feature_sha256": "479ccb66a4eeee90786473cbfda2c4826c3cb555b01bccab55b186bea2c5d9d2",
+      "pair_id": "m2_fresh_development_hop_4_boundary_deficit:ergt43_pair_271340720015",
+      "q_mass": 8.374105453491211,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610020_cf1",
+      "feature_sha256": "b9e0c7bb03f8132a7c4fd380ff598e994d83bf9ba1798594861553afdc76512a",
+      "pair_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610020",
+      "q_mass": 10.429281234741211,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200005_cf0",
+      "feature_sha256": "47c55edfacff65a373c6297bdc4aaa66cff347edcf6e40af8b1ae41b4db6faf8",
+      "pair_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200005",
+      "q_mass": 14.587445259094238,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780003_cf1",
+      "feature_sha256": "7d0400afeca03b43edb5b979bb6622bdaf6d659bfcd9b9fefdf147e15c47f015",
+      "pair_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780003",
+      "q_mass": 2.1874184608459473,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220017_cf1",
+      "feature_sha256": "c5417dba3cb85ad6e2573e624d7fae4bf048d48146b23be8499f7c340440089b",
+      "pair_id": "m2_fresh_development_hop_6_combined_long_horizon:ergt43_pair_271581220017",
+      "q_mass": 12.51058578491211,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670007_cf1",
+      "feature_sha256": "a2fb0f72b6db1d94a68695d8fcb5a3a1d5f78b066bb83375f88add306885e0f1",
+      "pair_id": "m2_fresh_development_hop_2_payload_transport:ergt43_pair_271150670007",
+      "q_mass": 4.2444376945495605,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490014_cf0",
+      "feature_sha256": "fe1d2bb74f60f12387d8dbfffcef20ece82b7feba752d7f094cb2fe4309617d4",
+      "pair_id": "m2_fresh_development_hop_2_finite_speed_cone:ergt43_pair_271130490014",
+      "q_mass": 4.228554725646973,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580004_cf0",
+      "feature_sha256": "2c2d10e60211a574182197e325a8657df4b418e6df3fdcf713baaa95d24a78de",
+      "pair_id": "m2_fresh_development_hop_2_boundary_deficit:ergt43_pair_271140580004",
+      "q_mass": 4.242907524108887,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330009_cf1",
+      "feature_sha256": "934eb47b14e7ce20af303dfc038473ebd16c915b75dfa112b76a3a609e93c0ea",
+      "pair_id": "m2_fresh_development_hop_1_geodesic_action:ergt43_pair_271020330009",
+      "q_mass": 2.16555118560791,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750019_cf1",
+      "feature_sha256": "6163bbdb9df5a0885c3ccb2e61363d5fb19e3ddca238c46ba6889d9b4cbec1f9",
+      "pair_id": "m2_fresh_development_hop_7_geodesic_action:ergt43_pair_271620750019",
+      "q_mass": 14.595726013183594,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040007_cf0",
+      "feature_sha256": "5a1a2a8201367801bddef407c6a736c76a5719276acb947186cf84e9c78cb362",
+      "pair_id": "m2_fresh_development_hop_6_terminal_mass:ergt43_pair_271561040007",
+      "q_mass": 12.491092681884766,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540008_cf1",
+      "feature_sha256": "38d59889b01228c7b1ca19abcd79aab9fa3d6f6adcb85599e1c2744ef6b37ec6",
+      "pair_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540008",
+      "q_mass": 8.371857643127441,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610021_cf0",
+      "feature_sha256": "1dbbf081444eebbd33481fedbeeadaa18a38fa17a6aa24fe7fe8257f958a3d0f",
+      "pair_id": "m2_fresh_development_hop_5_geodesic_action:ergt43_pair_271420610021",
+      "q_mass": 10.456770896911621,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920001_cf0",
+      "feature_sha256": "49043c731702864c6a7226b0d475c94190cab33c22dcbe50c267f1366b155662",
+      "pair_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920001",
+      "q_mass": 6.29172420501709,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920003_cf1",
+      "feature_sha256": "ab9b1bd73d4dbeffd147d3e540d239c5af42b8d2d929a2180728992f40f7a124",
+      "pair_id": "m2_fresh_development_hop_3_memory_source_condition:ergt43_pair_271270920003",
+      "q_mass": 6.291875839233398,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760019_cf0",
+      "feature_sha256": "9e22af5df49394a5b1fd1a3b3e677aa4e573550b6650b0f0ffcb02b89892e680",
+      "pair_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760019",
+      "q_mass": 4.235184669494629,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880010_cf0",
+      "feature_sha256": "6436cea78a4ef29e3e1ddfcaa3171172cb42f9932e3bd3729ec8c8c5b44d20da",
+      "pair_id": "m2_fresh_development_hop_5_payload_transport:ergt43_pair_271450880010",
+      "q_mass": 10.438080787658691,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650009_cf0",
+      "feature_sha256": "1bb9a7f2d1c6185f001d9d2c778286b3f25cafd26693d79d6f5b7e768586cfc6",
+      "pair_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650009",
+      "q_mass": 6.293643951416016,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780023_cf0",
+      "feature_sha256": "2a318af4f0186496207c756bc186fff219ee94e5922284779db20f556730eb3e",
+      "pair_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780023",
+      "q_mass": 2.168504238128662,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630009_cf1",
+      "feature_sha256": "e8e60064c7bc76e08c4e34208f70cd56bfbd72025237acae156660d1f8f166b3",
+      "pair_id": "m2_fresh_development_hop_4_finite_speed_cone:ergt43_pair_271330630009",
+      "q_mass": 8.355566024780273,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760014_cf1",
+      "feature_sha256": "1566d01f4434e854ba5ccaff63e10db174678042799bef44774d2b8fce27c4e5",
+      "pair_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760014",
+      "q_mass": 4.239365577697754,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510011_cf1",
+      "feature_sha256": "da4abbf36d5680fe3eb50f2d64e2cd43d500aca3608c6006f5700b4730e44a66",
+      "pair_id": "m2_fresh_development_hop_1_boundary_deficit:ergt43_pair_271040510011",
+      "q_mass": 2.1748881340026855,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540008_cf0",
+      "feature_sha256": "36a672dc24006b9fcc8dcfeed1b996ae03994392cf114da5eaee45c0294a629f",
+      "pair_id": "m2_fresh_development_hop_4_geodesic_action:ergt43_pair_271320540008",
+      "q_mass": 8.368118286132812,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820020_cf0",
+      "feature_sha256": "2f539ab29b3c4d4e2d21c8b3eed407c48bed09d7c9898ef896f46b0bc8a0447b",
+      "pair_id": "m2_fresh_development_hop_8_geodesic_action:ergt43_pair_271720820020",
+      "q_mass": 16.706411361694336,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790021_cf0",
+      "feature_sha256": "efa742f72bbb8d862715d25468d1097658ea2a14859c0a1813a53c576c4b6acb",
+      "pair_id": "m2_fresh_development_hop_5_boundary_deficit:ergt43_pair_271440790021",
+      "q_mass": 10.448328971862793,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830007_cf0",
+      "feature_sha256": "5c89a643403e76ae1a2cde6ee28dc80bb07323fbad58ced90921c249000f02b3",
+      "pair_id": "m2_fresh_development_hop_3_terminal_mass:ergt43_pair_271260830007",
+      "q_mass": 6.297403335571289,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200016_cf0",
+      "feature_sha256": "6c03571ac413e3bdd125c8b191a00363795cb223b317aaf0b4d1429fcc673780",
+      "pair_id": "m2_fresh_development_hop_7_memory_source_condition:ergt43_pair_271671200016",
+      "q_mass": 14.592841148376465,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780015_cf0",
+      "feature_sha256": "d2d1325cf91d7c6f5a20330518054c7c2223f95e2a1bc2a82627dc6ef9244fed",
+      "pair_id": "m2_fresh_development_hop_1_memory_source_condition:ergt43_pair_271070780015",
+      "q_mass": 2.1779141426086426,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840014_cf0",
+      "feature_sha256": "e21e283c0d97f34b16d25bf135f1d1a572159e9abca604ec56068afd303c3da3",
+      "pair_id": "m2_fresh_development_hop_7_finite_speed_cone:ergt43_pair_271630840014",
+      "q_mass": 14.57701301574707,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400022_cf1",
+      "feature_sha256": "2534f6e982f2d92af32fd62254c238b4bdb113361eb24c831f74cc49a8ce72ca",
+      "pair_id": "m2_fresh_development_hop_2_geodesic_action:ergt43_pair_271120400022",
+      "q_mass": 4.242864608764648,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360013_cf0",
+      "feature_sha256": "01a1a4a43db85679b7074a5da42b7f925877c4141092449b5b12a7f2ce7f9623",
+      "pair_id": "m2_fresh_development_hop_8_combined_long_horizon:ergt43_pair_271781360013",
+      "q_mass": 16.701404571533203,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760006_cf1",
+      "feature_sha256": "c9b9ee67b7c362ac3e9707dbb3e91b377c0b9747a85aa2216d05edd9a42c35a9",
+      "pair_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760006",
+      "q_mass": 4.2299604415893555,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990005_cf1",
+      "feature_sha256": "affec50f1061ee724df9afdb043d0cd23aac5f2b2703cd9ee009cd81d0af9a70",
+      "pair_id": "m2_fresh_development_hop_4_memory_source_condition:ergt43_pair_271370990005",
+      "q_mass": 8.365314483642578,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760014_cf0",
+      "feature_sha256": "98e2bafbac02a65bd0e72cbfdd8be07e61abcf1435fd53ef4fc43b2ef7fa5242",
+      "pair_id": "m2_fresh_development_hop_2_terminal_mass:ergt43_pair_271160760014",
+      "q_mass": 4.241428375244141,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650005_cf1",
+      "feature_sha256": "dfcda0cb75a6968c48b8557b0570aa2463b33c1fe605f4f5945258e656083b92",
+      "pair_id": "m2_fresh_development_hop_3_boundary_deficit:ergt43_pair_271240650005",
+      "q_mass": 6.307003021240234,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940023_cf0",
+      "feature_sha256": "f26fccd3d6752e9c82b68ca6d03eb39d619006a23ddd50a83611bc429118a0eb",
+      "pair_id": "m2_fresh_development_hop_2_combined_long_horizon:ergt43_pair_271180940023",
+      "q_mass": 4.249999523162842,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020015_cf0",
+      "feature_sha256": "7a451bb8f3db1bd5276eb3d2f47f0fe5a0fd911c09b4065ee364d6e484de41a8",
+      "pair_id": "m2_fresh_development_hop_7_payload_transport:ergt43_pair_271651020015",
+      "q_mass": 14.612237930297852,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090009_cf0",
+      "feature_sha256": "6d99cf98de3874fd61d73cbad50e3469a643c944c45064964594ac2f8f4ef61a",
+      "pair_id": "m2_fresh_development_hop_8_payload_transport:ergt43_pair_271751090009",
+      "q_mass": 16.696542739868164,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290053_cf1",
+      "feature_sha256": "9ba827be5e17b1e7915821bbde208dcf2490936fbc894ad6ba5ee2d19f943b67",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290053_unsupported",
+      "q_mass": 16.677827835083008,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290053_cf0",
+      "feature_sha256": "1f0462596915519a1186e87047ef0bd319d2ff2d6a087c614f5fcd3a6e8d01ad",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290053_unsupported",
+      "q_mass": 16.679737091064453,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290002_cf0",
+      "feature_sha256": "a5f12cf2b9504ddcc6cbca3062d06d5db844f919ff16fc59e973a9185ca224bc",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290002_unsupported",
+      "q_mass": 2.1793949604034424,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290002_cf1",
+      "feature_sha256": "f2261c61a2a21840e35f814a5ecec7dbefc78f05211625043b88fad6efb2940d",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290002_unsupported",
+      "q_mass": 2.180054187774658,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290015_cf0",
+      "feature_sha256": "c431fa48fe0e92402679dfdf6a3cf1a122ae82bafa4acfa1ca4be345216ed0fa",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290015_unsupported",
+      "q_mass": 6.306349277496338,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290015_cf1",
+      "feature_sha256": "b32e794e37605ab737366509c3df29d4677f11617fc8e52f257b1e3e08ee354f",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290015_unsupported",
+      "q_mass": 6.307387351989746,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290026_cf1",
+      "feature_sha256": "c4a1fd3395f650f1c3fa9b41515735dd5b20f06d0d03b4de21c41449fdfc098e",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290026_unsupported",
+      "q_mass": 8.36441421508789,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290026_cf0",
+      "feature_sha256": "4d71246b11626e89db833c5c748967499498fe6b805c23b4d05d78129fa6c870",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290026_unsupported",
+      "q_mass": 8.364238739013672,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290049_cf1",
+      "feature_sha256": "a1c322371d67277139a7c56aeecb7ecfdd5a950d4cbdfa56d3f273a928ae8720",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290049_unsupported",
+      "q_mass": 16.714344024658203,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290049_cf0",
+      "feature_sha256": "7aa492881b62d541bf00d070af83ed7b0f47226b15eead861bcd3dda8e5cbb89",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290049_unsupported",
+      "q_mass": 16.713298797607422,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290022_cf1",
+      "feature_sha256": "584ad07f9c02bc7f1027f44ee50b3c484f9951b9e52935eb9509cbcb1fb53342",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290022_unsupported",
+      "q_mass": 8.381535530090332,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290022_cf0",
+      "feature_sha256": "62341e90899d112f4e0867ce5886879399d646c44fd9e800159fa278552ea064",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290022_unsupported",
+      "q_mass": 8.382357597351074,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290007_cf0",
+      "feature_sha256": "a7cfc0800493ddf66d722d2b061042b7ef9103bbfa181156a3ea5a282006f2f1",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290007_unsupported",
+      "q_mass": 4.247496128082275,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290007_cf1",
+      "feature_sha256": "a0030da175aa965dd196a063d46a0619d4872f0bdad0d022d601da1ddb6803de",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290007_unsupported",
+      "q_mass": 4.242452621459961,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290020_cf1",
+      "feature_sha256": "979f7a9a3b45442f793e5ff40daa17ba7893caf98df8fb4e6bda6fad7482feda",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290020_unsupported",
+      "q_mass": 6.314026355743408,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290020_cf0",
+      "feature_sha256": "462bae6c26e29deefc4ebfd377754b82a130f0acfb2a0b00403d632edfd9e25c",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290020_unsupported",
+      "q_mass": 6.313756942749023,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290005_cf1",
+      "feature_sha256": "34aad286bda918dca45c7ad2f7e4dda57df8a32d7d148a4daf24e9b73f4edd99",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290005_unsupported",
+      "q_mass": 2.185049295425415,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290005_cf0",
+      "feature_sha256": "af2420e16d04583a1730bc76b56aa43cfee60553582b2c18b39c99c07013f073",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290005_unsupported",
+      "q_mass": 2.187502384185791,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290019_cf0",
+      "feature_sha256": "24c1a82dae57e7bdecb0cc03f9c3737fca3281850852565bab20d717fe8eee57",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290019_unsupported",
+      "q_mass": 6.301267623901367,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 8190,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290019_cf1",
+      "feature_sha256": "0adee18518966f2b0c387c935b668a06fef8727a79a0b500f524a58b37633c4f",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290019_unsupported",
+      "q_mass": 6.302106857299805,
+      "valid_tokens": 91
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290023_cf1",
+      "feature_sha256": "95901f4c2d3aae49c14bcdcf0eaa6d32cba529a45fe5f60e10e317eb60285a6d",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290023_unsupported",
+      "q_mass": 8.365545272827148,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290023_cf0",
+      "feature_sha256": "5fdadcd793d65fb3aedc826313b1c71fc12b035f9ab237af51420e435b9bfe47",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290023_unsupported",
+      "q_mass": 8.363542556762695,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290033_cf1",
+      "feature_sha256": "34bf7c32a752d06ab74e5089d702962c4393734f3cab067f350caf9551226c1f",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290033_unsupported",
+      "q_mass": 10.439790725708008,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290033_cf0",
+      "feature_sha256": "191c12ad6bbbb53a63a68f3825d4e00adc8a23200c5eae37b8cb40c975b08a13",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290033_unsupported",
+      "q_mass": 10.439760208129883,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290001_cf1",
+      "feature_sha256": "88f6f8770af6f4cca40745925fcdc95cb029dc390a4866d60ef892dfbcde1c8e",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290001_unsupported",
+      "q_mass": 2.167196035385132,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290001_cf0",
+      "feature_sha256": "0f03d30a584599b1e4f977335a8d6ad47bf0fcea39cda0c80cec83e847d4850f",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290001_unsupported",
+      "q_mass": 2.168518543243408,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290043_cf0",
+      "feature_sha256": "cb9c53bf0750390496fac7e3f0a9f1992e0dc6eed7b67bc384732f0a007f001a",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290043_unsupported",
+      "q_mass": 14.59341812133789,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290043_cf1",
+      "feature_sha256": "3bb56b2a5147206c48adea723163562d1933b33231a0d0b10b0f9d7246319dcd",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290043_unsupported",
+      "q_mass": 14.592774391174316,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290044_cf0",
+      "feature_sha256": "a431fd10dfd0dc73c6b5a4b8af35245a4f848aa176be667e2ebaa8da0b860f4b",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290044_unsupported",
+      "q_mass": 14.601737976074219,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290044_cf1",
+      "feature_sha256": "5676a402a5ff4629d4f89372ed8b265a9974fe55cf7bc53e37b02521a2963263",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290044_unsupported",
+      "q_mass": 14.599358558654785,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290042_cf0",
+      "feature_sha256": "5d8915497e861146c1733b153cc89d66d74c2a7ff43b5eea2f5f81d139d7d585",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290042_unsupported",
+      "q_mass": 14.608184814453125,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290042_cf1",
+      "feature_sha256": "4e8a109e1974a73922f49b50d6a8685ce899b76050f75abc49efe3ba100e6aa1",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290042_unsupported",
+      "q_mass": 14.605438232421875,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290034_cf1",
+      "feature_sha256": "0fe45764cb5710c6a254f5f8206ae236f54c446442c177bdd79a451d654c35e8",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290034_unsupported",
+      "q_mass": 10.439242362976074,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290034_cf0",
+      "feature_sha256": "3400df0e381a0d8d280b9616a3ea333f5ae159da287616e2a999234f9f9add93",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290034_unsupported",
+      "q_mass": 10.441225051879883,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290036_cf1",
+      "feature_sha256": "20c6e346901b90276523b7a0d84763424959ece76afc8a70350a6dc82d74980e",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290036_unsupported",
+      "q_mass": 12.51152229309082,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290036_cf0",
+      "feature_sha256": "4d35e310a389d7be85c162b4d2527d61e38116854015fd2679ccaf1865764266",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290036_unsupported",
+      "q_mass": 12.511760711669922,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290009_cf1",
+      "feature_sha256": "450972f98485045248f4e32b99823529d4b1ed9437c0fba1b1b6539f7df7a810",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290009_unsupported",
+      "q_mass": 4.239522457122803,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290009_cf0",
+      "feature_sha256": "78280f2b6de150b191345b031601370b64df3be413be289c06db0a8770ef9ed5",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290009_unsupported",
+      "q_mass": 4.237791538238525,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290004_cf0",
+      "feature_sha256": "6cedddf3d785c53b20d92c01c75f19a24626a3d1501e7abd9fe7ec85f19929a6",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290004_unsupported",
+      "q_mass": 2.1766529083251953,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290004_cf1",
+      "feature_sha256": "09d65bd004d4161dbb706953be475ed1b3f93c81068bd52416690a6aa37616fd",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290004_unsupported",
+      "q_mass": 2.175992965698242,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290050_cf1",
+      "feature_sha256": "8cee635d721294848ed27cd3defd4695085c6619960878fc33b6e4d598b71d4c",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290050_unsupported",
+      "q_mass": 16.695974349975586,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 36290,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290050_cf0",
+      "feature_sha256": "6d7ec47a9cfd8d090fc4e026f248269fbb424d18cc4124f2393cea8b6d06ebcf",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290050_unsupported",
+      "q_mass": 16.693729400634766,
+      "valid_tokens": 191
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290013_cf1",
+      "feature_sha256": "86de6f611cf1de513cea16817f4d7a983fb41a3b40dd9cb08a2df11a602632c1",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290013_unsupported",
+      "q_mass": 4.232528209686279,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 4970,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290013_cf0",
+      "feature_sha256": "c58ee8a000aabbef76a74c2d70eb31b542f13220fa00273d1c45ef28a5fb0045",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290013_unsupported",
+      "q_mass": 4.231926918029785,
+      "valid_tokens": 71
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290006_cf0",
+      "feature_sha256": "7c370667beb768c2888411621ae9c5e9e94b1f093604adc496087609de272a56",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290006_unsupported",
+      "q_mass": 2.182908058166504,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 2550,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290006_cf1",
+      "feature_sha256": "dfb424b093b4e0486a84b7d79f8051527c268cf85b2afc8a91afc78939a7996b",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290006_unsupported",
+      "q_mass": 2.1881167888641357,
+      "valid_tokens": 51
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290027_cf0",
+      "feature_sha256": "337cfa0901fecf35c3cc76a28869a1395820c31141801b6ba37f1d02140964a6",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290027_unsupported",
+      "q_mass": 8.389488220214844,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 12210,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290027_cf1",
+      "feature_sha256": "b6382a890ae38be457fae1a223fae5d5c74a18ec10e2a28e57e7425de67c0c0e",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290027_unsupported",
+      "q_mass": 8.387707710266113,
+      "valid_tokens": 111
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290046_cf1",
+      "feature_sha256": "f582b84d0aa7ecfd0a2f7f2189d7b30c92ed73328bb5b140fdbe46a1c2b548b2",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290046_unsupported",
+      "q_mass": 14.583561897277832,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 29070,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290046_cf0",
+      "feature_sha256": "12066eab562afe52de78f8fb8e96176b36cd0e67e033a092e89ada24be627baa",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290046_unsupported",
+      "q_mass": 14.58389663696289,
+      "valid_tokens": 171
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290039_cf0",
+      "feature_sha256": "734523bb8aa4b0510f01331a6c23b5b06c7f21db330b3f2f9095c44bfbe384bd",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290039_unsupported",
+      "q_mass": 12.509201049804688,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290039_cf1",
+      "feature_sha256": "27324bb5d726a7cb9a2811641527242a175f3ab8a70330c028e86692a43034db",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290039_unsupported",
+      "q_mass": 12.508800506591797,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290028_cf1",
+      "feature_sha256": "ba0eb9fb2b9947f5d85e917c4d74815d89d6368d7bee2490ab3e3888cd81655d",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290028_unsupported",
+      "q_mass": 10.437567710876465,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 17030,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290028_cf0",
+      "feature_sha256": "876a16605857c9b745e08eb0bed74736b4b50dd57e21872d3879ca74159614ef",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290028_unsupported",
+      "q_mass": 10.430608749389648,
+      "valid_tokens": 131
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290037_cf1",
+      "feature_sha256": "e367afc400e2b5fb1015afc88cb0a7db0f8696940633af1d235c206fce6b7710",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290037_unsupported",
+      "q_mass": 12.50115966796875,
+      "valid_tokens": 151
+    },
+    {
+      "candidate_edges": 22650,
+      "example_id": "m2_fresh_development_unsupported:ergt43_pair_270920290037_cf0",
+      "feature_sha256": "17c69a4224cecffd73e8e65aa511a7d1e24e4edbe65e9a817d408b8dfe0d7363",
+      "pair_id": "m2_fresh_development_unsupported:ergt43_pair_270920290037_unsupported",
+      "q_mass": 12.500774383544922,
+      "valid_tokens": 151
+    }
+  ],
+  "schema": "ergt-phi-m2-fresh-feature-cache-v1",
+  "seconds": 243.69395330001134
+}
