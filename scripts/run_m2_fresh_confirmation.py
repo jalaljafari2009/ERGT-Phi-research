@@ -99,8 +99,8 @@ def main() -> None:
     fresh_lock = json.loads(paths["fresh_lock"].read_text(encoding="utf-8"))
     if contract.get("schema") != "ergt-phi-m2-fresh-confirmation-contract-v1":
         raise ValueError("unknown M2 fresh confirmation contract")
-    if protocol.get("experiment_id") != "M2-E003" or protocol.get("revision") != "v002":
-        raise ValueError("runner requires M2-E003/v002 protocol")
+    if protocol.get("experiment_id") != "M2-E003" or protocol.get("revision") != "v003":
+        raise ValueError("runner requires M2-E003/v003 protocol")
     maximum_minutes = float(protocol["resources"]["maximum_runtime_minutes"])
     deadline = time.monotonic() + maximum_minutes * 60
 
@@ -288,7 +288,7 @@ def main() -> None:
         "schema": "ergt-phi-m2-fresh-confirmation-result-v1",
         "status": "fresh_development_confirmed" if confirmation_pass else "fresh_development_not_confirmed",
         "experiment_id": "M2-E003",
-        "revision": "v002",
+        "revision": "v003",
         "fresh_development_confirmation_pass": confirmation_pass,
         "M2_fresh_development_confirmed": confirmation_pass,
         "M3_authorized_by_results": False,
@@ -334,7 +334,7 @@ def main() -> None:
         "schema": "ergt-phi-m2-fresh-handoff-v1",
         "ready": confirmation_pass,
         "experiment_id": "M2-E003",
-        "revision": "v002",
+        "revision": "v003",
         "selected_checkpoint_sha256": phase_sha,
         "fresh_cohort_sha256": fresh_audit["fresh_cohort_sha256"],
         "two_locked_windows_passed": confirmation_pass,
