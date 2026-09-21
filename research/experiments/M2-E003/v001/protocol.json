@@ -1,0 +1,252 @@
+{
+  "command": [
+    "{python}",
+    "-B",
+    "scripts/run_m2_fresh_confirmation.py",
+    "--output",
+    "runs/m2_fresh_confirmation",
+    "--reference-checkpoint",
+    "research/inputs/M2-E003/v001/native_ergt_training.pt",
+    "--phase-checkpoint",
+    "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_fresh_v1.json",
+    "--fresh-lock",
+    "research/plans/M2_E003_FRESH_DEVELOPMENT_LOCK.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E003/v001/protocol.json"
+  ],
+  "controls": [
+    "Q-only endpoint classifier trained for a fixed three epochs on the historical M0 fit partition",
+    "Capacity-matched no-phase endpoint classifier trained under the same fixed historical-data budget",
+    "No fresh-development label may train, select or tune any model",
+    "Two pair-disjoint fresh confirmation windows",
+    "Exact reference and selected phase state immutability checks"
+  ],
+  "created_at": "2026-09-22T00:00:00+00:00",
+  "experiment_id": "M2-E003",
+  "gates": [
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "fresh_confirmation_complete",
+      "op": "eq",
+      "pointer": "/fresh_development_confirmation_pass",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "fresh_lock_match",
+      "op": "eq",
+      "pointer": "/fresh_lock_match",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "raw_text_disjoint",
+      "op": "eq",
+      "pointer": "/raw_text_disjoint_from_m0_training",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "counterfactual_pair_disjoint",
+      "op": "eq",
+      "pointer": "/counterfactual_pair_disjoint_from_m0_training",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "confirmation_windows_pair_disjoint",
+      "op": "eq",
+      "pointer": "/confirmation_windows_pair_disjoint",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_1_all_phase_checks",
+      "op": "eq",
+      "pointer": "/windows/window_1/phase_all_checks",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_1_balanced_accuracy",
+      "op": "ge",
+      "pointer": "/windows/window_1/phase/balanced_accuracy",
+      "value": 0.7
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_1_relation_0_recall",
+      "op": "ge",
+      "pointer": "/windows/window_1/phase/per_class_recall/0",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_1_relation_1_recall",
+      "op": "ge",
+      "pointer": "/windows/window_1/phase/per_class_recall/1",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_1_relation_2_recall",
+      "op": "ge",
+      "pointer": "/windows/window_1/phase/per_class_recall/2",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_2_all_phase_checks",
+      "op": "eq",
+      "pointer": "/windows/window_2/phase_all_checks",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_2_balanced_accuracy",
+      "op": "ge",
+      "pointer": "/windows/window_2/phase/balanced_accuracy",
+      "value": 0.7
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_2_relation_0_recall",
+      "op": "ge",
+      "pointer": "/windows/window_2/phase/per_class_recall/0",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_2_relation_1_recall",
+      "op": "ge",
+      "pointer": "/windows/window_2/phase/per_class_recall/1",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "window_2_relation_2_recall",
+      "op": "ge",
+      "pointer": "/windows/window_2/phase/per_class_recall/2",
+      "value": 0.5
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "controls_executed",
+      "op": "eq",
+      "pointer": "/controls_executed",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "fresh_labels_not_used",
+      "op": "eq",
+      "pointer": "/fresh_labels_used_for_training_or_selection",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "selected_checkpoint_frozen",
+      "op": "eq",
+      "pointer": "/selected_checkpoint_frozen",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "selected_checkpoint_unchanged",
+      "op": "eq",
+      "pointer": "/selected_checkpoint_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "reference_checkpoint_unchanged",
+      "op": "eq",
+      "pointer": "/reference_checkpoint_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "m8_final_horizons_closed",
+      "op": "eq",
+      "pointer": "/m8_final_horizons_exposed",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_fresh_confirmation/result.json",
+      "name": "m3_remains_closed",
+      "op": "eq",
+      "pointer": "/M3_authorized_by_results",
+      "value": false
+    }
+  ],
+  "goal_reference": "docs/MATHEMATICAL_SPEC.md sections 5, 14, 15 and 17; docs/SPEC_Q_ANCHOR_ADDENDUM.md; docs/OPERATIONAL_ROADMAP_FA.md operational step 3; ADR-0007",
+  "hypothesis": "The frozen M2-Q v2 checkpoint retains the preregistered auxiliary relation-calibration gates in two raw-text- and pair-disjoint fresh-development windows; Q-only and capacity-matched no-phase controls distinguish proposal access from phase representation without using fresh labels for training or selection.",
+  "inputs": [
+    {
+      "path": "research/inputs/M2-E003/v001/native_ergt_training.pt",
+      "sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+      "uri": "copy://M2-E002/v001/native_ergt_training.pt"
+    },
+    {
+      "path": "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+      "sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234",
+      "uri": "artifact://M2-E002/v001/20260921T210953Z-48abf488-local/selected_full_state.pt"
+    }
+  ],
+  "kind": "research",
+  "output_paths": [
+    "runs/m2_fresh_confirmation"
+  ],
+  "parent": {
+    "experiment_id": "M2-E002",
+    "revision": "v001"
+  },
+  "prerequisites": [
+    "M2-E002/v001 review 001 is pass under ADR-0007.",
+    "Both checkpoint SHA-256 values match the registered inputs.",
+    "The fresh-development identity lock is generated before any model result is observed.",
+    "The output directory does not already exist."
+  ],
+  "required_artifacts": [
+    "runs/m2_fresh_confirmation/result.json",
+    "runs/m2_fresh_confirmation/m2_fresh_handoff.json",
+    "runs/m2_fresh_confirmation/fresh_development_audit.json",
+    "runs/m2_fresh_confirmation/fresh_feature_cache_manifest.json",
+    "runs/m2_fresh_confirmation/event_predictions.jsonl",
+    "runs/m2_fresh_confirmation/control_checkpoints.pt"
+  ],
+  "resources": {
+    "cost_includes_historical_and_fresh_feature_caches": true,
+    "device": "cpu",
+    "dtype": "float32",
+    "gpu_required": false,
+    "maximum_runtime_minutes": 60,
+    "proposal_probes_per_prepass": 1,
+    "reference_prepasses_per_example": 1,
+    "threads": 1
+  },
+  "revision": "v001",
+  "schema": "ergt-phi-protocol-v1",
+  "scientific_scope": "Confirmatory development for the frozen auxiliary M2 phase relation model. Passing confirms only the preregistered calibration behavior on a fresh same-family cohort. It does not establish native answer improvement, final-horizon generalization, phase causality, M2 completion or M3 authorization.",
+  "seed_and_split": {
+    "fresh_data_seed": 27092026,
+    "fresh_role": "confirmatory_development",
+    "fresh_windows": "two split-stratified pair-disjoint halves locked in research/plans/M2_E003_FRESH_DEVELOPMENT_LOCK.json",
+    "historical_control_training_split": "M0 fit partition from split seed 20092026",
+    "no_phase_seed": 30092026,
+    "q_only_seed": 29092026,
+    "window_seed": 28092026
+  },
+  "source_locks": {
+    "contract_sha256": "ecbd26cd44178166eef441acbbc409e0e347f4a4482327a0b95ce43e4b80eb90",
+    "fresh_cohort_sha256": "15aa78ddc70c19409efc9cc58071aace4693f59cbc50650b4c12f3a9e933b659",
+    "fresh_development_lock_sha256": "3bf9865f8a1edfedc50113251ef7175dcd28fe075b1502be5d9fce7e4a0b4adb"
+  },
+  "stage": "M2",
+  "timeout_seconds": 4200,
+  "title": "Confirm the frozen M2-Q checkpoint on fresh pair-disjoint development data"
+}
