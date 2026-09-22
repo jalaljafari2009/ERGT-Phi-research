@@ -28,9 +28,16 @@ Q-shadow از مدل جدا بوده؛ نسبت‌دادن آن به قبولی 
    ثابت Q-zero، Q-permutation و raw-only را اجرا کرد. Q-only از `1.0` به `0.333/0`
    افت کرد و raw-only نزدیک شانس بود. relation در جفت‌های دارای answer flip ثابت بود؛
    پنل native answer/path روی همین cohort سقف کامل داشت؛ [ADR-0012](../decisions/ADR-0012.md).
-6. پیش از اصلاح آداپتر `phi`/preview و حافظهٔ Q، یک target توسعه‌ایِ تمایزبخش بر اساس
-   candidate margin و event/path loss روی پنل challenge قفل شود. relation accuracy
-   فقط metric کمکی می‌ماند. M3 و M8 بسته‌اند.
+6. **اجرا شد و نیازمند بازنگری است — ۲۲ سپتامبر ۲۰۲۶:** `M2-E005/v002` target پیوستهٔ
+   response-margin و پنل intervention را روی همان cohort اجرا کرد. در هر پنجره ۱۹۲ پاسخ خراب و
+   ۶۰ پاسخ درست باقی ماند و margin متمایز بود، اما event-chain و path degradation هر دو صفر
+   بودند. Phase-full در readout توصیفی بهتر بود، ولی Phase-zero/permute هم‌اندازه یا بهتر شد؛
+   بنابراین شاهد اختصاصی Phase ایجاد نشد؛ [ADR-0014](../decisions/ADR-0014.md).
+7. **اقدام بعد:** پیش از اصلاح آداپتر governing، M2-E006 باید intervention را به سطح
+   proposal/event و پیش از solver منتقل کند و یک sham هم‌بودجه داشته باشد. ابتدا اثر مکانیزمی
+   آن بر selected-event recall، chain exactness یا path coverage ثابت شود؛ ارزیابی تأییدی روی
+   cohort توسعه‌ای تازه و disjoint انجام شود. پنجره‌های قبلی دیگر تازه محسوب نمی‌شوند. relation
+   accuracy فقط metric کمکی است و M3/M8 بسته‌اند.
 
 این فایل مرور انتقالی تاریخچه است. تصمیم بعدی باید فایل phase review تازه با پیوند به
 runهای نسخه‌دار و ADR بسازد. `M2_complete=true` در manifest قدیمی معنای قبولی عددی

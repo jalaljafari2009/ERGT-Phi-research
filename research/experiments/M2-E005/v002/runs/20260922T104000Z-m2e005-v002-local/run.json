@@ -1,0 +1,117 @@
+{
+  "artifacts": [
+    {
+      "bytes": 463,
+      "path": "runner/environment.json",
+      "sha256": "9bc020b331a2ec6ff23552db84b429578cf1f645115214ba99dc4a567153dae6"
+    },
+    {
+      "bytes": 2539,
+      "path": "runner/stdout_stderr.log",
+      "sha256": "247759183f1a24d6587882fa3500e11fd336da0aece8d08571ecea890fd72b81"
+    },
+    {
+      "bytes": 872050,
+      "path": "runs/m2_answer_path_challenge/fresh_challenge_rows.jsonl",
+      "sha256": "1b0fb257a4a63d67e683a400e44b7bfe0edba99b0d134a63c4c9e7ab0ede0ca6"
+    },
+    {
+      "bytes": 619712,
+      "path": "runs/m2_answer_path_challenge/historical_fit_challenge_rows.jsonl",
+      "sha256": "b3d572ae536455d6aa5c370900c41741f2fb1ef33fab56ff27f3a8e869ff9795"
+    },
+    {
+      "bytes": 65098,
+      "path": "runs/m2_answer_path_challenge/input_integrity.json",
+      "sha256": "b482ea13087b578f32edfda7add96cb0d45b005a100b8fd985a3e53887e07460"
+    },
+    {
+      "bytes": 346,
+      "path": "runs/m2_answer_path_challenge/m2_answer_path_handoff.json",
+      "sha256": "8894c3eceb39834ddddb56bdb99119d0e3ea49c72bbf52d723c8371a5a44aa0a"
+    },
+    {
+      "bytes": 84675,
+      "path": "runs/m2_answer_path_challenge/readout_checkpoints.pt",
+      "sha256": "a648d25ee191f7917b57ce3b7fc4c5b6e642de5b3331936453707fafa0b5ed6b"
+    },
+    {
+      "bytes": 1764960,
+      "path": "runs/m2_answer_path_challenge/readout_predictions.jsonl",
+      "sha256": "dfcc596dab83b6ddee37a2cc15cddf3b90bb1723df06746eeddd4659108196ef"
+    },
+    {
+      "bytes": 15998,
+      "path": "runs/m2_answer_path_challenge/result.json",
+      "sha256": "974c80350808859383ebf258abca5ad3208919d1a18f72945b74eb6bbf52bed0"
+    }
+  ],
+  "command": [
+    "{python}",
+    "-B",
+    "scripts/run_m2_answer_path_challenge.py",
+    "--output",
+    "runs/m2_answer_path_challenge",
+    "--reference-checkpoint",
+    "research/inputs/M2-E003/v001/native_ergt_training.pt",
+    "--phase-checkpoint",
+    "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_answer_path_challenge_v2.json",
+    "--fresh-lock",
+    "configs/m2_e003_fresh_development_lock.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E005/v002/protocol.json"
+  ],
+  "environment": {
+    "colab_detected": false,
+    "executable": "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+    "gpu_inventory": null,
+    "machine": "AMD64",
+    "packages": {
+      "nbformat": null,
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "pytest": "9.1.1",
+      "torch": "2.14.0"
+    },
+    "platform": "Windows-2022Server-10.0.20348-SP0",
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]"
+  },
+  "error": null,
+  "executed_command": [
+    "C:\\Users\\novo\\Desktop\\ERGT-Phi-research\\.venv\\Scripts\\python.exe",
+    "-B",
+    "scripts/run_m2_answer_path_challenge.py",
+    "--output",
+    "runs/m2_answer_path_challenge",
+    "--reference-checkpoint",
+    "research/inputs/M2-E003/v001/native_ergt_training.pt",
+    "--phase-checkpoint",
+    "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_answer_path_challenge_v2.json",
+    "--fresh-lock",
+    "configs/m2_e003_fresh_development_lock.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E005/v002/protocol.json"
+  ],
+  "experiment_id": "M2-E005",
+  "finished_at": "2026-09-22T11:27:59.270039+00:00",
+  "missing_required_artifacts": [],
+  "notebook_sha256": "8ea2c27b0ced6bfcd1d5c174525d38c9fe096680ae5522ac453c80e33a45f7d5",
+  "package_sha256": "b709ea2940a0c1cd69b8bf9158f5a3f7773afbb2ea06f98c13c64ebdb687e8d3",
+  "protocol_sha256": "3f35e5c2abbdf0aee2e0872d977315884c7d235553c8d0989e06b2bceb008fbe",
+  "returncode": 0,
+  "revision": "v002",
+  "run_id": "20260922T104000Z-m2e005-v002-local",
+  "schema": "ergt-phi-run-v1",
+  "seconds": 2936.9232134999475,
+  "source_commit": "782d889210a3b4f26534253f690406e52259669d",
+  "started_at": "2026-09-22T10:39:02.360112+00:00",
+  "status": "execution_completed"
+}

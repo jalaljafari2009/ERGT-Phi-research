@@ -1,0 +1,67 @@
+Building historical-fit frozen challenge targets
+Building locked fresh-development challenge targets
+Caching historical frozen Q features
+Cached confirmation features: 50/504
+Cached confirmation features: 100/504
+Cached confirmation features: 150/504
+Cached confirmation features: 200/504
+Cached confirmation features: 250/504
+Cached confirmation features: 300/504
+Cached confirmation features: 350/504
+Cached confirmation features: 400/504
+Cached confirmation features: 450/504
+Cached confirmation features: 500/504
+Caching locked fresh-development Q features
+Cached confirmation features: 50/504
+Cached confirmation features: 100/504
+Cached confirmation features: 150/504
+Cached confirmation features: 200/504
+Cached confirmation features: 250/504
+Cached confirmation features: 300/504
+Cached confirmation features: 350/504
+Cached confirmation features: 400/504
+Cached confirmation features: 450/504
+Cached confirmation features: 500/504
+Training historical-fit raw_only scalar readout
+Training historical-fit q_only scalar readout
+Training historical-fit no_phase scalar readout
+Training historical-fit phase scalar readout
+{
+  "status": "challenge_panel_not_suitable",
+  "window_1_support": {
+    "examples": 252,
+    "pairs": 126,
+    "full_answer_correct": 252,
+    "challenge_answer_correct": 60,
+    "answer_failures": 192,
+    "answer_successes": 60,
+    "challenge_counterfactual_pair_exact": 0.23809523809523808,
+    "event_chain_degradations": 0,
+    "path_coverage_degradations": 0,
+    "response_margin_drop_mean": 1.6767197483559213,
+    "response_margin_drop_std": 1.385415130840576,
+    "response_margin_drop_min": -1.9838805198669434,
+    "response_margin_drop_max": 4.345184937119484,
+    "response_margin_drop_finite": true,
+    "passes_preregistered_gates": false
+  },
+  "window_2_support": {
+    "examples": 252,
+    "pairs": 126,
+    "full_answer_correct": 252,
+    "challenge_answer_correct": 60,
+    "answer_failures": 192,
+    "answer_successes": 60,
+    "challenge_counterfactual_pair_exact": 0.23809523809523808,
+    "event_chain_degradations": 0,
+    "path_coverage_degradations": 0,
+    "response_margin_drop_mean": 1.652871024159212,
+    "response_margin_drop_std": 1.4364381095175371,
+    "response_margin_drop_min": -2.355041742324829,
+    "response_margin_drop_max": 4.303739637136459,
+    "response_margin_drop_finite": true,
+    "passes_preregistered_gates": false
+  },
+  "capacity_matched": true,
+  "M3_authorized_by_results": false
+}

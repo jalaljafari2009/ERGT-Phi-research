@@ -1,0 +1,10 @@
+{
+  "M3_authorized": false,
+  "challenge_panel_suitable": false,
+  "experiment_id": "M2-E005",
+  "m8_final_horizons_exposed": false,
+  "next_stage": "Revise the M2 development target or challenge data without tuning thresholds; do not open M3.",
+  "ready": true,
+  "revision": "v002",
+  "schema": "ergt-phi-m2-answer-path-handoff-v1"
+}
