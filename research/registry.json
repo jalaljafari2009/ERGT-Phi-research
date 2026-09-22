@@ -13,6 +13,11 @@
         "v004": "experiments/M2-E003/v004"
       }
     },
+    "M2-E004": {
+      "revisions": {
+        "v001": "experiments/M2-E004/v001"
+      }
+    },
     "WF-E001": {
       "revisions": {
         "v001": "experiments/WF-E001/v001"

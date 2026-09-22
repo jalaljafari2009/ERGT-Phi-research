@@ -1,0 +1,57 @@
+{
+  "schema": "ergt-phi-m2-target-shortcut-audit-contract-v1",
+  "parent_experiment": "M2-E003/v004",
+  "reference_checkpoint_sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+  "selected_checkpoint_sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234",
+  "control_checkpoint_sha256": "8abde0c33fc7dfd6c87a2a963870479c7316b7c9212ceaf7054a19809c060878",
+  "fresh_development": {
+    "data_seed": 27092026,
+    "window_seed": 28092026,
+    "pair_counts_by_hop": {"1": 28, "2": 28, "3": 28, "4": 28, "5": 28, "6": 28, "7": 28, "8": 28},
+    "unsupported_pairs": 28,
+    "expected_examples": 504,
+    "expected_pairs": 252,
+    "role": "development_target_audit",
+    "m8_final_horizons_exposed": false
+  },
+  "q_ablation": {
+    "q_feature_width": 6,
+    "relation_permutation": [1, 2, 0],
+    "semantics": "cyclic permutation applied independently to source and target relation triples",
+    "inference_only": true
+  },
+  "raw_only_control": {
+    "training_source": "M0 historical fit partition only",
+    "hidden_dim": 39,
+    "seed": 31092026,
+    "fixed_epochs": 3,
+    "batch_size": 16,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "fresh_labels_may_train_or_select": false
+  },
+  "parent_full_balanced_accuracy": {
+    "window_1": {"phase": 0.780028253661042, "q_only": 1.0, "no_phase": 1.0},
+    "window_2": {"phase": 0.7711597113342311, "q_only": 1.0, "no_phase": 1.0}
+  },
+  "shortcut_policy": {
+    "full_q_only_floor": 0.99,
+    "minimum_zero_or_permutation_drop": 0.20,
+    "direct_exposure_required": true,
+    "interpretation": "A supported shortcut risk concerns suitability of the auxiliary relation target, not gold-label leakage into Q and not a causal Phase comparison."
+  },
+  "target_panel": {
+    "name": "frozen_native_answer_and_path",
+    "metrics": [
+      "accuracy", "counterfactual_pair_exact", "program_event_recall",
+      "program_event_precision", "event_chain_exact", "selected_event_recall",
+      "event_world_path_coverage"
+    ],
+    "training_updates": false
+  },
+  "decision_policy": {
+    "audit_completion": "all integrity gates, ablations, raw-only control and frozen native answer/path panel execute",
+    "m3_authorized_by_this_experiment": false,
+    "phase_superiority_claim_permitted": false
+  }
+}

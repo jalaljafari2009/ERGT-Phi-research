@@ -1,0 +1,243 @@
+{
+  "command": [
+    "{python}",
+    "-B",
+    "scripts/run_m2_target_shortcut_audit.py",
+    "--output",
+    "runs/m2_target_shortcut_audit",
+    "--reference-checkpoint",
+    "research/inputs/M2-E003/v001/native_ergt_training.pt",
+    "--phase-checkpoint",
+    "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+    "--control-checkpoint",
+    "research/inputs/M2-E004/v001/control_checkpoints.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_shortcut_audit_v1.json",
+    "--fresh-lock",
+    "configs/m2_e003_fresh_development_lock.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E004/v001/protocol.json"
+  ],
+  "controls": [
+    "Frozen Q-only and capacity-matched no-phase checkpoints copied byte-identically from M2-E003/v004",
+    "Inference-only Q zeroing and cyclic relation-channel permutation",
+    "Raw-only endpoint classifier trained for exactly three epochs on historical M0 fit only",
+    "Frozen native answer/path evaluation without any weight update",
+    "No fresh-development label may train, select or tune a model or threshold"
+  ],
+  "created_at": "2026-09-22T07:00:53Z",
+  "experiment_id": "M2-E004",
+  "gates": [
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "audit_complete",
+      "op": "eq",
+      "pointer": "/target_shortcut_audit_complete",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "q_zero_executed",
+      "op": "eq",
+      "pointer": "/zero_relation_channels_executed",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "q_permutation_executed",
+      "op": "eq",
+      "pointer": "/q_relation_permutation_executed",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "raw_only_executed",
+      "op": "eq",
+      "pointer": "/raw_only_control_executed",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "answer_path_panel_executed",
+      "op": "eq",
+      "pointer": "/frozen_native_answer_path_target_used",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "fresh_labels_not_used",
+      "op": "eq",
+      "pointer": "/fresh_labels_used_for_training_or_selection",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "fresh_lock_match",
+      "op": "eq",
+      "pointer": "/integrity/fresh_lock_match",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "raw_text_disjoint",
+      "op": "eq",
+      "pointer": "/integrity/raw_text_disjoint_from_m0_training",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "pair_disjoint",
+      "op": "eq",
+      "pointer": "/integrity/counterfactual_pair_disjoint_from_m0_training",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "windows_pair_disjoint",
+      "op": "eq",
+      "pointer": "/integrity/confirmation_windows_pair_disjoint",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "reference_unchanged",
+      "op": "eq",
+      "pointer": "/integrity/reference_checkpoint_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "phase_unchanged",
+      "op": "eq",
+      "pointer": "/integrity/selected_checkpoint_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "q_control_unchanged",
+      "op": "eq",
+      "pointer": "/integrity/q_only_checkpoint_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "no_phase_control_unchanged",
+      "op": "eq",
+      "pointer": "/integrity/no_phase_checkpoint_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "input_files_unchanged",
+      "op": "eq",
+      "pointer": "/integrity/input_files_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "parent_window_1_reproduced",
+      "op": "eq",
+      "pointer": "/windows/window_1/parent_v004_full_baselines_reproduced",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "parent_window_2_reproduced",
+      "op": "eq",
+      "pointer": "/windows/window_2/parent_v004_full_baselines_reproduced",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "m8_closed",
+      "op": "eq",
+      "pointer": "/m8_final_horizons_exposed",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "m3_closed",
+      "op": "eq",
+      "pointer": "/M3_authorized_by_results",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_target_shortcut_audit/result.json",
+      "name": "no_phase_superiority_claim",
+      "op": "eq",
+      "pointer": "/phase_superiority_claimed",
+      "value": false
+    }
+  ],
+  "goal_reference": "docs/MATHEMATICAL_SPEC.md sections 5, 14, 15 and 17; docs/SPEC_Q_ANCHOR_ADDENDUM.md; docs/OPERATIONAL_ROADMAP_FA.md; ADR-0011",
+  "hypothesis": "If the auxiliary relation target is too direct, a frozen Q-only readout will lose substantial balanced accuracy when the relation channels are zeroed or cyclically permuted, while raw-only access and literal input-token exposure will explain why perfect relation decoding does not establish answer/path improvement. A frozen native answer/path panel is the more relevant target for the next M2 design.",
+  "inputs": [
+    {
+      "path": "research/inputs/M2-E003/v001/native_ergt_training.pt",
+      "sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+      "uri": "copy://M2-E002/v001/native_ergt_training.pt"
+    },
+    {
+      "path": "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+      "sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234",
+      "uri": "artifact://M2-E002/v001/20260921T210953Z-48abf488-local/selected_full_state.pt"
+    },
+    {
+      "path": "research/inputs/M2-E004/v001/control_checkpoints.pt",
+      "sha256": "8abde0c33fc7dfd6c87a2a963870479c7316b7c9212ceaf7054a19809c060878",
+      "uri": "artifact://M2-E003/v004/20260921T224500Z-m2e003-v004-local/control_checkpoints.pt"
+    }
+  ],
+  "kind": "research",
+  "output_paths": [
+    "runs/m2_target_shortcut_audit"
+  ],
+  "parent": {
+    "experiment_id": "M2-E003",
+    "revision": "v004"
+  },
+  "prerequisites": [
+    "M2-E003/v004 is accepted under ADR-0011 only for fresh calibration and controls.",
+    "The three frozen checkpoint hashes and fresh cohort lock match the registered inputs.",
+    "M3 and M8 remain closed throughout this audit.",
+    "The output directory does not already exist."
+  ],
+  "required_artifacts": [
+    "runs/m2_target_shortcut_audit/result.json",
+    "runs/m2_target_shortcut_audit/input_integrity.json",
+    "runs/m2_target_shortcut_audit/target_source_audit.json",
+    "runs/m2_target_shortcut_audit/relation_predictions.jsonl",
+    "runs/m2_target_shortcut_audit/native_answer_predictions.jsonl",
+    "runs/m2_target_shortcut_audit/raw_only_checkpoint.pt",
+    "runs/m2_target_shortcut_audit/m2_target_audit_handoff.json"
+  ],
+  "resources": {
+    "cost_includes_historical_and_fresh_feature_caches": true,
+    "device": "cpu",
+    "dtype": "float32",
+    "gpu_required": false,
+    "maximum_runtime_minutes": 60,
+    "native_evaluation_passes_per_example": 1,
+    "threads": 1
+  },
+  "revision": "v001",
+  "schema": "ergt-phi-protocol-v1",
+  "scientific_scope": "Development target audit only. Completion identifies shortcut risk and target alignment; it does not establish Phase superiority, Phase causality, native answer improvement, final-horizon generalization, M2 completion or M3 authorization.",
+  "seed_and_split": {
+    "fresh_data_seed": 27092026,
+    "fresh_role": "development_target_audit",
+    "historical_split_seed": 20092026,
+    "raw_only_seed": 31092026,
+    "window_seed": 28092026
+  },
+  "source_locks": {
+    "contract_sha256": "b6c3d8df4986adc590cab8b13aa60e175f23dca8f4c68183bb3733d0d3e3d69c",
+    "fresh_cohort_sha256": "15aa78ddc70c19409efc9cc58071aace4693f59cbc50650b4c12f3a9e933b659",
+    "fresh_development_lock_sha256": "3bf9865f8a1edfedc50113251ef7175dcd28fe075b1502be5d9fce7e4a0b4adb"
+  },
+  "stage": "M2",
+  "timeout_seconds": 4200,
+  "title": "Audit relation-target shortcuts and measure frozen native answer/path targets"
+}
