@@ -28,7 +28,7 @@
       "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
       "scientific_hypothesis": "Any improvement in answer quality or compute cost must be established independently against the corresponding native baseline and matched controls.",
       "active_stage": "M2",
-      "current_variant": "Q-conditioned anchor v2: M2-E002 handoff and M2-E003/v004 fresh calibration passed; frozen phase scored about 0.77-0.78 balanced accuracy while Q-only and capacity-matched no-phase controls scored 1.0 in both windows, so phase-specific benefit is unsupported under ADR-0011; target/shortcut audit is next; parallel track B is planned, not yet run",
+      "current_variant": "Q-conditioned anchor v2: M2-E004 target/shortcut audit passed operationally; relation decoding depends on Q, raw endpoint-only is near chance, and relation labels cannot distinguish supported counterfactual answer flips. The frozen native answer/path panel is ceiling-perfect, so a preregistered M2 challenge/margin target is next under ADR-0012; M3 and M8 remain closed; track B is planned, not yet run",
       "phase_review": "research/phase_reviews/M2_CURRENT.md",
       "decision_history": [
         "ADR-0001",
@@ -39,7 +39,8 @@
         "ADR-0008",
         "ADR-0009",
         "ADR-0010",
-        "ADR-0011"
+        "ADR-0011",
+        "ADR-0012"
       ],
       "change_policy": "Record a new goal version and ADR before a new run if scope, architecture or primary claim changes; retain all prior versions and negative results.",
       "specification_lock": "research/specification.lock.json",
@@ -48,8 +49,8 @@
         "A": {
           "objective": "Implement and evaluate ERGT-Phi with preserved native operators, exact disabled/zero-coupling behavior, sparse phase solving and causally lagged proposal context.",
           "active_stage": "M2",
-          "state": "fresh_development_passed_phase_specific_signal_not_supported",
-          "next_action": "Before governing native activation, preregister a target/shortcut audit with fixed checkpoints: Q relation-channel zeroing/permutation, raw-only control and a target closer to answer/path errors; keep M8 and M3 closed."
+          "state": "target_shortcut_audit_passed_relation_target_rejected_for_promotion_native_panel_ceiling",
+          "next_action": "Preregister an M2 development challenge panel with candidate decision margins and event/path losses, frozen baselines and nonzero support gates; keep checkpoints, M8 and M3 closed."
         },
         "B": {
           "objective": "Test ambiguity retention, relation-grounded phase transport, boundary readout and adaptive compute against matched classical controls.",

@@ -386,6 +386,15 @@ no-phase هر دو `1.0/1.0` balanced accuracy داشتند. طبق ADR-0011 م�
 تازه پاس شده، اما سود اختصاصی phase رد شده است. پیش از اتصال governing، ممیزی
 target/shortcut با Q صفر/permute، raw-only و target نزدیک‌تر به خطای پاسخ افزوده می‌شود.
 
+**نتیجهٔ ممیزی ۲۲ سپتامبر ۲۰۲۶:** `M2-E004/v001` هر ۲۰ gate را پاس کرد. Q-only
+با Q کامل `1.0/1.0`، با Q صفر `0.333/0.333` و با permutation `0/0` بود؛ raw-only
+نزدیک شانس ماند. relation sequence در ۲۵۲/۲۵۲ جفت ثابت بود، درحالی‌که پاسخ هر ۲۲۴
+جفت supported عوض شد. پنل native برای answer، pair exact و metricهای event/path در
+هر دو window سقف `1.0` داشت. بنابراین relation فقط target کالیبراسیون می‌ماند و پیش
+از گام اتصال، target پیوستهٔ candidate margin و event/path loss روی پنل development
+challenge قفل می‌شود؛ [ADR-0012](../research/decisions/ADR-0012.md). این نتیجه M3 یا
+M8 را باز نمی‌کند.
+
 - cohort تازه از همان خانواده و محدودهٔ آموزشی تولید و قبل از مشاهدهٔ نتیجه ثبت شود.
   برخورد متن خام و جفت counterfactual با داده‌های استفاده‌شده بررسی شود.
 - این بخش برای تأیید شبکهٔ phase و کیفیت proposal است؛ افق نهایی M8 همچنان جدا بماند.

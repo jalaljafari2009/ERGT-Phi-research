@@ -1,0 +1,12 @@
+{
+  "complete_counterfactual_pairs": 252,
+  "direct_token_label_exposure": true,
+  "events": 4516,
+  "pair_relation_sequence_identity_rate": 1.0,
+  "pairs_with_identical_relation_sequence": 252,
+  "relation_surface_at_event_anchor_count": 4516,
+  "relation_surface_at_event_anchor_rate": 1.0,
+  "supported_answer_flip_rate": 1.0,
+  "supported_counterfactual_pairs": 224,
+  "supported_pairs_with_answer_flip": 224
+}

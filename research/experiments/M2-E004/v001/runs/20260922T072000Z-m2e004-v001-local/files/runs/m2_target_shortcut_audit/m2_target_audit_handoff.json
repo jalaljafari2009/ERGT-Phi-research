@@ -1,0 +1,12 @@
+{
+  "M3_authorized": false,
+  "experiment_id": "M2-E004",
+  "m8_final_horizons_exposed": false,
+  "next_stage": "Review M2 target choice and preregister a new M2 answer/path-aligned diagnostic; do not open M3.",
+  "preferred_next_target": "frozen_native_answer_and_path",
+  "ready": true,
+  "relation_target_choice_mismatch": true,
+  "revision": "v001",
+  "schema": "ergt-phi-m2-target-audit-handoff-v1",
+  "shortcut_risk_supported": true
+}

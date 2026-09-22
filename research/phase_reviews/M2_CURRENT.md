@@ -24,8 +24,13 @@ Q-shadow از مدل جدا بوده؛ نسبت‌دادن آن به قبولی 
    بستهٔ ناقص داشت؛ v003 پیش از metric خطای حساب ظرفیت را آشکار کرد. v004 عرض درست ۳۵
    را با تست صریح دارد. phase در دو پنجره `0.7800/0.7712` و هر دو کنترل `1.0/1.0`
    balanced accuracy داشتند؛ کالیبراسیون تعمیم یافت ولی سود اختصاصی phase دیده نشد.
-5. پیش از اصلاح آداپتر `phi`/preview و حافظهٔ Q، ممیزی target/shortcut طبق ADR-0011:
-   Q صفر/permute، raw-only و target نزدیک‌تر به خطای پاسخ، با checkpoint ثابت.
+5. **پاس شد در دامنهٔ ممیزی — ۲۲ سپتامبر ۲۰۲۶:** `M2-E004/v001` با checkpoint
+   ثابت Q-zero، Q-permutation و raw-only را اجرا کرد. Q-only از `1.0` به `0.333/0`
+   افت کرد و raw-only نزدیک شانس بود. relation در جفت‌های دارای answer flip ثابت بود؛
+   پنل native answer/path روی همین cohort سقف کامل داشت؛ [ADR-0012](../decisions/ADR-0012.md).
+6. پیش از اصلاح آداپتر `phi`/preview و حافظهٔ Q، یک target توسعه‌ایِ تمایزبخش بر اساس
+   candidate margin و event/path loss روی پنل challenge قفل شود. relation accuracy
+   فقط metric کمکی می‌ماند. M3 و M8 بسته‌اند.
 
 این فایل مرور انتقالی تاریخچه است. تصمیم بعدی باید فایل phase review تازه با پیوند به
 runهای نسخه‌دار و ADR بسازد. `M2_complete=true` در manifest قدیمی معنای قبولی عددی
