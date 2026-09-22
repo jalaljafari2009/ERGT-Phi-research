@@ -1,0 +1,85 @@
+{
+  "schema": "ergt-phi-m2-answer-path-challenge-contract-v1",
+  "experiment_id": "M2-E005",
+  "revision": "v002",
+  "parent": {
+    "experiment_id": "M2-E005",
+    "revision": "v001"
+  },
+  "reference_checkpoint_sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+  "selected_checkpoint_sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234",
+  "fresh_development": {
+    "data_seed": 27092026,
+    "window_seed": 28092026,
+    "pair_counts_by_hop": {
+      "1": 28,
+      "2": 28,
+      "3": 28,
+      "4": 28,
+      "5": 28,
+      "6": 28,
+      "7": 28,
+      "8": 28
+    },
+    "unsupported_pairs": 28,
+    "expected_examples": 504,
+    "expected_pairs": 252
+  },
+  "challenge_panel": {
+    "intervention_seed": 36092026,
+    "batch_size": 4,
+    "intervention_by_scenario": {
+      "geodesic_action": "no_action",
+      "finite_speed_cone": "no_cone",
+      "boundary_deficit": "no_boundary",
+      "payload_transport": "no_transport",
+      "terminal_mass": "no_terminal_mass",
+      "memory_source_condition": "no_memory_geometry",
+      "combined_long_horizon": "no_multiscale_backbone"
+    },
+    "primary_target": "response_margin_drop",
+    "target_definition": "full frozen native gold-vs-best-other response logit margin minus the same margin under the preregistered scenario intervention",
+    "positive_sign": "the targeted intervention weakened the frozen native answer margin",
+    "secondary_targets": [
+      "soft_choice_margin_drop",
+      "answer_became_wrong",
+      "event_chain_degraded",
+      "selected_event_recall_drop",
+      "path_coverage_drop"
+    ]
+  },
+  "q_ablation": {
+    "q_feature_width": 6,
+    "relation_permutation": [1, 2, 0]
+  },
+  "readouts": {
+    "target_parameters": 4700,
+    "capacity_relative_difference_max": 0.025,
+    "fixed_epochs": 10,
+    "batch_size": 16,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "seeds": {
+      "raw_only": 32092026,
+      "q_only": 33092026,
+      "no_phase": 34092026,
+      "phase": 35092026
+    }
+  },
+  "support_gates": {
+    "minimum_answer_failures_per_window": 4,
+    "minimum_answer_successes_per_window": 4,
+    "minimum_event_chain_degradations_per_window": 4,
+    "minimum_response_margin_drop_std": 0.000001,
+    "require_all_full_answers_correct": true,
+    "require_finite_margin_drop": true
+  },
+  "policy": {
+    "historical_fit_only_for_readout_training": true,
+    "fresh_targets_for_training_selection_or_tuning": false,
+    "thresholds_may_change_after_observation": false,
+    "phase_superiority_claimed": false,
+    "M3_authorized": false,
+    "m8_final_horizons_exposed": false
+  }
+}

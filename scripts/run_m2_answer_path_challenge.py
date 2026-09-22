@@ -1,4 +1,4 @@
-"""Run M2-E005/v001 frozen answer/path challenge and matched readout audit."""
+"""Run M2-E005/v002 frozen answer/path challenge and matched readout audit."""
 from __future__ import annotations
 
 import argparse
@@ -135,8 +135,8 @@ def main() -> None:
     lock = json.loads(paths["fresh_lock"].read_text(encoding="utf-8"))
     if contract.get("schema") != "ergt-phi-m2-answer-path-challenge-contract-v1":
         raise ValueError("unknown answer/path challenge contract")
-    if protocol.get("experiment_id") != "M2-E005" or protocol.get("revision") != "v001":
-        raise ValueError("runner requires M2-E005/v001")
+    if protocol.get("experiment_id") != "M2-E005" or protocol.get("revision") != "v002":
+        raise ValueError("runner requires M2-E005/v002")
 
     registered = {item["path"]: item["sha256"] for item in protocol["inputs"]}
     observed_hashes = {
@@ -332,7 +332,7 @@ def main() -> None:
         "schema": "ergt-phi-m2-answer-path-challenge-result-v1",
         "status": "challenge_panel_validated" if panel_suitable else "challenge_panel_not_suitable",
         "experiment_id": "M2-E005",
-        "revision": "v001",
+        "revision": "v002",
         "challenge_panel_complete": True,
         "challenge_panel_suitable_for_answer_path_readout": panel_suitable,
         "primary_target": panel_config["primary_target"],
@@ -367,7 +367,7 @@ def main() -> None:
         "schema": "ergt-phi-m2-answer-path-handoff-v1",
         "ready": True,
         "experiment_id": "M2-E005",
-        "revision": "v001",
+        "revision": "v002",
         "challenge_panel_suitable": panel_suitable,
         "M3_authorized": False,
         "m8_final_horizons_exposed": False,

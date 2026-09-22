@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "C:\Users\novo\Desktop\ERGT-Phi-research\research\workspace\m2e005-execution-20260922T103000Z\scripts\run_m2_answer_path_challenge.py", line 390, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\novo\Desktop\ERGT-Phi-research\research\workspace\m2e005-execution-20260922T103000Z\scripts\run_m2_answer_path_challenge.py", line 157, in main
+    fresh, fresh_tokenizer, fresh_audit = build_fresh_development(
+                                          ~~~~~~~~~~~~~~~~~~~~~~~^
+        paths["metadata"], data_seed=int(fresh_config["data_seed"]),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pair_counts_by_hop=fresh_config["pair_counts_by_hop"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        unsupported_pairs=int(fresh_config["unsupported_pairs"]),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\novo\Desktop\ERGT-Phi-research\research\workspace\m2e005-execution-20260922T103000Z\ergt_phi\m2_fresh.py", line 64, in build_fresh_development
+    supported = _balanced_training_cohort(
+        pair_counts_by_hop=pair_counts_by_hop,
+    ...<3 lines>...
+        forbidden_raw_texts=forbidden,
+    )
+  File "C:\Users\novo\Desktop\ERGT-Phi-research\research\workspace\m2e005-execution-20260922T103000Z\reference\ergt_four_seed\_locked_runtime\ergt_reviewer\fair_data_v9.py", line 542, in _balanced_training_cohort
+    raise ValueError(
+        "each training_hop_pair_counts value must be divisible by the scenario count"
+    )
+ValueError: each training_hop_pair_counts value must be divisible by the scenario count

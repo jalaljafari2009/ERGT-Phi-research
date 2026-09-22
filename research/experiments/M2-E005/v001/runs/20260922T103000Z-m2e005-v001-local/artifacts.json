@@ -1,0 +1,24 @@
+{
+  "artifacts": [
+    {
+      "bytes": 463,
+      "local_path": "research/experiments/M2-E005/v001/runs/20260922T103000Z-m2e005-v001-local/files/runner/environment.json",
+      "path": "runner/environment.json",
+      "sha256": "9bc020b331a2ec6ff23552db84b429578cf1f645115214ba99dc4a567153dae6",
+      "tracked": true
+    },
+    {
+      "bytes": 1681,
+      "local_path": "research/experiments/M2-E005/v001/runs/20260922T103000Z-m2e005-v001-local/files/runner/stdout_stderr.log",
+      "path": "runner/stdout_stderr.log",
+      "sha256": "b96f2749a1bd15549e9336e3a2e8a8389fc20c987258ea6c1267528a2c1a8567",
+      "tracked": true
+    }
+  ],
+  "bundle_name": "20260922T103000Z-m2e005-v001-local.zip",
+  "bundle_sha256": "08fb0e61666c5a5e850754255356e130453735187364fee8b5c9620b0b0185ba",
+  "imported_at": "2026-09-22T10:31:51+00:00",
+  "run_manifest_sha256": "70c330b925f66c2dd1e124a10ee9e17f392540a92284514e7ae43cfde52b1ab5",
+  "schema": "ergt-phi-artifacts-v1",
+  "source_uri": "local-package-bound://M2-E005/v001/20260922T103000Z-m2e005-v001-local"
+}

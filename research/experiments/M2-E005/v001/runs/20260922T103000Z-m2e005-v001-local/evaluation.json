@@ -1,0 +1,261 @@
+{
+  "all_gates_pass": false,
+  "eligible_for_pass": false,
+  "execution_success": false,
+  "gates": [
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "challenge_complete",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/challenge_panel_complete",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "challenge_support_validated",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/challenge_panel_suitable_for_answer_path_readout",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_1_failures",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_1/support/answer_failures",
+      "status": "missing",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_2_failures",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_2/support/answer_failures",
+      "status": "missing",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_1_successes",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_1/support/answer_successes",
+      "status": "missing",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_2_successes",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_2/support/answer_successes",
+      "status": "missing",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_1_chain_degradation",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_1/support/event_chain_degradations",
+      "status": "missing",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_2_chain_degradation",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_2/support/event_chain_degradations",
+      "status": "missing",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_1_margin_variation",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_1/support/response_margin_drop_std",
+      "status": "missing",
+      "value": 1e-06
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "window_2_margin_variation",
+      "observed": null,
+      "op": "ge",
+      "pointer": "/windows/window_2/support/response_margin_drop_std",
+      "status": "missing",
+      "value": 1e-06
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "fresh_targets_not_used",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/fresh_targets_used_for_training_selection_or_tuning",
+      "status": "missing",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "fresh_lock_match",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/integrity/fresh_lock_match",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "raw_text_disjoint",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/integrity/raw_text_disjoint_from_m0_training",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "pair_disjoint",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/integrity/counterfactual_pair_disjoint_from_m0_training",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "windows_pair_disjoint",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/integrity/confirmation_windows_pair_disjoint",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "fit_monitor_disjoint",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/integrity/historical_fit_monitor_disjoint",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "historical_training_only",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/integrity/historical_targets_only_for_readout_training",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "capacity_matched",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/capacity_matched",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "reference_unchanged",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/integrity/reference_checkpoint_unchanged",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "phase_unchanged",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/integrity/selected_checkpoint_unchanged",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "input_files_unchanged",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/integrity/input_files_unchanged",
+      "status": "missing",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "m8_closed",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/m8_final_horizons_exposed",
+      "status": "missing",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "m3_closed",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/M3_authorized_by_results",
+      "status": "missing",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "explanation": "Verified artifact is absent",
+      "name": "no_phase_superiority_claim",
+      "observed": null,
+      "op": "eq",
+      "pointer": "/phase_superiority_claimed",
+      "status": "missing",
+      "value": false
+    }
+  ],
+  "kind": "research",
+  "limitation": "Recorded gates require a linked review; no stage is promoted automatically.",
+  "missing_required_artifacts": [
+    "runs/m2_answer_path_challenge/fresh_challenge_rows.jsonl",
+    "runs/m2_answer_path_challenge/historical_fit_challenge_rows.jsonl",
+    "runs/m2_answer_path_challenge/input_integrity.json",
+    "runs/m2_answer_path_challenge/m2_answer_path_handoff.json",
+    "runs/m2_answer_path_challenge/readout_checkpoints.pt",
+    "runs/m2_answer_path_challenge/readout_predictions.jsonl",
+    "runs/m2_answer_path_challenge/result.json"
+  ],
+  "required_artifacts_present": false,
+  "schema": "ergt-phi-evaluation-v1",
+  "scientific_phase_pass": false
+}

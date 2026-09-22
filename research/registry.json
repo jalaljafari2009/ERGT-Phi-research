@@ -20,7 +20,8 @@
     },
     "M2-E005": {
       "revisions": {
-        "v001": "experiments/M2-E005/v001"
+        "v001": "experiments/M2-E005/v001",
+        "v002": "experiments/M2-E005/v002"
       }
     },
     "WF-E001": {

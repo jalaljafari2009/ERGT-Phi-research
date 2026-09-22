@@ -1,0 +1,274 @@
+{
+  "command": [
+    "{python}",
+    "-B",
+    "scripts/run_m2_answer_path_challenge.py",
+    "--output",
+    "runs/m2_answer_path_challenge",
+    "--reference-checkpoint",
+    "research/inputs/M2-E003/v001/native_ergt_training.pt",
+    "--phase-checkpoint",
+    "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+    "--reference-metadata",
+    "research/legacy/LEGACY-M0/evidence/imported_m0/m0_single_seed_reference",
+    "--contract",
+    "configs/m2_answer_path_challenge_v2.json",
+    "--fresh-lock",
+    "configs/m2_e003_fresh_development_lock.json",
+    "--experiment-protocol",
+    "research/experiments/M2-E005/v002/protocol.json"
+  ],
+  "controls": [
+    "Frozen native M0 checkpoint evaluated in full and one preregistered scenario intervention per example",
+    "Raw-only, Q-only, no-phase and frozen-phase scalar readouts matched to a 4700-parameter target",
+    "All readouts trained for exactly ten epochs on the historical M0 pair-level fit partition only",
+    "Inference-only Q zeroing and cyclic relation-channel permutation for Q-dependent readouts",
+    "Historical monitor and both pair-disjoint fresh windows excluded from training, selection and threshold tuning",
+    "Fresh targets used only after all interventions, targets, seeds, budgets and support gates were locked"
+  ],
+  "created_at": "2026-09-22T10:35:27+00:00",
+  "experiment_id": "M2-E005",
+  "gates": [
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "challenge_complete",
+      "op": "eq",
+      "pointer": "/challenge_panel_complete",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "challenge_support_validated",
+      "op": "eq",
+      "pointer": "/challenge_panel_suitable_for_answer_path_readout",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "window_1_failures",
+      "op": "ge",
+      "pointer": "/windows/window_1/support/answer_failures",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "window_2_failures",
+      "op": "ge",
+      "pointer": "/windows/window_2/support/answer_failures",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "window_1_successes",
+      "op": "ge",
+      "pointer": "/windows/window_1/support/answer_successes",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "window_2_successes",
+      "op": "ge",
+      "pointer": "/windows/window_2/support/answer_successes",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "window_1_chain_degradation",
+      "op": "ge",
+      "pointer": "/windows/window_1/support/event_chain_degradations",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "window_2_chain_degradation",
+      "op": "ge",
+      "pointer": "/windows/window_2/support/event_chain_degradations",
+      "value": 4
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "window_1_margin_variation",
+      "op": "ge",
+      "pointer": "/windows/window_1/support/response_margin_drop_std",
+      "value": 1e-06
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "window_2_margin_variation",
+      "op": "ge",
+      "pointer": "/windows/window_2/support/response_margin_drop_std",
+      "value": 1e-06
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "fresh_targets_not_used",
+      "op": "eq",
+      "pointer": "/fresh_targets_used_for_training_selection_or_tuning",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "fresh_lock_match",
+      "op": "eq",
+      "pointer": "/integrity/fresh_lock_match",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "raw_text_disjoint",
+      "op": "eq",
+      "pointer": "/integrity/raw_text_disjoint_from_m0_training",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "pair_disjoint",
+      "op": "eq",
+      "pointer": "/integrity/counterfactual_pair_disjoint_from_m0_training",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "windows_pair_disjoint",
+      "op": "eq",
+      "pointer": "/integrity/confirmation_windows_pair_disjoint",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "fit_monitor_disjoint",
+      "op": "eq",
+      "pointer": "/integrity/historical_fit_monitor_disjoint",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "historical_training_only",
+      "op": "eq",
+      "pointer": "/integrity/historical_targets_only_for_readout_training",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "capacity_matched",
+      "op": "eq",
+      "pointer": "/capacity_matched",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "reference_unchanged",
+      "op": "eq",
+      "pointer": "/integrity/reference_checkpoint_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "phase_unchanged",
+      "op": "eq",
+      "pointer": "/integrity/selected_checkpoint_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "input_files_unchanged",
+      "op": "eq",
+      "pointer": "/integrity/input_files_unchanged",
+      "value": true
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "m8_closed",
+      "op": "eq",
+      "pointer": "/m8_final_horizons_exposed",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "m3_closed",
+      "op": "eq",
+      "pointer": "/M3_authorized_by_results",
+      "value": false
+    },
+    {
+      "artifact": "runs/m2_answer_path_challenge/result.json",
+      "name": "no_phase_superiority_claim",
+      "op": "eq",
+      "pointer": "/phase_superiority_claimed",
+      "value": false
+    }
+  ],
+  "goal_reference": "docs/MATHEMATICAL_SPEC.md sections 5, 14, 15 and 17; docs/SPEC_Q_ANCHOR_ADDENDUM.md; docs/OPERATIONAL_ROADMAP_FA.md; ADR-0012",
+  "hypothesis": "Preregistered scenario interventions on the frozen native model will create nonzero, finite variation in answer-margin and event/path outcomes in both locked development windows. Capacity-matched readouts trained only on historical M0 fit can then measure how much answer/path sensitivity is present in raw, Q, no-phase and frozen-phase representations without using fresh targets for training or claiming Phase superiority.",
+  "inputs": [
+    {
+      "path": "research/inputs/M2-E003/v001/native_ergt_training.pt",
+      "sha256": "82d1220ee4bcc7f721e8159ea3515fe5992a92a184a611db6223e292a14eb065",
+      "uri": "copy://M2-E002/v001/native_ergt_training.pt"
+    },
+    {
+      "path": "research/inputs/M2-E003/v001/selected_m2_q_v2.pt",
+      "sha256": "8056322cf7c58dd5845f87bf6a89ccbb2ddd76c2d06933a3b5f2fa533688a234",
+      "uri": "artifact://M2-E002/v001/20260921T210953Z-48abf488-local/selected_full_state.pt"
+    }
+  ],
+  "kind": "research",
+  "output_paths": [
+    "runs/m2_answer_path_challenge"
+  ],
+  "parent": {
+    "experiment_id": "M2-E005",
+    "revision": "v001"
+  },
+  "prerequisites": [
+    "M2-E005/v001 failed before scientific execution and was reviewed revise under ADR-0013.",
+    "The M0 and selected Phase checkpoint hashes and the fresh-development lock match the registered inputs.",
+    "The support thresholds, intervention map, readout budget and seeds are fixed before the scientific run.",
+    "M3 and M8 remain closed throughout this experiment.",
+    "The output directory does not already exist."
+  ],
+  "required_artifacts": [
+    "runs/m2_answer_path_challenge/result.json",
+    "runs/m2_answer_path_challenge/input_integrity.json",
+    "runs/m2_answer_path_challenge/historical_fit_challenge_rows.jsonl",
+    "runs/m2_answer_path_challenge/fresh_challenge_rows.jsonl",
+    "runs/m2_answer_path_challenge/readout_predictions.jsonl",
+    "runs/m2_answer_path_challenge/readout_checkpoints.pt",
+    "runs/m2_answer_path_challenge/m2_answer_path_handoff.json"
+  ],
+  "resources": {
+    "device": "cpu",
+    "dtype": "float32",
+    "fresh_native_conditions_per_example": 2,
+    "gpu_required": false,
+    "historical_fit_native_conditions_per_example": 2,
+    "maximum_runtime_minutes": 90,
+    "readout_epochs": 10,
+    "threads": 1
+  },
+  "revision": "v002",
+  "revision_reason": "Restore only the byte-identical accepted fresh-development cohort definition after the v001 preflight mismatch; preserve the scientific design and all gates.",
+  "schema": "ergt-phi-protocol-v1",
+  "scientific_scope": "M2 development challenge validation and descriptive readout audit only. Passing support gates does not establish Phase superiority, Phase causality, native answer improvement, final-horizon generalization, M2 completion or M3 authorization.",
+  "seed_and_split": {
+    "fresh_data_seed": 27092026,
+    "fresh_role": "development_answer_path_challenge",
+    "historical_split_seed": 20092026,
+    "intervention_seed": 36092026,
+    "readout_seeds": {
+      "no_phase": 34092026,
+      "phase": 35092026,
+      "q_only": 33092026,
+      "raw_only": 32092026
+    },
+    "window_seed": 28092026
+  },
+  "source_locks": {
+    "contract_sha256": "dfa1597665d60bcbeace57f03c7d37f063339965bb2d0c0908869b1fab15971a",
+    "fresh_cohort_sha256": "15aa78ddc70c19409efc9cc58071aace4693f59cbc50650b4c12f3a9e933b659",
+    "fresh_development_lock_sha256": "3bf9865f8a1edfedc50113251ef7175dcd28fe075b1502be5d9fce7e4a0b4adb"
+  },
+  "stage": "M2",
+  "timeout_seconds": 6000,
+  "title": "Validate an intervention-driven answer and path challenge target with frozen matched readouts"
+}
