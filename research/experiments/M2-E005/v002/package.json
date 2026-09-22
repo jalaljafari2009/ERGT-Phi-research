@@ -1,0 +1,14 @@
+{
+  "schema": "ergt-phi-package-lock-v1",
+  "experiment_id": "M2-E005",
+  "revision": "v002",
+  "archive_name": "M2-E005-v002-441a822584ae-source.zip",
+  "package_sha256": "b709ea2940a0c1cd69b8bf9158f5a3f7773afbb2ea06f98c13c64ebdb687e8d3",
+  "package_manifest_sha256": "441a822584ae83e18320c7e68ce8b26d78fc514f14fb0f2cdd1fea885f0f9c60",
+  "protocol_sha256": "3f35e5c2abbdf0aee2e0872d977315884c7d235553c8d0989e06b2bceb008fbe",
+  "notebook_sha256": "8ea2c27b0ced6bfcd1d5c174525d38c9fe096680ae5522ac453c80e33a45f7d5",
+  "source_commit": "782d889210a3b4f26534253f690406e52259669d",
+  "created_at": "2026-09-22T10:37:51.734529+00:00",
+  "file_count": 186,
+  "bytes": 2775323
+}
